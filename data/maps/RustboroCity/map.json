@@ -5,7 +5,7 @@
   "music": "MUS_RUSTBORO",
   "region_map_section": "MAPSEC_RUSTBORO_CITY",
   "requires_flash": false,
-  "weather": "WEATHER_DYNAMIC",
+  "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -109,7 +109,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_RUSTBORO_LITTLE_BOY",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
       "x": 24,
       "y": 51,
@@ -123,7 +122,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_RUSTBORO_LITTLE_GIRL",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
       "x": 25,
       "y": 51,
@@ -137,7 +135,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_RUSTBORO_DEVON_EMPLOYEE",
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
       "x": 30,
       "y": 10,
@@ -151,7 +148,6 @@
       "flag": "FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1"
     },
     {
-      "local_id": "LOCALID_RUSTBORO_GRUNT",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 13,
       "y": 21,
@@ -204,7 +200,6 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCALID_RUSTBORO_RIVAL",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 16,
       "y": 50,
@@ -218,7 +213,6 @@
       "flag": "FLAG_HIDE_RUSTBORO_CITY_RIVAL"
     },
     {
-      "local_id": "LOCALID_RUSTBORO_SCIENTIST",
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
       "x": 11,
       "y": 15,
@@ -242,19 +236,6 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RustboroCity_EventScript_Boy1",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_LINK_RS_BRENDAN",
-      "x": 15,
-      "y": 46,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "RustboroCity_EventScript_ZTeacher",
       "flag": "0"
     }
   ],
@@ -616,6 +597,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RustboroCity_EventScript_CuttersHouseSign"
     }
-  ],
-  "region": "REGION_HOENN"
+  ]
 }
