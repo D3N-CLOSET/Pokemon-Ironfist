@@ -123,3 +123,12 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 
+VerdanturfTown_EventScript_VolcanicTunnelSign::
+	msgbox VerdanturfTown_Text_VolcanicTunnelSign, MSGBOX_SIGN
+	end
+
+VerdanturfTown_Text_VolcanicTunnelSign:
+	.string "VOLCANIC TUNNEL\n"
+	.string "“Linking LAVARIDGE and VERDANTURF”$"
+
+

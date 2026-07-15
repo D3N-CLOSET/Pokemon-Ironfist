@@ -429,6 +429,8 @@ extern const u8 gText_ExchangeService[];
 
 extern const u8 gText_SlateportCity[];
 extern const u8 gText_BattleFrontier[];
+extern const u8 gText_SilverIsland[];
+extern const u8 gText_SageIsland[];
 extern const u8 gText_SouthernIsland[];
 extern const u8 gText_NavelRock[];
 extern const u8 gText_BirthIsland[];
@@ -538,15 +540,37 @@ extern const u8 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc[];
 
 // Battle Frontier Move Tutors
 extern const u8 BattleFrontier_Lounge7_Text_SoftboiledDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DualWingbeatDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_SeismicTossDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_DreamEaterDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_MegaPunchDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_BlastBurnDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_HydroCannonDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_FrenzyPlantDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_GunkShotDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_SeedBombDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DrillRunDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_BounceDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_MegaKickDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_BodySlamDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_RockSlideDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_CounterDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_ThunderWaveDesc[];
-extern const u8 BattleFrontier_Lounge7_Text_SwordsDanceDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DragonDanceDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DracoMeteorDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_StealthRockDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DefogDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_OutrageDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DualChopDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_LowKickDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_VoltTackleDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_BugBiteDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_GrassPledgeDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_WaterPledgeDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_FirePledgeDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_ScaleShotDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_LashOutDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_CoachingDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_DefenseCurlDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_SnoreDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_MudSlapDesc[];
@@ -557,6 +581,13 @@ extern const u8 BattleFrontier_Lounge7_Text_PsychUpDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_IcePunchDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_ThunderPunchDesc[];
 extern const u8 BattleFrontier_Lounge7_Text_FirePunchDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_RoostDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_TailwindDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_SuperpowerDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_KnockOffDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_IronHeadDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_ZenHeadbuttDesc[];
+extern const u8 BattleFrontier_Lounge7_Text_DragonAscentDesc[];
 
 extern const u8 gText_YourPartnerHasRetired[];
 
@@ -2155,5 +2186,22 @@ extern const u8 gText_OakThisIsListOfPokemon[];
 extern const u8 gText_Boy[];
 extern const u8 gText_Girl[];
 
+// Trainer's Gauntlet Texts
+//extern const u8 Gauntlet_Text_Intro[];
+//extern const u8 Gauntlet_Text_IntroD3N[];
+//extern const u8 Gauntlet_Text_IntroNeigh[];
+//extern const u8 Gauntlet_Text_Doubles[];
+//extern const u8 Gauntlet_Text_Single[];
+//extern const u8 Gauntlet_Text_PostBattle[];
+//extern const u8 Gauntlet_Text_PostBattleDih[];
+//extern const u8 Gauntlet_Text_Defeat_1[];
+//extern const u8 Gauntlet_Text_Defeat_2[];
+//extern const u8 Gauntlet_Text_Defeat_3[];
+//extern const u8 Gauntlet_Text_Defeat_4[];
+//extern const u8 Gauntlet_Text_Defeat_5[];
+//extern const u8 Gauntlet_Text_Defeat_6[];
+//extern const u8 Gauntlet_Text_Defeat_67[];
+//extern const u8 Gauntlet_Text_Defeat_69[];
+//extern const u8 Gauntlet_Text_NotEnoughMons[];
 
 #endif // GUARD_STRINGS_H

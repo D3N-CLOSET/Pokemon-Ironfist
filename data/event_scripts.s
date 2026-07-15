@@ -1738,3 +1738,85 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
 	.include "data/scripts/wild_encounter.inc"
+
+	.include "data/maps/SilverIsland/scripts.inc"
+
+	.include "data/maps/SilverIsland_Forest/scripts.inc"
+
+	.include "data/maps/SilverIsland_Forest_2/scripts.inc"
+
+	.include "data/maps/SilverIsland_Forest_3/scripts.inc"
+
+	.include "data/maps/SilverIsland_Plateau/scripts.inc"
+
+	.include "data/maps/SilverIsland_Plateau_2/scripts.inc"
+
+	.include "data/maps/Silver_Tunnel/scripts.inc"
+
+	.include "data/maps/SilverIsland_Mountain/scripts.inc"
+
+	.include "data/maps/SilverIsland_Depths/scripts.inc"
+
+	.include "data/maps/SilverIsland_Hills/scripts.inc"
+
+	.include "data/maps/SilverIsland_Tomb/scripts.inc"
+
+	.include "data/maps/EmeraldIsland/scripts.inc"
+
+	.include "data/maps/SilverFalls/scripts.inc"
+
+	.include "data/maps/SilverIsland_Route/scripts.inc"
+
+	.include "data/maps/SilverCave/scripts.inc"
+
+	.include "data/maps/SilverCave_Ice/scripts.inc"
+
+	.include "data/maps/ArchiesHouse/scripts.inc"
+
+	.include "data/maps/DewfordJungle/scripts.inc"
+
+	.include "data/maps/D3NsHouse/scripts.inc"
+
+	.include "data/maps/VolcanicTunnel/scripts.inc"
+
+	.include "data/maps/SageIsland_Entrance/scripts.inc"
+
+	.include "data/maps/SageIsland_Gate/scripts.inc"
+
+	.include "data/maps/SageValley/scripts.inc"
+
+	.include "data/maps/SageValley_Ice/scripts.inc"
+
+	.include "data/maps/SageValley_IceCaverns/scripts.inc"
+
+	.include "data/maps/SageValley_IceCaverns_B1/scripts.inc"
+
+	.include "data/maps/SageVillage_Mart/scripts.inc"
+
+	.include "data/maps/GlacialPath/scripts.inc"
+
+	.include "data/maps/Route118_Gauntlet/scripts.inc"
+
+	.include "data/maps/Route121_Gauntlet/scripts.inc"
+
+	.include "data/maps/Pacifidlog_Gauntlet/scripts.inc"
+
+	.include "data/maps/SageVillage_Gauntlet/scripts.inc"
+
+	.include "data/maps/MaxiesHome/scripts.inc"
+
+	.include "data/maps/SageVillage_PkmnCenter1F/scripts.inc"
+
+	.include "data/maps/SageVillage_TinyHouse/scripts.inc"
+
+	.include "data/maps/SageVillage_PkmnCenter2F/scripts.inc"
+
+	.include "data/maps/GlacialPath_B1/scripts.inc"
+
+	.include "data/maps/SageMountains/scripts.inc"
+
+	.include "data/maps/MountainPass/scripts.inc"
+
+	.include "data/maps/NorthernCape/scripts.inc"
+
+	.include "data/maps/CrestanTown/scripts.inc"

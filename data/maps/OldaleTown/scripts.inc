@@ -395,3 +395,42 @@ OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
 	.string "“Where things start off scarce.”$"
 
+EventScript_OldaleSafetyValve:: @ this is temporary shit because i have a save
+    checkflag FLAG_DEXNAV_LEVEL
+    goto_if_set FLAG_DEXNAV_LEVEL, EventScript_AlreadyHasDexNav
+	checkflag FLAG_FOR_VALVE_NPC
+	goto_if_set FLAG_FOR_VALVE_NPC, EventScript_ActivatedBefore
+    setflag FLAG_DEXNAV_LEVEL
+    msgbox Text_SafetyValveActivated, MSGBOX_DEFAULT
+	closemessage
+	msgbox Text_RecieveDexNav, MSGBOX_DEFAULT
+	setflag FLAG_FOR_VALVE_NPC
+    release
+    end
+
+EventScript_AlreadyHasDexNav::
+	faceplayer
+    msgbox Text_AlreadyHasDexNav, MSGBOX_DEFAULT
+    release
+    end
+
+EventScript_ActivatedBefore::
+	msgbox Text_ActivatedBefore, MSGBOX_DEFAULT
+	release
+	end
+
+Text_RecieveDexNav::
+	.string "{PLAYER} has recieved the DexNav.$"
+
+Text_AlreadyHasDexNav:
+    .string "I heard a DexNav is very expensive.\p"
+    .string "I got one as a gift from my boyfriend.$"
+
+Text_SafetyValveActivated:
+    .string "Oh, you don't have the DexNav?\n"
+    .string "Here, take this one I have.$"
+
+Text_ActivatedBefore:
+	.string "Don't worry,\n"
+	.string "My boyfriend can buy a new one \p"
+	.string "for me.$"

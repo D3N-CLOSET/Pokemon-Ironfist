@@ -45,7 +45,9 @@ LilycoveCity_Harbor_EventScript_FerryRegularLocationSelect::
 	case 3, LilycoveCity_Harbor_EventScript_GoToNavelRock
 	case 4, LilycoveCity_Harbor_EventScript_GoToBirthIsland
 	case 5, LilycoveCity_Harbor_EventScript_GoToFarawayIsland
-	case 6, LilycoveCity_Harbor_EventScript_ExitSailSelect
+	case 6, LilycoveCity_Harbor_EventScript_GoToSilverIsland
+	case 7, LilycoveCity_Harbor_EventScript_GoToSageIsland
+	case 8, LilycoveCity_Harbor_EventScript_ExitSailSelect
 	case MULTI_B_PRESSED, LilycoveCity_Harbor_EventScript_ExitSailSelect
 	end
 
@@ -92,6 +94,24 @@ LilycoveCity_Harbor_EventScript_GoToBattleFrontier::
 	goto_if_eq VAR_RESULT, NO, LilycoveCity_Harbor_EventScript_FerryDestinationChangeMind
 	call LilycoveCity_Harbor_EventScript_BoardFerry
 	warp MAP_BATTLE_FRONTIER_OUTSIDE_WEST, 19, 67
+	waitstate
+	release
+	end
+
+LilycoveCity_Harbor_EventScript_GoToSilverIsland::
+	msgbox SlateportCity_Harbor_Text_SilverIslandItIs, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LilycoveCity_Harbor_EventScript_FerryDestinationChangeMind
+	call LilycoveCity_Harbor_EventScript_BoardFerry
+	warp MAP_SILVER_ISLAND, 9, 23
+	waitstate
+	release
+	end
+
+LilycoveCity_Harbor_EventScript_GoToSageIsland::
+	msgbox SlateportCity_Harbor_Text_SageIslandItIs, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LilycoveCity_Harbor_EventScript_FerryDestinationChangeMind
+	call LilycoveCity_Harbor_EventScript_BoardFerry
+	warp MAP_SAGE_ISLAND_ENTRANCE, 2, 10
 	waitstate
 	release
 	end

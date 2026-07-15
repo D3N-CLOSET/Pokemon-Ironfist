@@ -14,6 +14,16 @@ MeteorFalls_StevensCave_EventScript_Steven::
 	waitmovement 0
 	msgbox MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
+
+    msgbox MeteorFalls_StevensCave_Text_StevenGivesTickets, MSGBOX_DEFAULT
+    giveitem ITEM_MYSTIC_TICKET
+    giveitem ITEM_AURORA_TICKET
+    giveitem ITEM_OLD_SEA_MAP
+	giveitem ITEM_EON_TICKET
+	setflag FLAG_RECEIVED_MYSTIC_TICKET
+    setflag FLAG_RECEIVED_AURORA_TICKET
+    setflag FLAG_RECEIVED_OLD_SEA_MAP
+
 	msgbox MeteorFalls_StevensCave_Text_MyPredictionCameTrue, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_METEOR_FALLS_STEVEN
 	release
@@ -54,4 +64,15 @@ MeteorFalls_StevensCave_Text_MyPredictionCameTrue:
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "Fufufu, even I couldn't tell you that.$"
+
+MeteorFalls_StevensCave_Text_StevenGivesTickets:
+    .string "STEVEN: That was an incredible battle.\n"
+    .string "You've earned these special tickets.\p"
+    .string "They'll allow you to reach places\n"
+    .string "even I rarely visit.$"
+
+Recieved_Text_Items_unused:
+    .string "RECIEVED MYSTIC TICKET FROM STEVEN\p"
+	.string "RECIEVED AURORA TICKET FROM SETEVEN\p"
+	.string "RECIEVED OLD SEA MAP FROM SETEVEN$"
 

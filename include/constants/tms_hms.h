@@ -51,7 +51,57 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT) \
+    F(ROOST) \
+    F(ENERGY_BALL) \
+    F(PSYSHOCK) \
+    F(ENDURE) \
+    F(DRAGON_PULSE) \
+    F(DREAM_EATER) \
+    F(GRASS_KNOT) \
+    F(SWAGGER) \
+    F(SLEEP_TALK) \
+    F(U_TURN) \
+    F(SUBSTITUTE) \
+    F(TRICK_ROOM) \
+    F(WILD_CHARGE) \
+    F(ROCK_POLISH) \
+    F(POISON_JAB) \
+    F(DARK_PULSE) \
+    F(X_SCISSOR) \
+    F(FLAME_CHARGE) \
+    F(BULLDOZE) \
+    F(FLARE_BLITZ) \
+    F(NATURAL_GIFT) \
+    F(FLASH_CANNON) \
+    F(PAYBACK) \
+    F(GIGA_IMPACT) \
+    F(ROCK_SLIDE) \
+    F(INCINERATE) \
+    F(AVALANCHE) \
+    F(SWORDS_DANCE) \
+    F(DAZZLING_GLEAM) \
+    F(CLOSE_COMBAT) \
+    F(FOCUS_BLAST) \
+    F(STONE_EDGE) \
+    F(STEALTH_ROCK) \
+    F(SHADOW_CLAW) \
+    F(DRAIN_PUNCH) \
+    F(BRINE) \
+    F(CHARGE_BEAM) \
+    F(FLING) \
+    F(EMBARGO) \
+    F(SLUDGE_WAVE) \
+    F(GYRO_BALL) \
+    F(CAPTIVATE) \
+    F(FALSE_SWIPE) \
+    F(BRUTAL_SWING) \
+    F(SMACK_DOWN) \
+    F(ROUND) \
+    F(ECHOED_VOICE) \
+    F(CHILLING_WATER) \
+    F(TRAILBLAZE) \
+    F(PLAY_ROUGH) 
 
 #define FOREACH_HM(F) \
     F(CUT) \

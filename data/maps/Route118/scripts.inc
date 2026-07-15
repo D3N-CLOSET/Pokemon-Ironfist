@@ -298,3 +298,20 @@ Route118_Text_RouteSign119:
 	.string "ROUTE 118\n"
 	.string "{UP_ARROW} ROUTE 119$"
 
+Route118_EventScript_MarthaFarker::
+    faceplayer
+	msgbox Route118_Text_MarthaIntro, MSGBOX_DEFAULT
+    end
+
+Route118_Text_MarthaIntro::
+	.string "FIRST NAME'S MARTHA, LAST NAME'S FARKER.\n"
+	.string "THIS BRIDGE IS ALL MINE!$"
+
+Route118_EventScript_TrainersGauntlet::
+	msgbox Route118_Text_MauvilleGauntlet, MSGBOX_SIGN
+	end
+
+Route118_Text_MauvilleGauntlet:
+	.string "Mauville Trainer's Gauntlet.\n"
+	.string "“Test your skills now!”$"
+

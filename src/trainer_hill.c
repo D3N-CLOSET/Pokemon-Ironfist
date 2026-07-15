@@ -168,6 +168,86 @@ static const u16 sPrizeListSkillSwap[]   = {ITEM_TM_SKILL_SWAP,    ITEM_ETHER, I
 static const u16 sPrizeListGigaDrain[]   = {ITEM_TM_GIGA_DRAIN,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
 static const u16 sPrizeListAttract[]     = {ITEM_TM_ATTRACT,       ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
 
+
+static const u16 sPrizeListVenus[]      = {ITEM_VENUSAURITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListCharX[]      = {ITEM_CHARIZARDITE_X,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListCharY[]      = {ITEM_CHARIZARDITE_Y,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListBlas[]      = {ITEM_BLASTOISINITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListBee[]      = {ITEM_BEEDRILLITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListPidg[]      = {ITEM_PIDGEOTITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAlak[]      = {ITEM_ALAKAZITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListSlowbro[]      = {ITEM_SLOWBRONITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+
+static const u16 sPrizeListGeng[]      = {ITEM_GENGARITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListKanga[]      = {ITEM_KANGASKHANITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListPins[]      = {ITEM_PINSIRITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListGyar[]      = {ITEM_GYARADOSITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAerod[]      = {ITEM_AERODACTYLITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListMewtX[]      = {ITEM_MEWTWONITE_X,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListMewtY[]      = {ITEM_MEWTWONITE_Y,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAmph[]      = {ITEM_AMPHAROSITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListSteeli[]      = {ITEM_STEELIXITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListScizo[]      = {ITEM_SCIZORITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListHeracr[]      = {ITEM_HERACRONITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListHoundoom[]      = {ITEM_HOUNDOOMINITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+
+static const u16 sPrizeListTyrant[]      = {ITEM_TYRANITARITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListSceptile[]      = {ITEM_SCEPTILITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListBlazik[]      = {ITEM_BLAZIKENITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListSwamper[]      = {ITEM_SWAMPERTITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListGardev[]      = {ITEM_GARDEVOIRITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListSablen[]      = {ITEM_SABLENITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListMawil[]      = {ITEM_MAWILITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAggron[]      = {ITEM_AGGRONITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListMediCham[]      = {ITEM_MEDICHAMITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListManectr[]      = {ITEM_MANECTITE,       ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListSharpe[]      = {ITEM_SHARPEDONITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListCamrup[]      = {ITEM_CAMERUPTITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAltaria[]      = {ITEM_ALTARIANITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListBanette[]      = {ITEM_BANETTITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAbsol[]      = {ITEM_ABSOLITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListGlali[]      = {ITEM_GLALITITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+
+static const u16 sPrizeListSalam[]      = {ITEM_SALAMENCITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListMetagross[]      = {ITEM_METAGROSSITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListLatias[]      = {ITEM_LATIASITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListLatios[]      = {ITEM_LATIOSITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListLopunni[]      = {ITEM_LOPUNNITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListGarch[]      = {ITEM_GARCHOMPITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListLucario[]      = {ITEM_LUCARIONITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAbsomasite[]      = {ITEM_ABOMASITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListGalladi[]      = {ITEM_GALLADITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListAudin[]      = {ITEM_AUDINITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListDiancite[]      = {ITEM_DIANCITE,        ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+
+static const u16 sPrizeListZ1[]  = {ITEM_NORMALIUM_Z,   ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ2[]  = {ITEM_FIRIUM_Z,      ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ3[]  = {ITEM_WATERIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ4[]  = {ITEM_ELECTRIUM_Z,   ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ5[]  = {ITEM_GRASSIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ6[]  = {ITEM_ICIUM_Z,       ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ7[]  = {ITEM_FIGHTINIUM_Z,  ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ8[]  = {ITEM_POISONIUM_Z,   ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ9[]  = {ITEM_GROUNDIUM_Z,   ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ10[] = {ITEM_FLYINIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ11[] = {ITEM_PSYCHIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ12[] = {ITEM_BUGINIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ13[] = {ITEM_ROCKIUM_Z,     ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ14[] = {ITEM_GHOSTIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ15[] = {ITEM_DRAGONIUM_Z,   ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ16[] = {ITEM_DARKINIUM_Z,   ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ17[] = {ITEM_STEELIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ18[] = {ITEM_FAIRIUM_Z,     ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ19[] = {ITEM_PIKANIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ20[] = {ITEM_EEVIUM_Z,      ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ21[] = {ITEM_SNORLIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ22[] = {ITEM_MEWNIUM_Z,     ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ23[] = {ITEM_INCINIUM_Z,    ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ24[] = {ITEM_ALORAICHIUM_Z, ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+static const u16 sPrizeListZ25[] = {ITEM_PIKASHUNIUM_Z, ITEM_ETHER, ITEM_MAX_POTION, ITEM_REVIVE, ITEM_FLUFFY_TAIL, ITEM_GREAT_BALL};
+
+
+
 static const u16 *const sPrizeLists1[NUM_TRAINER_HILL_PRIZE_LISTS] =
 {
     sPrizeListRareCandy1,
@@ -175,25 +255,99 @@ static const u16 *const sPrizeLists1[NUM_TRAINER_HILL_PRIZE_LISTS] =
     sPrizeListMaxRevive1,
     sPrizeListMaxEther1,
     sPrizeListElixir1,
-    sPrizeListRoar,
-    sPrizeListSludgeBomb,
-    sPrizeListToxic,
-    sPrizeListSunnyDay,
-    sPrizeListEarthQuake
+    sPrizeListRareCandy1,
+    sPrizeListLuxuryBall1,
+    sPrizeListMaxRevive1,
+    sPrizeListMaxEther1,
+    sPrizeListElixir1,
+    sPrizeListRareCandy1,
+    sPrizeListLuxuryBall1,
+    sPrizeListMaxRevive1,
+    sPrizeListMaxEther1,
+    sPrizeListElixir1,
+    sPrizeListRareCandy1,
+    sPrizeListLuxuryBall1,
+    sPrizeListMaxRevive1,
+    sPrizeListMaxEther1,
+    sPrizeListElixir1,
+    sPrizeListLuxuryBall1,
+    sPrizeListLuxuryBall1,
+    sPrizeListZ1,
+    sPrizeListZ2,
+    sPrizeListZ3,
+    sPrizeListZ4,
+    sPrizeListZ5,
+    sPrizeListZ6,
+    sPrizeListZ7,
+    sPrizeListZ8,
+    sPrizeListZ9,
+    sPrizeListZ10,
+    sPrizeListZ11,
+    sPrizeListZ12,
+    sPrizeListZ13,
+    sPrizeListZ14,
+    sPrizeListZ15,
+    sPrizeListZ16,
+    sPrizeListZ17,
+    sPrizeListZ18,
+    sPrizeListZ19,
+    sPrizeListZ20,
+    sPrizeListZ21,
+    sPrizeListZ22,
+    sPrizeListZ23,
+    sPrizeListZ4,
+    sPrizeListZ5
 };
 
 static const u16 *const sPrizeLists2[NUM_TRAINER_HILL_PRIZE_LISTS] =
 {
-    sPrizeListRareCandy2,
-    sPrizeListLuxuryBall2,
-    sPrizeListMaxRevive2,
-    sPrizeListMaxEther2,
-    sPrizeListElixir2,
-    sPrizeListBrickBreak,
-    sPrizeListTorment,
-    sPrizeListSkillSwap,
-    sPrizeListGigaDrain,
-    sPrizeListAttract
+    sPrizeListVenus,
+    sPrizeListCharX,
+    sPrizeListCharY,
+    sPrizeListBlas,
+    sPrizeListBee,
+    sPrizeListPidg,
+    sPrizeListAlak,
+    sPrizeListSlowbro,
+    sPrizeListGeng,
+    sPrizeListKanga,
+    sPrizeListPins,
+    sPrizeListGyar,
+    sPrizeListAerod,
+    sPrizeListMewtX,
+    sPrizeListMewtY,
+    sPrizeListAmph,
+    sPrizeListSteeli,
+    sPrizeListScizo,
+    sPrizeListHeracr,
+    sPrizeListHoundoom,
+    sPrizeListTyrant,
+    sPrizeListSceptile,
+    sPrizeListBlazik,
+    sPrizeListSwamper,
+    sPrizeListGardev,
+    sPrizeListSablen,
+    sPrizeListMawil,
+    sPrizeListAggron,
+    sPrizeListMediCham,
+    sPrizeListManectr,
+    sPrizeListSharpe,
+    sPrizeListCamrup,
+    sPrizeListAltaria,
+    sPrizeListBanette,
+    sPrizeListAbsol,
+    sPrizeListGlali,
+    sPrizeListSalam,
+    sPrizeListMetagross,
+    sPrizeListLatias,
+    sPrizeListLatios,
+    sPrizeListLopunni,
+    sPrizeListGarch,
+    sPrizeListLucario,
+    sPrizeListAbsomasite,
+    sPrizeListGalladi,
+    sPrizeListAudin,
+    sPrizeListDiancite
 };
 
 static const u16 *const *const sPrizeListSets[] =
@@ -1043,8 +1197,7 @@ static void TrainerHillSetMode(void)
 #if FREE_TRAINER_HILL == FALSE
 static u8 GetPrizeListId(bool8 allowTMs)
 {
-    u8 prizeListId, i, modBy;
-
+    u8 prizeListId, i;
     // The initial selection depends on the trainer numbers for the completed challenge.
     // These don't change with the available challenge modes, so Normal/Unique will always
     // have a prizeListId of 8, and Variety/Expert will have a prizeListId of 24.
@@ -1058,12 +1211,8 @@ static u8 GetPrizeListId(bool8 allowTMs)
     // In practice, the conditional below is always true.
     // The 2nd half of the lists in both sets of lists all have a TM as the "grand prize", while the 1st half do not,
     // so taking the mod of the (total / 2) ensures that a prize list without a TM will be used.
-    if (allowTMs)
-        modBy = NUM_TRAINER_HILL_PRIZE_LISTS;
-    else
-        modBy = NUM_TRAINER_HILL_PRIZE_LISTS / 2;
 
-    prizeListId %= modBy;
+    prizeListId %= NUM_TRAINER_HILL_PRIZE_LISTS;
     return prizeListId;
 }
 

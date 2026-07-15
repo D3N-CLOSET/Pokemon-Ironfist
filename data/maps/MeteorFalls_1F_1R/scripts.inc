@@ -14,6 +14,7 @@ MeteorFalls_1F_1R_EventScript_OpenStevensCave::
 	return
 
 MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
+	setflag FLAG_REMOVE_DIDDY
 	lockall
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
 	applymovement LOCALID_PLAYER, Common_Movement_FaceDown

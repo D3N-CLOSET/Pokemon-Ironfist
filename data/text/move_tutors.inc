@@ -235,3 +235,123 @@ MoveTutor_Text_ExplosionTaught:
 	.string "to ignite my own EXPLOSION…\p"
 	.string "Maybe it's because deep down,\n"
 	.string "I would rather stay here…$"
+
+MoveTutor_Text_MegaPunchTeach:
+	.string "PUNCH PUNCH PUNCH!\n"
+	.string "PUNCH PUNCH PUNCH!\p"
+	.string "PUNCH forever!\p"
+	.string "You understand the value of\n"
+	.string "Punching right?\p"
+	.string "Don't listen to that weak\n"
+	.string "kicker there!\p"
+	.string "Want me to\n"
+	.string "teach MEGA PUNCH to your POKéMON?$"
+
+MoveTutor_Text_MegaPunchDeclined:
+	.string "Gaah! You don't understand the real\n"
+	.string "power of PUNCHES!$"
+
+MoveTutor_Text_MegaPunchWhichMon:
+	.string "Alright! Let's PUNCH!\n"
+	.string "Which POKéMON wants to PUNCH?$"
+
+MoveTutor_Text_MegaPunchTaught:
+	.string "You made the right choice\n"
+	.string "my friend!\p"
+	.string "Now go show em some PUNCHES!$"
+
+MoveTutor_Text_MegaKickTeach:
+	.string "KICK KICK KICK!\n"
+	.string "KICK KICK KICK!\p"
+	.string "KICK forever!\p"
+	.string "Do you understand the value\n"
+	.string "of Kicking?\p"
+	.string "Don't listen to that wobbly\n"
+	.string "Puncher there!\p"
+	.string "Want me to\n"
+	.string "teach MEGA KICK to your POKéMON?$"
+
+MoveTutor_Text_MegaKickDeclined:
+	.string "Fahh! You don't understand the real\n"
+	.string "power of KICKS!$"
+
+MoveTutor_Text_MegaKickWhichMon:
+	.string "Alright! Let's KICK!\n"
+	.string "Which POKéMON wants to KICK?$"
+
+MoveTutor_Text_MegaKickTaught:
+	.string "You made the right choice\n"
+	.string "my friend!\p"
+	.string "Now go show em some KICKS!$"
+
+MoveTutor_Text_DracoMeteorTeach:
+	.string "For those who,\p"
+	.string "have harnessed the power of Dragons\p"
+	.string "and a with a fiery spirit which\p"
+	.string "Burns stronger than Lava,\p"
+	.string "and burns brighter than the Sun.\p"
+	.string "Only those shall recieve,\p"
+	.string "the forbidden move of Dragons.\p"
+	.string "Say my child\n"
+	.string "Do you want to test your spirit?\p"
+	.string "..........\p"
+	.string "The fire of your spirit is astonishing!\p"
+	.string "You are ready to acquire the power of\n"
+	.string "the past.\p"
+	.string "Shall we proceed?$"
+
+MoveTutor_Text_DracoMeteorDeclined:
+	.string "I see, come back later when\p"
+	.string "you have a change of heart.\p"
+	.string "I shall wait until then.\p"
+	.string "Farewell.$"
+
+MoveTutor_Text_DracoMeteorWhichMon:
+	.string "Which one of your companions\n"
+	.string "want to harness such power?$"
+
+MoveTutor_Text_DracoMeteorTaught:
+	.string "..............$"
+
+MoveTutor_Text_PoltergeistTeach:
+	.string "YOOO WASSUP GNG!\p"
+	.string "WANNA TEACH YO POKéMON THIS FIRE\n"
+	.string "MOVE CALLED 'POLTERGEIST'?\p"
+	.string "TRUST BRO IT'S BOMB!\p"
+	.string "PLEASE DAWG, ON MY MAMA\p"
+	.string "MY MOVE IS KINDA HOMELESS.$"
+
+MoveTutor_Text_PoltergeistDeclined:
+	.string "WHAT!\p"
+	.string "WHY, WHERE, HOW, WHO!\p"
+	.string "FAHHHHHHHHHHHHH!\p"
+	.string "I AM HUNGRY DÜD.$"
+
+MoveTutor_Text_PoltergeistWhichMon:
+	.string "YO THANKS GNG.\n"
+	.string "LET'S A GO!$"
+
+MoveTutor_Text_PoltergeistTaught:
+	.string "FUCK YEAH!\p"
+	.string "But me hungy :C$"
+
+MoveTutor_Text_LiquidationTeach:
+	.string "Hello there traveler!\p"
+	.string "I am the Water Ace.\p"
+	.string "I was coached by Wallace and Juan.\p"
+	.string "After training for days,\n"
+	.string "I have mastered this move.\p"
+	.string "It's called 'Liquidation'.\p"
+	.string "Want me to teach this to one\n"
+	.string "of your POKéMON?$"
+
+MoveTutor_Text_LiquidationDeclined:
+	.string "It's okay.\p"
+	.string "I understand your choice.$"
+
+MoveTutor_Text_LiquidationWhichMon:
+	.string "Okay who should I teach it to?$"
+
+MoveTutor_Text_LiquidationTaught:
+	.string "Great.\p"
+	.string "I should go back to training.$"

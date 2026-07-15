@@ -22,6 +22,11 @@ LavaridgeTown_Mart_Pokemart:
 	.2byte ITEM_REVIVE
 	.2byte ITEM_SUPER_REPEL
 	.2byte ITEM_X_SPEED
+	.2byte ITEM_POKE_TOY
+	.2byte ITEM_RAZOR_CLAW
+	.2byte ITEM_RAZOR_FANG
+	.2byte ITEM_SWIFT_FEATHER
+	.2byte ITEM_RESIST_FEATHER
 	pokemartlistend
 
 LavaridgeTown_Mart_EventScript_ExpertM::

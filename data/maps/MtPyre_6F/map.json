@@ -3,7 +3,6 @@
   "name": "MtPyre_6F",
   "layout": "LAYOUT_MT_PYRE_6F",
   "music": "MUS_MT_PYRE",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_MT_PYRE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -72,5 +71,15 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 0,
+      "y": 4,
+      "elevation": 0,
+      "item": "ITEM_GHOSTIUM_Z",
+      "flag": "FLAG_Z_GHOST"
+    }
+  ],
+  "region": "REGION_HOENN"
 }

@@ -140,3 +140,11 @@ Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
 
+Route112_EventScript_VolcanicTunnelSign::
+	msgbox VerdanturfTown_Text_VolcanicTunnelSign, MSGBOX_SIGN
+	end
+
+Route112_Text_VolcanicTunnelSign:
+	.string "VOLCANIC TUNNEL\n"
+	.string "“Linking VERDANTURF and LAVARIDGE”$"
+

@@ -237,6 +237,8 @@ const u32 gObjectEventPic_CableCar[] = INCGFX_U32("graphics/object_events/pics/m
 const u16 gObjectEventPal_CableCar[] = INCGFX_U16("graphics/object_events/palettes/cable_car.pal", ".gbapal");
 const u32 gObjectEventPic_SSTidal[] = INCGFX_U32("graphics/object_events/pics/misc/ss_tidal.png", ".4bpp");
 const u16 gObjectEventPal_SSTidal[] = INCGFX_U16("graphics/object_events/palettes/ss_tidal.pal", ".gbapal");
+
+
 const u32 gFieldEffectObjectPic_Sparkle[] = INCGFX_U32("graphics/field_effects/pics/sparkle.png", ".4bpp", "-mwidth 2 -mheight 2");
 const u32 gObjectEventPic_BerryTreeDirtPile[] = INCGFX_U32("graphics/object_events/pics/berry_trees/dirt_pile.png", ".4bpp");
 const u32 gObjectEventPic_BerryTreeSprout[] = INCGFX_U32("graphics/object_events/pics/berry_trees/sprout.png", ".4bpp", "-mwidth 2 -mheight 2");
@@ -349,6 +351,8 @@ const u16 gObjectEventPal_MovingBox[] = INCGFX_U16("graphics/object_events/palet
 const u16 gObjectEventPal_RedLeaf[] = INCGFX_U16("graphics/object_events/palettes/red_leaf.pal", ".gbapal");
 const u32 gObjectEventPic_Red[] = INCGFX_U32("graphics/object_events/pics/people/red.png", ".4bpp", "-mwidth 2 -mheight 4");
 const u32 gObjectEventPic_Leaf[] = INCGFX_U32("graphics/object_events/pics/people/leaf.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u32 gObjectEventPic_Ash[] = INCGFX_U32("graphics/object_events/pics/people/ash.png", ".4bpp", "-mwidth 2 -mheight 4");
+const u16 gObjectEventPal_Ash[] = INCGFX_U16("graphics/object_events/palettes/ash.pal", ".gbapal");
 const u16 gObjectEventPal_BirthIslandStone[] = INCGFX_U16("graphics/object_events/palettes/birth_island_stone.pal", ".gbapal");
 const u32 gObjectEventPic_BirthIslandStone[] = INCGFX_U32("graphics/object_events/pics/misc/birth_island_stone.png", ".4bpp");
 const u16 gObjectEventPal_Deoxys[] = INCGFX_U16("graphics/object_events/palettes/deoxys.pal", ".gbapal");

@@ -176,14 +176,6 @@ const struct SpriteTemplate gFieldEffectObjectTemplate_Ripple = {
     .callback = WaitFieldEffectSpriteAnim,
 };
 
-static const struct SpriteFrameImage sPicTable_Ash[] = {
-    overworld_frame(gFieldEffectObjectPic_Ash, 2, 2, 0),
-    overworld_frame(gFieldEffectObjectPic_Ash, 2, 2, 1),
-    overworld_frame(gFieldEffectObjectPic_Ash, 2, 2, 2),
-    overworld_frame(gFieldEffectObjectPic_Ash, 2, 2, 3),
-    overworld_frame(gFieldEffectObjectPic_Ash, 2, 2, 4),
-};
-
 static const union AnimCmd sAnim_Ash[] =
 {
     ANIMCMD_FRAME(0, 12),

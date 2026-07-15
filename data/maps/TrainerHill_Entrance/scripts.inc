@@ -234,6 +234,13 @@ TrainerHill_Entrance_EventScript_Girl::
 	msgbox TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop, MSGBOX_NPC
 	end
 
+TrainerHill_Entrace_EventScript_TheDeclaration::
+	lock
+	faceplayer
+	msgbox TrainerHill_Entrance_Text_DidYouKnowThat, MSGBOX_NPC
+	release
+	end
+
 TrainerHill_Entrance_EventScript_GirlTrainerHillClosed::
 	msgbox TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen, MSGBOX_NPC
 	end
@@ -433,6 +440,15 @@ TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
 	.string "I can't wait to test the waters!\p"
 	.string "I'll knock aside anyone that stands\n"
 	.string "in my way!$"
+
+TrainerHill_Entrance_Text_DidYouKnowThat:
+	.string "Hoenn has withdrawn their sanctions\n"
+	.string "on Kalos and Alola.\p"
+	.string "Which is why the trades\n"
+	.string "have begun again.\p"
+	.string "Mega Stones and Z crystals are\n"
+	.string "currently obtainable at the\p"
+	.string "Grand Prize only.$"
 
 TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
 	.string "Do you see the Time Board over there?\p"

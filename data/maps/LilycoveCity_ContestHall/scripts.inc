@@ -436,6 +436,7 @@ LilycoveCity_ContestHall_Text_WinBeautyContestMakesMeHappy:
 	.string "CONTEST, sure it makes me\l"
 	.string "happy. More than usual, anyway.$"
 
+
 LilycoveCity_ContestHall_Text_GanderAtAllThosePrettyPokemon:
 	.string "Wahahahah!\p"
 	.string "Will you take a gander at all those\n"

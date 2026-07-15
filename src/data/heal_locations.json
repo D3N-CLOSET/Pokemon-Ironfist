@@ -123,7 +123,7 @@
     {
       "id": "HEAL_LOCATION_DEWFORD_TOWN",
       "map": "MAP_DEWFORD_TOWN",
-      "x": 2,
+      "x": 3,
       "y": 11,
       "respawn_map": "MAP_DEWFORD_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_DEWFORD_NURSE"
@@ -148,14 +148,14 @@
       "id": "HEAL_LOCATION_VERDANTURF_TOWN",
       "map": "MAP_VERDANTURF_TOWN",
       "x": 16,
-      "y": 4,
+      "y": 8,
       "respawn_map": "MAP_VERDANTURF_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_VERDANTURF_NURSE"
     },
     {
       "id": "HEAL_LOCATION_PACIFIDLOG_TOWN",
       "map": "MAP_PACIFIDLOG_TOWN",
-      "x": 8,
+      "x": 15,
       "y": 16,
       "respawn_map": "MAP_PACIFIDLOG_TOWN_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_PACIFIDLOG_NURSE"
@@ -193,10 +193,10 @@
       "map": "MAP_PALLET_TOWN",
       "x": 6,
       "y": 8,
-      "respawn_x": 8,
-      "respawn_y": 5,
       "respawn_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
-      "respawn_npc": "LOCALID_PLAYERS_HOUSE_1F_MOM"
+      "respawn_npc": "LOCALID_PLAYERS_HOUSE_1F_MOM",
+      "respawn_x": 8,
+      "respawn_y": 5
     },
     {
       "id": "HEAL_LOCATION_VIRIDIAN_CITY",
@@ -349,6 +349,42 @@
       "y": 12,
       "respawn_map": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_SIX_ISLAND_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_DEWFORD_TOWN_2",
+      "map": "MAP_DEWFORD_TOWN",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "id": "HEAL_LOCATION_SILVER_ISLAND",
+      "map": "MAP_SILVER_ISLAND",
+      "x": 20,
+      "y": 20
+    },
+    {
+      "id": "HEAL_LOCATION_ABANDONED_SHIP_CORRIDORS_B1F",
+      "map": "MAP_ABANDONED_SHIP_CORRIDORS_B1F",
+      "x": 6,
+      "y": 5
+    },
+    {
+      "id": "HEAL_LOCATION_SAGE_ISLAND_ENTRANCE",
+      "map": "MAP_SAGE_ISLAND_ENTRANCE",
+      "x": 2,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_SAGE_VALLEY_ICE",
+      "map": "MAP_SAGE_VALLEY_ICE",
+      "x": 28,
+      "y": 18
+    },
+    {
+      "id": "HEAL_LOCATION_NORTHERN_CAPE",
+      "map": "MAP_NORTHERN_CAPE",
+      "x": 21,
+      "y": 35
     }
   ]
 }

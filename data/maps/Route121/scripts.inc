@@ -186,3 +186,10 @@ Route121_Text_SafariZoneSign:
 	.string "“Filled with rare POKéMON!”\n"
 	.string "SAFARI ZONE$"
 
+Route121_EventScript_TrainersGauntlet::
+	msgbox Route121_Text_LilycoveGauntlet, MSGBOX_SIGN
+	end
+
+Route121_Text_LilycoveGauntlet:
+	.string "Lilycove Trainer's Gauntlet.\n"
+	.string "“Test your endurance now!”$"

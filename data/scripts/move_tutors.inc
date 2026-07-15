@@ -160,6 +160,85 @@ MoveTutor_EventScript_ExplosionTaught::
 	release
 	end
 
+Route110_EventScript_MegaPunchTutor::
+	lock
+	faceplayer
+	move_tutor MOVE_MEGA_PUNCH, MoveTutor_Text_MegaPunchTeach, MoveTutor_Text_MegaPunchWhichMon, MoveTutor_EventScript_MegaPunchDeclined, MoveTutor_EventScript_MegaPunchTaught, FLAG_MOVE_TUTOR_TAUGHT_MEGAPUNCH
+	end
+
+MoveTutor_EventScript_MegaPunchDeclined::
+	msgbox MoveTutor_Text_MegaPunchDeclined, MSGBOX_DEFAULT
+	release
+	end
+
+MoveTutor_EventScript_MegaPunchTaught::
+	msgbox MoveTutor_Text_MegaPunchTaught, MSGBOX_DEFAULT
+	release
+	end
+
+Route110_EventScript_MegaKickTutor::
+	lock
+	faceplayer
+	move_tutor MOVE_MEGA_KICK, MoveTutor_Text_MegaKickTeach, MoveTutor_Text_MegaKickWhichMon, MoveTutor_EventScript_MegaKickDeclined, MoveTutor_EventScript_MegaKickTaught, FLAG_MOVE_TUTOR_TAUGHT_MEGAKICK
+	end
+
+MoveTutor_EventScript_MegaKickDeclined::
+	msgbox MoveTutor_Text_MegaKickDeclined, MSGBOX_DEFAULT
+	release
+	end
+
+MoveTutor_EventScript_MegaKickTaught::
+	msgbox MoveTutor_Text_MegaKickTaught, MSGBOX_DEFAULT
+	release
+	end
+
+MeteorFalls_B1F_1R_EventScript_DracoMeteorTutor::
+	lock
+	move_tutor MOVE_DRACO_METEOR, MoveTutor_Text_DracoMeteorTeach, MoveTutor_Text_DracoMeteorWhichMon, MoveTutor_EventScript_DracoMeteorDeclined, MoveTutor_EventScript_DracoMeteorTaught, FLAG_MOVE_TUTOR_TAUGHT_DRACOMETEOR
+	end
+
+MoveTutor_EventScript_DracoMeteorDeclined::
+	msgbox MoveTutor_Text_DracoMeteorDeclined, MSGBOX_DEFAULT
+	release
+	end
+
+MoveTutor_EventScript_DracoMeteorTaught::
+	msgbox MoveTutor_Text_DracoMeteorTaught, MSGBOX_DEFAULT
+	release
+	end
+
+MtPyre_5F_EventScript_PoltergeistTutor::
+	lock
+	faceplayer
+	move_tutor MOVE_POLTERGEIST, MoveTutor_Text_PoltergeistTeach, MoveTutor_Text_PoltergeistWhichMon, MoveTutor_EventScript_PoltergeistDeclined, MoveTutor_EventScript_PoltergeistTaught, FLAG_MOVE_TUTOR_TAUGHT_POLTERGEIST
+	end
+
+MoveTutor_EventScript_PoltergeistDeclined::
+	msgbox MoveTutor_Text_PoltergeistDeclined, MSGBOX_DEFAULT
+	release
+	end
+
+MoveTutor_EventScript_PoltergeistTaught::
+	msgbox MoveTutor_Text_PoltergeistTaught, MSGBOX_DEFAULT
+	release
+	end
+
+Route125_EventScript_LiquidationTutor::
+	lock
+	faceplayer
+	move_tutor MOVE_LIQUIDATION, MoveTutor_Text_LiquidationTeach, MoveTutor_Text_LiquidationWhichMon, MoveTutor_EventScript_LiquidationDeclined, MoveTutor_EventScript_LiquidationTaught, FLAG_MOVE_TUTOR_TAUGHT_LIQUIDATION
+	end
+
+MoveTutor_EventScript_LiquidationDeclined::
+	msgbox MoveTutor_Text_LiquidationDeclined, MSGBOX_DEFAULT
+	release
+	end
+
+MoveTutor_EventScript_LiquidationTaught::
+	msgbox MoveTutor_Text_LiquidationTaught, MSGBOX_DEFAULT
+	release
+	end
+
 MoveTutor_EventScript_OpenPartyMenu::
 	special ChooseMonForMoveTutor
 	lock

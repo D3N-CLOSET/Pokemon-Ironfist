@@ -384,6 +384,20 @@ void PlayerStep(enum Direction direction, u16 newKeys, u16 heldKeys)
             }
         }
     }
+
+    if (JOY_NEW(L_BUTTON))
+    {
+        if (FlagGet(FLAG_RUN_TOGGLE))
+        {
+            FlagClear(FLAG_RUN_TOGGLE);
+            PlaySE(SE_LEDGE);
+        }
+         else
+        {
+            FlagSet(FLAG_RUN_TOGGLE);
+            PlaySE(SE_LEDGE);
+        }
+    }
 }
 
 #define sCounter        data[3]
@@ -907,8 +921,11 @@ static void PlayerNotOnBikeMoving(enum Direction direction, u16 heldKeys)
         return;
     }
 
+    // Inside your input processing logic
+    
+
     if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER)
-     && (heldKeys & B_BUTTON)
+     && (FlagGet(FLAG_RUN_TOGGLE) || (heldKeys & B_BUTTON))
      && FlagGet(FLAG_SYS_B_DASH)
      && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0
      && !FollowerNPCComingThroughDoor()

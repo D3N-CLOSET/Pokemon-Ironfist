@@ -59,6 +59,43 @@ Route104_PrettyPetalFlowerShop_Pokemart_Plants:
 	.2byte DECOR_GORGEOUS_PLANT
 	pokemartlistend
 
+PetalShop_NewBerry_BerryShop::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart PetalShop_NewBerry_BerryShop_List
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+PetalShop_NewBerry_BerryShop_List:
+	.2byte ITEM_OCCA_BERRY
+	.2byte ITEM_PASSHO_BERRY
+	.2byte ITEM_WACAN_BERRY
+	.2byte ITEM_RINDO_BERRY
+	.2byte ITEM_YACHE_BERRY
+	.2byte ITEM_CHOPLE_BERRY
+	.2byte ITEM_KEBIA_BERRY
+	.2byte ITEM_SHUCA_BERRY
+	.2byte ITEM_COBA_BERRY
+	.2byte ITEM_PAYAPA_BERRY
+	.2byte ITEM_TANGA_BERRY
+	.2byte ITEM_CHARTI_BERRY
+	.2byte ITEM_KASIB_BERRY
+	.2byte ITEM_HABAN_BERRY
+	.2byte ITEM_COLBUR_BERRY
+	.2byte ITEM_BABIRI_BERRY
+	.2byte ITEM_ENIGMA_BERRY
+	.2byte ITEM_ROSELI_BERRY
+	.2byte ITEM_MARANGA_BERRY
+	.2byte ITEM_KEE_BERRY
+	.2byte ITEM_ROWAP_BERRY
+	.2byte ITEM_MICLE_BERRY
+	.2byte ITEM_JABOCA_BERRY
+	.2byte ITEM_CUSTAP_BERRY
+	pokemartlistend
 Route104_PrettyPetalFlowerShop_EventScript_WailmerPailGirl::
 	lock
 	faceplayer

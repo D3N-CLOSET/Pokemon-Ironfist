@@ -1,0 +1,75 @@
+{
+  "id": "MAP_SAGE_ISLAND_GATE",
+  "name": "SageIsland_Gate",
+  "layout": "LAYOUT_SAGE_ISLAND_GATE",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_SAGE_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_SAGE_VALLEY",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SageIsland_Gate_EventScrpt_Expert",
+      "flag": "FLAG_DEFEATED_METEOR_FALLS_STEVEN"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SageIsland_Gate_EventScrpt_Expert",
+      "flag": "FLAG_DEFEATED_METEOR_FALLS_STEVEN"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SAGE_ISLAND_ENTRANCE",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SAGE_ISLAND_ENTRANCE",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_GLACIAL_PATH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

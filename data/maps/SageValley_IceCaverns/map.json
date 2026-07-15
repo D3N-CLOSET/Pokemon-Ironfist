@@ -1,0 +1,49 @@
+{
+  "id": "MAP_SAGE_VALLEY_ICE_CAVERNS",
+  "name": "SageValley_IceCaverns",
+  "layout": "LAYOUT_SAGE_VALLEY_ICE_CAVERNS",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_SAGE_VALLEY",
+  "requires_flash": false,
+  "weather": "WEATHER_SNOW",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 23,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_SAGE_VALLEY_ICE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SAGE_VALLEY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SAGE_VALLEY_ICE_CAVERNS_B1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_SAGE_VALLEY_ICE_CAVERNS_B1",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

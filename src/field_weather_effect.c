@@ -2611,23 +2611,134 @@ static const u8 sDefaultDynamicWeathers[] =
 {
     WEATHER_SUNNY,
     WEATHER_RAIN,
-    WEATHER_SNOW,
-    WEATHER_SANDSTORM,
-    WEATHER_VOLCANIC_ASH,
     WEATHER_RAIN_THUNDERSTORM,
-    WEATHER_DROUGHT,
 };
 
-/*static const u8 sDynamicWeathers_DewfordTown[] =
+static const u8 sDynamicWeathers_West[] =
 {
     WEATHER_SUNNY,
     WEATHER_RAIN,
     WEATHER_RAIN_THUNDERSTORM,
-};*/
+    WEATHER_SUNNY,
+};
+
+static const u8 sDynamicWeathers_East[] =
+{
+    WEATHER_SUNNY,
+    WEATHER_RAIN,
+    WEATHER_RAIN_THUNDERSTORM,
+    WEATHER_SUNNY,
+};
+
+static const u8 sDynamicWeathers_ColdOcean[] =
+{
+    WEATHER_SUNNY,
+    WEATHER_RAIN,
+    WEATHER_RAIN_THUNDERSTORM,
+    WEATHER_FOG_HORIZONTAL,
+    WEATHER_SUNNY_CLOUDS,
+    WEATHER_NONE
+};
+
+
+static const u8 sDynamicWeathers_Ocean[] =
+{
+    WEATHER_SUNNY,
+    WEATHER_RAIN,
+    WEATHER_RAIN_THUNDERSTORM,
+    WEATHER_DROUGHT,
+};
+
+static const u8 sDynamicWeathers_Tropical[] =
+{
+    WEATHER_SUNNY,
+    WEATHER_RAIN,
+    WEATHER_RAIN_THUNDERSTORM,
+    WEATHER_DROUGHT,
+    WEATHER_DOWNPOUR,
+};
+
+
+static const u8 sDynamicWeathers_NorthWest[] =
+{
+    WEATHER_SUNNY,
+    WEATHER_RAIN,
+    WEATHER_RAIN_THUNDERSTORM,
+    WEATHER_DROUGHT,
+};
 
 static const struct DynamicWeatherPool sDynamicWeatherPools[] =
 {
-    /*{ MAPSEC_DEWFORD_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_DewfordTown) },*/
+    { .mapSec = MAPSEC_DEWFORD_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Tropical) },
+    { .mapSec = MAPSEC_ROUTE_106, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Tropical) },
+    { .mapSec = MAPSEC_ROUTE_107, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Tropical) },
+    { .mapSec = MAPSEC_ROUTE_108, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Tropical) },
+
+
+
+
+
+    { .mapSec = MAPSEC_SLATEPORT_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_PETALBURG_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_LITTLEROOT_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_VERDANTURF_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_RUSTBORO_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_MAUVILLE_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_OLDALE_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_101, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_102, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_103, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_104, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_105, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_109, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_110, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_111, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_112, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_113, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_134, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_115, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_116, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_ROUTE_117, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+
+
+
+
+
+
+    { .mapSec = MAPSEC_LILYCOVE_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_MOSSDEEP_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_FORTREE_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_118, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_119, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_120, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_121, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_122, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_123, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_124, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_125, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_126, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_ROUTE_127, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+    { .mapSec = MAPSEC_SAFARI_ZONE, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
+
+
+
+
+
+    { .mapSec = MAPSEC_FALLARBOR_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_NorthWest) },
+    { .mapSec = MAPSEC_ROUTE_114, DYNAMIC_WEATHER_POOL(sDynamicWeathers_NorthWest) },
+
+
+
+    { .mapSec = MAPSEC_PACIFIDLOG_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Ocean) },
+    { .mapSec = MAPSEC_ROUTE_130, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Ocean) },
+    { .mapSec = MAPSEC_ROUTE_131, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Ocean) },
+    { .mapSec = MAPSEC_ROUTE_132, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Ocean) },
+    { .mapSec = MAPSEC_ROUTE_133, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Ocean) },
+    { .mapSec = MAPSEC_SKY_PILLAR, DYNAMIC_WEATHER_POOL(sDynamicWeathers_Ocean) },
+
+    { .mapSec = MAPSEC_ROUTE_128, DYNAMIC_WEATHER_POOL(sDynamicWeathers_ColdOcean) },
+    { .mapSec = MAPSEC_ROUTE_129, DYNAMIC_WEATHER_POOL(sDynamicWeathers_ColdOcean) },
+
 };
 
 static const u8 *GetDynamicWeatherPool(u8 *count)
@@ -2652,17 +2763,18 @@ static u8 GetDynamicWeather(void)
     u8 count;
     const u8 *weathers = GetDynamicWeatherPool(&count);
     rng_value_t localRngState;
-    const u32 hashPieces[] =
-    {
-        gSaveBlock1Ptr->dailySeed,
-        gSaveBlock1Ptr->location.mapGroup,
-        gSaveBlock1Ptr->location.mapNum,
-        gMapHeader.mapLayoutId,
-        gMapHeader.regionMapSectionId,
-    };
 
     if (count == 0)
         return WEATHER_NONE;
+
+    // Use the daily seed AND the memory address of the pool as the seed.
+    // Because all maps in the 'West' group share the same array (sDynamicWeathers_West),
+    // this hash will be identical for all of them!
+    const u32 hashPieces[] =
+    {
+        gSaveBlock1Ptr->dailySeed,
+        (u32)weathers, // Use the pointer to the pool array as the identifier
+    };
 
     localRngState = LocalRandomSeed(Crc32B((const u8 *)hashPieces, sizeof(hashPieces)));
     return weathers[LocalRandom32(&localRngState) % count];

@@ -30,6 +30,27 @@ RustboroCity_Mart_Pokemart_Basic:
 	.2byte ITEM_X_DEFENSE
 	pokemartlistend
 
+RustboroCity_Mart_EventScript_Clerk2::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart RustboroCity_Mart_Pokemart_TM
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+RustboroCity_Mart_Pokemart_TM:
+	.2byte ITEM_TM_POISON_JAB
+	.2byte ITEM_TM_PAYBACK
+	.2byte ITEM_TM_FLING
+	.2byte ITEM_TM_REFLECT
+	.2byte ITEM_TM_LIGHT_SCREEN
+	.2byte ITEM_TM_ROCK_SLIDE
+	.2byte ITEM_TM_PROTECT
+	pokemartlistend
+
 RustboroCity_Mart_EventScript_PokemartExpanded::
 	pokemart RustboroCity_Mart_Pokemart_Expanded
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT

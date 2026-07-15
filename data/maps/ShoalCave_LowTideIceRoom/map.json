@@ -3,10 +3,9 @@
   "name": "ShoalCave_LowTideIceRoom",
   "layout": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
   "music": "MUS_MT_PYRE",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_SHOAL_CAVE",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_SNOW",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
   "allow_escaping": true,
@@ -52,5 +51,23 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "item": "ITEM_ICIUM_Z",
+      "flag": "FLAG_Z_ICE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "item": "ITEM_ICY_ROCK",
+      "flag": "FLAG_SHOAL_ICY"
+    }
+  ],
+  "region": "REGION_HOENN"
 }

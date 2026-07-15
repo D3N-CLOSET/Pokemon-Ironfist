@@ -359,6 +359,14 @@ Route120_EventScript_Callie::
 	msgbox Route120_Text_CalliePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route120_EventScript_DebugSign::
+	msgbox Route120_Text_DebugSign, MSGBOX_SIGN
+	end
+
+Route120_Text_DebugSign:
+	.string "Route-120: Dense wild ahead.\n"
+	.string "Do not run or bike.$"
+
 Route120_Text_StevenGreeting:
 	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
 	.string "It's been a while.\p"

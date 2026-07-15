@@ -68,6 +68,7 @@ static void MultichoiceDynamicEventDebug_OnDestroy(struct DynamicListMenuEventAr
 static void MultichoiceDynamicEventShowItem_OnInit(struct DynamicListMenuEventArgs *eventArgs);
 static void MultichoiceDynamicEventShowItem_OnSelectionChanged(struct DynamicListMenuEventArgs *eventArgs);
 static void MultichoiceDynamicEventShowItem_OnDestroy(struct DynamicListMenuEventArgs *eventArgs);
+static u8 sFerrySelections[4];
 
 static const struct DynamicListMenuEventCollection sDynamicListMenuEventCollections[] =
 {
@@ -813,7 +814,10 @@ static void CreateLilycoveSSTidalMultichoice(void)
     {
         sLilycoveSSTidalSelections[selectionCount] = SSTIDAL_SELECTION_SLATEPORT;
         selectionCount++;
-
+        sLilycoveSSTidalSelections[selectionCount] = SSTIDAL_SELECTION_SILVER_ISLAND;
+        selectionCount++;
+        sLilycoveSSTidalSelections[selectionCount] = SSTIDAL_SELECTION_SAGE_ISLAND;
+        selectionCount++;
         if (FlagGet(FLAG_MET_SCOTT_ON_SS_TIDAL) == TRUE)
         {
             sLilycoveSSTidalSelections[selectionCount] = SSTIDAL_SELECTION_BATTLE_FRONTIER;
@@ -930,6 +934,21 @@ static void CreateLilycoveSSTidalMultichoice(void)
         InitMultichoiceCheckWrap(FALSE, count, windowId, MULTI_SSTIDAL_LILYCOVE);
     }
 }
+
+void BuildFerryMenu(void) {
+    u8 selectionCount = 0;
+    
+    sFerrySelections[selectionCount++] = SSTIDAL_SELECTION_SLATEPORT;
+    sFerrySelections[selectionCount++] = SSTIDAL_SELECTION_SILVER_ISLAND;
+    sFerrySelections[selectionCount++] = SSTIDAL_SELECTION_SAGE_ISLAND;
+    
+    if (FlagGet(FLAG_MET_SCOTT_ON_SS_TIDAL) == TRUE) {
+        sFerrySelections[selectionCount++] = SSTIDAL_SELECTION_BATTLE_FRONTIER;
+    }
+    
+    sFerrySelections[selectionCount++] = SSTIDAL_SELECTION_EXIT;
+}
+
 
 void GetLilycoveSSTidalSelection(void)
 {

@@ -96,3 +96,43 @@ FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "Hunh? There isn't a single move that\n"
 	.string "I can teach an EGG.$"
 
+EventScript_DawnStoneTrader::
+	lock
+	faceplayer
+	msgbox DawnStoneTrader_Text_Intro, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq EventScript_DawnStoneTrader_Trade
+	msgbox DawnStoneTrader_Text_Decline, MSGBOX_NPC
+	release
+	end
+
+EventScript_DawnStoneTrader_Trade::
+	checkitem ITEM_FIRE_STONE, 1
+	compare VAR_RESULT, TRUE
+	goto_if_eq EventScript_DawnStoneTrader_GiveStone
+	msgbox DawnStoneTrader_Text_NoBall, MSGBOX_NPC
+	release
+	end
+
+EventScript_DawnStoneTrader_GiveStone::
+	removeitem ITEM_FIRE_STONE, 1
+	giveitem ITEM_DAWN_STONE, 1
+	msgbox DawnStoneTrader_Text_Success, MSGBOX_NPC
+	release
+	end
+
+DawnStoneTrader_Text_Intro:
+	.string "I have a fascination with Dawn Stones.\p"
+	.string "I have a huge amount of them in stock.\p"
+	.string "Bring me a Fire Stone and we can trade!$"
+
+DawnStoneTrader_Text_Decline:
+	.string "Come back if you change your mind!$"
+
+DawnStoneTrader_Text_NoBall:
+	.string "Oh, it looks like you don't have\n"
+	.string "a Fire Stone right now.$"
+
+DawnStoneTrader_Text_Success:
+	.string "Here is your Dawn Stone! Pleasure\n"
+	.string "doing business with you.$"

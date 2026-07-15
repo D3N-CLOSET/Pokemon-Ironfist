@@ -91,5 +91,12 @@ FallarborTown_Text_TownSign:
 
 FallarborTown_Text_MoveTutorSign:
 	.string "MOVE TUTOR'S HOUSE\n"
-	.string "“New moves taught to POKéMON.”$"
+	.string "“New moves taught to POKéMON.”\p"
+	.string "Dawn Stone trader has arrived!$"
 
+FallarborTown_EventScript_GroudonStatue::
+	msgbox FallarborTown_Text_GroudonStatue, MSGBOX_SIGN
+	end
+
+FallarborTown_Text_GroudonStatue:
+	.string "It's a statue of GROUDON!$"

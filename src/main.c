@@ -79,9 +79,9 @@ static EWRAM_DATA u16 sTrainerId = 0;
 static void UpdateLinkAndCallCallbacks(void);
 static void InitMainCallbacks(void);
 static void CallCallbacks(void);
-#ifdef BUGFIX
+// REMOVED IFDEV BUGFIX FROM HERE SUGAR! D3N_AR WAS HERE!!
 static void SeedRngWithRtc(void);
-#endif
+
 static void ReadKeys(void);
 void InitIntrHandlers(void);
 static void WaitForVBlank(void);
@@ -105,9 +105,10 @@ void AgbMain(void)
     CheckForFlashMemory();
     InitMainCallbacks();
     InitMapMusic();
-#ifdef BUGFIX
+
+    // REMOVED IFDEV BUGFIX FROM WAS HERE LETS GOOOO!! D3N_AR WAS HERE!!!
     SeedRngWithRtc(); // see comment at SeedRngWithRtc definition below
-#endif
+
     ClearDma3Requests();
     ResetBgs();
     SetDefaultFontsPointer();
@@ -238,7 +239,7 @@ void EnableVCountIntrAtLine150(void)
 }
 
 // FRLG commented this out to remove RTC, however Emerald didn't undo this!
-#ifdef BUGFIX
+// YEAH I UNDID THAT HONEY!!! D3N_AR WAS HERE!!!!
 static void SeedRngWithRtc(void)
 {
     #define BCD8(x) ((((x) >> 4) & 0xF) * 10 + ((x) & 0xF))
@@ -252,7 +253,7 @@ static void SeedRngWithRtc(void)
     SeedRng(seconds);
     #undef BCD8
 }
-#endif
+
 
 void InitKeys(void)
 {

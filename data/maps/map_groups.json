@@ -74,7 +74,8 @@
     "gMapGroup_IndoorFiveIslandRoute_Frlg",
     "gMapGroup_IndoorTwoIslandRoute_Frlg",
     "gMapGroup_IndoorSixIslandRoute_Frlg",
-    "gMapGroup_IndoorSevenIslandRoute_Frlg"
+    "gMapGroup_IndoorSevenIslandRoute_Frlg",
+    "gMapGroup_IndoorSageVill"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -133,7 +134,27 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "Silver_Tunnel",
+    "SilverIsland_Mountain",
+    "SilverIsland_Depths",
+    "SilverIsland_Hills",
+    "SilverIsland_Tomb",
+    "SilverFalls",
+    "SilverIsland_Route",
+    "DewfordJungle",
+    "SageIsland_Entrance",
+    "SageIsland_Gate",
+    "SageValley",
+    "SageValley_Ice",
+    "SageValley_IceCaverns",
+    "SageValley_IceCaverns_B1",
+    "GlacialPath",
+    "GlacialPath_B1",
+    "SageMountains",
+    "MountainPass",
+    "NorthernCape",
+    "CrestanTown"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -194,7 +215,8 @@
     "PacifidlogTown_House2",
     "PacifidlogTown_House3",
     "PacifidlogTown_House4",
-    "PacifidlogTown_House5"
+    "PacifidlogTown_House5",
+    "D3NsHouse"
   ],
   "gMapGroup_IndoorPetalburg": [
     "PetalburgCity_WallysHouse",
@@ -470,7 +492,11 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "VolcanicTunnel",
+    "Route118_Gauntlet",
+    "Route121_Gauntlet",
+    "Pacifidlog_Gauntlet"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -624,7 +650,17 @@
     "NavelRock_Down10",
     "NavelRock_Down11",
     "NavelRock_Bottom",
-    "TrainerHill_Elevator"
+    "TrainerHill_Elevator",
+    "SilverIsland",
+    "SilverIsland_Forest",
+    "SilverIsland_Forest_2",
+    "SilverIsland_Forest_3",
+    "SilverIsland_Plateau",
+    "SilverIsland_Plateau_2",
+    "EmeraldIsland",
+    "SilverCave",
+    "SilverCave_Ice",
+    "ArchiesHouse"
   ],
   "gMapGroup_IndoorRoute104Prototype": [
     "Route104_Prototype",
@@ -1160,5 +1196,13 @@
   ],
   "gMapGroup_IndoorSevenIslandRoute_Frlg": [
     "SevenIsland_SevaultCanyon_House_Frlg"
+  ],
+  "gMapGroup_IndoorSageVill": [
+    "SageVillage_Mart",
+    "SageVillage_Gauntlet",
+    "MaxiesHome",
+    "SageVillage_PkmnCenter1F",
+    "SageVillage_TinyHouse",
+    "SageVillage_PkmnCenter2F"
   ]
 }

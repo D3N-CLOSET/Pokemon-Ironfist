@@ -394,3 +394,46 @@ RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
 	.string "Hey, {PLAYER}, if I see you while I'm out\n"
 	.string "catching POKéMON, I can pitch you a\l"
 	.string "battle if you'd like.$"
+
+MaysHome_Eventscript_Kecelon::
+	lock
+	faceplayer
+	goto_if_set FLAG_OFF_SHADOW, MaysHome_Eventscript_TurnOnShadows
+	msgbox MaysHome_Text_TurnOffShadows, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq MaysHome_Eventscript_Yes
+	release
+	end
+
+MaysHome_Text_TurnOffShadows:
+	.string "Do you want to turn off Shadows?$"
+
+MaysHome_Eventscript_TurnOnShadows::
+	msgbox MaysHome_Text_TurnOnShadows, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq MaysHome_Eventscript_OffYes
+	release
+	end
+
+MaysHome_Text_TurnOnShadows:
+	.string "Do you want to turn on Shadows?$"
+
+MaysHome_Eventscript_Yes::
+	setflag FLAG_OFF_SHADOW
+	msgbox MaysHome_Text_ShadowOff, MSGBOX_DEFAULT
+	release
+	end
+
+MaysHome_Eventscript_OffYes::
+	clearflag FLAG_OFF_SHADOW
+	msgbox MaysHome_Text_ShadowOn, MSGBOX_DEFAULT
+	release
+	end
+
+MaysHome_Text_ShadowOff:
+	.string "Shadows have been turned off.\p"
+	.string "This will fix future Sprite crashes.$"
+
+MaysHome_Text_ShadowOn:
+	.string "Shadows have been turned on.\p"
+	.string "This will improve graphical fidelity.$"

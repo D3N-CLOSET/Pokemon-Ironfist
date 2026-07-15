@@ -199,6 +199,10 @@ Route103_EventScript_RouteSign::
 	msgbox Route103_Text_RouteSign, MSGBOX_SIGN
 	end
 
+Route103_EventScript_BridgeSign::
+	msgbox Route103_Text_BridgeSign, MSGBOX_SIGN
+	end
+
 Route103_EventScript_Daisy::
 	trainerbattle_single TRAINER_DAISY, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
 	msgbox Route103_Text_DaisyPostBattle, MSGBOX_AUTOCLOSE
@@ -350,4 +354,18 @@ Route103_Text_ShortcutToOldale:
 Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
+
+Route103_EventScript_MarthaFarker::
+    faceplayer
+	msgbox Route103_Text_MarthaIntro, MSGBOX_DEFAULT
+    end
+
+Route103_Text_MarthaIntro::
+	.string "FIRST NAME'S MARTHA, LAST NAME'S FARKER.\n"
+	.string "THIS BRIDGE IS ALL MINE!$"
+
+
+Route103_Text_BridgeSign:
+	.string "Oldale Town to Slateport City Bridge.$"
+
 

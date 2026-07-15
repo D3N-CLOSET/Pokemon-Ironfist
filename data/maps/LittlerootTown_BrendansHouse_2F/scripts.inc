@@ -299,3 +299,46 @@ PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
 	.string "A Game Boy Advance is connected to\n"
 	.string "serve as the Controller.$"
+
+BrendansHome_Eventscript_Kecelon::
+	lock
+	faceplayer
+	goto_if_set FLAG_OFF_SHADOW, BrendansHome_Eventscript_TurnOnShadows
+	msgbox BrendansHome_Text_TurnOffShadows, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq BrendansHome_Eventscript_Yes
+	release
+	end
+
+BrendansHome_Text_TurnOffShadows:
+	.string "Do you want to turn off Shadows?$"
+
+BrendansHome_Eventscript_TurnOnShadows::
+	msgbox BrendansHome_Text_TurnOnShadows, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq BrendansHome_Eventscript_OffYes
+	release
+	end
+
+BrendansHome_Text_TurnOnShadows:
+	.string "Do you want to turn on Shadows?$"
+
+BrendansHome_Eventscript_Yes::
+	setflag FLAG_OFF_SHADOW
+	msgbox BrendansHome_Text_ShadowOff, MSGBOX_DEFAULT
+	release
+	end
+
+BrendansHome_Eventscript_OffYes::
+	clearflag FLAG_OFF_SHADOW
+	msgbox BrendansHome_Text_ShadowOn, MSGBOX_DEFAULT
+	release
+	end
+
+BrendansHome_Text_ShadowOff:
+	.string "Shadows have been turned off.\p"
+	.string "This will fix future Sprite crashes.$"
+
+BrendansHome_Text_ShadowOn:
+	.string "Shadows have been turned on.\p"
+	.string "This will improve graphical fidelity.$"

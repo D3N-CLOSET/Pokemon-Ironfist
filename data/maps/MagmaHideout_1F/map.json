@@ -3,7 +3,6 @@
   "name": "MagmaHideout_1F",
   "layout": "LAYOUT_MAGMA_HIDEOUT_1F",
   "music": "MUS_AQUA_MAGMA_HIDEOUT",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_MAGMA_HIDEOUT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -125,5 +124,15 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 33,
+      "y": 4,
+      "elevation": 0,
+      "item": "ITEM_TM_FLARE_BLITZ",
+      "flag": "FLAG_MAGMA_HIDEOUT_1F_FLARE_BLITZ"
+    }
+  ],
+  "region": "REGION_HOENN"
 }

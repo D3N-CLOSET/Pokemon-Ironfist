@@ -183,13 +183,33 @@ SlateportCity_Harbor_EventScript_ChooseDestinationWithBattleFrontier::
 	switch VAR_RESULT
 	case 0, SlateportCity_Harbor_EventScript_Lilycove
 	case 1, SlateportCity_Harbor_EventScript_BattleFrontier
-	case 2, SlateportCity_Harbor_EventScript_CancelDestinationSelect
+	case 2, SlateportCity_Harbor_EventScript_Silver_Island
+	case 3, SlateportCity_Harbor_EventScript_Sage_Island
+	case 4, SlateportCity_Harbor_EventScript_CancelDestinationSelect
 	case MULTI_B_PRESSED, SlateportCity_Harbor_EventScript_CancelDestinationSelect
 	end
 
 @ Unused. Should be impossible for player to reach Ferry without having received SS Tidal ticket
 SlateportCity_Harbor_EventScript_NoTicket::
 	msgbox SlateportCity_Harbor_Text_YouMustHaveTicket, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Harbor_EventScript_Silver_Island::
+	msgbox SlateportCity_Harbor_Text_SilverIslandItIs, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_ChooseNewDestination
+	call SlateportCity_Harbor_EventScript_BoardFerry
+	warp MAP_SILVER_ISLAND, 9, 23
+	waitstate
+	release
+	end
+
+SlateportCity_Harbor_EventScript_Sage_Island::
+	msgbox SlateportCity_Harbor_Text_SageIslandItIs, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_ChooseNewDestination
+	call SlateportCity_Harbor_EventScript_BoardFerry
+	warp MAP_SAGE_ISLAND_ENTRANCE, 2, 10
+	waitstate
 	release
 	end
 
@@ -406,6 +426,13 @@ SlateportCity_Harbor_Text_SailAnotherTime:
 
 SlateportCity_Harbor_Text_LilycoveItIs:
 	.string "LILYCOVE CITY it is, then!$"
+
+SlateportCity_Harbor_Text_SilverIslandItIs:
+	.string "SILVER ISLAND it is, then!$"
+
+
+SlateportCity_Harbor_Text_SageIslandItIs:
+	.string "SAGE ISLAND it is, then!$"
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
 	.string "BATTLE FRONTIER it is, then!$"

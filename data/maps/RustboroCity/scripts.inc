@@ -839,18 +839,16 @@ RustboroCity_EventScript_MayEncounter::
 	setvar VAR_RUSTBORO_CITY_STATE, 8
 	setvar VAR_ROUTE104_STATE, 2
 	setvar VAR_0x8008, 0
-	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
-	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	msgbox RustboroCity_Text_MayPassedBrineyWantToBattle, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	call RustboroCity_EventScript_RestoreBgm
 	releaseall
 	end
 
 RustboroCity_EventScript_MayAskToBattle::
 	setvar VAR_0x8008, 1
-	msgbox RustboroCity_Text_MayWantToBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleMay
-	msgbox RustboroCity_Text_MayOhHaventRaisedPokemonEnough, MSGBOX_DEFAULT
+	msgbox RustboroCity_Text_MayWantToBattle, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleMay
 	releaseall
 	end
 
@@ -906,17 +904,15 @@ RustboroCity_EventScript_BrendanEncounter::
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
 	setvar VAR_RUSTBORO_CITY_STATE, 8
 	setvar VAR_ROUTE104_STATE, 2
-	msgbox RustboroCity_Text_BrendanPassedBrineyWantToBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
-	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	msgbox RustboroCity_Text_BrendanPassedBrineyWantToBattle, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleBrendan
 	call RustboroCity_EventScript_RestoreBgm
 	releaseall
 	end
 
 RustboroCity_EventScript_BrendanAskToBattle::
-	msgbox RustboroCity_Text_BrendanWantToBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, RustboroCity_EventScript_BattleBrendan
-	msgbox RustboroCity_Text_BrendanNoConfidenceInPokemon, MSGBOX_DEFAULT
+	msgbox RustboroCity_Text_BrendanWantToBattle, MSGBOX_DEFAULT
+	goto RustboroCity_EventScript_BattleBrendan
 	releaseall
 	end
 
@@ -1288,3 +1284,38 @@ RustboroCity_Text_YouCanHave2On2Battle:
 	.string "they'll both challenge you.\p"
 	.string "Don't you think it'd be cool if you\n"
 	.string "could beat two TRAINERS by yourself?$"
+
+RustboroCity_EventScript_ZTeacher::
+	goto_if_set FLAG_Z_TEACHER, RustboroCity_EventScript_ZTeacherDone
+	lock
+	faceplayer
+	msgbox RustboroCity_Text_ZCrystalTeach, MSGBOX_NPC
+	giveitem ITEM_TEACHY_TV
+	setflag FLAG_Z_TEACHER
+	release
+	end
+
+RustboroCity_EventScript_ZTeacherDone::
+	lock
+	faceplayer
+	msgbox RustboroCity_Text_ZCrystalTeachDone, MSGBOX_NPC
+	release
+	end
+
+RustboroCity_Text_ZCrystalTeach:
+	.string "Did you know this?\p"
+	.string "In order to use Z Moves,\n"
+	.string "The POKéMON must hold the Z CRYSTAL.\p"
+	.string "Then you must obtain a Z Power Ring.\n"
+	.string "Now to use the Z-move,\p"
+	.string "Simply press START over the move.\p"
+	.string "Here take this too.$"
+
+RustboroCity_Text_ZCrystalTeachDone:
+	.string "Remember.\p"
+	.string "In order to use Z Moves,\n"
+	.string "The POKéMON must hold the Z CRYSTAL.\p"
+	.string "Then you must obtain a Z Power Ring.\n"
+	.string "Now to use the Z-move,\p"
+	.string "Simply press START over the move.\p"
+	.string "Use Teachy TV, if you forget things.$"

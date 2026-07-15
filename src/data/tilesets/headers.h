@@ -41,6 +41,17 @@ const struct Tileset gTileset_General =
     .callback = InitTilesetAnim_General,
 };
 
+const struct Tileset gTileset_GeneralSnow =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_GeneralSnow,
+    .palettes = gTilesetPalettes_GeneralSnow,
+    .metatiles = gMetatiles_GeneralSnow,
+    .metatileAttributes = gMetatileAttributes_GeneralSnow,
+    .callback = InitTilesetAnim_GeneralSnow,
+};
+
 const struct Tileset gTileset_Petalburg =
 {
     .isCompressed = TRUE,
@@ -291,6 +302,17 @@ const struct Tileset gTileset_MeteorFalls =
     .palettes = gTilesetPalettes_MeteorFalls,
     .metatiles = gMetatiles_MeteorFalls,
     .metatileAttributes = gMetatileAttributes_MeteorFalls,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_SageSnow =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_SageSnow,
+    .palettes = gTilesetPalettes_SageSnow,
+    .metatiles = gMetatiles_SageSnow,
+    .metatileAttributes = gMetatileAttributes_SageSnow,
     .callback = NULL,
 };
 

@@ -24,6 +24,8 @@ VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_REPEL
 	.2byte ITEM_X_SP_ATK
 	.2byte ITEM_FLUFFY_TAIL
+	.2byte ITEM_CLEVER_FEATHER
+	.2byte ITEM_HEALTH_FEATHER
 	pokemartlistend
 
 VerdanturfTown_Mart_EventScript_Boy::

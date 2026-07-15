@@ -504,6 +504,28 @@ const u16 gTilesetPalettes_MeteorFalls[][16] =
     INCGFX_U16("data/tilesets/secondary/meteor_falls/palettes/15.pal", ".gbapal"),
 };
 
+const u32 gTilesetTiles_SageSnow[] = INCGFX_U32("data/tilesets/secondary/sage_snow/tiles.png", ".4bpp.fastSmol", "-num_tiles 460 -Wnum_tiles");
+
+const u16 gTilesetPalettes_SageSnow[][16] =
+{
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/00.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/01.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/02.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/03.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/04.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/05.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/06.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/07.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/08.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/09.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/10.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/11.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/12.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/13.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/14.pal", ".gbapal"),
+    INCGFX_U16("data/tilesets/secondary/sage_snow/palettes/15.pal", ".gbapal"),
+};
+
 const u32 gTilesetTiles_OceanicMuseum[] = INCGFX_U32("data/tilesets/secondary/oceanic_museum/tiles.png", ".4bpp.fastSmol", "-num_tiles 319 -Wnum_tiles");
 
 const u16 gTilesetPalettes_OceanicMuseum[][16] =

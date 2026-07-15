@@ -25,6 +25,11 @@ FallarborTown_Mart_Pokemart:
 	.2byte ITEM_X_DEFENSE
 	.2byte ITEM_DIRE_HIT
 	.2byte ITEM_GUARD_SPEC
+	.2byte ITEM_LURE
+	.2byte ITEM_SUPER_LURE
+	.2byte ITEM_MAX_LURE
+	.2byte ITEM_WIDE_LENS
+	.2byte ITEM_ZOOM_LENS
 	pokemartlistend
 
 FallarborTown_Mart_EventScript_Woman::

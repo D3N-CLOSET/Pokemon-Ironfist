@@ -27,6 +27,13 @@ PacifidlogTown_EventScript_TownSign::
 	msgbox PacifidlogTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+PacifidlogTown_EventScript_Hecker::
+	lock
+	faceplayer
+	msgbox PacifidlogTown_Text_Hecker, MSGBOX_NPC
+	release
+	end
+
 PacifidlogTown_Text_FastRunningCurrent:
 	.string "The sea between PACIFIDLOG and\n"
 	.string "SLATEPORT has a fast-running tide.\p"
@@ -52,3 +59,27 @@ PacifidlogTown_Text_TownSign:
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 
+PacifidlogTown_Text_Hecker:
+	.string "Hey {PLAYER}, I am D3N_AR,\p"
+	.string "aka the dev of this hack.\p"
+	.string "I am here to give ya a tip.\p"
+	.string "It is going to make ya life\n"
+	.string "easier.\p"
+	.string "Click START while holding R.\p"
+	.string "Thanks for playing though!$"
+
+PacifidlogTown_EventScript_MYhome::
+	msgbox PacifidlogTown_Text_MYhome, MSGBOX_SIGN
+	end
+
+PacifidlogTown_Text_MYhome:
+	.string "MY HOME\p"
+	.string "“The home of the dev of this hack.\p"
+	.string "Now allowing indoor cycling!”$"
+
+PacifidlogTown_EventScript_KyogreStatue::
+	msgbox PacifidlogTown_Text_KyogreStatue, MSGBOX_SIGN
+	end
+
+PacifidlogTown_Text_KyogreStatue:
+	.string "It's a statue of KYOGRE!$"

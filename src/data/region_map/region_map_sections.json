@@ -782,7 +782,6 @@
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
       "name": "ROUTE 4",
-      "name_clone": true,
       "x": 8,
       "y": 3,
       "width": 1,
@@ -791,7 +790,6 @@
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
       "name": "ROUTE 10",
-      "name_clone": true,
       "x": 18,
       "y": 3,
       "width": 1,
@@ -1032,7 +1030,6 @@
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
       "name": "UNDERGROUND PATH",
-      "name_clone": true,
       "x": 12,
       "y": 6,
       "width": 1,
@@ -1393,7 +1390,6 @@
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
       "name": "TRAINER TOWER",
-      "name_clone": true,
       "x": 5,
       "y": 6,
       "width": 1,
@@ -1553,7 +1549,11 @@
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND",
-      "name": "BIRTH ISLAND"
+      "name": "BIRTH ISLAND",
+      "x": 17,
+      "y": 9,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_FARAWAY_ISLAND",
@@ -1621,13 +1621,149 @@
     },
     {
       "id": "MAPSEC_NAVEL_ROCK",
-      "name": "NAVEL ROCK"
+      "name": "NAVEL ROCK",
+      "x": 20,
+      "y": 9,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_TRAINER_HILL",
       "name": "TRAINER HILL",
       "x": 8,
       "y": 4,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SILVER_ISLAND",
+      "name": "SILVER ISLAND",
+      "x": 18,
+      "y": 12,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "id": "MAPSEC_EMERALD_ISLAND",
+      "name": "EMERALD ISLAND",
+      "x": 24,
+      "y": 12,
+      "width": 2,
+      "height": 2
+    },
+    {
+      "id": "MAPSEC_DEWFORD_JUNGLE",
+      "name": "Dewford Jungle",
+      "x": 1,
+      "y": 14,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_VOLCANIC_TUNNEL",
+      "name": "VOLCANIC TUNNEL",
+      "x": 4,
+      "y": 4,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SAGE_ISLAND",
+      "name": "Sage Island",
+      "x": 23,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SAGE_VALLEY",
+      "name": "SAGE VALLEY",
+      "x": 24,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SAGE_VILLAGE",
+      "name": "SAGE VILLAGE",
+      "x": 24,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_GLACIAL_PATH",
+      "name": "GLACIAL PATH"
+    },
+    {
+      "id": "MAPSEC_TRAINERS_GAUNTLET",
+      "name": "TRAINER'S GAUNTLET"
+    },
+    {
+      "id": "MAPSEC_SAGE_MOUNTAINS",
+      "name": "SAGE MOUNTAINS",
+      "x": 23,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SILVER_FALLS",
+      "name": "SILVER FALLS",
+      "x": 17,
+      "y": 12,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SILVER_FOREST",
+      "name": "SILVER FOREST",
+      "x": 18,
+      "y": 12,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SILVER_PLATEAU",
+      "name": "SILVER PLATEAU",
+      "x": 17,
+      "y": 12,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_SILVER_HILLS",
+      "name": "SILVER HILLS"
+    },
+    {
+      "id": "MAPSEC_SILVER_TUNNEL",
+      "name": "SILVER TUNNEL"
+    },
+    {
+      "id": "MAPSEC_MT_ORENBURG",
+      "name": "MT ORENBURG",
+      "x": 17,
+      "y": 11,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_MOUNTAIN_PASS",
+      "name": "MOUNTAIN PASS",
+      "x": 24,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "MAPSEC_CRESTAN_TOWN",
+      "name": "CRESTAN TOWN"
+    },
+    {
+      "id": "MAPSEC_NORTHERN_CAPE",
+      "name": "NORTHERN CAPE",
+      "x": 25,
+      "y": 1,
       "width": 1,
       "height": 1
     }

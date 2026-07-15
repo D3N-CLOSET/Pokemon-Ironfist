@@ -96,6 +96,7 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 
 MossdeepCity_Gym_EventScript_GiveCalmMind2::
 	giveitem ITEM_TM_CALM_MIND
+	giveitem ITEM_ROTOM_CATALOG
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -104,6 +105,7 @@ MossdeepCity_Gym_EventScript_GiveCalmMind2::
 
 MossdeepCity_Gym_EventScript_GiveCalmMind::
 	giveitem ITEM_TM_CALM_MIND
+	giveitem ITEM_ROTOM_CATALOG
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
@@ -511,7 +513,8 @@ MossdeepCity_Gym_Text_KathleenDefeat:
 
 MossdeepCity_Gym_Text_KathleenPostBattle:
 	.string "Your vitality is contagious!\n"
-	.string "Get away from me quickly!$"
+	.string "Fuck off and\p"
+	.string "get away from me quickly!$"
 
 MossdeepCity_Gym_Text_CliffordIntro:
 	.string "I may be past my prime, but I suggest\n"
@@ -534,9 +537,8 @@ MossdeepCity_Gym_Text_MaceyDefeat:
 	.string "strong?$"
 
 MossdeepCity_Gym_Text_MaceyPostBattle:
-	.string "Humph! You may be strong, but you're\n"
-	.string "not suitable for the PSYCHIC type!\p"
-	.string "The way you battle is somehow brutal!$"
+	.string "Hey.\n"
+	.string "Fuck you.$"
 
 MossdeepCity_Gym_Text_NicholasIntro:
 	.string "Wroooar! Have a taste of my super\n"
@@ -588,6 +590,9 @@ MossdeepCity_Gym_Text_ExplainCalmMind:
 	.string "LIZA: It raises SP. DEF!\p"
 	.string "TATE: It's a move that's perfect…\n"
 	.string "LIZA: For PSYCHIC POKéMON!\p"
+	.string "TATE: and the rotom catalogue,\p"
+	.string "LIZA: is for cute rotoms,\p"
+	.string "TATE: to change forms!\p"
 	.string "… … … … … …$"
 
 MossdeepCity_Gym_Text_RegisteredTateAndLiza:

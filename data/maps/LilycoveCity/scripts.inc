@@ -754,3 +754,9 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "POKéMON as soon as we arrived.\p"
 	.string "I mean, we are totally happy!$"
 
+LilycoveCity_EventScript_Troll::
+	msgbox Text_Troll, MSGBOX_DEFAULT
+	return
+
+Text_Troll:
+	.string "Lilycove City's awesome Lighthouse.$"

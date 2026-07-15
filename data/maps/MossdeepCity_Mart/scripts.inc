@@ -22,6 +22,9 @@ MossdeepCity_Mart_Pokemart:
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_X_ATTACK
 	.2byte ITEM_X_DEFENSE
+	.2byte ITEM_SAFETY_GOGGLES
+	.2byte ITEM_WEAKNESS_POLICY
+	.2byte ITEM_ELECTIRIZER
 	pokemartlistend
 
 MossdeepCity_Mart_EventScript_Woman::

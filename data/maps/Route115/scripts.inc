@@ -143,3 +143,11 @@ Route115_Text_MeteorFallsSign:
 	.string "METEOR FALLS\n"
 	.string "FALLARBOR TOWN THROUGH HERE$"
 
+Route115_EventScript_MeteorGatekeeper::
+	faceplayer
+	msgbox Route115_Text_MeteorGatekeeper, MSGBOX_NPC
+	end
+
+Route115_Text_MeteorGatekeeper:
+	.string "Get the fuck out of here kid\n"
+	.string "Before I touch you.$"

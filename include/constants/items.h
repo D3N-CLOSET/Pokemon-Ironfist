@@ -386,7 +386,7 @@ enum __attribute__((packed)) Item
     ITEM_BLASTOISINITE = 295,
     ITEM_BEEDRILLITE = 296,
     ITEM_PIDGEOTITE = 297,
-    ITEM_ALAKAZITE = 298,
+    ITEM_ALAKAZITE = 298, //here
     ITEM_SLOWBRONITE = 299,
     ITEM_GENGARITE = 300,
     ITEM_KANGASKHANITE = 301,
@@ -394,7 +394,7 @@ enum __attribute__((packed)) Item
     ITEM_GYARADOSITE = 303,
     ITEM_AERODACTYLITE = 304,
     ITEM_MEWTWONITE_X = 305,
-    ITEM_MEWTWONITE_Y = 306,
+    ITEM_MEWTWONITE_Y = 306, // here
     ITEM_AMPHAROSITE = 307,
     ITEM_STEELIXITE = 308,
     ITEM_SCIZORITE = 309,
@@ -407,7 +407,7 @@ enum __attribute__((packed)) Item
     ITEM_GARDEVOIRITE = 316,
     ITEM_SABLENITE = 317,
     ITEM_MAWILITE = 318,
-    ITEM_AGGRONITE = 319,
+    ITEM_AGGRONITE = 319, // here
     ITEM_MEDICHAMITE = 320,
     ITEM_MANECTITE = 321,
     ITEM_SHARPEDONITE = 322,
@@ -417,7 +417,7 @@ enum __attribute__((packed)) Item
     ITEM_ABSOLITE = 326,
     ITEM_GLALITITE = 327,
     ITEM_SALAMENCITE = 328,
-    ITEM_METAGROSSITE = 329,
+    ITEM_METAGROSSITE = 329, // here
     ITEM_LATIASITE = 330,
     ITEM_LATIOSITE = 331,
     ITEM_LOPUNNITE = 332,
@@ -426,7 +426,7 @@ enum __attribute__((packed)) Item
     ITEM_ABOMASITE = 335,
     ITEM_GALLADITE = 336,
     ITEM_AUDINITE = 337,
-    ITEM_DIANCITE = 338,
+    ITEM_DIANCITE = 338, // done
 
     // Gems
     ITEM_NORMAL_GEM = 339,
@@ -449,40 +449,40 @@ enum __attribute__((packed)) Item
     ITEM_FAIRY_GEM = 356,
 
     // Z-Crystals
-    ITEM_NORMALIUM_Z = 357,
-    ITEM_FIRIUM_Z = 358,
-    ITEM_WATERIUM_Z = 359,
-    ITEM_ELECTRIUM_Z = 360,
-    ITEM_GRASSIUM_Z = 361,
-    ITEM_ICIUM_Z = 362,
-    ITEM_FIGHTINIUM_Z = 363,
-    ITEM_POISONIUM_Z = 364,
-    ITEM_GROUNDIUM_Z = 365,
-    ITEM_FLYINIUM_Z = 366,
-    ITEM_PSYCHIUM_Z = 367,
-    ITEM_BUGINIUM_Z = 368,
-    ITEM_ROCKIUM_Z = 369,
-    ITEM_GHOSTIUM_Z = 370,
-    ITEM_DRAGONIUM_Z = 371,
-    ITEM_DARKINIUM_Z = 372,
-    ITEM_STEELIUM_Z = 373,
-    ITEM_FAIRIUM_Z = 374,
-    ITEM_PIKANIUM_Z = 375,
-    ITEM_EEVIUM_Z = 376,
-    ITEM_SNORLIUM_Z = 377,
-    ITEM_MEWNIUM_Z = 378,
+    ITEM_NORMALIUM_Z = 357, // done
+    ITEM_FIRIUM_Z = 358, // done
+    ITEM_WATERIUM_Z = 359, // done
+    ITEM_ELECTRIUM_Z = 360, // done
+    ITEM_GRASSIUM_Z = 361, // done
+    ITEM_ICIUM_Z = 362, // done
+    ITEM_FIGHTINIUM_Z = 363, // done
+    ITEM_POISONIUM_Z = 364, // done
+    ITEM_GROUNDIUM_Z = 365, // done
+    ITEM_FLYINIUM_Z = 366, // done
+    ITEM_PSYCHIUM_Z = 367, // done
+    ITEM_BUGINIUM_Z = 368, // done
+    ITEM_ROCKIUM_Z = 369, // done
+    ITEM_GHOSTIUM_Z = 370, // done
+    ITEM_DRAGONIUM_Z = 371, // done
+    ITEM_DARKINIUM_Z = 372, // done
+    ITEM_STEELIUM_Z = 373, // done
+    ITEM_FAIRIUM_Z = 374, // done
+    ITEM_PIKANIUM_Z = 375, // done
+    ITEM_EEVIUM_Z = 376, // done
+    ITEM_SNORLIUM_Z = 377, // done
+    ITEM_MEWNIUM_Z = 378, // done
     ITEM_DECIDIUM_Z = 379,
     ITEM_INCINIUM_Z = 380,
     ITEM_PRIMARIUM_Z = 381,
     ITEM_LYCANIUM_Z = 382,
-    ITEM_MIMIKIUM_Z = 383,
+    ITEM_MIMIKIUM_Z = 383, // done
     ITEM_KOMMONIUM_Z = 384,
     ITEM_TAPUNIUM_Z = 385,
     ITEM_SOLGANIUM_Z = 386,
     ITEM_LUNALIUM_Z = 387,
     ITEM_MARSHADIUM_Z = 388,
     ITEM_ALORAICHIUM_Z = 389,
-    ITEM_PIKASHUNIUM_Z = 390,
+    ITEM_PIKASHUNIUM_Z = 390, // done
     ITEM_ULTRANECROZIUM_Z = 391,
 
     // Species-specific Held Items
@@ -605,7 +605,7 @@ enum __attribute__((packed)) Item
     ITEM_LIGHT_CLAY = 478,
     ITEM_LIFE_ORB = 479,
     ITEM_POWER_HERB = 480,
-    ITEM_FOCUS_SASH = 481,
+    ITEM_FOCUS_SASH = 481, // item
     ITEM_ZOOM_LENS = 482,
     ITEM_METRONOME = 483,
     ITEM_IRON_BALL = 484,
@@ -623,7 +623,7 @@ enum __attribute__((packed)) Item
     ITEM_ROCKY_HELMET = 496,
     ITEM_AIR_BALLOON = 497,
     ITEM_RED_CARD = 498,
-    ITEM_RING_TARGET = 499,
+    ITEM_RING_TARGET = 499, // item
     ITEM_BINDING_BAND = 500,
     ITEM_EJECT_BUTTON = 501,
     ITEM_WEAKNESS_POLICY = 502,
@@ -677,7 +677,7 @@ enum __attribute__((packed)) Item
     ITEM_DURIN_BERRY = 547,
     ITEM_BELUE_BERRY = 548,
     ITEM_CHILAN_BERRY = 549,
-    ITEM_OCCA_BERRY = 550,
+    ITEM_OCCA_BERRY = 550, // from here
     ITEM_PASSHO_BERRY = 551,
     ITEM_WACAN_BERRY = 552,
     ITEM_RINDO_BERRY = 553,
