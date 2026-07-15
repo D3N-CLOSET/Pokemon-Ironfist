@@ -45,9 +45,10 @@ Route118_Gauntlet_Text_ItsAsh:
 	.string "It's supposed to help you in\n"
 	.string "your training.\p"
 	.string "Actually, we were forced by the Dev.\p"
-	.string "We spend 6 hrs per day in this game,\p"
+	.string "We spend 6 hrs per day in this game,\n"
 	.string "to keep these facilities running.\p"
-	.string "Don't worry about us though, salary is good.$"
+	.string "Don't worry about us though,\n"
+	.string "salary is good. def not min wage.$"
 
 Route118_Gauntlet_Text_ItsMay:
 	.string "Oh man...\p"

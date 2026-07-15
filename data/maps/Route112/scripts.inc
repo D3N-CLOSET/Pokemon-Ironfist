@@ -148,3 +148,11 @@ Route112_Text_VolcanicTunnelSign:
 	.string "VOLCANIC TUNNEL\n"
 	.string "“Linking VERDANTURF and LAVARIDGE”$"
 
+EventScript_SorryItsNotAccessible::
+	faceplayer
+	msgbox Text_SorryItsNotAccessible, MSGBOX_NPC
+	end
+
+Text_SorryItsNotAccessible::
+	.string "Sorry, but the tunnel works\n"
+	.string "have not finished yet.$"
