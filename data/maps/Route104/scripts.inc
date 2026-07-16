@@ -825,6 +825,7 @@ Route104_Movement_PlayerBoardBoat:
 
 Route104_Movement_PlayerExitBoat:
 	walk_down
+	walk_left
 	step_end
 
 Route104_Movement_PlayerMoveForBriney:
@@ -840,6 +841,7 @@ Route104_Movement_BrineyBoardBoat:
 
 Route104_Movement_BrineyExitBoat:
 	walk_down
+	walk_right
 	walk_in_place_faster_left
 	step_end
 

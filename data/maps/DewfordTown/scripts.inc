@@ -557,7 +557,6 @@ DewfordTown_Movement_SailToSlateport:
 	walk_fast_up
 	walk_fast_up
 	walk_fast_up
-	walk_faster_right
 	step_end
 
 DewfordTown_Movement_PlayerBoardBoat:
