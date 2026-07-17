@@ -16,5 +16,5 @@ SageVill_PokemonCenter_1F_EventScript_Leaf::
 
 SageVill_PokemonCenter_1F_Text_Leaf:
 	.string "Man, it's so cold in here.\p"
-	.string "I should've brought a sweater myself.\p"
+	.string "I should've brought a sweater myself.\n"
 	.string "Come, on, when will Red come here?$"

@@ -35,7 +35,7 @@ Gauntlet_Text_IntroD3N::
 Gauntlet_Text_IntroNeigh::
     .string "Hello.\n"
     .string "The name's Neighbor,\p"
-    .string "I am an Elite Trainer.\p"
+    .string "I am an Elite Trainer.\n"
     .string "Show me what'chu got, k?.$"
 
 Gauntlet_Text_PostBattle::

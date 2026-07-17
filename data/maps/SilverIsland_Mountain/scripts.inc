@@ -6,4 +6,4 @@ SilverMt_EventScript_Sign::
     end
 
 SilverMt_Text_Sign:
-    .string "Tropical Mountain$"
+    .string "Mt Orenburg$"

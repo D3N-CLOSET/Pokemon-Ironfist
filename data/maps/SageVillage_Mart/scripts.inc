@@ -52,10 +52,10 @@ SageVill_Mart_Text_FirstBoy:
 	.string "Here take these.$"
 
 SageVill_Mart_Text_Boy:
-	.string "Sage Island trades regularly with other\p"
+	.string "Sage Island trades regularly with other\n"
 	.string "regions.\p"
-	.string "That's why we have so many unique\p"
-	.string "items here.$"
+	.string "That's why we have so many\n"
+	.string "unique items here.$"
 
 SageVill_Mart_EventScript_Cook::
 	faceplayer
@@ -86,17 +86,20 @@ SageVill_Mart_EventScript_CanCook::
 	end
 
 SageVill_Mart_Text_CookNext:
-	.string "That Gauntlet building came out of nowhere\p"
-	.string "over the spot of my lovely shop!\p"
-	.string "And the village folks don't even remember my shop\n"
-	.string "anymore\p!"
+	.string "That Gauntlet building came out\n"
+	.string "of nowhereover the spot of my\l"
+	.string " lovely shop!\p"
+	.string "And the village folks don't even remember\n"
+	.string "my shop anymore\p!"
 	.string "What is this blasphemy!$"
 
 SageVill_Mart_Text_Cook:
-	.string "That Gauntlet building came out of nowhere\p"
-	.string "over the spot of my lovely shop!\p"
-	.string "And the village folks don't even remember my shop\n"
-	.string "anymore\p!"
+	.string "That Gauntlet building came out\n"
+	.string "of nowhereover the spot of my\l"
+	.string " lovely shop!\p"
+	.string "And the village folks don't even remember\n"
+	.string "my shop anymore\p!"
 	.string "What is this blasphemy!\p"
-	.string "I am so mad that I want to give you these fossils!$"
+	.string "I am so mad that I want to give you\n"
+	.string "these fossils!$"
 
