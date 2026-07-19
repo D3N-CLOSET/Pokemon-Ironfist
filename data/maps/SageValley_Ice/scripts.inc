@@ -63,11 +63,11 @@ SageValley_Ice_EventScript_Woman::
 
 SageValley_Ice_Text_Woman:
 	.string "Maxie is my uncle.\p"
-	.string "Yes, this is our home.\n"
+	.string "Yes, this is our home.\p"
 	.string "He went off to visit Archie in\n"
 	.string "Silver Island.\p"
-	.string "I love how they went from enemies to\n"
-	.string "friends.$"
+	.string "I love how they went from enemies\n"
+	.string "to friends.$"
 
 SageValley_Ice_EventScript_VillSign::
 	msgbox SageValley_Ice_Text_VillSign, MSGBOX_SIGN

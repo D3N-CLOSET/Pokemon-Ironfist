@@ -54,7 +54,15 @@
       "flag": "FLAG_PICKED_FOCUSSASH"
     }
   ],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_MOUNTAIN_PASS",
+      "dest_warp_id": "1"
+    }
+  ],
   "coord_events": [
     {
       "type": "weather",
@@ -129,13 +137,27 @@
     {
       "type": "weather",
       "x": 13,
-      "y": 6,
+      "y": 8,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SNOW"
     },
     {
       "type": "weather",
       "x": 13,
+      "y": 7,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SNOW"
+    },
+    {
+      "type": "weather",
+      "x": 12,
       "y": 7,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SNOW"

@@ -3,7 +3,6 @@ SilverIsland_Depths_MapScripts::
 
 Red_EventScript_Red::
     lock
-    goto_if_set FLAG_DEFEATED_RED, Red_EventScript_RedRematch
     trainerbattle_single TRAINER_RED, Red_Text_Intro, Red_Text_Defeat, Red_EventScript_SetRedFlag
     release
     end

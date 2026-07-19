@@ -54,7 +54,7 @@ Route118_Gauntlet_Text_ItsMay:
 	.string "Oh man...\p"
 	.string "I met Ash after such a long time.\p"
 	.string "We last met during Wallace Cup.\p"
-	.string "Hey, don't tell Ash that..\p"
+	.string "Hey, don't tell Ash that..\n"
 	.string "that I have a crush on him.\p"
 	.string "Oh wait why am I even telling you that!\p"
 	.string "Go enjoy battling!$"
