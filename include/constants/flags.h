@@ -1241,10 +1241,10 @@
 #define FLAG_HIDE_MARTHA_FARKER_TWO                                 0x49A // Unused
 #define FLAG_PICKED_STONE_EDGE                                      0x49B
 #define FLAG_PICKED_UTURN                                           0x49C
-#define FLAG_UNUSED_0x49D                                           0x49D // Unused Flag
-#define FLAG_UNUSED_0x49E                                           0x49E // Unused Flag
-#define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
+#define FLAG_FORCE_SHINY                                            0x49D
+#define FLAG_FORCE_SHINY_NOT                                        0x49E
+#define FLAG_TUTOR_MOVE                                             0x49F
+#define FLAG_NO_WILD                                                0x4A0
 #define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
 #define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
 #define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
