@@ -3,7 +3,7 @@ SageIsland_Gate_MapScripts::
 
 SageIsland_Gate_EventScrpt_Expert::
 	lock
-	msgbox SageIsland_Gate_Text_Whisper, MSGBOX_NPC
+	msgbox SageIsland_Gate_Text_Whisper, MSGBOX_DEFAULT
 	release
 	end
 

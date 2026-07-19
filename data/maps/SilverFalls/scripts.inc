@@ -9,7 +9,9 @@ SilverFalls_Text_Sign:
     .string "Silver Falls$"
 
 SilverFalls_EventScript_Drake::
-    msgbox SilverFalls_Text_Drake, MSGBOX_NPC
+    lock
+    msgbox SilverFalls_Text_Drake, MSGBOX_DEFAULT
+    release
     end
 
 SilverFalls_EventScript_Sidney::

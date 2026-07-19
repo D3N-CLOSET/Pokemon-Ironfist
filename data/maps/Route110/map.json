@@ -504,8 +504,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
-      "x": 19,
-      "y": 96,
+      "x": 31,
+      "y": 72,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_RUN_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -517,8 +517,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
-      "x": 21,
-      "y": 96,
+      "x": 34,
+      "y": 72,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_RUN_IN_PLACE_LEFT",
       "movement_range_x": 0,
