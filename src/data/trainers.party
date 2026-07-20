@@ -17327,6 +17327,9 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 
 
+
+
+
 === TRAINER_SYRUS ===
 Name: SYRUS
 Class: Cooltrainer
@@ -17372,6 +17375,54 @@ Level: 19
 IVs: 16 HP / 16 Atk / 10 Def / 0 SpA / 0 SpD / 9 Spe
 
 Murkrow
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+
+=== TRAINER_HOLMES ===
+Name: HOLMES
+Class: Dictator
+Pic: Dragon Tamer
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Basic Trainer
+
+Lucario
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Throh @ Oran Berry
+Level: 19
+IVs: 16 HP / 16 Atk / 10 Def / 0 SpA / 0 SpD / 9 Spe
+
+Bisharp @ Sitrus Berry
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+
+=== TRAINER_LILY_HARP ===
+Name: LILY HARP
+Class: Cutetrainer
+Pic: Lass
+Gender: Female
+Music: Female
+Items: Hyper Potion
+Double Battle: Yes
+AI: Basic Trainer
+
+Rowlet
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Vaporeon @ Oran Berry
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sylveon @ Oran Berry
+Level: 19
+IVs: 16 HP / 16 Atk / 10 Def / 0 SpA / 0 SpD / 9 Spe
+
+Cutiefly
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
@@ -17423,6 +17474,58 @@ Bayleef
 Level: 28
 IVs: 0 HP / 20 Atk / 11 Def / 0 SpA / 0 SpD / 10 Spe
 
+=== TRAINER_DICKSON ===
+Name: DICKSON
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Basic Trainer
+
+Dratini
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+
+Dragonair @ Sitrus Berry
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+
+Dragonite @ Sitrus Berry
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 19 SpA / 11 SpD / 6 Spe
+
+=== TRAINER_HUNT ===
+Name: HUNT
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: Yes
+AI: Basic Trainer
+
+Dratini @ Sitrus Berry
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 19 SpA / 11 SpD / 6 Spe
+
+Rockruff
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+
+Lycanroc @ Oran Berry
+Level: 28
+IVs: 0 HP / 20 Atk / 11 Def / 0 SpA / 0 SpD / 10 Spe
+
+Dragonite
+Level: 28
+IVs: 0 HP / 20 Atk / 11 Def / 0 SpA / 0 SpD / 10 Spe
+
+
+
+
+
 === TRAINER_BORRIS ===
 Name: BORRIS
 Class: Cooltrainer
@@ -17468,6 +17571,54 @@ Level: 39
 IVs: 9 HP / 5 Atk / 5 Def / 19 SpA / 0 SpD / 13 Spe
 
 Lopunny
+Level: 40
+IVs: 9 HP / 5 Atk / 5 Def / 19 SpA / 0 SpD / 13 Spe
+
+=== TRAINER_DHONI ===
+Name: DHONI
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Basic Trainer
+
+Rotom @ Sitrus Berry
+Level: 40
+IVs: 0 HP / 12 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+
+Dhelmise
+Level: 40
+IVs: 17 HP / 9 Atk / 25 Def / 0 SpA / 14 SpD / 0 Spe
+
+Meloetta @ White Herb
+Level: 40
+IVs: 12 HP / 25 Atk / 5 Def / 1 SpA / 0 SpD / 21 Spe
+
+=== TRAINER_NIGHT ===
+Name: NIGHT
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: Yes
+AI: Basic Trainer
+
+Lunatone @ Oran Berry
+Level: 39
+IVs: 17 HP / 9 Atk / 25 Def / 0 SpA / 14 SpD / 0 Spe
+
+Meowstic
+Level: 40
+IVs: 12 HP / 25 Atk / 5 Def / 1 SpA / 0 SpD / 21 Spe
+
+Espeon @ Sitrus Berry
+Level: 39
+IVs: 9 HP / 5 Atk / 5 Def / 19 SpA / 0 SpD / 13 Spe
+
+Exeggutor
 Level: 40
 IVs: 9 HP / 5 Atk / 5 Def / 19 SpA / 0 SpD / 13 Spe
 
@@ -17519,6 +17670,58 @@ Snorlax @ Oran Berry
 Level: 48
 IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 19 SpD / 0 Spe
 
+=== TRAINER_HILDA ===
+Name: HILDA
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Basic Trainer
+
+Charizard @ Muscle Band
+Level: 50
+IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
+
+Venusaur
+Level: 50
+IVs: 0 HP / 22 Atk / 15 Def / 11 SpA / 6 SpD / 20 Spe
+
+Blastoise
+Level: 50
+IVs: 22 HP / 7 Atk / 25 Def / 9 SpA / 21 SpD / 3 Spe
+
+=== TRAINER_ROGAN ===
+Name: ROGAN
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: Yes
+AI: Basic Trainer
+
+Charizard @ Leftovers
+Level: 48
+IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
+
+Venusaur
+Level: 48
+IVs: 0 HP / 22 Atk / 15 Def / 11 SpA / 6 SpD / 20 Spe
+
+Blastoise
+Level: 48
+IVs: 22 HP / 7 Atk / 25 Def / 9 SpA / 21 SpD / 3 Spe
+
+Aggron @ Oran Berry
+Level: 48
+IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 19 SpD / 0 Spe
+
+
+
+
+
 === TRAINER_MINITOON ===
 Name: MINITOON
 Class: Cooltrainer
@@ -17564,6 +17767,54 @@ Level: 59
 IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 19 SpD / 0 Spe
 
 Bewear
+Level: 59
+IVs: 14 HP / 29 Atk / 9 Def / 0 SpA / 11 SpD / 12 Spe
+
+=== TRAINER_LIGMA ===
+Name: LIGMA
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Basic Trainer
+
+Ditto
+Level: 60
+IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 19 SpD / 0 Spe
+
+Amoonguss @ Leftovers
+Level: 60
+IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 31 SpD / 6 Spe
+
+Infernape @ Muscle Band
+Level: 60
+IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
+
+=== TRAINER_BALLS ===
+Name: BALLS
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Hyper Potion
+Double Battle: Yes
+AI: Basic Trainer
+
+Ditto
+Level: 58
+IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 31 SpD / 6 Spe
+
+Noctowl
+Level: 58
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Empoleon
+Level: 59
+IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 19 SpD / 0 Spe
+
+Primarina
 Level: 59
 IVs: 14 HP / 29 Atk / 9 Def / 0 SpA / 11 SpD / 12 Spe
 
@@ -17614,6 +17865,57 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 Umbreon @ Black Glasses
 Level: 66
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+=== TRAINER_SHUCKS ===
+Name: SHUCKS
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Basic Trainer
+
+Gyarados @ Sitrus Berry
+Level: 67
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Tropius
+Level: 67
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Gliscor
+Level: 67
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+=== TRAINER_RIPETHAN ===
+Name: RIPETHAN
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: Yes
+AI: Basic Trainer
+
+Greninja @ Waterium Z
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Delphox
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Chesnaught @ Berry Juice
+Level: 66
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+Serperior @ Oran Berry
+Level: 66
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+
+
 
 === TRAINER_D3N_AR ===
 Name: D3N_AR
@@ -17689,3 +17991,62 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 Klefki @ White Herb
 Level: 98
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+
+=== TRAINER_HERO ===
+Name: HERO
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Weedle
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Caterpie
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Beedrill
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Butterfree
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SANS ===
+Name: SANS
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Anorith
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Scatterbug
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SONIC ===
+Name: SONIC
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Diglett
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kakuna
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe

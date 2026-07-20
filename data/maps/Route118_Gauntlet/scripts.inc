@@ -1,6 +1,17 @@
 Route118_Gauntlet_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Mauville_Gauntlet_OnTransition
 	.byte 0
 
+Mauville_Gauntlet_OnTransition:
+	cleartrainerflag TRAINER_SYRUS
+	cleartrainerflag TRAINER_COBALT
+	cleartrainerflag TRAINER_HOLMES
+	cleartrainerflag TRAINER_LILY_HARP
+	cleartrainerflag TRAINER_JUSTINIAN
+	cleartrainerflag TRAINER_LERA
+	cleartrainerflag TRAINER_DICKSON
+	cleartrainerflag TRAINER_HUNT
+	end
 
 Route118_Gauntlet_EventScript_Ash::
 	faceplayer
@@ -25,6 +36,18 @@ Route118_Gauntlet_EventScript_Cobalt::
 	msgbox Gauntlet_Text_PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route118_Gauntlet_EventScript_Hitler::
+	faceplayer
+	trainerbattle_single TRAINER_HOLMES, Gauntlet_Text_IntroHitler, Gauntlet_Text_Defeat_1
+	msgbox Gauntlet_Text_PostBattleDih, MSGBOX_AUTOCLOSE
+	end
+
+Route118_Gauntlet_EventScript_LilyHarp::
+	faceplayer
+	trainerbattle_double TRAINER_LILY_HARP, Gauntlet_Text_Intro, Gauntlet_Text_Defeat_2, Gauntlet_Text_NotEnoughMons
+	msgbox Gauntlet_Text_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route118_Gauntlet_EventScript_Justinian::
 	faceplayer
 	trainerbattle_single TRAINER_JUSTINIAN, Gauntlet_Text_Intro, Gauntlet_Text_Defeat_3
@@ -36,6 +59,19 @@ Route118_Gauntlet_EventScript_Lera::
 	trainerbattle_double TRAINER_LERA, Gauntlet_Text_Intro, Gauntlet_Text_Defeat_5, Gauntlet_Text_NotEnoughMons
 	msgbox Gauntlet_Text_PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route118_Gauntlet_EventScript_Dickson::
+	faceplayer
+	trainerbattle_single TRAINER_HUNT, Gauntlet_Text_Intro, Gauntlet_Text_Defeat_3
+	msgbox Gauntlet_Text_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route118_Gauntlet_EventScript_Hunt::
+	faceplayer
+	trainerbattle_double TRAINER_HUNT, Gauntlet_Text_Intro, Gauntlet_Text_Defeat_5, Gauntlet_Text_NotEnoughMons
+	msgbox Gauntlet_Text_PostBattle, MSGBOX_AUTOCLOSE
+	end
+
 
 
 Route118_Gauntlet_Text_ItsAsh:

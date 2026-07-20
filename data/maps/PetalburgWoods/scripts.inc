@@ -274,6 +274,21 @@ PetalburgWoods_EventScript_Lyle::
 	msgbox PetalburgWoods_Text_ImOutOfPokeBalls, MSGBOX_AUTOCLOSE
 	end
 
+PetalburgWoods_EventScript_Hero::
+	trainerbattle_single TRAINER_HERO, PetalburgWoods_Text_HeroIntro, PetalburgWoods_Text_ICouldntWinHero
+	msgbox PetalburgWoods_Text_ImOutOfPokeBallsHero, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_Sans::
+	trainerbattle_single TRAINER_SANS, PetalburgWoods_Text_SansIntro, PetalburgWoods_Text_ICouldntWinSans
+	msgbox PetalburgWoods_Text_ImOutOfPokeBalls, MSGBOX_AUTOCLOSE
+	end
+
+PetalburgWoods_EventScript_Sonic::
+	trainerbattle_single TRAINER_SONIC, PetalburgWoods_Text_SonicIntro, PetalburgWoods_Text_ICouldntWinSonic
+	msgbox PetalburgWoods_Text_ImOutOfPokeBalls, MSGBOX_AUTOCLOSE
+	end
+
 PetalburgWoods_EventScript_James::
 	trainerbattle_single TRAINER_JAMES_1, PetalburgWoods_Text_InstantlyPopularWithBugPokemon, PetalburgWoods_Text_CantBePopularIfILose, PetalburgWoods_EventScript_TryRegisterJames
 	specialvar VAR_RESULT, ShouldTryRematchBattle
@@ -471,3 +486,35 @@ PetalburgWoods_Text_TrainerTipsPP:
 	.string "If a POKéMON runs out of PP, it must be\n"
 	.string "taken to a POKéMON CENTER.$"
 
+PetalburgWoods_Text_HeroIntro:
+	.string "Uhh, Hi....\p"
+	.string "......battle?$"
+
+PetalburgWoods_Text_SansIntro:
+	.string "Hi, I am a fan of SANS from UNDERTALE!\p"
+	.string "I love bug POKéMONS, do you?$"
+
+PetalburgWoods_Text_SonicIntro:
+	.string "Go my diggie!$"
+
+PetalburgWoods_Text_ICouldntWinSonic:
+	.string "NO, DIGGIE!$"
+
+PetalburgWoods_Text_ICouldntWinSans:
+	.string "I have all these SLAVES,\n"
+	.string "but I couldn't win…$"
+
+PetalburgWoods_Text_ICouldntWinHero:
+	.string "............\n"
+	.string "th- thanks...$"
+
+PetalburgWoods_Text_ImOutOfPokeBallsSans:
+	.string "What?$"
+
+PetalburgWoods_Text_ImOutOfPokeBallsSonic:
+	.string "Diggie js needs sm rest,\n"
+	.string "Then I'll CRUSH you.$"
+
+PetalburgWoods_Text_ImOutOfPokeBallsHero:
+	.string "I love my POKéMONS, but\n"
+	.string "I guess they were not strong enough..$"

@@ -9608,7 +9608,7 @@
       "id": "LAYOUT_ROUTE118_GAUNTLET",
       "name": "Route118_Gauntlet_Layout",
       "width": 16,
-      "height": 23,
+      "height": 39,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/Route118_Gauntlet/border.bin",

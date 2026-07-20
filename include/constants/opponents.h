@@ -874,13 +874,28 @@
 #define TRAINER_FORREST                     867
 #define TRAINER_D3N_AR                      868
 #define TRAINER_NEIGHBOR                    869
+#define TRAINER_HOLMES                      870
+#define TRAINER_LILY_HARP                   871
+#define TRAINER_DICKSON                     872
+#define TRAINER_HUNT                        873
+#define TRAINER_DHONI                       874
+#define TRAINER_NIGHT                       875
+#define TRAINER_HILDA                       876
+#define TRAINER_ROGAN                       877
+#define TRAINER_LIGMA                       878
+#define TRAINER_BALLS                       879
+#define TRAINER_SHUCKS                      880
+#define TRAINER_RIPETHAN                    881
+#define TRAINER_SANS                        882
+#define TRAINER_SONIC                       883
+#define TRAINER_HERO                        884
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     871
-#define MAX_TRAINERS_COUNT_EMERALD 875
+#define TRAINERS_COUNT_EMERALD     885
+#define MAX_TRAINERS_COUNT_EMERALD 900
 
 #if IS_FRLG
 #define TRAINERS_COUNT                      TRAINERS_COUNT_FRLG
