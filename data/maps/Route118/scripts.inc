@@ -300,7 +300,7 @@ Route118_Text_RouteSign119:
 
 Route118_EventScript_MarthaFarker::
     faceplayer
-	msgbox Route118_Text_MarthaIntro, MSGBOX_DEFAULT
+	msgbox Route118_Text_MarthaIntro, MSGBOX_NPC
     end
 
 Route118_Text_MarthaIntro::

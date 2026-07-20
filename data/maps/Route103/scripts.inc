@@ -357,7 +357,7 @@ Route103_Text_RouteSign:
 
 Route103_EventScript_MarthaFarker::
     faceplayer
-	msgbox Route103_Text_MarthaIntro, MSGBOX_DEFAULT
+	msgbox Route103_Text_MarthaIntro, MSGBOX_NPC
     end
 
 Route103_Text_MarthaIntro::
