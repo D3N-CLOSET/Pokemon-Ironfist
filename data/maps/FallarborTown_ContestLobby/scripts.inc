@@ -86,22 +86,20 @@ FallarborTown_ContestLobby_EventScript_Lass::
 FallarborTown_ContestLobby_EventScript_ContestWinner1::
 	lockall
 	fadescreen FADE_TO_BLACK
-	showcontestpainting CONTEST_WINNER_HALL_1
+	showcontestpainting CONTEST_WINNER_HALL_3
 	releaseall
 	end
 
 FallarborTown_ContestLobby_EventScript_ContestWinner2::
 	lockall
 	fadescreen FADE_TO_BLACK
-	showcontestpainting CONTEST_WINNER_HALL_2
+	showcontestpainting CONTEST_WINNER_HALL_4
 	releaseall
 	end
 
 
 FallarborTown_ContestLobby_EventScript_SetContestType::
 	switch VAR_CONTEST_RANK
-	case CONTEST_RANK_NORMAL, FallarborTown_ContestLobby_EventScript_SetNormalContestType
-	case CONTEST_RANK_SUPER, FallarborTown_ContestLobby_EventScript_SetSuperContestType
 	case CONTEST_RANK_HYPER, FallarborTown_ContestLobby_EventScript_SetHyperContestType
 	return
 

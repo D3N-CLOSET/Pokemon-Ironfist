@@ -2,7 +2,7 @@
   "id": "MAP_SAGE_MOUNTAINS",
   "name": "SageMountains",
   "layout": "LAYOUT_SAGE_MOUNTAINS",
-  "music": "MUS_RG_CELADON",
+  "music": "MUS_RG_LAVENDER",
   "region_map_section": "MAPSEC_SAGE_MOUNTAINS",
   "requires_flash": false,
   "weather": "WEATHER_SNOW",

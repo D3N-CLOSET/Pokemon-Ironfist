@@ -3182,7 +3182,7 @@
             "encounter_rate": 20,
             "mons": [
               {
-                "min_level": 23,
+                "min_level": 21,
                 "max_level": 23,
                 "species": "SPECIES_SWABLU"
               },
@@ -3192,23 +3192,23 @@
                 "species": "SPECIES_TAILLOW"
               },
               {
-                "min_level": 25,
+                "min_level": 24,
                 "max_level": 25,
                 "species": "SPECIES_SWABLU"
               },
               {
-                "min_level": 24,
+                "min_level": 22,
                 "max_level": 24,
                 "species": "SPECIES_PICHU"
               },
               {
-                "min_level": 25,
+                "min_level": 23,
                 "max_level": 25,
                 "species": "SPECIES_SUNKERN"
               },
               {
                 "min_level": 25,
-                "max_level": 25,
+                "max_level": 26,
                 "species": "SPECIES_SWELLOW"
               },
               {
@@ -3222,14 +3222,14 @@
                 "species": "SPECIES_JIGGLYPUFF"
               },
               {
-                "min_level": 24,
+                "min_level": 23,
                 "max_level": 24,
                 "species": "SPECIES_WINGULL"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_HOPPIP"
               },
               {
                 "min_level": 26,
@@ -3237,9 +3237,9 @@
                 "species": "SPECIES_HOPPIP"
               },
               {
-                "min_level": 25,
-                "max_level": 26,
-                "species": "SPECIES_CHIKORITA"
+                "min_level": 30,
+                "max_level": 30,
+                "species": "SPECIES_CELEBI"
               }
             ]
           },
@@ -3604,9 +3604,9 @@
                 "species": "SPECIES_ABSOL"
               },
               {
-                "min_level": 26,
+                "min_level": 25,
                 "max_level": 27,
-                "species": "SPECIES_CELEBI"
+                "species": "SPECIES_FLETCHLING"
               },
               {
                 "min_level": 26,
@@ -38813,7 +38813,7 @@
               {
                 "min_level": 55,
                 "max_level": 70,
-                "species": "SPECIES_MILOTIC"
+                "species": "SPECIES_CELEBI"
               }
             ]
           }

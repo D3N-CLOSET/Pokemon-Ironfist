@@ -137,5 +137,5 @@ VerdanturfTown_EventScript_ContestSign::
 
 VerdanturfTown_Text_ContestSign:
 	.string "VERDANTURF TOWN CONTEST HALL\p"
-	.string "“Show off the skills of your POKéMONs!”$"
+	.string "“Represent the beauty of Hoenn!”$"
 

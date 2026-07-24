@@ -324,10 +324,6 @@ LilycoveCity_ContestLobby_EventScript_ContestReceptionist::
 
 LilycoveCity_ContestLobby_EventScript_SetContestType::
 	switch VAR_CONTEST_RANK
-	setvar VAR_CONTEST_LOCATION, 4
-	case CONTEST_RANK_NORMAL, LilycoveCity_ContestLobby_EventScript_SetNormalContestType
-	case CONTEST_RANK_SUPER, LilycoveCity_ContestLobby_EventScript_SetSuperContestType
-	case CONTEST_RANK_HYPER, LilycoveCity_ContestLobby_EventScript_SetHyperContestType
 	case CONTEST_RANK_MASTER, LilycoveCity_ContestLobby_EventScript_SetMasterContestType
 	return
 
@@ -364,6 +360,7 @@ LilycoveCity_ContestLobby_EventScript_SetDebug::
 
 LilycoveCity_ContestLobby_EventScript_WarpToContestHall::
 	setflag FLAG_ENTERED_CONTEST
+	setvar VAR_CONTEST_LOCATION, 4
 	switch VAR_CONTEST_CATEGORY
 	case CONTEST_CATEGORY_COOL, LilycoveCity_ContestLobby_EventScript_WarpToCoolContestHall
 	case CONTEST_CATEGORY_BEAUTY, LilycoveCity_ContestLobby_EventScript_WarpToBeautyContestHall

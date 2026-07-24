@@ -55,7 +55,7 @@ SlateportCity_ContestLobby_EventScript_WarpToToughContestHall::
 
 SlateportCity_ContestLobby_EventScript_SetContestType::
 	switch VAR_CONTEST_RANK
-	case CONTEST_RANK_SUPER, SlateportCity_ContestLobby_EventScript_SetSuperContestType
+	case CONTEST_RANK_NORMAL, SlateportCity_ContestLobby_EventScript_SetNormalContestType
 	return
 
 SlateportCity_ContestLobby_EventScript_SetNormalContestType::
@@ -138,7 +138,7 @@ SlateportCity_ContestLobby_Movement_six:: @ 81554DC
 	step_end
 
 SlateportCity_ContestLobby_EventScript_BerryBlender1:: @ 81B761E
-	goto BerryBlender_EventScript_BerryBlender1
+	goto BerryBlender_EventScript_BerryBlender2
 	end
 
 
@@ -221,4 +221,6 @@ SlateportCity_ContestLobby_Text_ContestWinnerPostersOnWall:: @ 817CAEC
 	.string "POKéMON and both your names.$"
 
 SlateportCity_ContestLobby_Text_Boy::
-	.string "This is placeholder.$"
+	.string "I fucking hate this game./p"
+	.string "Why did he have to make it more\n"
+	.string "difficult?$"

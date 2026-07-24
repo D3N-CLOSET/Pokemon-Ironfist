@@ -4653,7 +4653,7 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Purple
 
-Mightyena
+Mightyena @ Darkinium Z
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Roar
@@ -4728,7 +4728,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Night Shade
 - Feint Attack
 
-Gengar
+Gengar @ Ghostium Z
 Level: 49
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
@@ -4742,7 +4742,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ominous Wind
 - Air Cutter
 - Disable
-- Protect
+- Minimize
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -4769,7 +4769,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Calm Mind
 - Lovely Kiss
-- Ice Beam
+- Icy Wind
 
 Froslass
 Level: 53
@@ -4779,11 +4779,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hail
 - Blizzard
 
-Glalie
+Glalie @ Icium Z
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
-- Icy Wind
+- Ice Beam
 - Hail
 - Light Screen
 
@@ -4814,7 +4814,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Surf
 - Body Slam
 
-Dragonite
+Dragonite @ Dragonium Z
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Draco Meteor
@@ -4865,14 +4865,14 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 
 Lileep
-Level: 12
+Level: 10
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Absorb
 - Ingrain
 - Leech Seed
 - Rock Tomb
 
-Nosepass @ Oran Berry
+Nosepass @ Rockium Z
 Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Block
@@ -4898,15 +4898,15 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Seismic Toss
 - Bulk Up
 
-Meditite
-Level: 16
+Meditite @ Sitrus Berry
+Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Focus Punch
 - Light Screen
 - Reflect
 - Bulk Up
 
-Makuhita @ Sitrus Berry
+Makuhita @ Fightinium Z
 Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Arm Thrust
@@ -4932,7 +4932,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Self Destruct
 - Shock Wave
 
-Electrike
+Mareep
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Shock Wave
@@ -4948,7 +4948,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Thunder Wave
 - Sonic Boom
 
-Manectric @ Sitrus Berry
+Manectric @ Electrium Z
 Level: 24
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Quick Attack
@@ -4966,13 +4966,13 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Gym Leader
 
-Quilava
-Level: 24
+Quilava @ Firium Z
+Level: 22
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
 - Take Down
 - Smokescreen
-- Sunny Day
+- Attract
 
 Slugma
 Level: 24
@@ -5024,7 +5024,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Encore
 - Feint Attack
 
-Linoone
+Linoone @ Normalium Z
 Level: 29
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Slash
@@ -5058,7 +5058,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Safeguard
 - Aerial Ace
 
-Staraptor
+Staraptor @ Flyinium Z
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dual Wingbeat
@@ -5108,7 +5108,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Light Screen
 
-Xatu
+Xatu @ Psychium Z
 Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
@@ -5166,7 +5166,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Aurora Beam
 - Water Pulse
 
-Crawdaunt
+Crawdaunt @ Waterium Z
 Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
@@ -6333,7 +6333,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Blizzard
 
-Venusaur
+Venusaur @ Poisonium Z
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
@@ -6349,7 +6349,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Beam
 - Sunny Day
 
-Greninja
+Greninja @ Sitrus Berry
 Level: 56
 Ability: Protean
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -14574,7 +14574,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 - Rock Tomb
 
-Onix
+Onix @ Rockium Z
 Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Tail
@@ -14624,7 +14624,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Rock Slide
 
-Onix
+Onix @ Rockium Z
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Tail
@@ -14674,7 +14674,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Rock Slide
 
-Onix
+Onix @ Rockium Z
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Tail
@@ -14732,7 +14732,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Rock Slide
 
-Steelix
+Steelix @ Rockium Z
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Tail
@@ -14774,7 +14774,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Focus Punch
 
-Hitmontop
+Hitmontop @ Fightinium Z
 Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pursuit
@@ -14808,7 +14808,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Punch
 - Bulk Up
 
-Medicham
+Medicham @ Medichamite
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -14816,7 +14816,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Focus Punch
 
-Hitmontop
+Hitmontop @ Fightinium Z
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pursuit
@@ -14858,7 +14858,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Punch
 - Bulk Up
 
-Medicham
+Medicham @ Medichamite
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Punch
@@ -14866,7 +14866,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Psychic
 
-Hitmontop
+Hitmontop @ Fightinium Z
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pursuit
@@ -14900,7 +14900,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Bulk Up
 
-Hitmonchan
+Hitmonchan @ Fightinium Z
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sky Uppercut
@@ -14916,7 +14916,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Punch
 - Bulk Up
 
-Medicham
+Medicham @ Medichamite
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Punch
@@ -14950,7 +14950,7 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Gym Leader
 
-Mareep
+Mareep @ Electrium Z
 Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
@@ -14966,7 +14966,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 - Rain Dance
 
-Magneton @ Sitrus Berry
+Magnezone @ Sitrus Berry
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -14974,7 +14974,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Rain Dance
 
-Manectric @ Sitrus Berry
+Manectric @ Manectite
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
@@ -15000,7 +15000,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 - Shock Wave
 
-Flaaffy
+Flaaffy @ Electrium Z
 Level: 41
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
@@ -15016,7 +15016,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 - Rain Dance
 
-Magneton @ Sitrus Berry
+Magnezone @ Sitrus Berry
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15024,7 +15024,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Rain Dance
 
-Manectric @ Sitrus Berry
+Manectric @ Manectite
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
@@ -15050,7 +15050,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 - Protect
 
-Ampharos
+Ampharos @ Electrium Z
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
@@ -15066,7 +15066,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 - Rain Dance
 
-Magneton @ Sitrus Berry
+Magnezone @ Sitrus Berry
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15074,7 +15074,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Rain Dance
 
-Manectric @ Sitrus Berry
+Manectric @ Manectite
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
@@ -15108,7 +15108,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 - Protect
 
-Ampharos
+Ampharos @ Electrium Z
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
@@ -15124,7 +15124,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 - Rain Dance
 
-Magneton @ Sitrus Berry
+Magnezone @ Sitrus Berry
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15132,7 +15132,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Rain Dance
 
-Manectric @ Sitrus Berry
+Manectric @ Manectite
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
@@ -15158,13 +15158,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Rock Slide
 
-Typhlosion
+Typhlosion @ Firium Z
 Level: 38
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
 - Take Down
 - Smokescreen
-- Sunny Day
+- Flare Blitz
 
 Camerupt @ White Herb
 Level: 38
@@ -15214,7 +15214,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
 - Take Down
 - Smokescreen
-- Sunny Day
+- Flare Blitz
 
 Camerupt @ White Herb
 Level: 43
@@ -15242,7 +15242,7 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Gym Leader
 
-Emboar
+Emboar @ Emboarite
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roar
@@ -15272,7 +15272,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Overheat
 - Take Down
 - Smokescreen
-- Sunny Day
+- Flare Blitz
 
 Camerupt @ White Herb
 Level: 48
@@ -15316,7 +15316,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Rock Slide
 
-Emboar @ Firium Z
+Emboar @ Emboarite
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roar
@@ -15324,13 +15324,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Taunt
 - Sunny Day
 
-Rapidash
+Typhlosion @ Firium Z
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
-- Solar Beam
-- Bounce
+- Overheat
+- Take Down
+- Smokescreen
+- Flare Blitz
 
 Camerupt @ White Herb
 Level: 53
@@ -15373,6 +15373,14 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Double Edge
 - Fire Blast
+
+Linoone @ Normalium Z
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Slash
+- Belly Drum
+- Facade
+- Headbutt
 
 Spinda
 Level: 43
@@ -15424,6 +15432,14 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endure
 - Reversal
 
+Linoone @ Normalium Z
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Slash
+- Belly Drum
+- Facade
+- Headbutt
+
 Spinda
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -15474,6 +15490,14 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endure
 - Reversal
 
+Linoone @ Normalium Z
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Slash
+- Belly Drum
+- Facade
+- Headbutt
+
 Spinda
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -15500,7 +15524,7 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Gym Leader
 
-Slaking @ Sitrus Berry
+Slaking @ Normalium Z
 Level: 57
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Blizzard
@@ -15558,15 +15582,15 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Winona Lead
 
-Dratini @ Sitrus Berry
+Fletchling @ Sitrus Berry
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
+- Fly
+- Razor Wind
 - Protect
-- Ice Beam
+- Swords Dance
 
-Staraptor
+Staraptor @ Flyinium Z
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dual Wingbeat
@@ -15582,7 +15606,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Aerial Ace
 
-Skarmory
+Skarmory @ Skarmorite
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Whirlwind
@@ -15616,7 +15640,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Dream Eater
 
-Staraptor
+Staraptor @ Flyinium Z
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sky Attack
@@ -15624,13 +15648,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Final Gambit
 - U Turn
 
-Dragonair @ Sitrus Berry
+Fletchinder @ Sitrus Berry
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
+- Fly
+- Razor Wind
 - Protect
-- Ice Beam
+- Swords Dance
 
 Pelipper
 Level: 46
@@ -15640,7 +15664,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Aerial Ace
 
-Skarmory
+Skarmory @ Skarmorite
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Whirlwind
@@ -15674,7 +15698,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Dream Eater
 
-Staraptor
+Staraptor @ Flyinium Z
 Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sky Attack
@@ -15698,7 +15722,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Aerial Ace
 
-Skarmory
+Skarmory @ Skarmorite
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Whirlwind
@@ -15732,7 +15756,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Dream Eater
 
-Staraptor
+Staraptor @ Flyinium Z
 Level: 54
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sky Attack
@@ -15748,15 +15772,15 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Aerial Ace
 
-Dragonite @ Sitrus Berry
+Talonflame @ Sitrus Berry
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Thunderbolt
-- Earthquake
-- Ice Beam
+- Fly
+- Razor Wind
+- Protect
+- Swords Dance
 
-Skarmory
+Skarmory @ Skarmorite
 Level: 58
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Whirlwind
@@ -15782,7 +15806,7 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Gym Leader
 
-Slowpoke
+Slowbro @ Slowbronite
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
@@ -15798,7 +15822,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Light Screen
 
-Xatu @ Chesto Berry
+Xatu @ Psychium Z
 Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -15840,7 +15864,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Headbutt
 - Protect
 
-Slowpoke
+Slowbro @ Slowbronite
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
@@ -15856,7 +15880,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Light Screen
 
-Xatu @ Chesto Berry
+Xatu @ Psychium Z
 Level: 54
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -15906,7 +15930,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Light Screen
 
-Slowpoke
+Slowbro @ Slowbronite
 Level: 58
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
@@ -15914,7 +15938,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Calm Mind
 - Protect
 
-Xatu @ Chesto Berry
+Xatu @ Psychium Z
 Level: 59
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -15964,7 +15988,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Light Screen
 
-Slowking
+Slowbro @ Slowbronite
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
@@ -15972,7 +15996,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Calm Mind
 - Protect
 
-Xatu @ Chesto Berry
+Xatu @ Psychium Z
 Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -16006,7 +16030,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Gym Leader
 
-Poliwag
+Politoed
+Ability: Drizzle
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
@@ -16030,7 +16055,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Ice Beam
 
-Crawdaunt @ Chesto Berry
+Crawdaunt @ Waterium Z
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
@@ -16056,7 +16081,8 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Gym Leader
 
-Poliwhirl
+Politoed
+Ability: Drizzle
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
@@ -16080,7 +16106,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Ice Beam
 
-Crawdaunt @ Chesto Berry
+Crawdaunt @ Waterium Z
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
@@ -16122,7 +16148,8 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
 - Fissure
 
-Poliwhirl
+Politoed
+Ability: Drizzle
 Level: 56
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
@@ -16138,7 +16165,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Ice Beam
 
-Crawdaunt @ Chesto Berry
+Crawdaunt @ Waterium Z
 Level: 58
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
@@ -16181,6 +16208,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fissure
 
 Politoed
+Ability: Drizzle
 Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
@@ -16196,7 +16224,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
 - Sheer Cold
 
-Crawdaunt @ Chesto Berry
+Crawdaunt @ Waterium Z
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
@@ -16300,6 +16328,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Metagross @ Sitrus Berry
 Level: 78
+Shiny: Yes
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Psychic
@@ -17254,7 +17283,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Frenzy Plant
 
-Charizard
+Charizard @ Charizardite Y
 Level: 84
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flare Blitz

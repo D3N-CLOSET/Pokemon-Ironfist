@@ -170,7 +170,7 @@
       "id": "LAYOUT_VERDANTURF_TOWN",
       "name": "VerdanturfTown_Layout",
       "width": 26,
-      "height": 24,
+      "height": 28,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_verdanturf",
       "border_filepath": "data/layouts/VerdanturfTown/border.bin",

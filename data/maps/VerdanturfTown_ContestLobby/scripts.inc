@@ -129,18 +129,18 @@ VerdanturfTown_ContestLobby_EventScript_WarpToToughContestHall::
 
 VerdanturfTown_ContestLobby_EventScript_SetContestType::
 	switch VAR_CONTEST_RANK
-	case CONTEST_RANK_NORMAL, VerdanturfTown_ContestLobby_EventScript_SetNormalContestType
+	case CONTEST_RANK_SUPER, VerdanturfTown_ContestLobby_EventScript_SetSuperContestType
 	return
 
-VerdanturfTown_ContestLobby_EventScript_SetNormalContestType::
-	setvar VAR_CONTEST_TYPE, CONTEST_TYPE_NPC_NORMAL
+VerdanturfTown_ContestLobby_EventScript_SetSuperContestType::
+	setvar VAR_CONTEST_TYPE, CONTEST_TYPE_NPC_SUPER
 	return
 
 
 VerdanturfTown_ContestLobby_EventScript_ContestHallWinner::
 	lockall
 	fadescreen FADE_TO_BLACK
-	showcontestpainting CONTEST_WINNER_HALL_1
+	showcontestpainting CONTEST_WINNER_HALL_2
 	releaseall
 	end
 

@@ -107,4 +107,4 @@ FallarborTown_EventScript_ContestSign::
 
 FallarborTown_Text_ContestSign:
 	.string "FALLARBOR TOWN CONTEST HALL\p"
-	.string "“Show off the skills of your POKéMONs!”$"
+	.string "“Peform between the ashes!”$"

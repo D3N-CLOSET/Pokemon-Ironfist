@@ -2,7 +2,7 @@
   "id": "MAP_GLACIAL_PATH",
   "name": "GlacialPath",
   "layout": "LAYOUT_GLACIAL_PATH",
-  "music": "MUS_CAVE_OF_ORIGIN",
+  "music": "MUS_RG_POKE_TOWER",
   "region_map_section": "MAPSEC_GLACIAL_PATH",
   "requires_flash": false,
   "weather": "WEATHER_SNOW",
