@@ -553,10 +553,28 @@ static const struct MenuAction MultichoiceList_LinkLeader[] =
 
 static const struct MenuAction MultichoiceList_ContestRank[] =
 {
-    {COMPOUND_STRING("NORMAL RANK")},
-    {COMPOUND_STRING("SUPER RANK")},
-    {COMPOUND_STRING("HYPER RANK")},
     {COMPOUND_STRING("MASTER RANK")},
+    {gText_Exit},
+};
+
+
+static const struct MenuAction MultichoiceList_ContestRankSlate[] =
+{
+    {COMPOUND_STRING("NORMAL RANK")},
+    {gText_Exit},
+};
+
+
+static const struct MenuAction MultichoiceList_ContestRankVerd[] =
+{
+    {COMPOUND_STRING("SUPER RANK")},
+    {gText_Exit},
+};
+
+
+static const struct MenuAction MultichoiceList_ContestRankFall[] =
+{
+    {COMPOUND_STRING("HYPER RANK")},
     {gText_Exit},
 };
 
@@ -1226,6 +1244,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_WIRELESS_MINIGAME]          = MULTICHOICE(MultichoiceList_WirelessMinigame),
     [MULTI_LINK_LEADER]                = MULTICHOICE(MultichoiceList_LinkLeader),
     [MULTI_CONTEST_RANK]               = MULTICHOICE(MultichoiceList_ContestRank),
+    [MULTI_CONTEST_RANK_SLATEPORT]      = MULTICHOICE(MultichoiceList_ContestRankSlate),
+    [MULTI_CONTEST_RANK_VERDANTURF]     = MULTICHOICE(MultichoiceList_ContestRankVerd),
+    [MULTI_CONTEST_RANK_FALLARBOR]      = MULTICHOICE(MultichoiceList_ContestRankFall),
     [MULTI_FRONTIER_ITEM_CHOOSE]       = MULTICHOICE(MultichoiceList_FrontierItemChoose),
     [MULTI_LINK_CONTEST_INFO]          = MULTICHOICE(MultichoiceList_LinkContestInfo),
     [MULTI_LINK_CONTEST_MODE]          = MULTICHOICE(MultichoiceList_LinkContestMode),

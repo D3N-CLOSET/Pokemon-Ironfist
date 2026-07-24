@@ -5,7 +5,38 @@ LilycoveCity_ContestLobby_EventScript_SpeakToContestReceptionist::
 	goto_if_ne VAR_CONTEST_PRIZE_PICKUP, 0, LilycoveCity_ContestLobby_EventScript_PickUpPrize
 	call_if_set FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_ReceptionWelcome
 	call_if_unset FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_GivePokeblockCase
+	call_if_unset FLAG_RECEIVED_CONTEST_PASS, FallarborTown_ContestLobby_EventScript_GimmeNWordPass
 	goto LilycoveCity_ContestLobby_EventScript_AskEnterContest
+	end
+
+FallarborTown_ContestLobby_EventScript_SpeakToContestReceptionist::
+	lock
+	faceplayer
+	goto_if_ne VAR_CONTEST_PRIZE_PICKUP, 0, LilycoveCity_ContestLobby_EventScript_PickUpPrize
+	call_if_set FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_ReceptionWelcome
+	call_if_unset FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_GivePokeblockCase
+	call_if_unset FLAG_RECEIVED_CONTEST_PASS, FallarborTown_ContestLobby_EventScript_GimmeNWordPass
+	goto FallarborTown_ContestLobby_EventScript_AskEnterContest
+	end
+
+VerdanturfTown_ContestLobby_EventScript_SpeakToContestReceptionist::
+	lock
+	faceplayer
+	goto_if_ne VAR_CONTEST_PRIZE_PICKUP, 0, LilycoveCity_ContestLobby_EventScript_PickUpPrize
+	call_if_set FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_ReceptionWelcome
+	call_if_unset FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_GivePokeblockCase
+	call_if_unset FLAG_RECEIVED_CONTEST_PASS, FallarborTown_ContestLobby_EventScript_GimmeNWordPass
+	goto VerdanturfTown_ContestLobby_EventScript_AskEnterContest
+	end
+
+SlateportCity_ContestLobby_EventScript_SpeakToContestReceptionist::
+	lock
+	faceplayer
+	goto_if_ne VAR_CONTEST_PRIZE_PICKUP, 0, LilycoveCity_ContestLobby_EventScript_PickUpPrize
+	call_if_set FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_ReceptionWelcome
+	call_if_unset FLAG_RECEIVED_POKEBLOCK_CASE, LilycoveCity_ContestLobby_EventScript_GivePokeblockCase
+	call_if_unset FLAG_RECEIVED_CONTEST_PASS, FallarborTown_ContestLobby_EventScript_GimmeNWordPass
+	goto SlateportCity_ContestLobby_EventScript_AskEnterContest
 	end
 
 LilycoveCity_ContestLobby_EventScript_ReceptionWelcome::
@@ -19,6 +50,15 @@ LilycoveCity_ContestLobby_EventScript_GivePokeblockCase::
 	setflag FLAG_RECEIVED_POKEBLOCK_CASE
 	msgbox LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp, MSGBOX_DEFAULT
 	return
+
+FallarborTown_ContestLobby_EventScript_GimmeNWordPass::
+	msgbox FallarborTown_ContestLobby_Text_ReceptionDontHaveNWordPass, MSGBOX_DEFAULT
+	giveitem ITEM_CONTEST_PASS
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_CONTEST_PASS
+	msgbox LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp, MSGBOX_DEFAULT
+	return
+
 
 LilycoveCity_ContestLobby_EventScript_PickUpPrize::
 	msgbox LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize, MSGBOX_DEFAULT
@@ -51,6 +91,39 @@ LilycoveCity_ContestLobby_EventScript_AskEnterContest::
 	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
 	end
 
+FallarborTown_ContestLobby_EventScript_AskEnterContest::
+	message LilycoveCity_ContestLobby_Text_EnterContest1
+	waitmessage
+	multichoice 0, 0, MULTI_ENTERINFO, FALSE
+	switch VAR_RESULT
+	case 0, FallarborTown_ContestLobby_EventScript_ChooseContestRank
+	case 1, FallarborTown_ContestLobby_EventScript_ContestInfo
+	case 2, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	end
+
+VerdanturfTown_ContestLobby_EventScript_AskEnterContest::
+	message LilycoveCity_ContestLobby_Text_EnterContest1
+	waitmessage
+	multichoice 0, 0, MULTI_ENTERINFO, FALSE
+	switch VAR_RESULT
+	case 0, VerdanturfTown_ContestLobby_EventScript_ChooseContestRank
+	case 1, VerdanturfTown_ContestLobby_EventScript_ContestInfo
+	case 2, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	end
+
+SlateportCity_ContestLobby_EventScript_AskEnterContest::
+	message LilycoveCity_ContestLobby_Text_EnterContest1
+	waitmessage
+	multichoice 0, 0, MULTI_ENTERINFO, FALSE
+	switch VAR_RESULT
+	case 0, SlateportCity_ContestLobby_EventScript_ChooseContestRank
+	case 1, SlateportCity_ContestLobby_EventScript_ContestInfo
+	case 2, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	end
+
 LilycoveCity_ContestLobby_EventScript_ContestInfo::
 	message LilycoveCity_ContestLobby_Text_WhichTopic1
 	waitmessage
@@ -61,6 +134,42 @@ LilycoveCity_ContestLobby_EventScript_ContestInfo::
 	case 2, LilycoveCity_ContestLobby_EventScript_ExplainContestRanks
 	case 3, LilycoveCity_ContestLobby_EventScript_AskEnterContest
 	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_AskEnterContest
+	end
+
+FallarborTown_ContestLobby_EventScript_ContestInfo::
+	message LilycoveCity_ContestLobby_Text_WhichTopic1
+	waitmessage
+	multichoice 0, 0, MULTI_CONTEST_INFO, FALSE
+	switch VAR_RESULT
+	case 0, LilycoveCity_ContestLobby_EventScript_ExplainContests
+	case 1, LilycoveCity_ContestLobby_EventScript_ExplainContestTypes
+	case 2, LilycoveCity_ContestLobby_EventScript_ExplainContestRanks
+	case 3, FallarborTown_ContestLobby_EventScript_AskEnterContest
+	case MULTI_B_PRESSED, FallarborTown_ContestLobby_EventScript_AskEnterContest
+	end
+
+VerdanturfTown_ContestLobby_EventScript_ContestInfo::
+	message LilycoveCity_ContestLobby_Text_WhichTopic1
+	waitmessage
+	multichoice 0, 0, MULTI_CONTEST_INFO, FALSE
+	switch VAR_RESULT
+	case 0, LilycoveCity_ContestLobby_EventScript_ExplainContests
+	case 1, LilycoveCity_ContestLobby_EventScript_ExplainContestTypes
+	case 2, LilycoveCity_ContestLobby_EventScript_ExplainContestRanks
+	case 3, VerdanturfTown_ContestLobby_EventScript_AskEnterContest
+	case MULTI_B_PRESSED, VerdanturfTown_ContestLobby_EventScript_AskEnterContest
+	end
+
+SlateportCity_ContestLobby_EventScript_ContestInfo::
+	message LilycoveCity_ContestLobby_Text_WhichTopic1
+	waitmessage
+	multichoice 0, 0, MULTI_CONTEST_INFO, FALSE
+	switch VAR_RESULT
+	case 0, LilycoveCity_ContestLobby_EventScript_ExplainContests
+	case 1, LilycoveCity_ContestLobby_EventScript_ExplainContestTypes
+	case 2, LilycoveCity_ContestLobby_EventScript_ExplainContestRanks
+	case 3, SlateportCity_ContestLobby_EventScript_AskEnterContest
+	case MULTI_B_PRESSED, SlateportCity_ContestLobby_EventScript_AskEnterContest
 	end
 
 LilycoveCity_ContestLobby_EventScript_ExplainContests::
@@ -100,11 +209,38 @@ LilycoveCity_ContestLobby_EventScript_ChooseContestRank::
 	waitmessage
 	multichoice 0, 0, MULTI_CONTEST_RANK, FALSE
 	switch VAR_RESULT
+	case 0, LilycoveCity_ContestLobby_EventScript_EnterMasterRank
+	case 1, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	end
+
+FallarborTown_ContestLobby_EventScript_ChooseContestRank::
+	message LilycoveCity_ContestLobby_Text_EnterWhichRank
+	waitmessage
+	multichoice 0, 0, MULTI_CONTEST_RANK_FALLARBOR, FALSE
+	switch VAR_RESULT
+	case 0, LilycoveCity_ContestLobby_EventScript_EnterHyperRank
+	case 1, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	end
+
+VerdanturfTown_ContestLobby_EventScript_ChooseContestRank::
+	message LilycoveCity_ContestLobby_Text_EnterWhichRank
+	waitmessage
+	multichoice 0, 0, MULTI_CONTEST_RANK_VERDANTURF, FALSE
+	switch VAR_RESULT
+	case 0, LilycoveCity_ContestLobby_EventScript_EnterSuperRank
+	case 1, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	end
+
+SlateportCity_ContestLobby_EventScript_ChooseContestRank::
+	message LilycoveCity_ContestLobby_Text_EnterWhichRank
+	waitmessage
+	multichoice 0, 0, MULTI_CONTEST_RANK_SLATEPORT, FALSE
+	switch VAR_RESULT
 	case 0, LilycoveCity_ContestLobby_EventScript_EnterNormalRank
-	case 1, LilycoveCity_ContestLobby_EventScript_EnterSuperRank
-	case 2, LilycoveCity_ContestLobby_EventScript_EnterHyperRank
-	case 3, LilycoveCity_ContestLobby_EventScript_EnterMasterRank
-	case 4, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
+	case 1, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
 	case MULTI_B_PRESSED, LilycoveCity_ContestLobby_EventScript_CancelEnterContest
 	end
 
@@ -203,6 +339,7 @@ ContestHall_EventScript_DoContest::
 	call ContestHall_EventScript_AudienceLookAround
 	call ContestHall_EventScript_GiveWinnerPrize
 	setvar VAR_CONTEST_HALL_STATE, 2
+	call ContestHall_EventScript_SetExitWarp
 	return
 
 ContestHall_EventScript_GetContestRankStringId::
@@ -1014,6 +1151,7 @@ ContestHall_EventScript_GiveWinnerPrize::
 	delay 30
 	special ShouldReadyContestArtist
 	goto_if_eq VAR_0x8004, TRUE, ContestHall_EventScript_SetReadyForContestArtist
+	call ContestHall_EventScript_SetExitWarp
 	return
 
 ContestHall_EventScript_SkipPrize::
@@ -1361,6 +1499,12 @@ LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
 	.string "POKéMON CONTESTS.\p"
 	.string "Oh? It appears that you don't have\n"
 	.string "a {POKEBLOCK} CASE yet.\p"
+	.string "In that case, we need to provide you\n"
+	.string "with this!$"
+
+FallarborTown_ContestLobby_Text_ReceptionDontHaveNWordPass:
+	.string "Oh? It appears that you don't have\n"
+	.string "a CONTEST PASS too.\p"
 	.string "In that case, we need to provide you\n"
 	.string "with this!$"
 

@@ -137,6 +137,7 @@ gStdScripts_End::
 	.include "data/maps/FortreeCity/scripts.inc"
 	.include "data/maps/LilycoveCity/scripts.inc"
 	.include "data/maps/MossdeepCity/scripts.inc"
+
 	.include "data/maps/SootopolisCity/scripts.inc"
 	.include "data/maps/EverGrandeCity/scripts.inc"
 	.include "data/maps/LittlerootTown/scripts.inc"
@@ -601,6 +602,12 @@ gStdScripts_End::
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
 	.include "data/text/gauntlet.inc"
 	.include "data/scripts/gauntlet.inc"
+	.include "data/maps/SlateportCity_ContestLobby/scripts.inc"
+	.include "data/maps/FallarborTown_ContestLobby/scripts.inc"
+	.include "data/maps/FallarborTown_ContestHall/scripts.inc"
+	.include "data/maps/VerdanturfTown_ContestLobby/scripts.inc"
+	.include "data/maps/VerdanturfTown_ContestHall/scripts.inc"
+	.include "data/maps/SlateportCity_ContestHall/scripts.inc"
 
 .if IS_FRLG
 

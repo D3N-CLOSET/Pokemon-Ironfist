@@ -131,4 +131,11 @@ VerdanturfTown_Text_VolcanicTunnelSign:
 	.string "VOLCANIC TUNNEL\n"
 	.string "“Linking LAVARIDGE and VERDANTURF”$"
 
+VerdanturfTown_EventScript_ContestSign::
+	msgbox VerdanturfTown_Text_ContestSign, MSGBOX_SIGN
+	end
+
+VerdanturfTown_Text_ContestSign:
+	.string "VERDANTURF TOWN CONTEST HALL\p"
+	.string "“Show off the skills of your POKéMONs!”$"
 

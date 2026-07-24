@@ -100,3 +100,11 @@ FallarborTown_EventScript_GroudonStatue::
 
 FallarborTown_Text_GroudonStatue:
 	.string "It's a statue of GROUDON!$"
+
+FallarborTown_EventScript_ContestSign::
+	msgbox FallarborTown_Text_ContestSign, MSGBOX_SIGN
+	end
+
+FallarborTown_Text_ContestSign:
+	.string "FALLARBOR TOWN CONTEST HALL\p"
+	.string "“Show off the skills of your POKéMONs!”$"

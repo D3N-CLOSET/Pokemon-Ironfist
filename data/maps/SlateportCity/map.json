@@ -584,6 +584,13 @@
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_HOUSE",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_SLATEPORT_CITY_CONTEST_LOBBY",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
@@ -701,6 +708,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SlateportCity_EventScript_BerryCrushRankingsSign"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 19,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SlateportCity_EventScript_ContestSign"
     }
   ],
   "region": "REGION_HOENN"

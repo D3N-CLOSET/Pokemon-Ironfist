@@ -66,6 +66,11 @@ BerryBlender_Text_WantToBlendPokeblocksWithUs:
 	.string "Hi, there! Did you want to blend some\n"
 	.string "{POKEBLOCK}S with us?$"
 
+BerryBlender_Text_WantToBlendPokeblocksWithMe:
+	.string "Hi, there! Did you want to blend some\n"
+	.string "{POKEBLOCK}S with me?$"
+
+
 BerryBlender_Text_Okay:
 	.string "Okay!$"
 
@@ -320,6 +325,16 @@ BerryBlender_EventScript_BerryBlender2::
 	applymovement LOCALID_CONTEST_LOBBY_BLENDER_2_LEADER, BerryBlender_Movement_BlendLeaderWalkInPlace
 	waitmovement 0
 	msgbox BerryBlender_Text_WantToBlendPokeblocksWithUs, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, BerryBlender_EventScript_TryUseBerryBlender2
+	goto BerryBlender_EventScript_DeclineBlender2
+	end
+
+BerryBlender_EventScript_BerryBlender7::
+	lockall
+	setvar NUM_OPPONENTS, 1
+	applymovement LOCALID_CONTEST_LOBBY_BLENDER_2_PARTICIPANT, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	msgbox BerryBlender_Text_WantToBlendPokeblocksWithMe, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, BerryBlender_EventScript_TryUseBerryBlender2
 	goto BerryBlender_EventScript_DeclineBlender2
 	end

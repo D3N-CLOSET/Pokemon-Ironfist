@@ -1350,3 +1350,11 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "After all, a tough TRAINER is\n"
 	.string "the perfect fit for the BATTLE TENT!\p"
 	.string "Give it your best effort!$"
+
+SlateportCity_EventScript_ContestSign::
+	msgbox SlateportCity_Text_ContestSign, MSGBOX_SIGN
+	end
+
+SlateportCity_Text_ContestSign:
+	.string "SLATEPORT CITY CONTEST HALL\p"
+	.string "“Show off the skills of your POKéMONs!”$"

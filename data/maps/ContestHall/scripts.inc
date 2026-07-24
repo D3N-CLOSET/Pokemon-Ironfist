@@ -350,13 +350,11 @@ ContestHall_EventScript_CreateMasterContestAudience::
 	createvobject OBJ_EVENT_GFX_MAN_5, 1, 2, 4, 3, DIR_EAST
 	createvobject OBJ_EVENT_GFX_HIKER, 2, 2, 7, 3, DIR_EAST
 	createvobject OBJ_EVENT_GFX_LITTLE_GIRL, 3, 2, 8, 3, DIR_EAST
-	createvobject OBJ_EVENT_GFX_MANIAC, 4, 1, 3, 3, DIR_EAST
 	createvobject OBJ_EVENT_GFX_WOMAN_5, 6, 1, 5, 3, DIR_EAST
 	createvobject OBJ_EVENT_GFX_WOMAN_4, 7, 1, 6, 3, DIR_EAST
 	createvobject OBJ_EVENT_GFX_GENTLEMAN, 9, 1, 8, 3, DIR_EAST
 	createvobject OBJ_EVENT_GFX_NINJA_BOY, 10, 12, 3, 3, DIR_WEST
 	createvobject OBJ_EVENT_GFX_WOMAN_2, 11, 12, 4, 3, DIR_WEST
-	createvobject OBJ_EVENT_GFX_WOMAN_3, 12, 12, 7, 3, DIR_WEST
 	createvobject OBJ_EVENT_GFX_BEAUTY, 13, 12, 8, 3, DIR_WEST
 	createvobject OBJ_EVENT_GFX_FISHERMAN, 14, 13, 3, 3, DIR_WEST
 	createvobject OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F, 15, 13, 4, 3, DIR_WEST
@@ -365,14 +363,10 @@ ContestHall_EventScript_CreateMasterContestAudience::
 	createvobject OBJ_EVENT_GFX_DEVON_EMPLOYEE, 19, 13, 8, 3, DIR_WEST
 	createvobject OBJ_EVENT_GFX_POKEFAN_M, 20, 3, 2, 3, DIR_SOUTH
 	createvobject OBJ_EVENT_GFX_CAMPER, 21, 6, 2, 3, DIR_SOUTH
-	createvobject OBJ_EVENT_GFX_MAN_3, 22, 7, 2, 3, DIR_SOUTH
-	createvobject OBJ_EVENT_GFX_SCIENTIST_1, 24, 11, 2, 3, DIR_SOUTH
 	createvobject OBJ_EVENT_GFX_SAILOR, 25, 3, 9, 3, DIR_NORTH
 	createvobject OBJ_EVENT_GFX_YOUNGSTER, 26, 4, 9, 3, DIR_NORTH
 	createvobject OBJ_EVENT_GFX_GENTLEMAN, 27, 5, 9, 3, DIR_NORTH
 	createvobject OBJ_EVENT_GFX_HEX_MANIAC, 28, 9, 9, 3, DIR_NORTH
-	createvobject OBJ_EVENT_GFX_SCHOOL_KID_M, 29, 10, 9, 3, DIR_NORTH
-	createvobject OBJ_EVENT_GFX_MART_EMPLOYEE, 30, 11, 9, 3, DIR_NORTH
 	return
 
 ContestHall_EventScript_CreateWirelessContestAudience::
@@ -400,36 +394,39 @@ ContestHall_EventScript_CreateWirelessContestAudience::
 	return
 
 ContestHall_EventScript_SetExitWarp::
-	special ClearLinkContestFlags
-	switch VAR_CONTEST_TYPE
-	case CONTEST_TYPE_NPC_NORMAL, ContestHall_EventScript_SetExitWarpNormalContest
-	case CONTEST_TYPE_NPC_SUPER, ContestHall_EventScript_SetExitWarpSuperContest
-	case CONTEST_TYPE_NPC_HYPER, ContestHall_EventScript_SetExitWarpHyperContest
-	case CONTEST_TYPE_NPC_MASTER, ContestHall_EventScript_SetExitWarpMasterContest
-	case CONTEST_TYPE_LINK, ContestHall_EventScript_SetExitWarpLinkContest
+	switch VAR_CONTEST_LOCATION
+	case 1, ContestHall_EventScript_WarpExitVerdanturf
+	case 2, ContestHall_EventScript_WarpExitFallarbor
+	case 3, ContestHall_EventScript_WarpExitSlateport
+	case 4, ContestHall_EventScript_WarpExitLilycove
+	case 5, ContestHall_EventScript_WarpExitLilycoveLink
 	return
 
-ContestHall_EventScript_SetExitWarpNormalContest::
+ContestHall_EventScript_WarpExitVerdanturf:: @ 815FBA1
+	incrementgamestat GAME_STAT_ENTERED_CONTEST
+	warp MAP_VERDANTURF_TOWN_CONTEST_LOBBY, 5, 4
+	waitstate
+	end
+
+ContestHall_EventScript_WarpExitFallarbor:: @ 815FBAD
+	incrementgamestat GAME_STAT_ENTERED_CONTEST
+	warp MAP_FALLARBOR_TOWN_CONTEST_LOBBY, 5, 4
+	waitstate
+	end
+
+ContestHall_EventScript_WarpExitSlateport:: @ 815FBB9
+	incrementgamestat GAME_STAT_ENTERED_CONTEST
+	warp MAP_SLATEPORT_CITY_CONTEST_LOBBY, 5, 4
+	waitstate
+	end
+
+ContestHall_EventScript_WarpExitLilycove:: @ 815FBC5
+	incrementgamestat GAME_STAT_ENTERED_CONTEST
 	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
 	waitstate
 	end
 
-ContestHall_EventScript_SetExitWarpSuperContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
-	end
-
-ContestHall_EventScript_SetExitWarpHyperContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
-	end
-
-ContestHall_EventScript_SetExitWarpMasterContest::
-	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 14, 4
-	waitstate
-	end
-
-ContestHall_EventScript_SetExitWarpLinkContest::
+ContestHall_EventScript_WarpExitLilycoveLink:: @ 815FBD1
 	warp MAP_LILYCOVE_CITY_CONTEST_LOBBY, 15, 4
 	waitstate
 	end

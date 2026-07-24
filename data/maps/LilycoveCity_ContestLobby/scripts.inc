@@ -324,6 +324,7 @@ LilycoveCity_ContestLobby_EventScript_ContestReceptionist::
 
 LilycoveCity_ContestLobby_EventScript_SetContestType::
 	switch VAR_CONTEST_RANK
+	setvar VAR_CONTEST_LOCATION, 4
 	case CONTEST_RANK_NORMAL, LilycoveCity_ContestLobby_EventScript_SetNormalContestType
 	case CONTEST_RANK_SUPER, LilycoveCity_ContestLobby_EventScript_SetSuperContestType
 	case CONTEST_RANK_HYPER, LilycoveCity_ContestLobby_EventScript_SetHyperContestType
@@ -802,6 +803,7 @@ LilycoveCity_ContestLobby_EventScript_StartLinkContest::
 	messageautoscroll LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX
 	waitmessage
 	subvar VAR_0x8004, 1
+	setvar VAR_CONTEST_LOCATION, 5
 	call LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall
 	setvar VAR_CONTEST_HALL_STATE, 1
 	special SetLinkContestPlayerGfx

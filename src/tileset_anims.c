@@ -715,6 +715,7 @@ void InitTilesetAnim_Mauville(void)
     sSecondaryTilesetAnimCallback = TilesetAnim_Mauville;
 }
 
+
 void InitTilesetAnim_Lavaridge(void)
 {
     sSecondaryTilesetAnimCounter = 0;

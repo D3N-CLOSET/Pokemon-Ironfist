@@ -160,6 +160,9 @@ SlateportCity_PokemonFanClub_EventScript_AlreadyInterviewed::
 	release
 	end
 
+FallarborTown_ContestLobby_EventScript_Reporter::
+VerdanturfTown_ContestLobby_EventScript_Reporter::
+SlateportCity_ContestLobby_EventScript_Reporter::
 LilycoveCity_ContestLobby_EventScript_Reporter::
 	lock
 	faceplayer
@@ -226,8 +229,59 @@ LilycoveCity_ContestLobby_EventScript_TryShowContestReporter::
 	case 5, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
 	end
 
+FallarborTown_ContestLobby_EventScript_TryShowContestReporter::
+	goto_if_ne VAR_CONTEST_HALL_STATE, 2, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	setvar VAR_0x8005, TVSHOW_BRAVO_TRAINER_POKEMON_PROFILE
+	special InterviewBefore
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	switch VAR_CONTEST_TYPE
+	case 0, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	case 2, FallarborTown_ContestLobby_EventScript_ShowContestReporter
+	case 1, FallarborTown_ContestLobby_EventScript_ShowContestReporter
+	case 3, FallarborTown_ContestLobby_EventScript_ShowContestReporter
+	case 5, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	end
+
+VerdanturfTown_ContestLobby_EventScript_TryShowContestReporter::
+	goto_if_ne VAR_CONTEST_HALL_STATE, 2, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	setvar VAR_0x8005, TVSHOW_BRAVO_TRAINER_POKEMON_PROFILE
+	special InterviewBefore
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	switch VAR_CONTEST_TYPE
+	case 0, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	case 2, VerdanturfTown_ContestLobby_EventScript_ShowContestReporter
+	case 1, VerdanturfTown_ContestLobby_EventScript_ShowContestReporter
+	case 3, VerdanturfTown_ContestLobby_EventScript_ShowContestReporter
+	case 5, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	end
+
+SlateportCity_ContestLobby_EventScript_TryShowContestReporter::
+	goto_if_ne VAR_CONTEST_HALL_STATE, 2, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	setvar VAR_0x8005, TVSHOW_BRAVO_TRAINER_POKEMON_PROFILE
+	special InterviewBefore
+	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	switch VAR_CONTEST_TYPE
+	case 0, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	case 2, SlateportCity_ContestLobby_EventScript_ShowContestReporter
+	case 1, SlateportCity_ContestLobby_EventScript_ShowContestReporter
+	case 3, SlateportCity_ContestLobby_EventScript_ShowContestReporter
+	case 5, LilycoveCity_ContestLobby_EventScript_DontShowContestReporter
+	end
+
 LilycoveCity_ContestLobby_EventScript_ShowContestReporter::
 	clearflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+	return
+
+FallarborTown_ContestLobby_EventScript_ShowContestReporter::
+	clearflag FLAG_HIDE_CONTEST_REPORTER_FALLARBOR
+	return
+
+VerdanturfTown_ContestLobby_EventScript_ShowContestReporter::
+	clearflag FLAG_HIDE_CONTEST_REPORTER_VERDANTURF
+	return
+
+SlateportCity_ContestLobby_EventScript_ShowContestReporter::
+	clearflag FLAG_HIDE_CONTEST_REPORTER_SLATEPORT
 	return
 
 LilycoveCity_ContestLobby_EventScript_DontShowContestReporter::

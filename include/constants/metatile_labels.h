@@ -1057,6 +1057,9 @@
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Grass  0x284
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Mowed  0x281
 
+// gTileset_verdanturf
+#define METATILE_verdanturf_Door_Contest  0x3F2
+
 // Other
 #define METATILE_GeneralFrlg_CalmWater               0x12B
 #define METATILE_GeneralFrlg_Door                    0x03D
