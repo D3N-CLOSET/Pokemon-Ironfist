@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE121_GAUNTLET",
   "name": "Route121_Gauntlet",
   "layout": "LAYOUT_ROUTE118_GAUNTLET",
-  "music": "MUS_B_FRONTIER",
+  "music": "MUS_GSC_ROUTE38",
   "region_map_section": "MAPSEC_TRAINERS_GAUNTLET",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
