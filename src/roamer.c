@@ -156,9 +156,36 @@ bool8 TryAddRoamer(enum Species species, u8 level)
 void InitRoamer(void)
 {
     if (gSpecialVar_0x8004 == 0) // Red
-        TryAddRoamer(SPECIES_LATIAS, 40);
+    {    TryAddRoamer(SPECIES_LATIAS, 40);
+        TryAddRoamer(SPECIES_ARCEUS, 75);
+        TryAddRoamer(SPECIES_NECROZMA, 50);
+        TryAddRoamer(SPECIES_ZYGARDE, 50);
+        TryAddRoamer(SPECIES_MEWTWO, 50);
+        TryAddRoamer(SPECIES_DIALGA, 50);
+        TryAddRoamer(SPECIES_PALKIA, 50);
+        TryAddRoamer(SPECIES_GIRATINA, 50);
+        TryAddRoamer(SPECIES_KYUREM, 40);
+        TryAddRoamer(SPECIES_ZEKROM, 40);
+        TryAddRoamer(SPECIES_RAIKOU, 45);
+        TryAddRoamer(SPECIES_ENTEI, 45);
+        TryAddRoamer(SPECIES_SUICUNE, 45);
+    }
     else
+    {
         TryAddRoamer(SPECIES_LATIOS, 40);
+        TryAddRoamer(SPECIES_ARCEUS, 75);
+        TryAddRoamer(SPECIES_NECROZMA, 50);
+        TryAddRoamer(SPECIES_XERNEAS, 50);
+        TryAddRoamer(SPECIES_MEWTWO, 50);
+        TryAddRoamer(SPECIES_DIALGA, 50);
+        TryAddRoamer(SPECIES_PALKIA, 50);
+        TryAddRoamer(SPECIES_GIRATINA, 50);
+        TryAddRoamer(SPECIES_KYUREM, 40);
+        TryAddRoamer(SPECIES_RESHIRAM, 40);
+        TryAddRoamer(SPECIES_RAIKOU, 45);
+        TryAddRoamer(SPECIES_ENTEI, 45);
+        TryAddRoamer(SPECIES_SUICUNE, 45);
+    }
 }
 
 void UpdateLocationHistoryForRoamer(void)
@@ -266,7 +293,7 @@ bool8 TryStartRoamerEncounter(void)
 
     for (i = 0; i < ROAMER_COUNT; i++)
     {
-        if (IsRoamerAt(i, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum) == TRUE && (Random() % 4) == 0)
+        if (IsRoamerAt(i, gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum) == TRUE && (Random() % 100) == 0)
         {
             CreateRoamerMonInstance(i);
             gEncounteredRoamerIndex = i;
