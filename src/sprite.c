@@ -8,7 +8,7 @@
 #include "battle_anim.h"
 #include "test/test.h"
 
-#define MAX_SPRITE_COPY_REQUESTS 64
+#define MAX_SPRITE_COPY_REQUESTS 128
 
 #define sAnchorX data[6]
 #define sAnchorY data[7]

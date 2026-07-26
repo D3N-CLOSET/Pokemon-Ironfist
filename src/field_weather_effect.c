@@ -479,7 +479,7 @@ void Rain_InitVars(void)
     gWeatherPtr->rainSpriteVisibleCounter = 0;
     gWeatherPtr->rainSpriteVisibleDelay = 8;
     gWeatherPtr->isDownpour = FALSE;
-    gWeatherPtr->targetRainSpriteCount = 10;
+    gWeatherPtr->targetRainSpriteCount = 16;
     gWeatherPtr->targetColorMapIndex = 3;
     gWeatherPtr->colorMapStepDelay = 20;
     SetRainStrengthFromSoundEffect(SE_RAIN);

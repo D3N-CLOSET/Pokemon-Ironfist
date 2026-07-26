@@ -1337,6 +1337,7 @@ static enum CancelerResult CancelerMoveFailure(struct BattleCalcValues *cv)
     return CANCELER_RESULT_SUCCESS;
 }
 
+
 // Insert failure here if it depends on target and follow the existing structure
 static enum CancelerResult CancelerMoveEffectFailureTarget(struct BattleCalcValues *cv)
 {

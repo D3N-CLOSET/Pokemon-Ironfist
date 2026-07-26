@@ -62,11 +62,7 @@ PacifidlogTown_Text_TownSign:
 PacifidlogTown_Text_Hecker:
 	.string "Hey {PLAYER}, I am D3N_AR,\p"
 	.string "aka the dev of this hack.\p"
-	.string "I am here to give ya a tip.\p"
-	.string "It is going to make ya life\n"
-	.string "easier.\p"
-	.string "Click START while holding R.\p"
-	.string "Thanks for playing though!$"
+	.string "Thanks for playing the game!$"
 
 PacifidlogTown_EventScript_MYhome::
 	msgbox PacifidlogTown_Text_MYhome, MSGBOX_SIGN

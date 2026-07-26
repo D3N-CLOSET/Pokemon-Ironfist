@@ -221,6 +221,6 @@ SlateportCity_ContestLobby_Text_ContestWinnerPostersOnWall:: @ 817CAEC
 	.string "POKéMON and both your names.$"
 
 SlateportCity_ContestLobby_Text_Boy::
-	.string "I fucking hate this game./p"
+	.string "I fucking hate this game.\p"
 	.string "Why did he have to make it more\n"
 	.string "difficult?$"

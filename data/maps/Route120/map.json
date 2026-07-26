@@ -5,7 +5,7 @@
   "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_ROUTE_120",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY_CLOUDS",
+  "weather": "WEATHER_DYNAMIC",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -732,6 +732,34 @@
       "y": 16,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY_CLOUDS"
+    },
+    {
+      "type": "weather",
+      "x": 7,
+      "y": 15,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN"
+    },
+    {
+      "type": "weather",
+      "x": 7,
+      "y": 16,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN"
+    },
+    {
+      "type": "weather",
+      "x": 22,
+      "y": 61,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN"
+    },
+    {
+      "type": "weather",
+      "x": 12,
+      "y": 65,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN"
     }
   ],
   "bg_events": [

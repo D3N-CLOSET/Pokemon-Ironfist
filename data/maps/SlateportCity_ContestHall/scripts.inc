@@ -160,8 +160,8 @@ SlateportCity_ContestHall_Text_17CFA7:: @ 817CFA7
 	.string "I see that you're a TRAINER!\p"
 	.string "Then, it just wouldn't do for you\n"
 	.string "to miss a POKéMON CONTEST!\p"
-	.string "Get a CONTEST PASS in VERDANTURF\n"
-	.string "CITY and enter anytime!$"
+	.string "Get a CONTEST PASS and enter\n"
+	.string "anytime!$"
 
 SlateportCity_ContestHall_Text_17D054:: @ 817D054
 	.string "It's appeal time!\n"
