@@ -2,10 +2,10 @@
   "id": "MAP_NORTHERN_CAPE",
   "name": "NorthernCape",
   "layout": "LAYOUT_NORTHERN_CAPE",
-  "music": "MUS_DUMMY",
+  "music": "MUS_RG_VERMILLION",
   "region_map_section": "MAPSEC_NORTHERN_CAPE",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY",
+  "weather": "WEATHER_SNOW",
   "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -133,34 +133,6 @@
       "y": 12,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 13,
-      "y": 8,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SNOW"
-    },
-    {
-      "type": "weather",
-      "x": 13,
-      "y": 7,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SNOW"
-    },
-    {
-      "type": "weather",
-      "x": 14,
-      "y": 7,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SNOW"
-    },
-    {
-      "type": "weather",
-      "x": 12,
-      "y": 7,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SNOW"
     }
   ],
   "bg_events": [

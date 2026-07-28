@@ -6,7 +6,7 @@ SageVill_Mart_EventScript_Clerk::
 	faceplayer
 	message gText_HowMayIServeYou
 	waitmessage
-	pokemart MossdeepCity_Mart_Pokemart
+	pokemart SageVill_Mart_Pokemart
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
@@ -30,7 +30,7 @@ SageVill_Mart_Pokemart:
 	pokemartlistend
 
 SageVill_Mart_EventScript_Boy::
-	goto_if_set FLAG_TALKED_TO_SAGE_BOY, SageVill_Mart_Text_Boy
+	goto_if_set FLAG_TALKED_TO_SAGE_BOY, SageVill_Mart_EventScript_Boy2
 	faceplayer
 	lock
 	msgbox SageVill_Mart_Text_FirstBoy, MSGBOX_NPC
@@ -42,6 +42,10 @@ SageVill_Mart_EventScript_Boy::
 	giveitem ITEM_N_LUNARIZER
 	setflag FLAG_TALKED_TO_SAGE_BOY
 	release
+	end
+
+SageVill_Mart_EventScript_Boy2::
+	msgbox SageVill_Mart_Text_Boy, MSGBOX_NPC
 	end
 
 SageVill_Mart_Text_FirstBoy:
