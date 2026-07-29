@@ -41,11 +41,13 @@ SageValley_Ice_EventScript_Man1::
 
 SageValley_Ice_Text_Man1:
 	.string "The Sage Island.\p"
-	.string "This island is located outside of Hoenn.\n"
-	.string "The harsh mountains of this island,\p"
-	.string "stops cold wind from the Ocean from\n"
-	.string "entering Hoenn.\p"
-	.string "Hence why Hoenn's weather is tropical.$"
+	.string "This island is located at the border\n"
+	.string "between Johto and Hoenn.\p"
+	.string "The harsh mountains of this island,\n"
+	.string "stops cold wind from the Ocean from\l"
+	.string "the ocean.\p"
+	.string "Hence why the it always snows\n$"
+	.string "here in Sage Isldand.$"
 
 SageValley_Ice_EventScript_Man2::
 	msgbox SageValley_Ice_Text_Man2, MSGBOX_NPC

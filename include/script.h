@@ -179,4 +179,6 @@ static inline void Script_CheckEffectInstrumentedCallNative(void (*func)(struct 
         Script_GotoBreak_Internal();
 }
 
+bool8 ScrCmd_RollPokemonRNG(struct ScriptContext *ctx);
+
 #endif // GUARD_SCRIPT_H

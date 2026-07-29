@@ -2,7 +2,7 @@
   "id": "MAP_SAGE_VILLAGE_GAUNTLET",
   "name": "SageVillage_Gauntlet",
   "layout": "LAYOUT_SAGE_VILLAGE_GAUNTLET",
-  "music": "MUS_B_FRONTIER",
+  "music": "MUS_RG_POKE_MANSION",
   "region_map_section": "MAPSEC_TRAINERS_GAUNTLET",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -22,6 +22,7 @@ FortreeCity_Gym_EventScript_Winona::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, FortreeCity_Gym_EventScript_WinonaRematch
 	goto_if_unset FLAG_RECEIVED_TM_AERIAL_ACE, FortreeCity_Gym_EventScript_GiveAerialAce2
+	goto_if_unset FLAG_GOT_METAL_ALLOY_6, FortreeCity_Gym_EventScript_MetalAlloy2
 	msgbox FortreeCity_Gym_Text_WinonaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -36,6 +37,8 @@ FortreeCity_Gym_EventScript_WinonaDefeated::
 	setvar VAR_0x8008, 6
 	call Common_EventScript_SetGymTrainers
 	call FortreeCity_Gym_EventScript_GiveAerialAce
+	closemessage
+	call FortreeCity_Gym_EventScript_MetalAlloy
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -64,6 +67,21 @@ FortreeCity_Gym_EventScript_GiveAerialAce::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox FortreeCity_Gym_Text_ExplainAerialAce, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_AERIAL_ACE
+	return
+
+FortreeCity_Gym_EventScript_MetalAlloy2::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_6
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	release
+	end
+
+FortreeCity_Gym_EventScript_MetalAlloy::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_6
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
 	return
 
 FortreeCity_Gym_EventScript_WinonaRematch::

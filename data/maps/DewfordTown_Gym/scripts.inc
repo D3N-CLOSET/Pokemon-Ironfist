@@ -137,6 +137,7 @@ DewfordTown_Gym_EventScript_Brawly::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, DewfordTown_Gym_EventScript_BrawlyRematch
 	goto_if_unset FLAG_RECEIVED_TM_BULK_UP, DewfordTown_Gym_EventScript_GiveBulkUp2
+	goto_if_unset FLAG_GOT_METAL_ALLOY_2, DewfordTown_Gym_EventScript_MetalAlloy2
 	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -154,6 +155,8 @@ DewfordTown_Gym_EventScript_BrawlyDefeated::
 	setvar VAR_0x8008, 2
 	call Common_EventScript_SetGymTrainers
 	call DewfordTown_Gym_EventScript_GiveBulkUp
+	closemessage
+	call DewfordTown_Gym_EventScript_MetalAlloy
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -181,6 +184,21 @@ DewfordTown_Gym_EventScript_GiveBulkUp2:
 	setflag FLAG_RECEIVED_TM_BULK_UP
 	release
 	end
+
+DewfordTown_Gym_EventScript_MetalAlloy2::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_2
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	release
+	end
+
+DewfordTown_Gym_EventScript_MetalAlloy::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_2
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	return
 
 DewfordTown_Gym_EventScript_BrawlyRematch::
 	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons

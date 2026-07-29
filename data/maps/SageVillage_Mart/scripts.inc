@@ -27,6 +27,7 @@ SageVill_Mart_Pokemart:
 	.2byte ITEM_BIG_MALASADA
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_METAL_ALLOY
 	pokemartlistend
 
 SageVill_Mart_EventScript_Boy::

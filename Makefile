@@ -45,7 +45,7 @@ DEBUG        ?= 0
 LTO          ?= 0
 # Makes an optimized build for release, also enabling NDEBUG macro and disabling other debugging features
 # Enables LTO by default, but can be changed in the config.mk file
-RELEASE      ?= 1
+RELEASE      ?= 0
 
 ifeq (compare,$(MAKECMDGOALS))
   COMPARE := 1

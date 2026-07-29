@@ -58,6 +58,7 @@ MossdeepCity_Gym_EventScript_TateAndLiza::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, MossdeepCity_Gym_EventScript_TateAndLizaRematch
 	goto_if_unset FLAG_RECEIVED_TM_CALM_MIND, MossdeepCity_Gym_EventScript_GiveCalmMind2
+	goto_if_unset FLAG_GOT_METAL_ALLOY_7, MossdeepCity_Gym_EventScript_MetalAlloy2
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -84,6 +85,8 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated::
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STATE, 1
 	call MossdeepCity_Gym_EventScript_GiveCalmMind
 	closemessage
+	call MossdeepCity_Gym_EventScript_MetalAlloy
+	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
 	msgbox MossdeepCity_Gym_Text_RegisteredTateAndLiza, MSGBOX_DEFAULT
@@ -109,6 +112,21 @@ MossdeepCity_Gym_EventScript_GiveCalmMind::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MossdeepCity_Gym_Text_ExplainCalmMind, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_CALM_MIND
+	return
+
+MossdeepCity_Gym_EventScript_MetalAlloy2::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_7
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	release
+	end
+
+MossdeepCity_Gym_EventScript_MetalAlloy::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_7
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
 	return
 
 MossdeepCity_Gym_EventScript_TateAndLizaRematch::

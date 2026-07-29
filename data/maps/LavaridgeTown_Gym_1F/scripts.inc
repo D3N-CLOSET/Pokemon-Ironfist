@@ -48,6 +48,7 @@ LavaridgeTown_Gym_1F_EventScript_Flannery::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, LavaridgeTown_Gym_1F_EventScript_FlanneryRematch
 	goto_if_unset FLAG_RECEIVED_TM_OVERHEAT, LavaridgeTown_Gym_1F_EventScript_GiveOverheat2
+	goto_if_unset FLAG_RECEIVED_TM_OVERHEAT, LavaridgeTown_Gym_EventScript_MetalAlloy2
 	msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -67,6 +68,8 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
 	setvar VAR_LAVARIDGE_TOWN_STATE, 1
 	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
+	closemessage
+	call LavaridgeTown_Gym_EventScript_MetalAlloy
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -92,6 +95,21 @@ LavaridgeTown_Gym_1F_EventScript_GiveOverheat::
 	msgbox LavaridgeTown_Gym_1F_Text_ExplainOverheat, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_OVERHEAT
 	return
+
+LavaridgeTown_Gym_EventScript_MetalAlloy::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_2
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	return
+
+LavaridgeTown_Gym_EventScript_MetalAlloy2::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_2
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	release
+	end
 
 LavaridgeTown_Gym_1F_EventScript_FlanneryRematch::
 	trainerbattle_rematch_double TRAINER_FLANNERY_1, LavaridgeTown_Gym_1F_Text_FlanneryPreRematch, LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat, LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons

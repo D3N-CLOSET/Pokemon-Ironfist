@@ -78,6 +78,7 @@ MauvilleCity_Gym_EventScript_Wattson::
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_Gym_EventScript_WattsonRematch
 	goto_if_unset FLAG_RECEIVED_TM_SHOCK_WAVE, MauvilleCity_Gym_EventScript_GiveShockWave2
+	goto_if_unset FLAG_GOT_METAL_ALLOY_3, MauvilleCity_Gym_EventScript_MetalAlloy2
 	goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, MauvilleCity_Gym_EventScript_CompletedNewMauville
 	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
 	release
@@ -100,6 +101,8 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 	special DrawWholeMapView
 	playse SE_UNLOCK
 	call MauvilleCity_Gym_EventScript_GiveShockWave
+	closemessage
+	call MauvilleCity_Gym_EventScript_MetalAlloy
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
@@ -124,6 +127,21 @@ MauvilleCity_Gym_EventScript_GiveShockWave::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_BagIsFull
 	msgbox MauvilleCity_Gym_Text_ExplainShockWave, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_TM_SHOCK_WAVE
+	return
+
+MauvilleCity_Gym_EventScript_MetalAlloy2::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_3
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_Gym_EventScript_MetalAlloy::
+	giveitem ITEM_METAL_ALLOY
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFullEYE
+	setflag FLAG_GOT_METAL_ALLOY_3
+	msgbox Uncommon_Text_WhyThisMetal, MSGBOX_DEFAULT
 	return
 
 MauvilleCity_Gym_EventScript_CompletedNewMauville::

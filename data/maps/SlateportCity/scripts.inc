@@ -1358,3 +1358,51 @@ SlateportCity_EventScript_ContestSign::
 SlateportCity_Text_ContestSign:
 	.string "SLATEPORT CITY CONTEST HALL\p"
 	.string "“Show off the skills of your POKéMONs!”$"
+
+SlateportCity_EventScript_DailyMetalAlloyManMet::
+	goto_if_set FLAG_DAILY_METAL_ALLOY, SlateportCity_EventScript_AlreadyRecievedDailyMetalAlloy
+	msgbox SlateportCity_Text_FascinatedWithMetalMet, MSGBOX_NPC
+	giveitem ITEM_METAL_ALLOY
+	setflag FLAG_DAILY_METAL_ALLOY
+	msgbox SlateportCity_Text_ComeBackTomorrowForMore, MSGBOX_NPC
+	release
+	end
+
+SlateportCity_EventScript_DailyMetalAlloyMan::
+	goto_if_set FLAG_METAL_MAN_MET, SlateportCity_EventScript_DailyMetalAlloyManMet
+	msgbox SlateportCity_Text_FascinatedWithMetal, MSGBOX_NPC
+	giveitem ITEM_METAL_ALLOY
+	setflag FLAG_DAILY_METAL_ALLOY
+	setflag FLAG_METAL_MAN_MET
+	msgbox SlateportCity_Text_ComeBackTomorrowForMore, MSGBOX_NPC
+	release
+	end
+
+SlateportCity_EventScript_AlreadyRecievedDailyMetalAlloy::
+	msgbox SlateportCity_Text_IHeardSomeRumors, MSGBOX_NPC
+	end
+
+SlateportCity_Text_FascinatedWithMetal:
+	.string "Hi,\p"
+	.string "Metal Alloys are fantastic\n"
+	.string "object in this world.\l"
+	.string "I love collecting them.\p"
+	.string "Here, I want you to take one.$"
+
+SlateportCity_Text_ComeBackTomorrowForMore:
+	.string "Come back tomorrow if you\n"
+	.string "want another one!$"
+
+SlateportCity_Text_FascinatedWithMetalMet:
+	.string "Hi,\p"
+	.string "You came back! That means\n"
+	.string "you like Metal Alloys too!\l"
+	.string "And as promised, here is\p"
+	.string "another one for you.$"
+
+SlateportCity_Text_IHeardSomeRumors:
+	.string "I've heard some rumours that\n"
+	.string "a black market organisation is\l"
+	.string "actively looking for metal alloys.\p"
+	.string "Rahhh! even they love metal alloys\n"
+	.string "just like me!$"

@@ -608,6 +608,8 @@ gStdScripts_End::
 	.include "data/maps/VerdanturfTown_ContestLobby/scripts.inc"
 	.include "data/maps/VerdanturfTown_ContestHall/scripts.inc"
 	.include "data/maps/SlateportCity_ContestHall/scripts.inc"
+	.include "data/scripts/gambling.inc"
+	.include "data/text/gambling.inc"
 
 .if IS_FRLG
 
@@ -1218,6 +1220,11 @@ EventScript_CancelMessageBox::
 
 Common_EventScript_ShowBagIsFull::
 	msgbox gText_TooBadBagIsFull, MSGBOX_DEFAULT
+	release
+	end
+
+Common_EventScript_ShowBagIsFullEYE::
+	msgbox gText_TooBadBagIsFullEYE, MSGBOX_DEFAULT
 	release
 	end
 

@@ -15672,7 +15672,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_METAL_ALLOY] =
     {
         .name = ITEM_NAME("Metal Alloy"),
-        .price = 6000,
+        .price = 20000,
         .description = COMPOUND_STRING(
             "A peculiar metal\n"
             "that makes certain\n"

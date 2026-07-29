@@ -1245,16 +1245,16 @@
 #define FLAG_FORCE_SHINY_NOT                                        0x49E
 #define FLAG_TUTOR_MOVE                                             0x49F
 #define FLAG_NO_WILD                                                0x4A0
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
-#define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
-#define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
-#define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
-#define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
+#define FLAG_METAL_MAN_MET                                          0x4A1
+#define FLAG_GOT_METAL_ALLOY_1                                      0x4A2
+#define FLAG_GOT_METAL_ALLOY_2                                      0x4A3
+#define FLAG_GOT_METAL_ALLOY_3                                      0x4A4
+#define FLAG_GOT_METAL_ALLOY_4                                      0x4A5
+#define FLAG_GOT_METAL_ALLOY_5                                      0x4A6
+#define FLAG_GOT_METAL_ALLOY_6                                      0x4A7
+#define FLAG_GOT_METAL_ALLOY_7                                      0x4A8
+#define FLAG_GOT_METAL_ALLOY_8                                      0x4A9
+#define FLAG_GOT_METAL_ALLOY_9                                      0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
@@ -1602,7 +1602,7 @@
 #define FLAG_UNUSED_0x933                           (DAILY_FLAGS_START + 0x13) // Unused Flag
 #define FLAG_DAILY_APPRENTICE_LEAVES                (DAILY_FLAGS_START + 0x14)
 
-#define FLAG_UNUSED_0x935                           (DAILY_FLAGS_START + 0x15) // Unused Flag
+#define FLAG_DAILY_METAL_ALLOY                      (DAILY_FLAGS_START + 0x15)
 #define FLAG_UNUSED_0x936                           (DAILY_FLAGS_START + 0x16) // Unused Flag
 #define FLAG_UNUSED_0x937                           (DAILY_FLAGS_START + 0x17) // Unused Flag
 #define FLAG_UNUSED_0x938                           (DAILY_FLAGS_START + 0x18) // Unused Flag

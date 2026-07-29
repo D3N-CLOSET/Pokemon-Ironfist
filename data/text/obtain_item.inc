@@ -15,6 +15,12 @@ gText_TooBadBagIsFull::
 	.string "Too bad!\n"
 	.string "The BAG is full…$"
 
+gText_TooBadBagIsFullEYE::
+	.string "A metal piece landed on your\n"
+	.string "palm,\p"
+	.string "But as quick as it arrived…\p"
+	.string "It left…$"
+
 gText_PlayerPutItemInBag::
 	.string "{PLAYER} put away the {STR_VAR_2}\n"
 	.string "in the BAG.$"
