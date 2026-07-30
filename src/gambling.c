@@ -74,7 +74,9 @@ static const u16 sRareTable[] =
     SPECIES_GASTLY,
     SPECIES_MAREEP,
     SPECIES_ELEKID,
-    SPECIES_BUNEARY
+    SPECIES_BUNEARY,
+    SPECIES_RIOLU,
+    SPECIES_SKARMORY
 };
 
 static const u16 sUncommonTable[] = 
@@ -87,7 +89,11 @@ static const u16 sUncommonTable[] =
     SPECIES_TYROGUE,
     SPECIES_MUNCHLAX,
     SPECIES_SKITTY,
-    SPECIES_WOOBAT
+    SPECIES_WOOBAT,
+    SPECIES_PANPOUR,
+    SPECIES_PANSEAR,
+    SPECIES_PANSAGE,
+    SPECIES_DODUO
 };
 
 static const u16 sCommonTable[] = 
@@ -106,7 +112,11 @@ static const u16 sCommonTable[] =
     SPECIES_PIDGEY,
     SPECIES_EKANS,
     SPECIES_NINCADA,
-    SPECIES_SENTRET
+    SPECIES_SENTRET,
+    SPECIES_MACHOP,
+    SPECIES_LILEEP,
+    SPECIES_LEAVANNY,
+    SPECIES_ZIGZAGOON
 };
 
 static u16 GetRandomPseudoSpecies(void) {return sPseudoTable[Random() % ARRAY_COUNT(sPseudoTable)]; }

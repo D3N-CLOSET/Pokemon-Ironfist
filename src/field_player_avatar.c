@@ -385,7 +385,7 @@ void PlayerStep(enum Direction direction, u16 newKeys, u16 heldKeys)
         }
     }
 
-    if (JOY_NEW(L_BUTTON))
+    if (JOY_NEW(L_BUTTON) && FlagGet(FLAG_SYS_B_DASH))
     {
         if (FlagGet(FLAG_RUN_TOGGLE))
         {

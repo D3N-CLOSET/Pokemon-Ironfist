@@ -19,6 +19,11 @@ RNG_EventScript_HereWeGo::
     callnative ScrCmd_RollPokemonRNG
     copyvar VAR_TEMP_1, VAR_RESULT
 
+    call RNG_EventScript_MidRNG
+    delay 60
+    closemessage
+    call RNG_EventScript_PostRNG
+    closemessage
     givemon VAR_RESULT, 5, ITEM_NONE
     goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, UnCommon_EventScript_NameReceivedBoxMon
     goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, UnCommon_EventScript_TransferredToPC
@@ -49,4 +54,23 @@ UnCommon_EventScript_TransferredToPC::
 	call Common_EventScript_TransferredToPC
     msgbox Uncommon_Text_Cua, MSGBOX_NPC
     release
+    end
+
+RNG_EventScript_MidRNG::
+    msgbox RNG_Text_MidRNGDots, MSGBOX_DEFAULT
+    return
+
+RNG_EventScript_PostRNG::
+    bufferspeciesname STR_VAR_1, VAR_RESULT
+    msgbox RNG_Text_CongratsYouWonA, MSGBOX_DEFAULT
+    return
+
+RNG_EventScript_RarityBoard::
+    msgbox RNG_Text_DoYouWantToReadRarityBoard, MSGBOX_YESNO
+    goto_if_eq VAR_RESULT, YES, RNG_EventScript_RarityBoardText
+    release
+    end
+
+RNG_EventScript_RarityBoardText::
+    msgbox RNG_Text_RarityBoard, MSGBOX_SIGN
     end
