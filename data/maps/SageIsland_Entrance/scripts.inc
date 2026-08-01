@@ -12,7 +12,6 @@ SageIsland_EventScript_FerryAttendant::
     multichoice 18, 8, MULTI_FERRY_SELECTION, FALSE
     switch VAR_RESULT
     case 0, SageIsland_EventScript_WarpLilycove
-	case 1, SageIsland_EventScript_WarpSlateport
     case 8, SageIsland_EventScript_Cancel
     case MULTI_B_PRESSED, SageIsland_EventScript_Cancel
     release

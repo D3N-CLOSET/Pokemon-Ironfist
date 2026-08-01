@@ -13,6 +13,7 @@ SageVill_Mart_EventScript_Clerk::
 
 	.align 2
 SageVill_Mart_Pokemart:
+	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_BERRY_JUICE
@@ -27,7 +28,6 @@ SageVill_Mart_Pokemart:
 	.2byte ITEM_BIG_MALASADA
 	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_ABILITY_PATCH
-	.2byte ITEM_METAL_ALLOY
 	pokemartlistend
 
 SageVill_Mart_EventScript_Boy::
@@ -92,7 +92,7 @@ SageVill_Mart_EventScript_CanCook::
 
 SageVill_Mart_Text_CookNext:
 	.string "That Gauntlet building came out\n"
-	.string "of nowhereover the spot of my\l"
+	.string "of nowhere over the spot of my\l"
 	.string " lovely shop!\p"
 	.string "And the village folks don't even remember\n"
 	.string "my shop anymore\p!"
@@ -100,11 +100,11 @@ SageVill_Mart_Text_CookNext:
 
 SageVill_Mart_Text_Cook:
 	.string "That Gauntlet building came out\n"
-	.string "of nowhereover the spot of my\l"
+	.string "of nowhere over the spot of my\l"
 	.string " lovely shop!\p"
 	.string "And the village folks don't even remember\n"
 	.string "my shop anymore\p!"
 	.string "What is this blasphemy!\p"
 	.string "I am so mad that I want to give you\n"
-	.string "these fossils!$"
+	.string "these fossils for free!$"
 

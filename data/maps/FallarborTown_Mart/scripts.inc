@@ -13,6 +13,7 @@ FallarborTown_Mart_EventScript_Clerk::
 
 	.align 2
 FallarborTown_Mart_Pokemart:
+	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_ANTIDOTE

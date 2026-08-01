@@ -1,7 +1,7 @@
 RNG_Text_HelloThere:
-    .string "Hello there.\p"
+    .string "Hello, {PLAYER}.\p"
     .string "I am hired by the dev to conduct\n"
-    .string "a Pokemon RNG for players in here.$"
+    .string "a POKéMON RNG for players.$"
 
 RNG_Text_EnterGacha:
     .string "Do you want to enter the RNG?\n"
@@ -12,8 +12,8 @@ RNG_Text_HaveANiceDay:
     .string "have a nice day!$"
 
 RNG_Text_DoStartGambling:
-    .string "Okay, do you want to start\n"
-    .string "the RNG?$"
+    .string "Okay, do you want to participate\n"
+    .string "in the greatest RNG ever?$"
 
 RNG_Text_RecievedMonPC: @ Unused
     .string "Sent Pokemon to PC$"
@@ -27,8 +27,11 @@ RNG_Text_NoRoomInPC: @ Unused
     .string "The PC is full.$"
 
 Uncommon_Text_Cua:
-    .string "Thanks for participating!\n"
-    .string "Have a nice day!$"
+    .string "Your POKéMON will be registered\n"
+    .string "automatically if you had not\l"
+    .string "obtained it previously.\p"
+    .string "Thanks for participating, we\n"
+    .string "hope to see you again!$"
 
 Uncommon_Text_WhyThisMetal:
     .string "A metal piece lands out of\n"

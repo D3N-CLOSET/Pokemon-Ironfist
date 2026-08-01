@@ -44,8 +44,7 @@ SageValley_Ice_Text_Man1:
 	.string "This island is located at the border\n"
 	.string "between Johto and Hoenn.\p"
 	.string "The harsh mountains of this island,\n"
-	.string "stops cold wind from the Ocean from\l"
-	.string "the ocean.\p"
+	.string "stops cold wind from the Ocean.\p"
 	.string "Hence why the it always snows\n$"
 	.string "here in Sage Isldand.$"
 

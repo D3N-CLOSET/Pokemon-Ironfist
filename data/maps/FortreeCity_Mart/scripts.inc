@@ -13,6 +13,7 @@ FortreeCity_Mart_EventScript_Clerk::
 
 	.align 2
 FortreeCity_Mart_Pokemart:
+	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_SUPER_POTION
@@ -28,7 +29,6 @@ FortreeCity_Mart_Pokemart:
 	.2byte ITEM_STICKY_BARB
 	.2byte ITEM_BIG_ROOT
 	.2byte ITEM_SHED_SHELL
-	.2byte ITEM_METAL_ALLOY
 	pokemartlistend
 
 FortreeCity_Mart_EventScript_Woman::

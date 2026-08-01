@@ -1368,6 +1368,14 @@ SlateportCity_EventScript_DailyMetalAlloyManMet::
 	release
 	end
 
+SlateportCity_EventScript_DailyMetalAlloyMan_Unused::
+	msgbox SCity_EScript_UrPlaying, MSGBOX_NPC
+	end
+
+SCity_EScript_UrPlaying:
+	.string "Hello, you are playing a Rom\n"
+	.string "Hack made by D3N AR!$"
+
 SlateportCity_EventScript_DailyMetalAlloyMan::
 	goto_if_set FLAG_METAL_MAN_MET, SlateportCity_EventScript_DailyMetalAlloyManMet
 	msgbox SlateportCity_Text_FascinatedWithMetal, MSGBOX_NPC
@@ -1426,4 +1434,4 @@ SlateportCity_EventScript_ContestGirlSkitty::
 	end
 
 SlateportCity_Text_ContestGirlSkitty:
-	.string "nay nay~$"
+	.string "nay nay$"
