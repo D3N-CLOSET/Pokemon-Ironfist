@@ -115,7 +115,7 @@ const struct Tileset gTileset_verdanturf =
     .palettes = gTilesetPalettes_verdanturf,
     .metatiles = gMetatiles_verdanturf,
     .metatileAttributes = gMetatileAttributes_verdanturf,
-    .callback = InitTilesetAnim_Mauville,
+    .callback = InitTilesetAnim_verdanturf,
 };
 
 const struct Tileset gTileset_Lavaridge =

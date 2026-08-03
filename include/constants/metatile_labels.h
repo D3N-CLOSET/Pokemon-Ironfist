@@ -1058,7 +1058,18 @@
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Mowed  0x281
 
 // gTileset_verdanturf
-#define METATILE_verdanturf_Door_Contest  0x3F2
+#define METATILE_verdanturf_DeepSand_BottomMid      0x259
+#define METATILE_verdanturf_DeepSand_Center         0x251
+#define METATILE_verdanturf_Door_BattleTent         0x3D4
+#define METATILE_verdanturf_Door_Verdanturf         0x3A1
+#define METATILE_verdanturf_General_Door_Contest    0x3F2
+#define METATILE_verdanturf_METATILE_Mauville_Door  0x2AC
+#define METATILE_verdanturf_MirageTower_Tile10      0x3E4
+#define METATILE_verdanturf_MirageTower_Tile11      0x3E5
+#define METATILE_verdanturf_MirageTower_TileC       0x3DB
+#define METATILE_verdanturf_MirageTower_TileD       0x3DC
+#define METATILE_verdanturf_MirageTower_TileE       0x3DD
+#define METATILE_verdanturf_MirageTower_TileF       0x3E3
 
 // Other
 #define METATILE_GeneralFrlg_CalmWater               0x12B

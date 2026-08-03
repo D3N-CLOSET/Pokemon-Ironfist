@@ -1232,7 +1232,7 @@
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 
 #define FLAG_DEXNAV_SEARCH                                          0x493
-#define FLAG_DEXNAV_LEVEL                                           0x494
+#define FLAG_DEXNAV_LEVEL                                           0x494 // deprecated, replaced by FLAG_SYS_DEXNAV_GET
 #define FLAG_DEXNAV_DETECTOR                                        0x495
 #define FLAG_HIDE_MARTHA_FARKER                                     0x496 // Unused
 #define FLAG_FOR_VALVE_NPC                                          0x497
@@ -1350,11 +1350,11 @@
 // See constants/opponents.h. The values there + FLAG_TRAINER_FLAG_START are the flag IDs
 
 #define TRAINER_FLAGS_START                                         0x500
-#define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) // 0x85F - this is outaded
+#define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) // 0x85F - this is outadated
 
 // System Flags
 
-#define SYSTEM_FLAGS                                   (TRAINER_FLAGS_END + 1) // 0x860
+#define SYSTEM_FLAGS                                   (TRAINER_FLAGS_END + 1) // 0x860 - outdated
 
 #define FLAG_SYS_POKEMON_GET                         (SYSTEM_FLAGS + 0x0) // FLAG_0x860
 #define FLAG_SYS_POKEDEX_GET                         (SYSTEM_FLAGS + 0x1)
@@ -1516,8 +1516,8 @@
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
-#define FLAG_RUN_TOGGLE                             (SYSTEM_FLAGS + 0x85) // Unused Flag
-#define FLAG_UNUSED_0x8E6                           (SYSTEM_FLAGS + 0x86) // Unused Flag
+#define FLAG_RUN_TOGGLE                             (SYSTEM_FLAGS + 0x85)
+#define FLAG_SYS_DEXNAV_GET                         (SYSTEM_FLAGS + 0x86) // new version
 #define FLAG_UNUSED_0x8E7                           (SYSTEM_FLAGS + 0x87) // Unused Flag
 #define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
 #define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag

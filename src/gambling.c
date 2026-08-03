@@ -62,7 +62,8 @@ static const u16 sPseudoTable[] =
     SPECIES_JANGMO_O,
     SPECIES_BAGON,
     SPECIES_XURKITREE, // gacha exclusive
-    SPECIES_SLAKOTH
+    SPECIES_SLAKOTH,
+    SPECIES_GIBLE
 };
 
 static const u16 sRareTable[] = 
@@ -76,7 +77,9 @@ static const u16 sRareTable[] =
     SPECIES_ELEKID,
     SPECIES_BUNEARY,
     SPECIES_RIOLU,
-    SPECIES_SKARMORY
+    SPECIES_SKARMORY,
+    SPECIES_SABLEYE,
+    SPECIES_HERACROSS
 };
 
 static const u16 sUncommonTable[] = 
@@ -93,7 +96,9 @@ static const u16 sUncommonTable[] =
     SPECIES_PANPOUR,
     SPECIES_PANSEAR,
     SPECIES_PANSAGE,
-    SPECIES_DODUO
+    SPECIES_DODUO,
+    SPECIES_SHUPPET,
+    SPECIES_TANGELA
 };
 
 static const u16 sCommonTable[] = 
@@ -115,8 +120,10 @@ static const u16 sCommonTable[] =
     SPECIES_SENTRET,
     SPECIES_MACHOP,
     SPECIES_LILEEP,
-    SPECIES_LEAVANNY,
-    SPECIES_ZIGZAGOON
+    SPECIES_SEWADDLE,
+    SPECIES_ZIGZAGOON,
+    SPECIES_WINGULL,
+    SPECIES_SHROOMISH
 };
 
 static u16 GetRandomPseudoSpecies(void) {return sPseudoTable[Random() % ARRAY_COUNT(sPseudoTable)]; }

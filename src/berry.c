@@ -2473,8 +2473,6 @@ bool32 BerryTreeGrow(struct BerryTree *tree)
         tree->berryYield = 0;
         tree->stage = BERRY_STAGE_SPROUTED;
         tree->moistureLevel = 100;
-        if (++tree->regrowthCount == ((tree->mulch == ITEM_TO_MULCH(ITEM_GOOEY_MULCH)) ? 15 : 10))
-            *tree = gBlankBerryTree;
         break;
     }
     return TRUE;
