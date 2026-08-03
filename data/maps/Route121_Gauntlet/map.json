@@ -153,5 +153,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Gauntlet_EventScript_Doubles"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

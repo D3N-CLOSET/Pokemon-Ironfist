@@ -181,5 +181,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SageValley_Ice_EventScript_GymSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }
