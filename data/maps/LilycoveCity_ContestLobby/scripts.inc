@@ -318,6 +318,7 @@ LilycoveCity_ContestLobby_EventScript_ContestReceptionist::
 	special SetContestTrainerGfxIds
 	call LilycoveCity_ContestLobby_EventScript_SetPlayerGfx
 	call LilycoveCity_ContestLobby_EventScript_SetContestType
+	setvar VAR_CONTEST_LOCATION, 4
 	call LilycoveCity_ContestLobby_EventScript_WarpToContestHall
 	waitstate
 	end
@@ -360,7 +361,6 @@ LilycoveCity_ContestLobby_EventScript_SetDebug::
 
 LilycoveCity_ContestLobby_EventScript_WarpToContestHall::
 	setflag FLAG_ENTERED_CONTEST
-	setvar VAR_CONTEST_LOCATION, 4
 	switch VAR_CONTEST_CATEGORY
 	case CONTEST_CATEGORY_COOL, LilycoveCity_ContestLobby_EventScript_WarpToCoolContestHall
 	case CONTEST_CATEGORY_BEAUTY, LilycoveCity_ContestLobby_EventScript_WarpToBeautyContestHall

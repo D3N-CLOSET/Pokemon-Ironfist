@@ -18,6 +18,11 @@ OneIsland_EventScript_EnterOneIslandFirstTime::
 	waitmovement 0
 	msgbox OneIsland_Text_BillLetsGoSeeCelio
 	closemessage
+	giveitem ITEM_AURORA_TICKET
+	giveitem ITEM_MYSTIC_TICKET
+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+	closemessage
 	applymovement LOCALID_ONE_ISLAND_BILL, OneIsland_Movement_BillWalkToPokeCenter
 	applymovement LOCALID_PLAYER, OneIsland_Movement_PlayerWalkToPokeCenter
 	waitmovement 0
@@ -115,7 +120,9 @@ OneIsland_Text_BillLetsGoSeeCelio::
 	.string "He's in charge of the island's PC\n"
 	.string "network by his lonesome.\p"
 	.string "…Why am I telling you this now?\n"
-	.string "Let's just go see CELIO!$"
+	.string "Let's just go see CELIO!\p"
+	.string "Oh wait take these first.\p"
+	.string "Now, let's go & meet him!$"
 
 Text_WhereDoYouWantToSail::
 	.string "Ahoy, there!\n"
