@@ -9343,7 +9343,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SilverIsland/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_FOREST",
@@ -9353,7 +9354,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SilverIsland_Forest/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Forest/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Forest/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_FOREST_2",
@@ -9363,7 +9365,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SilverIsland_Forest_2/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Forest_2/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Forest_2/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_FOREST_3",
@@ -9373,7 +9376,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SilverIsland_Forest_3/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Forest_3/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Forest_3/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_PLATEAU",
@@ -9383,7 +9387,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SilverIsland_Plateau/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Plateau/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Plateau/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_PLATEAU_2",
@@ -9393,7 +9398,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Plateau_2/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Plateau_2/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Plateau_2/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_TUNNEL",
@@ -9403,7 +9409,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Silver_Tunnel/border.bin",
-      "blockdata_filepath": "data/layouts/Silver_Tunnel/map.bin"
+      "blockdata_filepath": "data/layouts/Silver_Tunnel/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_MOUNTAIN",
@@ -9413,7 +9420,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Mountain/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Mountain/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Mountain/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_DEPTHS",
@@ -9423,7 +9431,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Depths/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Depths/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Depths/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_HILLS",
@@ -9433,7 +9442,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/SilverIsland_Hills/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Hills/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Hills/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_TOMB",
@@ -9443,7 +9453,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Tomb/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Tomb/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Tomb/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_EMERALD_ISLAND",
@@ -9453,7 +9464,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
       "border_filepath": "data/layouts/EmeraldIsland/border.bin",
-      "blockdata_filepath": "data/layouts/EmeraldIsland/map.bin"
+      "blockdata_filepath": "data/layouts/EmeraldIsland/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_FALLS",
@@ -9463,7 +9475,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/SilverFalls/border.bin",
-      "blockdata_filepath": "data/layouts/SilverFalls/map.bin"
+      "blockdata_filepath": "data/layouts/SilverFalls/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_ISLAND_ROUTE",
@@ -9473,7 +9486,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/SilverIsland_Route/border.bin",
-      "blockdata_filepath": "data/layouts/SilverIsland_Route/map.bin"
+      "blockdata_filepath": "data/layouts/SilverIsland_Route/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_CAVE",
@@ -9483,7 +9497,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverCave/border.bin",
-      "blockdata_filepath": "data/layouts/SilverCave/map.bin"
+      "blockdata_filepath": "data/layouts/SilverCave/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SILVER_CAVE_ICE",
@@ -9493,7 +9508,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverCave_Ice/border.bin",
-      "blockdata_filepath": "data/layouts/SilverCave_Ice/map.bin"
+      "blockdata_filepath": "data/layouts/SilverCave_Ice/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_ARCHIES_HOUSE",
@@ -9503,7 +9519,8 @@
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/ArchiesHouse/border.bin",
-      "blockdata_filepath": "data/layouts/ArchiesHouse/map.bin"
+      "blockdata_filepath": "data/layouts/ArchiesHouse/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_DEWFORD_JUNGLE",
@@ -9513,7 +9530,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/DewfordJungle/border.bin",
-      "blockdata_filepath": "data/layouts/DewfordJungle/map.bin"
+      "blockdata_filepath": "data/layouts/DewfordJungle/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_D3NS_HOUSE",
@@ -9523,7 +9541,8 @@
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/D3NsHouse/border.bin",
-      "blockdata_filepath": "data/layouts/D3NsHouse/map.bin"
+      "blockdata_filepath": "data/layouts/D3NsHouse/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_VOLCANIC_TUNNEL",
@@ -9533,7 +9552,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/VolcanicTunnel/border.bin",
-      "blockdata_filepath": "data/layouts/VolcanicTunnel/map.bin"
+      "blockdata_filepath": "data/layouts/VolcanicTunnel/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_ISLAND_ENTRANCE",
@@ -9543,7 +9563,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/SageIsland_Entrance/border.bin",
-      "blockdata_filepath": "data/layouts/SageIsland_Entrance/map.bin"
+      "blockdata_filepath": "data/layouts/SageIsland_Entrance/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_ISLAND_GATE",
@@ -9553,7 +9574,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/SageIsland_Gate/border.bin",
-      "blockdata_filepath": "data/layouts/SageIsland_Gate/map.bin"
+      "blockdata_filepath": "data/layouts/SageIsland_Gate/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VALLEY",
@@ -9563,7 +9585,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/SageValley/border.bin",
-      "blockdata_filepath": "data/layouts/SageValley/map.bin"
+      "blockdata_filepath": "data/layouts/SageValley/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VALLEY_ICE",
@@ -9573,7 +9596,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/SageValley_Ice/border.bin",
-      "blockdata_filepath": "data/layouts/SageValley_Ice/map.bin"
+      "blockdata_filepath": "data/layouts/SageValley_Ice/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VALLEY_ICE_CAVERNS",
@@ -9583,7 +9607,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/SageValley_IceCaverns/border.bin",
-      "blockdata_filepath": "data/layouts/SageValley_IceCaverns/map.bin"
+      "blockdata_filepath": "data/layouts/SageValley_IceCaverns/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VALLEY_ICE_CAVERNS_B1",
@@ -9593,7 +9618,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SageValley_IceCaverns_B1/border.bin",
-      "blockdata_filepath": "data/layouts/SageValley_IceCaverns_B1/map.bin"
+      "blockdata_filepath": "data/layouts/SageValley_IceCaverns_B1/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VILLAGE_MART",
@@ -9603,7 +9629,8 @@
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/SageVillage_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/SageVillage_Mart/map.bin"
+      "blockdata_filepath": "data/layouts/SageVillage_Mart/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_GLACIAL_PATH",
@@ -9613,7 +9640,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/GlacialPath/border.bin",
-      "blockdata_filepath": "data/layouts/GlacialPath/map.bin"
+      "blockdata_filepath": "data/layouts/GlacialPath/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_ROUTE118_GAUNTLET",
@@ -9623,7 +9651,8 @@
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/Route118_Gauntlet/border.bin",
-      "blockdata_filepath": "data/layouts/Route118_Gauntlet/map.bin"
+      "blockdata_filepath": "data/layouts/Route118_Gauntlet/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VILLAGE_GAUNTLET",
@@ -9633,7 +9662,8 @@
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_TrainerHill",
       "border_filepath": "data/layouts/SageVillage_Gauntlet/border.bin",
-      "blockdata_filepath": "data/layouts/SageVillage_Gauntlet/map.bin"
+      "blockdata_filepath": "data/layouts/SageVillage_Gauntlet/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_VILLAGE_TINY_HOUSE",
@@ -9643,7 +9673,8 @@
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SageVillage_TinyHouse/border.bin",
-      "blockdata_filepath": "data/layouts/SageVillage_TinyHouse/map.bin"
+      "blockdata_filepath": "data/layouts/SageVillage_TinyHouse/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_GLACIAL_PATH_B1",
@@ -9653,7 +9684,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GlacialPath_B1/border.bin",
-      "blockdata_filepath": "data/layouts/GlacialPath_B1/map.bin"
+      "blockdata_filepath": "data/layouts/GlacialPath_B1/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_SAGE_MOUNTAINS",
@@ -9663,7 +9695,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/SageMountains/border.bin",
-      "blockdata_filepath": "data/layouts/SageMountains/map.bin"
+      "blockdata_filepath": "data/layouts/SageMountains/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_MOUNTAIN_PASS",
@@ -9673,7 +9706,8 @@
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/MountainPass/border.bin",
-      "blockdata_filepath": "data/layouts/MountainPass/map.bin"
+      "blockdata_filepath": "data/layouts/MountainPass/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_NORTHERN_CAPE",
@@ -9683,7 +9717,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/NorthernCape/border.bin",
-      "blockdata_filepath": "data/layouts/NorthernCape/map.bin"
+      "blockdata_filepath": "data/layouts/NorthernCape/map.bin",
+      "layout_version": "emerald"
     },
     {
       "id": "LAYOUT_CRESTAN_TOWN",
@@ -9693,7 +9728,8 @@
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/CrestanTown/border.bin",
-      "blockdata_filepath": "data/layouts/CrestanTown/map.bin"
+      "blockdata_filepath": "data/layouts/CrestanTown/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }
