@@ -100,7 +100,7 @@ enum Language
 #define OBJECT_EVENT_TEMPLATES_COUNT 64
 #define DECOR_MAX_SECRET_BASE 16
 #define DECOR_MAX_PLAYERS_HOUSE 12
-#define APPRENTICE_COUNT 4
+#define APPRENTICE_COUNT 7
 #define APPRENTICE_MAX_QUESTIONS 9
 #define MAX_REMATCH_ENTRIES 100 // only REMATCH_TABLE_ENTRIES (78) are used
 #define NUM_CONTEST_WINNERS 13
@@ -111,9 +111,9 @@ enum Language
 
 // Bag constants
 #define BAG_ITEMS_COUNT 30
-#define BAG_KEYITEMS_COUNT 30
+#define BAG_KEYITEMS_COUNT 60
 #define BAG_POKEBALLS_COUNT 16
-#define BAG_TMHM_COUNT 64
+#define BAG_TMHM_COUNT 108
 #define BAG_BERRIES_COUNT 46
 
 // Number of facilities for Ranking Hall.

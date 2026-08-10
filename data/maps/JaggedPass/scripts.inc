@@ -32,8 +32,8 @@ JaggedPass_OnLoad:
 	end
 
 JaggedPass_EventScript_ConcealHideoutEntrance::
-	setmetatile 16, 17, METATILE_Lavaridge_RockWall, TRUE
-	setmetatile 16, 18, METATILE_Lavaridge_RockWall, TRUE
+	setmetatile 20, 31, METATILE_Lavaridge_RockWall, TRUE
+	setmetatile 20, 32, METATILE_Lavaridge_RockWall, TRUE
 	end
 
 JaggedPass_EventScript_OpenMagmaHideout::
@@ -98,9 +98,23 @@ JaggedPass_EventScript_Eric::
 	end
 
 JaggedPass_EventScript_Diana::
-	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
+	lock
+	faceplayer
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, JaggedPass_EventScript_DianaRematch
+
+	goto_if_defeated TRAINER_DIANA_1, JaggedPass_EventScript_DianaDefeated
+
+	special TrySkyBattle
+    goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NotEligibleForSkyBattles
+	setflag FLAG_SYS_SKY_BATTLE
+	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
+	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_SYS_SKY_BATTLE
+	release
+	end
+
+JaggedPass_EventScript_DianaDefeated::
 	msgbox JaggedPass_Text_DianaPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -109,12 +123,17 @@ JaggedPass_EventScript_RegisterDiana::
 	special PlayerFaceTrainerAfterBattle
 	msgbox JaggedPass_Text_DianaRegister, MSGBOX_DEFAULT
 	register_matchcall TRAINER_DIANA_1
+	clearflag FLAG_SYS_SKY_BATTLE
 	release
 	end
 
 JaggedPass_EventScript_DianaRematch::
+	special TrySkyBattle
+    goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NotEligibleForSkyBattlesRematch
+	setflag FLAG_SYS_SKY_BATTLE
 	trainerbattle_rematch TRAINER_DIANA_1, JaggedPass_Text_DianaRematchIntro, JaggedPass_Text_DianaRematchDefeat
 	msgbox JaggedPass_Text_DianaPostRematch, MSGBOX_AUTOCLOSE
+	clearflag FLAG_SYS_SKY_BATTLE
 	end
 
 JaggedPass_EventScript_Ethan::

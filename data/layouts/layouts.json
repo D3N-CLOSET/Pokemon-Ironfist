@@ -3216,8 +3216,8 @@
     {
       "id": "LAYOUT_JAGGED_PASS",
       "name": "JaggedPass_Layout",
-      "width": 30,
-      "height": 46,
+      "width": 38,
+      "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/JaggedPass/border.bin",
@@ -9415,8 +9415,8 @@
     {
       "id": "LAYOUT_SILVER_ISLAND_MOUNTAIN",
       "name": "SilverIsland_Mountain_Layout",
-      "width": 30,
-      "height": 30,
+      "width": 38,
+      "height": 33,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Mountain/border.bin",
@@ -9437,8 +9437,8 @@
     {
       "id": "LAYOUT_SILVER_ISLAND_HILLS",
       "name": "SilverIsland_Hills_Layout",
-      "width": 30,
-      "height": 28,
+      "width": 35,
+      "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/SilverIsland_Hills/border.bin",
@@ -9730,6 +9730,26 @@
       "border_filepath": "data/layouts/CrestanTown/border.bin",
       "blockdata_filepath": "data/layouts/CrestanTown/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_NEW_HOENN_UROUTE1",
+      "name": "NewHoenn_URoute1_Layout",
+      "width": 56,
+      "height": 46,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/NewHoenn_URoute1/border.bin",
+      "blockdata_filepath": "data/layouts/NewHoenn_URoute1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ANCIENT_LAKE",
+      "name": "AncientLake_Layout",
+      "width": 63,
+      "height": 52,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/AncientLake/border.bin",
+      "blockdata_filepath": "data/layouts/AncientLake/map.bin"
     }
   ]
 }

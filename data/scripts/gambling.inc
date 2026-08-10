@@ -74,3 +74,25 @@ RNG_EventScript_RarityBoard::
 RNG_EventScript_RarityBoardText::
     msgbox RNG_Text_RarityBoard, MSGBOX_SIGN
     end
+
+Common_EventScript_NotEligibleForSkyBattles::
+    msgbox Common_Text_NotEligibleForSkyBattles, MSGBOX_NPC
+    end
+
+Common_Text_NotEligibleForSkyBattles:
+    .string "Hello, pardon me but I wanted\n"
+    .string "to have a sky battle, but it looks\l"
+    .string "like, you are ineligble for one.\p"
+    .string "I am sorry to have taken your time.$"
+
+Common_EventScript_NotEligibleForSkyBattlesRematch::
+    msgbox Common_Text_NotEligibleForSkyBattlesRematch, MSGBOX_NPC
+    end
+
+Common_Text_NotEligibleForSkyBattlesRematch:
+    .string "Hello, I wanted\n"
+    .string "to have a sky battle, but it looks\l"
+    .string "like, you are ineligble for one.\p"
+    .string "Let's have a sky battle sometime\n"
+    .string "later, okay?$"
+

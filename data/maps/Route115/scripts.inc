@@ -129,6 +129,41 @@ Route115_EventScript_Marlene::
 	msgbox Route115_Text_MarlenePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route115_ES_BirdTrainerAlan::
+	lock
+	faceplayer
+	goto_if_defeated TRAINER_ALAIN_SKY, Route115_ES_AlanDefeated
+	special TrySkyBattle
+    goto_if_eq VAR_RESULT, FALSE, Common_EventScript_NotEligibleForSkyBattles
+	setflag FLAG_SYS_SKY_BATTLE
+	trainerbattle_single TRAINER_ALAIN_SKY, Route115_T_AlanIntro, Route115_T_AlanDefeat, Route115_ES_AlanDefeated
+	msgbox Route115_T_AlanPostBattle, MSGBOX_DEFAULT
+	clearflag FLAG_SYS_SKY_BATTLE
+	release
+	end
+
+Route115_ES_AlanDefeated::
+	clearflag FLAG_SYS_SKY_BATTLE
+	msgbox Route115_T_AlanPostBattle, MSGBOX_NPC
+	release
+	end
+
+Route115_T_AlanIntro:
+	.string "EEEEEEEEYYY!\p"
+	.string "This view is amazing! It makes me\n"
+	.string "want to have a SKY BATTLE!\p"
+	.string "HEY! YOU! YES YOU!\p"
+	.string "LETS'S have a SKY BATTLE! C'MON!$"
+
+Route115_T_AlanDefeat:
+	.string "EEEEEKK!\p"
+	.string "Your power just gave me some\n"
+	.string "GOOSEBUMPS!$"
+
+Route115_T_AlanPostBattle:
+	.string "I GOT DISTRACTED BY THE AMAZING\n"
+	.string "VIEW OF MT PYRE!$"
+
 Route115_Text_NeverKnowWhenCavePokemonWillAppear:
 	.string "Exploring a cave isn't like walking\n"
 	.string "on a road.\p"

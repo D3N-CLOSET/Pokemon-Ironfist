@@ -93,7 +93,7 @@ FallarborTown_ContestLobby_EventScript_ContestWinner1::
 FallarborTown_ContestLobby_EventScript_ContestWinner2::
 	lockall
 	fadescreen FADE_TO_BLACK
-	showcontestpainting CONTEST_WINNER_HALL_4
+	showcontestpainting CONTEST_WINNER_HALL_2
 	releaseall
 	end
 

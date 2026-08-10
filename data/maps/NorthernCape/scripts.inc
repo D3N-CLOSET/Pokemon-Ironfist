@@ -15,7 +15,6 @@ NorthernCave_EventScript_WaterfallBorderDownSign::
 
 NorthernCave_EventScript_FirstSteps::
 	msgbox NorthernCape_Text_FirstSteps, MSGBOX_DEFAULT
-	call Common_EventScript_PlayGymBadgeFanfare
 	closemessage
 	release
 	end
@@ -38,7 +37,7 @@ NorthernCape_Text_WaterfallBorderDownSign:
 
 NorthernCape_Text_FirstSteps:
 	.string "Did you realize that,\p"
-	.string "you just took your first steps in Johto!$"
+	.string "you just took your first steps in {PLAY_BGM MUS_OBTAIN_BADGE}Johto!{WAIT_SE}$"
 
 NorthernCape_Text_D3N:
 	.string "What?\p"

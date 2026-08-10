@@ -2,7 +2,7 @@
   "id": "MAP_SILVER_ISLAND_TOMB",
   "name": "SilverIsland_Tomb",
   "layout": "LAYOUT_SILVER_ISLAND_TOMB",
-  "music": "MUS_MT_CHIMNEY",
+  "music": "MUS_RG_SEVII_DUNGEON",
   "region_map_section": "MAPSEC_MT_ORENBURG",
   "requires_flash": true,
   "weather": "WEATHER_NONE",

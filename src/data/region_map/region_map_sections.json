@@ -1774,6 +1774,18 @@
     {
       "id": "MAPSEC_ARCHIES_HOME",
       "name": "ARCHIES HOME"
+    },
+    {
+      "id": "MAPSEC_NEW_HOENN",
+      "name": "NEW HOENN"
+    },
+    {
+      "id": "MAPSEC_SOLACE_CITY",
+      "name": "SOLACE CITY"
+    },
+    {
+      "id": "MAPSEC_ANCIENT_LAKE",
+      "name": "ANCIENT LAKE"
     }
   ]
 }

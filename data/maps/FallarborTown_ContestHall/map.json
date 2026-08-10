@@ -12,7 +12,6 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "region": "REGION_HOENN",
   "connections": null,
   "object_events": [
     {
@@ -89,5 +88,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "FallarborTown_ContestHall_EventScript_SuperRankStage"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

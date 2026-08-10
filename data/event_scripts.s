@@ -610,6 +610,7 @@ gStdScripts_End::
 	.include "data/maps/SlateportCity_ContestHall/scripts.inc"
 	.include "data/scripts/gambling.inc"
 	.include "data/text/gambling.inc"
+	.include "data/scripts/sky_battle_trainers.inc"
 
 .if IS_FRLG
 
@@ -1836,3 +1837,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/NorthernCape/scripts.inc"
 
 	.include "data/maps/CrestanTown/scripts.inc"
+
+	.include "data/maps/NewHoenn_URoute1/scripts.inc"
+
+	.include "data/maps/AncientLake/scripts.inc"

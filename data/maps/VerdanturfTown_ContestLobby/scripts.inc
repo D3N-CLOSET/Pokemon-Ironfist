@@ -140,7 +140,7 @@ VerdanturfTown_ContestLobby_EventScript_SetSuperContestType::
 VerdanturfTown_ContestLobby_EventScript_ContestHallWinner::
 	lockall
 	fadescreen FADE_TO_BLACK
-	showcontestpainting CONTEST_WINNER_HALL_2
+	showcontestpainting CONTEST_WINNER_HALL_5
 	releaseall
 	end
 

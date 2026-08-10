@@ -56,12 +56,12 @@ static const u16 sPseudoTable[] =
     SPECIES_DRATINI,
     SPECIES_LARVITAR,
     SPECIES_BELDUM,
-    SPECIES_VOLCANION, // gacha exclusive
+    SPECIES_VOLCANION, // gacha exclusive, could not find the perfect place for my boy
     SPECIES_DEINO,
     SPECIES_GOOMY,
     SPECIES_JANGMO_O,
     SPECIES_BAGON,
-    SPECIES_XURKITREE, // gacha exclusive
+    SPECIES_XURKITREE, // gacha exclusive, not a pseudo legendary but whatever
     SPECIES_SLAKOTH,
     SPECIES_GIBLE
 };
@@ -79,7 +79,8 @@ static const u16 sRareTable[] =
     SPECIES_RIOLU,
     SPECIES_SKARMORY,
     SPECIES_SABLEYE,
-    SPECIES_HERACROSS
+    SPECIES_HERACROSS,
+    SPECIES_ZORUA
 };
 
 static const u16 sUncommonTable[] = 
@@ -98,7 +99,8 @@ static const u16 sUncommonTable[] =
     SPECIES_PANSAGE,
     SPECIES_DODUO,
     SPECIES_SHUPPET,
-    SPECIES_TANGELA
+    SPECIES_TANGELA,
+    SPECIES_MAGBY
 };
 
 static const u16 sCommonTable[] = 

@@ -549,13 +549,13 @@
 #define TRAINER_ISAAC_3                     542
 #define TRAINER_ISAAC_4                     543
 #define TRAINER_ISAAC_5                     544
-#define TRAINER_LYDIA_1                     545
+#define TRAINER_LYDIA_1                     545 // Sky battle
 #define TRAINER_HALLE                       546
 #define TRAINER_GARRISON                    547
-#define TRAINER_LYDIA_2                     548
-#define TRAINER_LYDIA_3                     549
-#define TRAINER_LYDIA_4                     550
-#define TRAINER_LYDIA_5                     551
+#define TRAINER_LYDIA_2                     548 // Sky battle
+#define TRAINER_LYDIA_3                     549 // Sky battle
+#define TRAINER_LYDIA_4                     550 // Sky battle
+#define TRAINER_LYDIA_5                     551 // Sky battle
 #define TRAINER_JACKSON_1                   552
 #define TRAINER_LORENZO                     553
 #define TRAINER_SEBASTIAN                   554
@@ -888,17 +888,20 @@
 #define TRAINER_RIPETHAN                    881
 #define TRAINER_SANS                        882
 #define TRAINER_SONIC                       883
-#define TRAINER_HERO                        884
-#define TRAINER_ISAAC                       885
-#define TRAINER_LYDIA                       886
-#define TRAINER_DEREK_OH                    887
-#define TRAINER_DYLAN                       888
+#define TRAINER_HERO                        884 // trainers after HERO are all for Sky battles
+#define TRAINER_VIRAT                       885
+#define TRAINER_AMY                         886
+#define TRAINER_CASEOH                      887
+#define TRAINER_ISHOWSPEED                  888
+#define TRAINER_HIKER_SKY                   889
+#define TRAINER_ALAIN_SKY                   890
+#define TRAINER_JEROME_SKY                  891
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     889
+#define TRAINERS_COUNT_EMERALD     892
 #define MAX_TRAINERS_COUNT_EMERALD 900
 
 #if IS_FRLG

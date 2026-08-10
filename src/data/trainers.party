@@ -4653,22 +4653,6 @@ Double Battle: No
 AI: Smart Trainer
 Mugshot: Purple
 
-Mightyena @ Darkinium Z
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
-
-Shiftry
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
-
 Cacturne
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -4677,12 +4661,28 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Needle Arm
 - Cotton Spore
 
+Mightyena @ Darkinium Z
+Level: 46
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Roar
+- Double Edge
+- Sucker Punch
+- Crunch
+
+Shiftry
+Level: 48
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Torment
+- Double Team
+- Swagger
+- Leaf Storm
+
 Crawdaunt
 Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Surf
 - Swords Dance
-- Strength
+- Crabhammer
 - Facade
 
 Absol @ Sitrus Berry
@@ -4715,21 +4715,22 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Banette
 Level: 49
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
+- Shadow Punch
 - Grudge
 - Will O Wisp
 - Feint Attack
 
 Sableye
 Level: 50
+Ability: Prankster
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
+- Confuse Ray
+- Will O Wisp
+- Trick Room
+- Encore
 
 Gengar @ Ghostium Z
-Level: 49
+Level: 51
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
 - Confuse Ray
@@ -4737,10 +4738,10 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 
 Drifblim
-Level: 51
+Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ominous Wind
-- Air Cutter
+- Shadow Ball
 - Disable
 - Minimize
 
@@ -8728,11 +8729,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
+Taillow
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Starly
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8787,11 +8788,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
+Swellow
 Level: 25
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Gloom
+Staraptor
 Level: 25
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -8808,11 +8809,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Breloom
+Swellow
 Level: 28
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Gloom
+Staraptor
 Level: 28
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -8829,11 +8830,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Breloom
+Swellow
 Level: 31
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Gloom
+Staraptor
 Level: 31
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -8850,11 +8851,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Breloom
+Swellow
 Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Vileplume
+Staraptor
 Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -9617,10 +9618,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Beldum
 Level: 19
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Iron Head
-- Steel Beam
-- Iron Defense
-- Agility
+- Take Down
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
@@ -12561,11 +12559,11 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slugma
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pelipper
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sceptile
@@ -12577,11 +12575,11 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Pursuit
 
 Manectric
-Level: 30
+Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lairon
-Level: 30
+Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_LILYCOVE_TREECKO ===
@@ -12599,11 +12597,11 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pelipper
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ludicolo
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Blaziken
@@ -12615,11 +12613,11 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Cut
 
 Manectric
-Level: 30
+Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lairon
-Level: 30
+Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
@@ -12637,11 +12635,11 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ludicolo
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slugma
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Swampert
@@ -12653,11 +12651,11 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Focus Punch
 
 Manectric
-Level: 30
+Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lairon
-Level: 30
+Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
@@ -12675,11 +12673,11 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slugma
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pelipper
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sceptile
@@ -12687,11 +12685,11 @@ Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Skitty
-Level: 30
+Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beautifly
-Level: 30
+Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
@@ -12709,11 +12707,11 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pelipper
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ludicolo
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Blaziken
@@ -12721,11 +12719,11 @@ Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Skitty
-Level: 30
+Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beautifly
-Level: 30
+Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
@@ -12743,11 +12741,11 @@ Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ludicolo
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slugma
-Level: 32
+Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Swampert
@@ -12755,11 +12753,11 @@ Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Skitty
-Level: 30
+Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beautifly
-Level: 30
+Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 
@@ -16323,9 +16321,9 @@ Level: 78
 Shiny: Yes
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
-- Psychic
+- Psychic Fangs
 - Meteor Mash
-- Shadow Ball
+- Protect
 
 === TRAINER_ANABEL ===
 Name: ANABEL
@@ -17952,22 +17950,42 @@ Mugshot: Purple
 Dragonite
 Level: 99
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brick Break
+- Dragon Dance
+- Draco Meteor
+- Thunder Punch
 
 Gengar
 Level: 99
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Shadow Ball
+- Facade
+- Giga Drain
+- Protect
 
 Torterra @ Leftovers
 Level: 99
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Frenzy Plant
+- Earthquake
+- Protect
+- Rock Polish
 
 Heracross @ Muscle Band
 Level: 99
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Megahorn
+- U Turn
+- Bulk Up
+- Dig
 
 Incineroar @ Firium Z
 Level: 99
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Fire Punch
+- Revenge
+- Roar
+- Swords Dance
 
 Pineco @ Sitrus Berry
 Level: 1
@@ -17992,6 +18010,10 @@ Mugshot: Yellow
 Metagross @ Leftovers
 Level: 98
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Meteor Mash
+- Protect
+- Psychic
+- Reflect
 
 Empoleon
 Level: 98
@@ -18072,8 +18094,8 @@ Kakuna
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LYDIA ===
-Name: LYDIA
+=== TRAINER_AMY ===
+Name: AMY
 Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
@@ -18081,45 +18103,41 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 11
+Wingull
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Marill
-Level: 11
+Noibat
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Roselia
-Level: 11
+Zubat
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skitty
-Level: 11
+Emolga
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DEREK_OH ===
-Name: DEREK
-Class: Bug Maniac
-Pic: Bug Maniac
+=== TRAINER_CASEOH ===
+Name: CASEOG
+Class: Hiker
+Pic: Hiker
 Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Dustox
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Butterfree
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Beautifly
-Level: 16
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Ledian
+Level: 17
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DYLAN ===
-Name: DYLAN
+=== TRAINER_ISHOWSPEED ===
+Name: ISHOWSPEED
 Class: Triathlete
 Pic: Running Triathlete M
 Gender: Male
@@ -18127,35 +18145,73 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 17
+Skarmory
+Level: 26
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Ability: Drizzle
+Level: 26
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_VIRAT ===
+Name: VIRAT
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: Basic Trainer
+
+Gliscor
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Swords Dance
+- Night Slash
+- Roost
+
+Minior
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ISAAC ===
-Name: ISAAC
-Class: Pkmn Breeder
-Pic: Pokemon Breeder M
+Swellow
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Aerial Ace
+- Steel Wing
+- Protect
+
+=== TRAINER_HIKER_SKY ===
+Name: HAALAND
+Class: Hiker
+Pic: Hiker
 Gender: Male
-Music: Male
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+
+Pidgeotto
+Level: 30
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+Togetic
+Level: 30
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+
+=== TRAINER_ALAIN_SKY ===
+Name: ALAIN
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Whismur
+Gligar
 Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Aron
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Makuhita
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Wing Attack
+- Growl
+- Knock Off
