@@ -38584,58 +38584,58 @@
             "encounter_rate": 10,
             "mons": [
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 52,
                 "species": "SPECIES_SWINUB"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_VANILLITE"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_CUBCHOO"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_GOLDUCK"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_ABSOL"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_VULPIX_ALOLA"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_ABSOL"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_CLAYDOL"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_MAMOSWINE"
               },
               {
-                "min_level": 41,
-                "max_level": 46,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_MAMOSWINE"
               },
               {
-                "min_level": 41,
-                "max_level": 50,
+                "min_level": 52,
+                "max_level": 55,
                 "species": "SPECIES_DHELMISE"
               },
               {
