@@ -3,6 +3,7 @@ SilverIsland_Depths_MapScripts::
 
 Red_EventScript_Red::
     lock
+    cleartrainerflag TRAINER_RED
     trainerbattle_single TRAINER_RED, Red_Text_Intro, Red_Text_Defeat
     msgbox Red_Text_RedPostBattle, MSGBOX_NPC
     release
