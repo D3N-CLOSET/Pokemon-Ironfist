@@ -937,10 +937,10 @@ LittlerootTown_Text_SwitchShoesWithRunningShoes:
 LittlerootTown_Text_ExplainRunningShoes:
 	.string "MOM: {PLAYER}, those shoes came with\n"
 	.string "instructions.\p"
-	.string "“Hold the B Button while wearing these\n"
-	.string "or Toggle it by pressing  the L button.\p"
+	.string "“Hold the B Button or Toggle by pressing\n"
+	.string "the L button, while wearing these\p"
 	.string "RUNNING SHOES to run extra-fast!\p"
-	.string "“Slip on these RUNNING SHOES and race\n"
+	.string "Slip on these RUNNING SHOES and race\n"
 	.string "in the great outdoors!”$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
