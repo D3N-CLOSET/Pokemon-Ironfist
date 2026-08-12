@@ -6,6 +6,7 @@ FallarborTown_OnTransition:
 	setflag FLAG_VISITED_FALLARBOR_TOWN
 	setvar VAR_CONTEST_HALL_STATE, 0
 	clearflag FLAG_CONTEST_SKETCH_CREATED
+	setflag FLAG_HIDE_CONTEST_REPORTER_FALLARBOR
 	end
 
 FallarborTown_EventScript_ExpertM::
