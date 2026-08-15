@@ -1841,3 +1841,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/NewHoenn_URoute1/scripts.inc"
 
 	.include "data/maps/AncientLake/scripts.inc"
+
+	.include "data/maps/SilverIsland_Mountain_2F/scripts.inc"
+
+	.include "data/maps/FlowerValley/scripts.inc"
+
+	.include "data/maps/UnknownSlab/scripts.inc"

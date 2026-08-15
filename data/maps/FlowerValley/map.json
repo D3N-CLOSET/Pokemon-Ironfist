@@ -1,0 +1,56 @@
+{
+  "id": "MAP_FLOWER_VALLEY",
+  "name": "FlowerValley",
+  "layout": "LAYOUT_FLOWER_VALLEY",
+  "music": "MUS_RG_ROUTE3",
+  "region_map_section": "MAPSEC_FLOWER_VALLEY",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY_CLOUDS",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 39,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN_2F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 39,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN_2F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 39,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN_2F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 39,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN_2F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "UnknownSlab",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

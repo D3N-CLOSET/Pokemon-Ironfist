@@ -92,7 +92,7 @@
 #define FLAG_REMOVE_DIDDY    0x46
 #define FLAG_OFF_SHADOW      0x47
 #define FLAG_MOVE_TUTOR_TAUGHT_LIQUIDATION    0x48
-#define FLAG_DEFEATED_RED    0x49 // Unused Flag, removal can cause pointer error
+#define FLAG_DEFEATED_RED    0x49
 #define FLAG_TALKED_TO_SAGE_BOY    0x4A
 #define FLAG_PICKED_RING_TARG    0x4B
 #define FLAG_PICKED_FOCUSSASH    0x4C

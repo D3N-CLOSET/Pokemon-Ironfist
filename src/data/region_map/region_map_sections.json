@@ -1786,6 +1786,14 @@
     {
       "id": "MAPSEC_ANCIENT_LAKE",
       "name": "ANCIENT LAKE"
+    },
+    {
+      "id": "MAPSEC_FLOWER_VALLEY",
+      "name": "FLOWER VALLEY"
+    },
+    {
+      "id": "MAPSEC_UKNOWN",
+      "name": "????"
     }
   ]
 }

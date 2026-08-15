@@ -155,7 +155,9 @@
     "MountainPass",
     "NorthernCape",
     "CrestanTown",
-    "NewHoenn_URoute1"
+    "NewHoenn_URoute1",
+    "SilverIsland_Mountain_2F",
+    "FlowerValley"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -504,7 +506,8 @@
     "Route118_Gauntlet",
     "Route121_Gauntlet",
     "Pacifidlog_Gauntlet",
-    "AncientLake"
+    "AncientLake",
+    "UnknownSlab"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

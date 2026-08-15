@@ -1,0 +1,106 @@
+{
+  "id": "MAP_SILVER_ISLAND_MOUNTAIN_2F",
+  "name": "SilverIsland_Mountain_2F",
+  "layout": "LAYOUT_SILVER_ISLAND_MOUNTAIN_2F",
+  "music": "MUS_RG_ROUTE3",
+  "region_map_section": "MAPSEC_MT_ORENBURG",
+  "requires_flash": false,
+  "weather": "WEATHER_RAIN_THUNDERSTORM",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_FLOWER_VALLEY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_FLOWER_VALLEY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_FLOWER_VALLEY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_FLOWER_VALLEY",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 20,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 21,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 22,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "weather",
+      "x": 10,
+      "y": 24,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 11,
+      "y": 24,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 20,
+      "y": 36,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 21,
+      "y": 36,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    },
+    {
+      "type": "weather",
+      "x": 22,
+      "y": 36,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
+    }
+  ],
+  "bg_events": []
+}

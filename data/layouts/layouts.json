@@ -9382,7 +9382,7 @@
     {
       "id": "LAYOUT_SILVER_ISLAND_PLATEAU",
       "name": "SilverIsland_Plateau_Layout",
-      "width": 32,
+      "width": 38,
       "height": 28,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Rustboro",
@@ -9426,8 +9426,8 @@
     {
       "id": "LAYOUT_SILVER_ISLAND_DEPTHS",
       "name": "SilverIsland_Depths_Layout",
-      "width": 32,
-      "height": 28,
+      "width": 36,
+      "height": 29,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Depths/border.bin",
@@ -9448,8 +9448,8 @@
     {
       "id": "LAYOUT_SILVER_ISLAND_TOMB",
       "name": "SilverIsland_Tomb_Layout",
-      "width": 16,
-      "height": 14,
+      "width": 20,
+      "height": 18,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SilverIsland_Tomb/border.bin",
@@ -9750,6 +9750,36 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/AncientLake/border.bin",
       "blockdata_filepath": "data/layouts/AncientLake/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_ISLAND_MOUNTAIN_2F",
+      "name": "SilverIsland_Mountain_2F_Layout",
+      "width": 38,
+      "height": 51,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SilverIsland_Mountain_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SilverIsland_Mountain_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOWER_VALLEY",
+      "name": "FlowerValley_Layout",
+      "width": 47,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_EverGrande",
+      "border_filepath": "data/layouts/FlowerValley/border.bin",
+      "blockdata_filepath": "data/layouts/FlowerValley/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNKNOWN_SLAB",
+      "name": "UNknownSlab_Layout",
+      "width": 17,
+      "height": 12,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/UnknownSlab/border.bin",
+      "blockdata_filepath": "data/layouts/UnknownSlab/map.bin"
     }
   ]
 }

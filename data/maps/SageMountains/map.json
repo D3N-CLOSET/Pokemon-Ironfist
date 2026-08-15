@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_SAGE_MOUNTAINS",
   "requires_flash": false,
   "weather": "WEATHER_SNOW",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,

@@ -3,18 +3,22 @@ SilverIsland_Depths_MapScripts::
 
 Red_EventScript_Red::
     lock
-    cleartrainerflag TRAINER_RED
+    goto_if_set FLAG_DEFEATED_RED, Red_EventScript_RedRematchBeginning
     trainerbattle_single TRAINER_RED, Red_Text_Intro, Red_Text_Defeat
+    setflag FLAG_DEFEATED_RED
     msgbox Red_Text_RedPostBattle, MSGBOX_NPC
     release
     end
 
-Red_EventScript_SetRedFlag::
-    setflag FLAG_DEFEATED_RED
-    goto Red_EventScript_RedPostBattle
+Red_EventScript_RedRematchBeginning::
+    msgbox Red_Text_DoYouWantToFightAgain, MSGBOX_YESNO
+    goto_if_eq VAR_RESULT, YES, Red_EventScript_RedRematch
+    release
+    end
 
-Red_EventScript_RedRematch::
-    trainerbattle_single TRAINER_RED, Red_Text_RematchIntro, Red_Text_Defeat
+Red_EventScript_RedRematch:
+    cleartrainerflag TRAINER_RED
+    trainerbattle_single TRAINER_RED, Red_Text_RematchIntro, Red_Text_RematchDefeat
     release
     end
 
@@ -37,19 +41,17 @@ Magma_EventScript_Boy::
     release
     end
 
-Magma_EventScript_Slut::
+Magma_EventScript_Girl::
     lock
     faceplayer
-    msgbox Magma_Text_Slut, MSGBOX_NPC
+    msgbox Magma_Text_Girl, MSGBOX_NPC
     release
     end
 
 Red_Text_Intro:
 	.string "....\p"
-	.string "(So you are the new\n"
-	.string "Hoenn champion huh?\p"
-	.string "Time to test your\n"
-	.string "true strength.)$"
+	.string "(So you are the new Hoenn champion huh?\l"
+	.string "It's Time to test your true strength.)$"
 
 Red_Text_Defeat:
 	.string "....\n"
@@ -57,13 +59,20 @@ Red_Text_Defeat:
 
 Red_Text_RedPostBattle:
 	.string "....\p"
-	.string "(I should not had\n"
-	.string "underestimated your strength.)$"
+	.string "(I should not had underestimated your\n"
+	.string "strength.)$"
+
+Red_Text_DoYouWantToFightAgain:
+    .string "....\p"
+    .string "(Do you want a rematch?)$"
 
 Red_Text_RematchIntro:
 	.string "....\p"
-	.string "(You want to rematch?\p"
-	.string "Okay here we go!)$"
+	.string "(Okay here we go!)$"
+
+Red_Text_RematchDefeat:
+    .string ".....\p"
+    .string "(You are still stronger.)$"
 
 
 SilverDepths_EventScript_Sign::
@@ -74,25 +83,21 @@ SilverDepths_Text_Sign:
     .string "Silver Depths$"
 
 Maxie_Text_HeKickedMyAss:
-    .string "Oh hi {PLAYER},\p"
-    .string "I came here to\n"
-    .string "visit Archie and he let\p"
-    .string "me train here.\p"
-    .string "But that guy came outta\n"
-    .string "nowhere and kicked my ass.\p"
-    .string "Go show him who is\n"
-    .string "the boss!$"
+    .string "Oh hi {PLAYER},\n"
+    .string "I came here to visit Archie and he\l"
+    .string "let me train here.\p"
+    .string "But that guy came outta nowhere and\n"
+    .string "kicked my ass.\p"
+    .string "Go show him who is the boss!$"
 
 Magma_Text_Boy:
-    .string "Man that girl is so hot.\p"
-    .string "I wish I could take her on\n"
-    .string "a date.\p"
-    .string "What? you want me to propose her?\p"
+    .string "Man that girl is so hot.\n"
+    .string "I wish I could take her on a date.\p"
+    .string "What? you want me to propose her?\n"
     .string "Impossible! I'd get slapped!$"
 
-Magma_Text_Slut:
-    .string "Man that boy is so handsome.\p"
-    .string "I wish I could take him on\n"
-    .string "a date.\p"
-    .string "What? you want me to propose him?\p"
+Magma_Text_Girl:
+    .string "Man that boy is so handsome.\n"
+    .string "I wish I could take him on a date.\p"
+    .string "What? you want me to propose him?\n"
     .string "Impossible! He will run away!$"
