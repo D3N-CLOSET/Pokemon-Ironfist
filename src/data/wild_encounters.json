@@ -39129,6 +39129,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_SILVER_ISLAND_MOUNTAIN_2F",
+          "base_label": "gSilverIsland_Mountain_2F",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_SHIELDON"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_TYRUNT"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_ROCKRUFF"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_MINIOR"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_ROGGENROLA"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_ARCHEN"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_KABUTO"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_STAKATAKA"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_BONSLY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 60,
+                "species": "SPECIES_AERODACTYL"
+              },
+              {
+                "min_level": 60,
+                "max_level": 60,
+                "species": "SPECIES_MOLTRES"
+              }
+            ]
+          }
         }
       ]
     },
