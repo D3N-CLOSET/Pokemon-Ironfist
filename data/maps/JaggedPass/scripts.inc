@@ -171,7 +171,7 @@ JaggedPass_Text_EricIntro:
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!$"
+	.string "It jaggs my soul!$"
 
 JaggedPass_Text_EricDefeat:
 	.string "Losing left me bitter!$"
