@@ -9764,8 +9764,8 @@
     {
       "id": "LAYOUT_FLOWER_VALLEY",
       "name": "FlowerValley_Layout",
-      "width": 47,
-      "height": 30,
+      "width": 48,
+      "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/FlowerValley/border.bin",

@@ -10866,7 +10866,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_YVELTAL"
+                "species": "SPECIES_LARVESTA"
               }
             ]
           }
@@ -37119,7 +37119,7 @@
               {
                 "min_level": 60,
                 "max_level": 60,
-                "species": "SPECIES_MOLTRES"
+                "species": "SPECIES_AERODACTYL"
               }
             ]
           }
@@ -37491,72 +37491,7 @@
         },
         {
           "map": "MAP_FARAWAY_ISLAND_INTERIOR",
-          "base_label": "gFarawayIsland_Interior",
-          "land_mons": {
-            "encounter_rate": 15,
-            "mons": [
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 60,
-                "max_level": 60,
-                "species": "SPECIES_ABSOL"
-              },
-              {
-                "min_level": 65,
-                "max_level": 65,
-                "species": "SPECIES_GALLADE"
-              },
-              {
-                "min_level": 65,
-                "max_level": 65,
-                "species": "SPECIES_GALLADE"
-              },
-              {
-                "min_level": 30,
-                "max_level": 30,
-                "species": "SPECIES_HOOPA"
-              },
-              {
-                "min_level": 30,
-                "max_level": 30,
-                "species": "SPECIES_JIRACHI"
-              }
-            ]
-          }
+          "base_label": "gFarawayIsland_Interior"
         },
         {
           "map": "MAP_SILVER_ISLAND_ROUTE",
@@ -39154,12 +39089,7 @@
               {
                 "min_level": 51,
                 "max_level": 57,
-                "species": "SPECIES_MINIOR"
-              },
-              {
-                "min_level": 51,
-                "max_level": 57,
-                "species": "SPECIES_ROGGENROLA"
+                "species": "SPECIES_SHIELDON"
               },
               {
                 "min_level": 51,
@@ -39169,7 +39099,12 @@
               {
                 "min_level": 51,
                 "max_level": 57,
-                "species": "SPECIES_ARCHEN"
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 51,
+                "max_level": 57,
+                "species": "SPECIES_TYRUNT"
               },
               {
                 "min_level": 51,
@@ -39184,7 +39119,7 @@
               {
                 "min_level": 51,
                 "max_level": 57,
-                "species": "SPECIES_BONSLY"
+                "species": "SPECIES_KARTANA"
               },
               {
                 "min_level": 60,
@@ -39194,7 +39129,230 @@
               {
                 "min_level": 60,
                 "max_level": 60,
-                "species": "SPECIES_MOLTRES"
+                "species": "SPECIES_AERODACTYL"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_FLOWER_VALLEY",
+          "base_label": "gFlowerValley",
+          "land_mons": {
+            "encounter_rate": 8,
+            "mons": [
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_AIPOM"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_GASTLY"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_BUDEW"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_MORELULL"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_ABSOL"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_ROSELIA"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_ROSELIA"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_GALLADE"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_GALLADE"
+              },
+              {
+                "min_level": 54,
+                "max_level": 60,
+                "species": "SPECIES_ZYGARDE"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_JIRACHI"
+              },
+              {
+                "min_level": 35,
+                "max_level": 35,
+                "species": "SPECIES_HOOPA"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 2,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_BARBOACH"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_GOLDEEN"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_LUVDISC"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_GOLDEEN"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_GOLDEEN"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_GOLDEEN"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_CARVANHA"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_LUVDISC"
+              },
+              {
+                "min_level": 52,
+                "max_level": 58,
+                "species": "SPECIES_LUVDISC"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_UNKNOWN_SLAB",
+          "base_label": "gUnknownSlab",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 60,
+                "species": "SPECIES_ZUBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 60,
+                "species": "SPECIES_ZYGARDE_10_AURA_BREAK"
+              },
+              {
+                "min_level": 60,
+                "max_level": 60,
+                "species": "SPECIES_ZYGARDE_10_POWER_CONSTRUCT"
               }
             ]
           }

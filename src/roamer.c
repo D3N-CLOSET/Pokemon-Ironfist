@@ -159,7 +159,7 @@ void InitRoamer(void)
     {    TryAddRoamer(SPECIES_LATIAS, 40);
         TryAddRoamer(SPECIES_ARCEUS, 75);
         TryAddRoamer(SPECIES_NECROZMA, 50);
-        TryAddRoamer(SPECIES_ZYGARDE, 50);
+        TryAddRoamer(SPECIES_YVELTAL, 50);
         TryAddRoamer(SPECIES_MEWTWO, 50);
         TryAddRoamer(SPECIES_DIALGA, 50);
         TryAddRoamer(SPECIES_PALKIA, 50);

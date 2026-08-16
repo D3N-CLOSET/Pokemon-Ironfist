@@ -1,2 +1,2 @@
-UknownSlab_MapScripts::
+UnknownSlab_MapScripts::
 	.byte 0
