@@ -187,6 +187,7 @@
 
 // gTileset_EverGrande
 #define METATILE_EverGrande_Door_PokemonLeague  0x21D
+#define METATILE_EverGrande_TallGrass           0x27E
 
 // gTileset_Facility
 #define METATILE_Facility_DataPad                       0x3E4

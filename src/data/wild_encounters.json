@@ -725,7 +725,7 @@
               {
                 "min_level": 11,
                 "max_level": 13,
-                "species": "SPECIES_MARACTUS"
+                "species": "SPECIES_WINGULL"
               },
               {
                 "min_level": 11,
@@ -857,8 +857,8 @@
             "encounter_rate": 10,
             "mons": [
               {
-                "min_level": 20,
-                "max_level": 20,
+                "min_level": 19,
+                "max_level": 21,
                 "species": "SPECIES_SANDSHREW"
               },
               {
@@ -869,7 +869,7 @@
               {
                 "min_level": 21,
                 "max_level": 22,
-                "species": "SPECIES_SANDSHREW"
+                "species": "SPECIES_MARACTUS"
               },
               {
                 "min_level": 21,
@@ -1383,19 +1383,19 @@
                 "species": "SPECIES_WOOBAT"
               },
               {
-                "min_level": 7,
+                "min_level": 6,
                 "max_level": 9,
-                "species": "SPECIES_ORICORIO"
+                "species": "SPECIES_TAILLOW"
               },
               {
-                "min_level": 6,
+                "min_level": 5,
                 "max_level": 6,
-                "species": "SPECIES_TAILLOW"
+                "species": "SPECIES_NINCADA"
               },
               {
                 "min_level": 7,
                 "max_level": 8,
-                "species": "SPECIES_TAILLOW"
+                "species": "SPECIES_ORICORIO_BAILE"
               },
               {
                 "min_level": 7,
@@ -1592,7 +1592,7 @@
               },
               {
                 "min_level": 24,
-                "max_level": 24,
+                "max_level": 26,
                 "species": "SPECIES_ELECTRIKE"
               },
               {
@@ -1601,9 +1601,9 @@
                 "species": "SPECIES_ZIGZAGOON"
               },
               {
-                "min_level": 26,
+                "min_level": 25,
                 "max_level": 26,
-                "species": "SPECIES_ELECTRIKE"
+                "species": "SPECIES_MEOWTH"
               },
               {
                 "min_level": 26,
@@ -1618,7 +1618,7 @@
               {
                 "min_level": 25,
                 "max_level": 27,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_ORICORIO_PAU"
               },
               {
                 "min_level": 25,
@@ -1830,7 +1830,7 @@
             "mons": [
               {
                 "min_level": 5,
-                "max_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_POOCHYENA"
               },
               {
@@ -1844,9 +1844,9 @@
                 "species": "SPECIES_SHROOMISH"
               },
               {
-                "min_level": 6,
+                "min_level": 5,
                 "max_level": 6,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_NINCADA"
               },
               {
                 "min_level": 5,
@@ -3213,13 +3213,13 @@
               },
               {
                 "min_level": 24,
-                "max_level": 24,
+                "max_level": 25,
                 "species": "SPECIES_JIGGLYPUFF"
               },
               {
                 "min_level": 25,
-                "max_level": 25,
-                "species": "SPECIES_JIGGLYPUFF"
+                "max_level": 27,
+                "species": "SPECIES_ORICORIO_POM_POM"
               },
               {
                 "min_level": 23,
@@ -38183,7 +38183,7 @@
               {
                 "min_level": 9,
                 "max_level": 12,
-                "species": "SPECIES_ALOMOMOLA"
+                "species": "SPECIES_CORPHISH"
               },
               {
                 "min_level": 9,
@@ -38203,12 +38203,12 @@
               {
                 "min_level": 9,
                 "max_level": 12,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_ORICORIO_SENSU"
               },
               {
                 "min_level": 9,
                 "max_level": 12,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_ALOMOMOLA"
               },
               {
                 "min_level": 9,

@@ -370,7 +370,7 @@
       "width": 68,
       "height": 60,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Mauville",
+      "secondary_tileset": "gTileset_verdanturf",
       "border_filepath": "data/layouts/Route117/border.bin",
       "blockdata_filepath": "data/layouts/Route117/map.bin",
       "layout_version": "emerald"
@@ -9757,7 +9757,7 @@
       "width": 38,
       "height": 51,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/SilverIsland_Mountain_2F/border.bin",
       "blockdata_filepath": "data/layouts/SilverIsland_Mountain_2F/map.bin"
     },
