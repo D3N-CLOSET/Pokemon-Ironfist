@@ -2708,6 +2708,27 @@
 #define FLAG_UNUSED_0x933                           0
 #define FLAG_DAILY_APPRENTICE_LEAVES                0
 
+#define FLAG_VISITED_PETALBURG_WOODS                0 // viridian forest
+#define FLAG_VISITED_ALTERING_CAVE                  0 // altering cave
+#define FLAG_VISITED_METEOR_FALLS                   0 // mt moon
+#define FLAG_VISITED_SILVER_FOREST                  0 // berry forest
+#define FLAG_VISITED_TERRA_CAVE                     0 // rock tunnel
+#define FLAG_VISITED_SHOAL_CAVE                     0 // lost cave
+#define FLAG_VISITED_SAFARI_ZONE                    0 // safari zone
+#define FLAG_VISITED_VICTORY_ROAD                   0 // victory road
+#define FLAG_VISITED_NEW_MAUVILLE                   0 // power plant
+#define FLAG_VISITED_MAGMA_HIDEOUT                  0 // mt ember
+#define FLAG_VISITED_UNKNOWN_CAVE                   0 // tanoby chambers
+#define FLAG_VISITED_MT_PYRE                        0 // icefall cave
+#define FLAG_VISITED_RUSTURF_TUNNEL                 0 // seafoam island
+#define FLAG_VISITED_CAVE_OF_ORIGIN                 0 // dotted hole
+#define FLAG_VISITED_SKY_PILLAR                     0 // pokemon tower
+#define FLAG_VISITED_AQUA_HIDEOUT                   0 // rocket warehouse
+#define FLAG_VISITED_GRANITE_CAVE                   0 // diglett cave
+#define FLAG_TOOK_ZYGARDE_QUEST                     0
+#define FLAG_QUEST_INFO_TAKEN                       0
+#define FLAG_FINISHED_QUEST_ZYGARDE                 0
+
 // Special Flags (Stored in EWRAM (sSpecialFlags), not in the SaveBlock)
 #define SPECIAL_FLAGS_START                     0x4000
 #define FLAG_HIDE_MAP_NAME_POPUP                (SPECIAL_FLAGS_START + 0x0)

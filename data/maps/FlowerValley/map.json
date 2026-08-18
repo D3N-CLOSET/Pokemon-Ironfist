@@ -61,5 +61,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "FlowerValley_ES_Sign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

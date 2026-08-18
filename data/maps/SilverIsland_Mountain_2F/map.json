@@ -102,5 +102,6 @@
       "weather": "COORD_EVENT_WEATHER_RAIN_THUNDERSTORM"
     }
   ],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }
