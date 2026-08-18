@@ -310,7 +310,143 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .tilesptr = sMoneanChamberMapPreviewTiles,
         .tilemapptr = sMoneanChamberMapPreviewTilemap,
         .palptr = sMoneanChamberMapPreviewPalette
-    }
+    }, // hoenn after this comment
+    [MPS_PETALBURG_WOODS] = {
+        .mapsec = MAPSEC_PETALBURG_WOODS,
+        .type = MPS_TYPE_FADE_IN,
+        .flagId = FLAG_VISITED_PETALBURG_WOODS,
+        .tilesptr = sViridianForestMapPreviewTiles,
+        .tilemapptr = sViridianForestMapPreviewTilemap,
+        .palptr = sViridianForestMapPreviewPalette
+    },
+    [MPS_ALTERING_CAVE_EMER] = {
+        .mapsec = MAPSEC_ALTERING_CAVE,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_ALTERING_CAVE,
+        .tilesptr = sAlteringCaveMapPreviewTiles,
+        .tilemapptr = sAlteringCaveMapPreviewTilemap,
+        .palptr = sAlteringCaveMapPreviewPalette
+    },
+    [MPS_METEOR_FALLS] = {
+        .mapsec = MAPSEC_METEOR_FALLS,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_METEOR_FALLS,
+        .tilesptr = sMtMoonMapPreviewTiles,
+        .tilemapptr = sMtMoonMapPreviewTilemap,
+        .palptr = sMtMoonMapPreviewPalette
+    },
+    [MPS_SILVER_FOREST] = {
+        .mapsec = MAPSEC_SILVER_FOREST,
+        .type = MPS_TYPE_FADE_IN,
+        .flagId = FLAG_VISITED_SILVER_FOREST,
+        .tilesptr = sBerryForestMapPreviewTiles,
+        .tilemapptr = sBerryForestMapPreviewTilemap,
+        .palptr = sBerryForestMapPreviewPalette
+    },
+    [MPS_TERRA_CAVE] = {
+        .mapsec = MAPSEC_TERRA_CAVE,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_TERRA_CAVE,
+        .tilesptr = sRockTunnelMapPreviewTiles,
+        .tilemapptr = sRockTunnelMapPreviewTilemap,
+        .palptr = sRockTunnelMapPreviewPalette
+    },
+    [MPS_SHOAL_CAVE] = {
+        .mapsec = MAPSEC_SHOAL_CAVE,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_SHOAL_CAVE,
+        .tilesptr = sLostCaveMapPreviewTiles,
+        .tilemapptr = sLostCaveMapPreviewTilemap,
+        .palptr = sLostCaveMapPreviewPalette
+    },
+    [MPS_SAFARI_ZONE_EMER] = {
+        .mapsec = MAPSEC_SAFARI_ZONE,
+        .type = MPS_TYPE_FADE_IN,
+        .flagId = FLAG_WORLD_MAP_SAFARI_ZONE_CENTER,
+        .tilesptr = sSafariZoneMapPreviewTiles,
+        .tilemapptr = sSafariZoneMapPreviewTilemap,
+        .palptr = sSafariZoneMapPreviewPalette
+    },
+    [MPS_VICTORY_ROAD_EMER] = {
+        .mapsec = MAPSEC_VICTORY_ROAD,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_VICTORY_ROAD,
+        .tilesptr = sVictoryRoadMapPreviewTiles,
+        .tilemapptr = sVictoryRoadMapPreviewTilemap,
+        .palptr = sVictoryRoadMapPreviewPalette
+    },
+    [MPS_NEW_MAUVILLE] = {
+        .mapsec = MAPSEC_NEW_MAUVILLE,
+        .type = MPS_TYPE_FADE_IN,
+        .flagId = FLAG_VISITED_NEW_MAUVILLE,
+        .tilesptr = sPowerPlantMapPreviewTiles,
+        .tilemapptr = sPowerPlantMapPreviewTilemap,
+        .palptr = sPowerPlantMapPreviewPalette
+    },
+    [MPS_MAGMA_HIDEOUT] = {
+        .mapsec = MAPSEC_MAGMA_HIDEOUT,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_MAGMA_HIDEOUT,
+        .tilesptr = sMtEmberMapPreviewTiles,
+        .tilemapptr = sMtEmberMapPreviewTilemap,
+        .palptr = sMtEmberMapPreviewPalette
+    },
+    [MPS_UNKNOWN_CAVE] = {
+        .mapsec = MAPSEC_UKNOWN,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_UNKNOWN_CAVE,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_MT_PYRE] = {
+        .mapsec = MAPSEC_MT_PYRE,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_MT_PYRE,
+        .tilesptr = sIcefallCaveMapPreviewTiles,
+        .tilemapptr = sIcefallCaveMapPreviewTilemap,
+        .palptr = sIcefallCaveMapPreviewPalette
+    },
+    [MPS_RUSTURF_TUNNEL] = {
+        .mapsec = MAPSEC_RUSTURF_TUNNEL,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_WORLD_MAP_SEAFOAM_ISLANDS_1F,
+        .tilesptr = sSeafoamIslandsMapPreviewTiles,
+        .tilemapptr = sSeafoamIslandsMapPreviewTilemap,
+        .palptr = sSeafoamIslandsMapPreviewPalette
+    },
+    [MPS_CAVE_OF_ORIGIN] = {
+        .mapsec = MAPSEC_CAVE_OF_ORIGIN,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_CAVE_OF_ORIGIN,
+        .tilesptr = sDottedHoleMapPreviewTiles,
+        .tilemapptr = sDottedHoleMapPreviewTilemap,
+        .palptr = sDottedHoleMapPreviewPalette
+    },
+    [MPS_SKY_PILLAR] = {
+        .mapsec = MAPSEC_SKY_PILLAR,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_SKY_PILLAR,
+        .tilesptr = sPokemonTowerMapPreviewTiles,
+        .tilemapptr = sPokemonTowerMapPreviewTilemap,
+        .palptr = sPokemonTowerMapPreviewPalette
+    },
+    [MPS_AQUA_HIDEOUT] = {
+        .mapsec = MAPSEC_AQUA_HIDEOUT,
+        .type = MPS_TYPE_FADE_IN,
+        .flagId = FLAG_VISITED_AQUA_HIDEOUT,
+        .tilesptr = sRocketWarehouseMapPreviewTiles,
+        .tilemapptr = sRocketWarehouseMapPreviewTilemap,
+        .palptr = sRocketWarehouseMapPreviewPalette
+    },
+    [MPS_GRANITE_CAVE] = {
+        .mapsec = MAPSEC_GRANITE_CAVE,
+        .type = MPS_TYPE_CAVE,
+        .flagId = FLAG_VISITED_GRANITE_CAVE,
+        .tilesptr = sDiglettsCaveMapPreviewTiles,
+        .tilemapptr = sDiglettsCaveMapPreviewTilemap,
+        .palptr = sDiglettsCaveMapPreviewPalette
+    },
 };
 
 static const struct WindowTemplate sMapNameWindow = {

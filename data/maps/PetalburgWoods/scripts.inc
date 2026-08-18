@@ -1,5 +1,10 @@
 PetalburgWoods_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION PetalburgWoods_OnTransition
 	.byte 0
+
+PetalburgWoods_OnTransition:
+	setflag FLAG_VISITED_PETALBURG_WOODS
+	end
 
 PetalburgWoods_EventScript_DevonResearcherLeft::
 	lockall

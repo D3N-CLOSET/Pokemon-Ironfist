@@ -1,5 +1,10 @@
 AquaHideout_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, AquaHideout_1F_OnTransition
 	.byte 0
+
+AquaHideout_1F_OnTransition:
+	setflag FLAG_VISITED_AQUA_HIDEOUT
+	end
 
 @ The below two entrance guards give hints about what to do to progress the story
 AquaHideout_1F_EventScript_HideoutEntranceGrunt1::

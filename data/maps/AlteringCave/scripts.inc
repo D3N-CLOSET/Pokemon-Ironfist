@@ -4,6 +4,7 @@ AlteringCave_MapScripts::
 
 AlteringCave_OnTransition:
 	setflag FLAG_LANDMARK_ALTERING_CAVE
+    setflag FLAG_VISITED_ALTERING_CAVE
 	end
 
 AlteringCave_BlackMarket_EventScript_May::

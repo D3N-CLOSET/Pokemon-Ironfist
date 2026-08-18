@@ -3,6 +3,7 @@ MagmaHideout_1F_MapScripts::
 	.byte 0
 
 MagmaHideout_1F_OnTransition:
+	setflag FLAG_VISITED_MAGMA_HIDEOUT
 	setvar VAR_JAGGED_PASS_ASH_WEATHER, 0
 	end
 

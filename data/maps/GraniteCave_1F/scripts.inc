@@ -1,5 +1,10 @@
 GraniteCave_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GraniteCave_1F_OnTransition
 	.byte 0
+
+GraniteCave_1F_OnTransition:
+	setflag FLAG_VISITED_GRANITE_CAVE
+	end
 
 GraniteCave_1F_EventScript_Hiker::
 	lock

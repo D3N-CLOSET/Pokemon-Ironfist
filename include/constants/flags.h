@@ -673,27 +673,27 @@
 #define FLAG_MAGMA_HIDEOUT_1F_FLARE_BLITZ                    (FLAG_HIDDEN_ITEMS_START + 0x77)
 #define FLAG_ABANDONED_SHIP_ROOMS_1F_SLUDGE_WAVE             (FLAG_HIDDEN_ITEMS_START + 0x78)
 
-#define FLAG_DYNAMAX_BATTLE  0x264
-#define FLAG_HIDE_CONTEST_REPORTER_VERDANTURF  0x265
-#define FLAG_HIDE_CONTEST_REPORTER_FALLARBOR   0x266
-#define FLAG_HIDE_CONTEST_REPORTER_SLATEPORT   0x267
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
-#define FLAG_UNUSED_0x270  0x270 // Unused Flag
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
-#define FLAG_UNUSED_0x272  0x272 // Unused Flag
-#define FLAG_UNUSED_0x273  0x273 // Unused Flag
-#define FLAG_UNUSED_0x274  0x274 // Unused Flag
-#define FLAG_UNUSED_0x275  0x275 // Unused Flag
-#define FLAG_UNUSED_0x276  0x276 // Unused Flag
-#define FLAG_UNUSED_0x277  0x277 // Unused Flag
-#define FLAG_UNUSED_0x278  0x278 // Unused Flag
+#define FLAG_DYNAMAX_BATTLE                         0x264
+#define FLAG_HIDE_CONTEST_REPORTER_VERDANTURF       0x265
+#define FLAG_HIDE_CONTEST_REPORTER_FALLARBOR        0x266
+#define FLAG_HIDE_CONTEST_REPORTER_SLATEPORT        0x267
+#define FLAG_VISITED_PETALBURG_WOODS                0x268 // viridian forest
+#define FLAG_VISITED_ALTERING_CAVE                  0x269 // altering cave
+#define FLAG_VISITED_METEOR_FALLS                   0x26A // mt moon
+#define FLAG_VISITED_SILVER_FOREST                  0x26B // berry forest
+#define FLAG_VISITED_TERRA_CAVE                     0x26C // rock tunnel
+#define FLAG_VISITED_SHOAL_CAVE                     0x26D // lost cave
+#define FLAG_VISITED_SAFARI_ZONE                    0x26E // safari zone
+#define FLAG_VISITED_VICTORY_ROAD                   0x26F // victory road
+#define FLAG_VISITED_NEW_MAUVILLE                   0x270 // power plant
+#define FLAG_VISITED_MAGMA_HIDEOUT                  0x271 // mt ember
+#define FLAG_VISITED_UNKNOWN_CAVE                   0x272 // tanoby chambers
+#define FLAG_VISITED_MT_PYRE                        0x273 // icefall cave
+#define FLAG_VISITED_RUSTURF_TUNNEL                 0x274 // seafoam island
+#define FLAG_VISITED_CAVE_OF_ORIGIN                 0x275 // dotted hole
+#define FLAG_VISITED_SKY_PILLAR                     0x276 // pokemon tower
+#define FLAG_VISITED_AQUA_HIDEOUT                   0x277 // rocket warehouse
+#define FLAG_VISITED_GRANITE_CAVE                   0x278 // diglett cave
 #define FLAG_UNUSED_0x279  0x279 // Unused Flag
 #define FLAG_UNUSED_0x27A  0x27A // Unused Flag
 #define FLAG_UNUSED_0x27B  0x27B // Unused Flag

@@ -3,6 +3,7 @@ SkyPillar_Entrance_MapScripts::
 	.byte 0
 
 SkyPillar_Entrance_OnTransition:
+	setflag FLAG_VISITED_SKY_PILLAR
 	setflag FLAG_LANDMARK_SKY_PILLAR
 	end
 
