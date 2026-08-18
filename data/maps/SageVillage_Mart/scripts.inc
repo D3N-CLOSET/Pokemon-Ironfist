@@ -54,7 +54,7 @@ SageVill_Mart_Text_FirstBoy:
 	.string "regions.\p"
 	.string "That's why we have so many unique\n"
 	.string "items here.\p"
-	.string "Here take these.$"
+	.string "Here take these as a gift from me.$"
 
 SageVill_Mart_Text_Boy:
 	.string "Sage Island trades regularly with other\n"
@@ -67,19 +67,8 @@ SageVill_Mart_EventScript_Cook::
 	lock
 	goto_if_set  FLAG_SHOAL_ICY_UNUSED, SageVill_Mart_EventScript_CanCook
 	msgbox SageVill_Mart_Text_Cook, MSGBOX_NPC
-	giveitem ITEM_HELIX_FOSSIL
-	giveitem ITEM_DOME_FOSSIL
-	giveitem ITEM_OLD_AMBER
-	giveitem ITEM_ARMOR_FOSSIL
     giveitem ITEM_SKULL_FOSSIL
     giveitem ITEM_COVER_FOSSIL
-    giveitem ITEM_PLUME_FOSSIL
-    giveitem ITEM_JAW_FOSSIL
-    giveitem ITEM_SAIL_FOSSIL
-    giveitem ITEM_FOSSILIZED_BIRD
-    giveitem ITEM_FOSSILIZED_FISH
-    giveitem ITEM_FOSSILIZED_DRAKE
-    giveitem ITEM_FOSSILIZED_DINO
 	setflag FLAG_SHOAL_ICY_UNUSED
 	release
 	end
@@ -105,6 +94,6 @@ SageVill_Mart_Text_Cook:
 	.string "And the village folks don't even remember\n"
 	.string "my shop anymore\p!"
 	.string "What is this blasphemy!\p"
-	.string "I am so mad that I want to give you\n"
-	.string "these fossils for free!$"
+	.string "I am so mad that I throw away all of\n"
+	.string "these fossils I bought!$"
 

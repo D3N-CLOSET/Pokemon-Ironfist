@@ -4510,9 +4510,9 @@
                 "species": "SPECIES_LANDORUS"
               },
               {
-                "min_level": 50,
-                "max_level": 50,
-                "species": "SPECIES_TORNADUS"
+                "min_level": 35,
+                "max_level": 36,
+                "species": "SPECIES_MARSHADOW"
               }
             ]
           }
@@ -4576,7 +4576,7 @@
               {
                 "min_level": 50,
                 "max_level": 50,
-                "species": "SPECIES_THUNDURUS"
+                "species": "SPECIES_TORNADUS"
               },
               {
                 "min_level": 50,
@@ -39129,7 +39129,7 @@
               {
                 "min_level": 60,
                 "max_level": 60,
-                "species": "SPECIES_AERODACTYL"
+                "species": "SPECIES_THUNDURUS"
               }
             ]
           }
