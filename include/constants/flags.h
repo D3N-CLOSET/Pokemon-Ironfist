@@ -694,9 +694,9 @@
 #define FLAG_VISITED_SKY_PILLAR                     0x276 // pokemon tower
 #define FLAG_VISITED_AQUA_HIDEOUT                   0x277 // rocket warehouse
 #define FLAG_VISITED_GRANITE_CAVE                   0x278 // diglett cave
-#define FLAG_UNUSED_0x279  0x279 // Unused Flag
-#define FLAG_UNUSED_0x27A  0x27A // Unused Flag
-#define FLAG_UNUSED_0x27B  0x27B // Unused Flag
+#define FLAG_TOOK_ZYGARDE_QUEST                     0x279
+#define FLAG_QUEST_INFO_TAKEN                       0x27A
+#define FLAG_FINISHED_QUEST_ZYGARDE                 0x27B
 #define FLAG_UNUSED_0x27C  0x27C // Unused Flag
 #define FLAG_UNUSED_0x27D  0x27D // Unused Flag
 #define FLAG_UNUSED_0x27E  0x27E // Unused Flag
