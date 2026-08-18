@@ -446,7 +446,7 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .tilesptr = sDiglettsCaveMapPreviewTiles,
         .tilemapptr = sDiglettsCaveMapPreviewTilemap,
         .palptr = sDiglettsCaveMapPreviewPalette
-    },
+    }
 };
 
 static const struct WindowTemplate sMapNameWindow = {
