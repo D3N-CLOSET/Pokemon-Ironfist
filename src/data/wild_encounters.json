@@ -37133,12 +37133,12 @@
               {
                 "min_level": 35,
                 "max_level": 39,
-                "species": "SPECIES_GROWLITHE"
+                "species": "SPECIES_SLUGMA"
               },
               {
                 "min_level": 32,
                 "max_level": 37,
-                "species": "SPECIES_PANSEAR"
+                "species": "SPECIES_GROWLITHE"
               },
               {
                 "min_level": 32,
@@ -37158,27 +37158,27 @@
               {
                 "min_level": 34,
                 "max_level": 39,
-                "species": "SPECIES_HEATMOR"
+                "species": "SPECIES_DARUMAKA"
               },
               {
                 "min_level": 34,
                 "max_level": 39,
-                "species": "SPECIES_LITLEO"
+                "species": "SPECIES_LUCARIO"
               },
               {
                 "min_level": 34,
                 "max_level": 39,
-                "species": "SPECIES_LITTEN"
+                "species": "SPECIES_PANSEAR"
               },
               {
                 "min_level": 34,
                 "max_level": 39,
-                "species": "SPECIES_VICTINI"
+                "species": "SPECIES_RAPIDASH"
               },
               {
                 "min_level": 34,
                 "max_level": 39,
-                "species": "SPECIES_SALANDIT"
+                "species": "SPECIES_RAPIDASH"
               },
               {
                 "min_level": 55,
@@ -39356,6 +39356,79 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_SILVER_ISLAND_DEPTHS_2",
+          "base_label": "gSilverIsland_Depths_2",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 35,
+                "max_level": 39,
+                "species": "SPECIES_PONYTA"
+              },
+              {
+                "min_level": 32,
+                "max_level": 37,
+                "species": "SPECIES_PONYTA"
+              },
+              {
+                "min_level": 32,
+                "max_level": 37,
+                "species": "SPECIES_RAPIDASH"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_HEATMOR"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_HEATMOR"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_HEATMOR"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_LITLEO"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_LITTEN"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_LITLEO"
+              },
+              {
+                "min_level": 34,
+                "max_level": 39,
+                "species": "SPECIES_SALANDIT"
+              },
+              {
+                "min_level": 55,
+                "max_level": 61,
+                "species": "SPECIES_VICTINI"
+              },
+              {
+                "min_level": 55,
+                "max_level": 61,
+                "species": "SPECIES_SALANDIT"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_SILVER_ISLAND_DEPTHS_3",
+          "base_label": "gSilverIsland_Depths_3"
         }
       ]
     },

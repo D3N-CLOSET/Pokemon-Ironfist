@@ -59,16 +59,26 @@ SageValley_Ice_Text_Man2:
 	.string "cold past the area.$"
 
 SageValley_Ice_EventScript_Woman::
+	goto_if_set FLAG_HIDE_RED, SV_Ice_ES_Woman2
 	msgbox SageValley_Ice_Text_Woman, MSGBOX_NPC
 	end
 
 SageValley_Ice_Text_Woman:
-	.string "Maxie is my uncle.\p"
+	.string "Maxie is my uncle.\n"
 	.string "Yes, this is our home.\p"
 	.string "He went off to visit Archie in\n"
 	.string "Silver Island.\p"
 	.string "I love how they went from enemies\n"
 	.string "to friends.$"
+
+SV_Ice_ES_Woman2::
+	msgbox SV_Ice_T_Woman2, MSGBOX_NPC
+	end
+
+SV_Ice_T_Woman2:
+	.string "Maxie is my uncle.\n"
+	.string "Yes, this is our home.\p"
+	.string "I think he went off to Mt Pyre.$"
 
 SageValley_Ice_EventScript_VillSign::
 	msgbox SageValley_Ice_Text_VillSign, MSGBOX_SIGN

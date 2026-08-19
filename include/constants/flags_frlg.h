@@ -2728,6 +2728,7 @@
 #define FLAG_TOOK_ZYGARDE_QUEST                     0
 #define FLAG_QUEST_INFO_TAKEN                       0
 #define FLAG_FINISHED_QUEST_ZYGARDE                 0
+#define FLAG_HIDE_RED                               0
 
 // Special Flags (Stored in EWRAM (sSpecialFlags), not in the SaveBlock)
 #define SPECIAL_FLAGS_START                     0x4000

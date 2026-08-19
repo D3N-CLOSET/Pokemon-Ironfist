@@ -157,7 +157,9 @@
     "CrestanTown",
     "NewHoenn_URoute1",
     "SilverIsland_Mountain_2F",
-    "FlowerValley"
+    "FlowerValley",
+    "SilverIsland_Depths_2",
+    "SilverIsland_Depths_3"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -671,7 +673,8 @@
     "EmeraldIsland",
     "SilverCave",
     "SilverCave_Ice",
-    "ArchiesHouse"
+    "ArchiesHouse",
+    "RedsRoom"
   ],
   "gMapGroup_IndoorRoute104Prototype": [
     "Route104_Prototype",

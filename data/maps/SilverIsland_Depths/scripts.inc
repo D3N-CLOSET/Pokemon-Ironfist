@@ -49,30 +49,22 @@ Magma_EventScript_Girl::
     end
 
 Red_Text_Intro:
-	.string "....\p"
-	.string "(So you are the new Hoenn champion huh?\l"
-	.string "It's Time to test your true strength.)$"
+    .string "...........$"
 
 Red_Text_Defeat:
-	.string "....\n"
-	.string "(Impressive)$"
+    .string "...........$"
 
 Red_Text_RedPostBattle:
-	.string "....\p"
-	.string "(I should not had underestimated your\n"
-	.string "strength.)$"
+    .string "...........$"
 
 Red_Text_DoYouWantToFightAgain:
-    .string "....\p"
-    .string "(Do you want a rematch?)$"
+    .string "...........$"
 
 Red_Text_RematchIntro:
-	.string "....\p"
-	.string "(Okay here we go!)$"
+    .string "...........$"
 
 Red_Text_RematchDefeat:
-    .string ".....\p"
-    .string "(You are still stronger.)$"
+    .string "...........$"
 
 
 SilverDepths_EventScript_Sign::
@@ -86,7 +78,7 @@ Maxie_Text_HeKickedMyAss:
     .string "Oh hi {PLAYER},\n"
     .string "I came here to visit Archie and he\l"
     .string "let me train here.\p"
-    .string "But that guy came outta nowhere and\n"
+    .string "But that kid came outta nowhere and\n"
     .string "kicked my ass.\p"
     .string "Go show him who is the boss!$"
 

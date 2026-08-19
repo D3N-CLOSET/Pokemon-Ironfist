@@ -1255,7 +1255,7 @@
 #define FLAG_GOT_METAL_ALLOY_7                                      0x4A8
 #define FLAG_GOT_METAL_ALLOY_8                                      0x4A9
 #define FLAG_GOT_METAL_ALLOY_9                                      0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
+#define FLAG_HIDE_RED                                               0x4AB
 #define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
 #define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
 #define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag

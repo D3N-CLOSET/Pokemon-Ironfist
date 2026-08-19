@@ -3,7 +3,7 @@
   "name": "SilverIsland_Depths",
   "layout": "LAYOUT_SILVER_ISLAND_DEPTHS",
   "music": "MUS_RG_CINNABAR",
-  "region_map_section": "MAPSEC_SILVER_ISLAND",
+  "region_map_section": "MAPSEC_SILVER_DEPTHS",
   "requires_flash": false,
   "weather": "WEATHER_DROUGHT",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -15,19 +15,6 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_RED",
-      "x": 8,
-      "y": 20,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Red_EventScript_Red",
-      "flag": "0"
-    },
-    {
       "graphics_id": "OBJ_EVENT_GFX_MAXIE",
       "x": 25,
       "y": 11,
@@ -38,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Maxie_EventScript_Hi",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RED"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
@@ -51,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Magma_EventScript_Boy",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RED"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_F",
@@ -64,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Magma_EventScript_Girl",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RED"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
@@ -87,6 +74,13 @@
       "elevation": 0,
       "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_SILVER_ISLAND_DEPTHS_2",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [],

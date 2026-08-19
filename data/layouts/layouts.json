@@ -9780,6 +9780,36 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/UnknownSlab/border.bin",
       "blockdata_filepath": "data/layouts/UnknownSlab/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_ISLAND_DEPTHS_2",
+      "name": "SilverIsland_Depths_2_Layout",
+      "width": 38,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/SilverIsland_Depths_2/border.bin",
+      "blockdata_filepath": "data/layouts/SilverIsland_Depths_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_ISLAND_DEPTHS_3",
+      "name": "SilverIsland_Depths_3_Layout",
+      "width": 50,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/SilverIsland_Depths_3/border.bin",
+      "blockdata_filepath": "data/layouts/SilverIsland_Depths_3/map.bin"
+    },
+    {
+      "id": "LAYOUT_REDS_ROOM",
+      "name": "RedsRoom_Layout",
+      "width": 23,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/RedsRoom/border.bin",
+      "blockdata_filepath": "data/layouts/RedsRoom/map.bin"
     }
   ]
 }

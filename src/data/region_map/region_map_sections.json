@@ -1786,6 +1786,14 @@
     {
       "id": "MAPSEC_UKNOWN",
       "name": "????"
+    },
+    {
+      "id": "MAPSEC_SILVER_DEPTHS",
+      "name": "SILVER DEPTHS"
+    },
+    {
+      "id": "MAPSEC_REDS_ROOM",
+      "name": "RED'S ROOM"
     }
   ]
 }

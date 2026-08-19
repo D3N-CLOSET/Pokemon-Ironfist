@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilverCave_EventScript_Archie",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RED"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilverCave_EventScript_MaleGrunt",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RED"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilverCave_EventScript_GF",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RED"
     }
   ],
   "warp_events": [

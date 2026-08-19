@@ -1847,3 +1847,9 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/FlowerValley/scripts.inc"
 
 	.include "data/maps/UnknownSlab/scripts.inc"
+
+	.include "data/maps/SilverIsland_Depths_2/scripts.inc"
+
+	.include "data/maps/SilverIsland_Depths_3/scripts.inc"
+
+	.include "data/maps/RedsRoom/scripts.inc"
