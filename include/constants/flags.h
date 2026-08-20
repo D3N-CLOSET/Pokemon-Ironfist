@@ -87,7 +87,7 @@
 #define FLAG_SILVER_DAMP     0x41
 #define FLAG_SILVER_HEAT     0x42
 #define FLAG_SILVER_SMOOTH   0x43
-#define FLAG_SHOAL_ICY_UNUSED       0x44
+#define FLAG_SHOAL_ICY_UNUSED       0x44 // this is in use
 #define FLAG_SILVER_TERRAIN  0x45
 #define FLAG_REMOVE_DIDDY    0x46
 #define FLAG_OFF_SHADOW      0x47
@@ -128,7 +128,7 @@
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
 
-#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+#define FLAG_CHARGE_TERA                     0x68  // Unused Flag
 
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A

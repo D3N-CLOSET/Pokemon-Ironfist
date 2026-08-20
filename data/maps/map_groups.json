@@ -159,7 +159,11 @@
     "SilverIsland_Mountain_2F",
     "FlowerValley",
     "SilverIsland_Depths_2",
-    "SilverIsland_Depths_3"
+    "SilverIsland_Depths_3",
+    "SilverCave_2F",
+    "SilverCave_3F",
+    "SilverCave_4F",
+    "SilverCave_5F"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

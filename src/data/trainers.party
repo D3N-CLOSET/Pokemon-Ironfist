@@ -2045,6 +2045,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Duskull
+Tera Type: Ghost
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2192,6 +2193,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Luvdisc @ Nugget
+Tera Type: Water
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Attract
@@ -4654,6 +4656,7 @@ AI: Smart Trainer
 Mugshot: Purple
 
 Cacturne
+Tera Type: Dark
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Leech Seed
@@ -4705,6 +4708,7 @@ AI: Smart Trainer
 Mugshot: Green
 
 Dusclops  @ Sitrus Berry
+Tera Type: Ghost
 Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Punch
@@ -4789,6 +4793,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
 
 Walrein @ Sitrus Berry
+Tera Type: Ice
 Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
@@ -4824,10 +4829,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
 
 Altaria
+Tera Type: Dragon
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
-- Dragon Breath
+- Dragon Pulse
 - Dragon Dance
 - Aerial Ace
 
@@ -4874,6 +4880,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 
 Nosepass @ Rockium Z
+Tera Type: Rock
 Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Block
@@ -4908,6 +4915,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bulk Up
 
 Makuhita @ Fightinium Z
+Tera Type: Fight
 Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Arm Thrust
@@ -4950,6 +4958,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Sonic Boom
 
 Manectric @ Electrium Z
+Tera Type: Electric
 Level: 24
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Quick Attack
@@ -4992,6 +5001,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Attract
 
 Torkoal @ White Herb
+Tera Type: Fire
 Level: 29
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Overheat
@@ -5018,6 +5028,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Encore
 
 Vigoroth
+Tera Type: Normal
 Level: 27
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Slash
@@ -5076,9 +5087,10 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aerial Ace
 
 Skarmory
+Tera Type: Flying
 Level: 31
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
+- Spikes
 - Fury Attack
 - Steel Wing
 - Aerial Ace
@@ -5118,6 +5130,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Calm Mind
 
 Lunatone @ Sitrus Berry
+Tera Type: Psychic
 Level: 42
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
@@ -5176,6 +5189,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leer
 
 Kingdra @ Chesto Berry
+Tera Type: Water
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Water Pulse
@@ -5324,6 +5338,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
+Tera Type: Grass
 Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -5341,6 +5356,7 @@ Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Beautifly
+Tera Type: Flying
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -5354,6 +5370,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
+Tera Type: Grass
 Level: 26
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -5371,6 +5388,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Shroomish
+Tera Type: Grass
 Level: 29
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -5388,6 +5406,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Breloom
+Tera Type: Fighting
 Level: 32
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5405,6 +5424,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Breloom
+Tera Type: Fighting
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -6343,6 +6363,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 
 Tropius
+Tera Type: Grass
 Level: 56
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse
@@ -6799,6 +6820,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
+Tera Type: Electric
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6833,6 +6855,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
+Tera Type: Electric
 Level: 28
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -6846,6 +6869,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magnemite
+Tera Type: Electric
 Level: 31
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -6859,6 +6883,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Magneton
+Tera Type: Electric
 Level: 34
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -6871,7 +6896,8 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Magneton
+Magnezone
+Tera Type: Electric
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -6885,6 +6911,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Doduo
+Tera Type: Flying
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6898,6 +6925,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Doduo
+Tera Type: Flying
 Level: 28
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -6911,6 +6939,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Doduo
+Tera Type: Flying
 Level: 31
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -6924,6 +6953,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Dodrio
+Tera Type: Flying
 Level: 34
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -6937,6 +6967,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Dodrio
+Tera Type: Flying
 Level: 37
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -7273,6 +7304,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Altaria
+Tera Type: Dragon
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7298,6 +7330,7 @@ Level: 41
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Altaria
+Tera Type: Dragon
 Level: 41
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
@@ -7319,6 +7352,7 @@ Level: 44
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Altaria
+Tera Type: Dragon
 Level: 44
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -7340,6 +7374,7 @@ Level: 46
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Altaria
+Tera Type: Dragon
 Level: 46
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -7357,6 +7392,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Altaria
+Tera Type: Dragon
 Level: 49
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
@@ -8625,6 +8661,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
+Tera Type: Normal
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Dig
@@ -8666,6 +8703,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Oshawott
+Tera Type: Water
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8700,6 +8738,7 @@ Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Lombre
+Tera Type: Grass
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8734,6 +8773,7 @@ Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Starly
+Tera Type: Flying
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8792,7 +8832,8 @@ Swellow
 Level: 25
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Staraptor
+Staravia
+Tera Type: Flying
 Level: 25
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -8813,7 +8854,8 @@ Swellow
 Level: 28
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Staraptor
+Staravia
+Tera Type: Flying
 Level: 28
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -8834,7 +8876,8 @@ Swellow
 Level: 31
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Staraptor
+Staravia
+Tera Type: Flying
 Level: 31
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -8856,6 +8899,7 @@ Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Staraptor
+Tera Type: Flying
 Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -9657,6 +9701,7 @@ Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Grovyle
+Tera Type: Grass
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9687,6 +9732,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Grovyle
+Tera Type: Grass
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9735,6 +9781,7 @@ Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Combusken
+Tera Type: Fire
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9765,6 +9812,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Combusken
+Tera Type: Fire
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9813,6 +9861,7 @@ Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Marshtomp
+Tera Type: Water
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9843,6 +9892,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Marshtomp
+Tera Type: Water
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9891,6 +9941,7 @@ Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Grovyle
+Tera Type: Grass
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9917,6 +9968,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Grovyle
+Tera Type: Grass
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -9963,6 +10015,7 @@ Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Combusken
+Tera Type: Fire
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9988,6 +10041,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Combusken
+Tera Type: Fire
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -10034,6 +10088,7 @@ Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Marshtomp
+Tera Type: Water
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -10059,6 +10114,7 @@ Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Marshtomp
+Tera Type: Water
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -10313,6 +10369,7 @@ Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Absol
+Tera Type: Dark
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11088,6 +11145,7 @@ Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Torchic
+Tera Type: Fire
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11110,6 +11168,7 @@ Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Treecko
+Tera Type: Grass
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11222,6 +11281,7 @@ Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Mudkip
+Tera Type: Water
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11244,6 +11304,7 @@ Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Treecko
+Tera Type: Grass
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11804,6 +11865,7 @@ Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
+Tera Type: Rock
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12267,6 +12329,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Swellow
+Tera Type: Flying
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -12567,6 +12630,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sceptile
+Tera Type: Grass
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Leaf Blade
@@ -12605,6 +12669,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Blaziken
+Tera Type: Fire
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flare Blitz
@@ -12643,6 +12708,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Swampert
+Tera Type: Water
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Surf
@@ -12681,6 +12747,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sceptile
+Tera Type: Grass
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12715,6 +12782,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Blaziken
+Tera Type: Fire
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -12749,6 +12817,7 @@ Level: 30
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Swampert
+Tera Type: Water
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
@@ -14305,6 +14374,7 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Medicham
+Tera Type: Psychic
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14501,6 +14571,7 @@ Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Torchic
+Tera Type: Fire
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -14523,6 +14594,7 @@ Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Mudkip
+Tera Type: Water
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -14573,10 +14645,11 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 Nosepass @ Sitrus Berry
+Tera Type: Rock
 Level: 37
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
-- Explosion
+- Earthquake
 - Protect
 - Rock Slide
 
@@ -14623,10 +14696,11 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 
 Nosepass @ Sitrus Berry
+Tera Type: Rock
 Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
-- Explosion
+- Earthquake
 - Protect
 - Rock Slide
 
@@ -14674,9 +14748,10 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nosepass @ Sitrus Berry
 Level: 47
+Tera Type: Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
-- Explosion
+- Earthquake
 - Protect
 - Rock Slide
 
@@ -14691,6 +14766,7 @@ Double Battle: Yes
 AI: Gym Leader
 
 Aerodactyl
+Tera Type: Rock
 Level: 47
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
@@ -14773,6 +14849,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Triple Kick
 
 Hariyama @ Sitrus Berry
+Tera Type: Fight
 Level: 37
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
@@ -14815,6 +14892,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Triple Kick
 
 Hariyama @ Sitrus Berry
+Tera Type: Fight
 Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
@@ -14865,6 +14943,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Triple Kick
 
 Hariyama @ Sitrus Berry
+Tera Type: Fight
 Level: 47
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
@@ -14923,6 +15002,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Triple Kick
 
 Hariyama @ Sitrus Berry
+Tera Type: Fight
 Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
@@ -14957,6 +15037,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 
 Magnezone @ Sitrus Berry
+Tera Type: Electric
 Level: 38
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15007,6 +15088,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 
 Magnezone @ Sitrus Berry
+Tera Type: Electric
 Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15057,6 +15139,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 
 Magnezone @ Sitrus Berry
+Tera Type: Electric
 Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15115,6 +15198,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 
 Magnezone @ Sitrus Berry
+Tera Type: Electric
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
@@ -15165,6 +15249,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 Torkoal @ White Herb
+Tera Type: Fire
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat
@@ -15215,6 +15300,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 Torkoal @ White Herb
+Tera Type: Fire
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat
@@ -15240,7 +15326,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Taunt
 - Sunny Day
 
-Growlithe
+Arcanine
 Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Helping Hand
@@ -15273,6 +15359,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 Torkoal @ White Herb
+Tera Type: Fire
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat
@@ -15331,6 +15418,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Attract
 
 Torkoal @ White Herb
+Tera Type: Fire
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat
@@ -15357,10 +15445,11 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Punch
 
 Slaking @ Sitrus Berry
+Tera Type: Normal
 Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Blizzard
-- Shadow Ball
+- Shadow Punch
 - Double Edge
 - Fire Blast
 
@@ -15383,10 +15472,10 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Slaking @ Sitrus Berry
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
+- Giga Impact
 - Flamethrower
 - Thunderbolt
-- Shadow Ball
+- Shadow Punch
 
 === TRAINER_NORMAN_3 ===
 Name: NORMAN
@@ -15399,10 +15488,11 @@ Double Battle: Yes
 AI: Gym Leader
 
 Slaking @ Sitrus Berry
+Tera Type: Normal
 Level: 47
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Blizzard
-- Shadow Ball
+- Shadow Punch
 - Double Edge
 - Fire Blast
 
@@ -15441,10 +15531,10 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Slaking @ Sitrus Berry
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
+- Giga Impact
 - Flamethrower
 - Thunderbolt
-- Shadow Ball
+- Shadow Punch
 
 === TRAINER_NORMAN_4 ===
 Name: NORMAN
@@ -15457,10 +15547,11 @@ Double Battle: Yes
 AI: Gym Leader
 
 Slaking @ Sitrus Berry
+Tera Type: Normal
 Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Blizzard
-- Shadow Ball
+- Shadow Punch
 - Double Edge
 - Fire Blast
 
@@ -15499,10 +15590,10 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Slaking @ Sitrus Berry
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
+- Giga Impact
 - Flamethrower
 - Thunderbolt
-- Shadow Ball
+- Shadow Punch
 
 === TRAINER_NORMAN_5 ===
 Name: NORMAN
@@ -15518,7 +15609,7 @@ Slaking @ Normalium Z
 Level: 57
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Blizzard
-- Shadow Ball
+- Shadow Punch
 - Double Edge
 - Fire Blast
 
@@ -15539,6 +15630,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reversal
 
 Tauros
+Tera Type: Normal
 Level: 57
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
@@ -15557,10 +15649,10 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Slaking @ Sitrus Berry
 Level: 60
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
+- Giga Impact
 - Flamethrower
 - Thunderbolt
-- Shadow Ball
+- Shadow Punch
 
 === TRAINER_WINONA_2 ===
 Name: WINONA
@@ -15605,6 +15697,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 
 Altaria @ Chesto Berry
+Tera Type: Flying
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
@@ -15639,6 +15732,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - U Turn
 
 Fletchinder @ Sitrus Berry
+Tera Type: Flying
 Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fly
@@ -15696,13 +15790,14 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Final Gambit
 - U Turn
 
-Dragonair @ Sitrus Berry
+Talonflame @ Sitrus Berry
+Tera Type: Flying
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
+- Fly
+- Razor Wind
 - Protect
-- Ice Beam
+- Swords Dance
 
 Pelipper
 Level: 51
@@ -15763,6 +15858,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 
 Talonflame @ Sitrus Berry
+Tera Type: Flying
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fly
@@ -15821,6 +15917,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Calm Mind
 
 Lunatone @ Chesto Berry
+Tera Type: Psychic
 Level: 50
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
@@ -15879,6 +15976,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Calm Mind
 
 Lunatone @ Chesto Berry
+Tera Type: Psychic
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
@@ -15937,6 +16035,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Calm Mind
 
 Lunatone @ Chesto Berry
+Tera Type: Psychic
 Level: 60
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
@@ -15995,6 +16094,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Calm Mind
 
 Lunatone @ Chesto Berry
+Tera Type: Psychic
 Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
@@ -16054,6 +16154,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
 
 Kingdra @ Chesto Berry
+Tera Type: Water
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
@@ -16105,6 +16206,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
 
 Kingdra @ Chesto Berry
+Tera Type: Water
 Level: 56
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
@@ -16164,6 +16266,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
 
 Kingdra @ Chesto Berry
+Tera Type: Water
 Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
@@ -16223,6 +16326,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
 
 Kingdra @ Chesto Berry
+Tera Type: Water
 Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Water Pulse
@@ -16293,6 +16397,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 Aggron
+Tera Type: Steel
 Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
@@ -17290,6 +17395,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Blizzard
 
 Snorlax
+Tera Type: Normal
 Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
@@ -17364,6 +17470,7 @@ Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Heracross @ Oran Berry
+Tera Type: Bug
 Level: 19
 IVs: 16 HP / 16 Atk / 10 Def / 0 SpA / 0 SpD / 9 Spe
 
@@ -17390,6 +17497,7 @@ Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Heracross @ Oran Berry
+Tera Type: Bug
 Level: 19
 IVs: 16 HP / 16 Atk / 10 Def / 0 SpA / 0 SpD / 9 Spe
 
@@ -17416,6 +17524,7 @@ Level: 19
 IVs: 16 HP / 16 Atk / 10 Def / 0 SpA / 0 SpD / 9 Spe
 
 Bisharp @ Sitrus Berry
+Tera Type: Steel
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
@@ -17430,6 +17539,7 @@ Double Battle: Yes
 AI: Basic Trainer
 
 Rowlet
+Tera Type: Grass
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -17464,6 +17574,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
 Togetic @ Sitrus Berry
+Tera Type: Psychic
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 19 SpA / 11 SpD / 6 Spe
 
@@ -17486,6 +17597,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
 Phanpy @ Oran Berry
+Tera Type: Fairy
 Level: 28
 IVs: 0 HP / 20 Atk / 11 Def / 0 SpA / 0 SpD / 10 Spe
 
@@ -17511,7 +17623,8 @@ Dragonair @ Sitrus Berry
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
-Dragonite @ Sitrus Berry
+Vibrava @ Sitrus Berry
+Tera Type: Dragon
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 19 SpA / 11 SpD / 6 Spe
 
@@ -17537,7 +17650,8 @@ Lycanroc @ Oran Berry
 Level: 28
 IVs: 0 HP / 20 Atk / 11 Def / 0 SpA / 0 SpD / 10 Spe
 
-Dragonite
+Vibrava
+Tera Type: Dragon
 Level: 28
 IVs: 0 HP / 20 Atk / 11 Def / 0 SpA / 0 SpD / 10 Spe
 
@@ -17556,6 +17670,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Talonflame @ Sitrus Berry
+Tera Type: Flying
 Level: 40
 IVs: 0 HP / 12 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
@@ -17586,6 +17701,7 @@ Level: 40
 IVs: 12 HP / 25 Atk / 5 Def / 1 SpA / 0 SpD / 21 Spe
 
 Glaceon @ Sitrus Berry
+Tera Type: Ice
 Level: 39
 IVs: 9 HP / 5 Atk / 5 Def / 19 SpA / 0 SpD / 13 Spe
 
@@ -17608,6 +17724,7 @@ Level: 40
 IVs: 0 HP / 12 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
 
 Dhelmise
+Tera Type: Steel
 Level: 40
 IVs: 17 HP / 9 Atk / 25 Def / 0 SpA / 14 SpD / 0 Spe
 
@@ -17626,6 +17743,7 @@ Double Battle: Yes
 AI: Basic Trainer
 
 Lunatone @ Oran Berry
+Tera Type: Rock
 Level: 39
 IVs: 17 HP / 9 Atk / 25 Def / 0 SpA / 14 SpD / 0 Spe
 
@@ -17660,6 +17778,7 @@ Level: 50
 IVs: 0 HP / 22 Atk / 15 Def / 11 SpA / 6 SpD / 20 Spe
 
 Swampert
+Tera Type: Ground
 Level: 50
 IVs: 22 HP / 7 Atk / 25 Def / 9 SpA / 21 SpD / 3 Spe
 
@@ -17682,6 +17801,7 @@ Level: 48
 IVs: 0 HP / 22 Atk / 15 Def / 11 SpA / 6 SpD / 20 Spe
 
 Swampert
+Tera Type: Ground
 Level: 48
 IVs: 22 HP / 7 Atk / 25 Def / 9 SpA / 21 SpD / 3 Spe
 
@@ -17704,6 +17824,7 @@ Level: 50
 IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
 
 Venusaur
+Tera Type: Poison
 Level: 50
 IVs: 0 HP / 22 Atk / 15 Def / 11 SpA / 6 SpD / 20 Spe
 
@@ -17726,6 +17847,7 @@ Level: 48
 IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
 
 Venusaur
+Tera Type: Poison
 Level: 48
 IVs: 0 HP / 22 Atk / 15 Def / 11 SpA / 6 SpD / 20 Spe
 
@@ -17760,6 +17882,7 @@ Level: 60
 IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 31 SpD / 6 Spe
 
 Hawlucha @ Muscle Band
+Tera Type: Fighting
 Level: 60
 IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
 
@@ -17774,6 +17897,7 @@ Double Battle: Yes
 AI: Basic Trainer
 
 Sylveon
+Tera Type: Fairy
 Level: 58
 IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 31 SpD / 6 Spe
 
@@ -17808,6 +17932,7 @@ Level: 60
 IVs: 31 HP / 0 Atk / 0 Def / 0 SpA / 31 SpD / 6 Spe
 
 Infernape @ Muscle Band
+Tera Type: Fire
 Level: 60
 IVs: 5 HP / 25 Atk / 5 Def / 11 SpA / 0 SpD / 13 Spe
 
@@ -17830,6 +17955,7 @@ Level: 58
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Empoleon
+Tera Type: Water
 Level: 59
 IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 19 SpD / 0 Spe
 
@@ -17852,6 +17978,7 @@ Level: 67
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Electivire
+Tera Type: Electric
 Level: 67
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
@@ -17878,6 +18005,7 @@ Level: 65
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Electivire @ Light Ball
+Tera Type: Electric
 Level: 66
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
@@ -17896,6 +18024,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Gyarados @ Sitrus Berry
+Tera Type: Dragon
 Level: 67
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
@@ -17930,6 +18059,7 @@ Level: 66
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Serperior @ Oran Berry
+Tera Type: Grass
 Level: 66
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
@@ -17956,6 +18086,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Thunder Punch
 
 Gengar
+Tera Type: Ghost
 Level: 99
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Shadow Ball
@@ -18008,6 +18139,7 @@ AI: Smart Trainer
 Mugshot: Yellow
 
 Metagross @ Leftovers
+Tera Type: Steel
 Level: 98
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Meteor Mash
@@ -18228,6 +18360,7 @@ AI: Smart Trainer
 Mugshot: Purple
 
 Cacturne
+Tera Type: Dark
 Level: 51
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Leech Seed
@@ -18279,6 +18412,7 @@ AI: Smart Trainer
 Mugshot: Green
 
 Dusclops  @ Sitrus Berry
+Tera Type: Ghost
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Punch
@@ -18363,6 +18497,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
 
 Walrein @ Sitrus Berry
+Tera Type: Ice
 Level: 57
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
@@ -18398,10 +18533,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
 
 Altaria
+Tera Type: Dragon
 Level: 59
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
-- Dragon Breath
+- Dragon Pulse
 - Dragon Dance
 - Aerial Ace
 
@@ -18449,6 +18585,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 
 Tropius
+Tera Type: Grass
 Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse
@@ -18493,6 +18630,7 @@ AI: Smart Trainer
 Mugshot: Purple
 
 Cacturne
+Tera Type: Dark
 Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Leech Seed
@@ -18544,6 +18682,7 @@ AI: Smart Trainer
 Mugshot: Green
 
 Dusclops  @ Sitrus Berry
+Tera Type: Ghost
 Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Punch
@@ -18628,6 +18767,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
 
 Walrein @ Sitrus Berry
+Tera Type: Ice
 Level: 62
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
@@ -18663,10 +18803,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
 
 Altaria
+Tera Type: Dragon
 Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
-- Dragon Breath
+- Dragon Pulse
 - Dragon Dance
 - Aerial Ace
 
@@ -18714,6 +18855,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 
 Tropius
+Tera Type: Grass
 Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse
@@ -18758,6 +18900,7 @@ AI: Smart Trainer
 Mugshot: Purple
 
 Cacturne
+Tera Type: Dark
 Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Leech Seed
@@ -18809,6 +18952,7 @@ AI: Smart Trainer
 Mugshot: Green
 
 Dusclops  @ Sitrus Berry
+Tera Type: Ghost
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Punch
@@ -18893,6 +19037,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
 
 Walrein @ Sitrus Berry
+Tera Type: Ice
 Level: 67
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
@@ -18928,10 +19073,11 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
 
 Altaria
+Tera Type: Dragon
 Level: 69
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
-- Dragon Breath
+- Dragon Pulse
 - Dragon Dance
 - Aerial Ace
 
@@ -18979,6 +19125,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 
 Tropius
+Tera Type: Grass
 Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse

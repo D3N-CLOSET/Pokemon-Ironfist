@@ -88,6 +88,7 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
+	giveitem ITEM_TERA_ORB
 	giveitem ITEM_MEGA_RING, 1
     giveitem ITEM_Z_POWER_RING, 1
 

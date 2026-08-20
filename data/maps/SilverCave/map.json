@@ -10,7 +10,7 @@
   "allow_cycling": true,
   "allow_escaping": true,
   "allow_running": true,
-  "show_map_name": true,
+  "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
   "object_events": [
@@ -54,7 +54,7 @@
       "x": 21,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_SILVER_ISLAND_MOUNTAIN",
+      "dest_map": "MAP_SILVER_CAVE_2F",
       "dest_warp_id": "0"
     }
   ],

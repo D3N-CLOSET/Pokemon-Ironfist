@@ -1853,3 +1853,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/SilverIsland_Depths_3/scripts.inc"
 
 	.include "data/maps/RedsRoom/scripts.inc"
+
+	.include "data/maps/SilverCave_2F/scripts.inc"
+
+	.include "data/maps/SilverCave_3F/scripts.inc"
+
+	.include "data/maps/SilverCave_4F/scripts.inc"
+
+	.include "data/maps/SilverCave_5F/scripts.inc"

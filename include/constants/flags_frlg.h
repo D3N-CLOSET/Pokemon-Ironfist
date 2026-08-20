@@ -1231,7 +1231,7 @@
 #define FLAG_MOVE_TUTOR_TAUGHT_DRACOMETEOR               0x4CB
 #define FLAG_MOVE_TUTOR_TAUGHT_POLTERGEIST               0x4CC
 #define FLAG_MOVE_TUTOR_TAUGHT_LIQUIDATION               0x4CD
-#define FLAG_0x4CE               0x4CE
+#define FLAG_CHARGE_TERA                     0x4CE
 #define FLAG_0x4CF               0x4CF
 #define FLAG_0x4D0               0x4D0
 #define FLAG_0x4D1               0x4D1

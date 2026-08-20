@@ -3,6 +3,7 @@ EverGrandeCity_Hall1_MapScripts::
 	.byte 0
 
 EverGrandeCity_Hall1_OnWarp:
+	setflag FLAG_CHARGE_TERA
 	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_Hall1_EventScript_TurnPlayerNorth
 	.2byte 0
 

@@ -9810,6 +9810,46 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/RedsRoom/border.bin",
       "blockdata_filepath": "data/layouts/RedsRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_CAVE_2F",
+      "name": "SilverCave_2F_Layout",
+      "width": 32,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SilverCave_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SilverCave_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_CAVE_3F",
+      "name": "SilverCave_3F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SilverCave_3F/border.bin",
+      "blockdata_filepath": "data/layouts/SilverCave_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_CAVE_4F",
+      "name": "SilverCave_4F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SilverCave_4F/border.bin",
+      "blockdata_filepath": "data/layouts/SilverCave_4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILVER_CAVE_5F",
+      "name": "SilverCave_5F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SilverCave_5F/border.bin",
+      "blockdata_filepath": "data/layouts/SilverCave_5F/map.bin"
     }
   ]
 }
