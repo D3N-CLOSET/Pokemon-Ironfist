@@ -755,7 +755,7 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "I mean, we are totally happy!$"
 
 LilycoveCity_EventScript_Troll::
-	msgbox Text_Troll, MSGBOX_DEFAULT
+	msgbox Text_Troll, MSGBOX_DSIGN
 	return
 
 Text_Troll:
