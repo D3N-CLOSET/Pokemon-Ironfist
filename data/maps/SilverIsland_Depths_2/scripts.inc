@@ -7,14 +7,14 @@ Depths_OnLoad:
 	end
 
 Depths_LockRedRoomWay::
-	setmetatile 17, 29, METATILE_0x27F, TRUE
-	setmetatile 18, 29, METATILE_0x269, TRUE
-	setmetatile 19, 29, METATILE_0x269, TRUE
-	setmetatile 20, 29, METATILE_0x269, TRUE
-	setmetatile 21, 29, METATILE_0x27E, TRUE
-	setmetatile 17, 30, METATILE_0x3A2, TRUE
-	setmetatile 18, 30, METATILE_0x3A2, TRUE
-	setmetatile 19, 30, METATILE_0x3A2, TRUE
-	setmetatile 20, 30, METATILE_0x3A2, TRUE
-	setmetatile 21, 30, METATILE_0x3A2, TRUE
+	setmetatile 17, 29, METATILE_Lavaridge_TopLeftWall, TRUE
+	setmetatile 18, 29, METATILE_Lavaridge_TopMiddleWall, TRUE
+	setmetatile 19, 29, METATILE_Lavaridge_TopMiddleWall, TRUE
+	setmetatile 20, 29, METATILE_Lavaridge_TopMiddleWall, TRUE
+	setmetatile 21, 29, METATILE_Lavaridge_TopRightWall, TRUE
+	setmetatile 17, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 18, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 19, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 20, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 21, 30, METATILE_Lavaridge_Top, TRUE
 	end

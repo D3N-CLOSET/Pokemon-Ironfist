@@ -329,6 +329,10 @@
 #define METATILE_Lavaridge_LavaField            0x271
 #define METATILE_Lavaridge_NormalGrass          0x206
 #define METATILE_Lavaridge_RockWall             0x274
+#define METATILE_Lavaridge_TopLeftWall          0x27F
+#define METATILE_Lavaridge_TopMiddleWall        0x269
+#define METATILE_Lavaridge_TopRightWall         0x27E
+#define METATILE_Lavaridge_Top                  0x3A2
 
 // gTileset_LavenderTown
 #define METATILE_LavenderTown_Door  0x2A2
