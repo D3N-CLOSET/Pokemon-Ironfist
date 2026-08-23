@@ -3,7 +3,7 @@
   "name": "SilverIsland_Depths_2",
   "layout": "LAYOUT_SILVER_ISLAND_DEPTHS_2",
   "music": "MUS_RG_CINNABAR",
-  "region_map_section": "MAPSEC_SILVER_DEPTHS",
+  "region_map_section": "MAPSEC_SILVER_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_DROUGHT",
   "map_type": "MAP_TYPE_UNDERGROUND",

@@ -75,7 +75,8 @@
     "gMapGroup_IndoorTwoIslandRoute_Frlg",
     "gMapGroup_IndoorSixIslandRoute_Frlg",
     "gMapGroup_IndoorSevenIslandRoute_Frlg",
-    "gMapGroup_IndoorSageVill"
+    "gMapGroup_IndoorSageVill",
+    "gMapGroup_ExtraMaps"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -158,9 +159,6 @@
     "NewHoenn_URoute1",
     "SilverIsland_Mountain_2F",
     "FlowerValley",
-    "SilverIsland_Depths_2",
-    "SilverIsland_Depths_3",
-    "SilverCave_2F",
     "SilverCave_3F",
     "SilverCave_4F",
     "SilverCave_5F"
@@ -1222,5 +1220,14 @@
     "SageVillage_PkmnCenter1F",
     "SageVillage_TinyHouse",
     "SageVillage_PkmnCenter2F"
+  ],
+  "gMapGroup_ExtraMaps": [
+    "SilverIsland_Depths_2",
+    "SilverIsland_Depths_3",
+    "SilverCave_2F",
+    "placeholder",
+    "Silver_DD",
+    "Silver_DD2",
+    "Silver_CD"
   ]
 }

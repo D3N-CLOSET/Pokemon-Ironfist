@@ -48,5 +48,4 @@ SilverPlateau_Mart_May:
     .2byte ITEM_RETRO_MAIL
     .2byte ITEM_FAB_MAIL
     .2byte ITEM_DREAM_MAIL
-    .2byte ITEM_ZYGARDE_CUBE
 	pokemartlistend

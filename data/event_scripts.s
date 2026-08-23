@@ -1861,3 +1861,11 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/SilverCave_4F/scripts.inc"
 
 	.include "data/maps/SilverCave_5F/scripts.inc"
+
+	.include "data/maps/placeholder/scripts.inc"
+
+	.include "data/maps/Silver_DD/scripts.inc"
+
+	.include "data/maps/Silver_DD2/scripts.inc"
+
+	.include "data/maps/Silver_CD/scripts.inc"

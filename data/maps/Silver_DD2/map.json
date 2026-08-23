@@ -1,10 +1,10 @@
 {
-  "id": "MAP_SILVER_CAVE_3F",
-  "name": "SilverCave_3F",
-  "layout": "LAYOUT_SILVER_CAVE_3F",
-  "music": "MUS_RG_MT_MOON",
+  "id": "MAP_SILVER_DD2",
+  "name": "Silver_DD2",
+  "layout": "LAYOUT_SILVER_ISLAND_DEPTHS_3",
+  "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_SILVER_ISLAND",
-  "requires_flash": true,
+  "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
@@ -16,17 +16,17 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 2,
-      "y": 5,
+      "x": 43,
+      "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_SILVER_CAVE",
+      "dest_map": "MAP_SILVER_DD",
       "dest_warp_id": "1"
     },
     {
-      "x": 6,
-      "y": 2,
+      "x": 5,
+      "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_SILVER_CAVE_4F",
+      "dest_map": "MAP_REDS_ROOM",
       "dest_warp_id": "0"
     }
   ],
