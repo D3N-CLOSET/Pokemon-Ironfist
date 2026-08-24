@@ -3,10 +3,9 @@ import os
 import re
 
 def clean_map_name(map_str):
-    name = map_str.replace("MAP_", "")
-    parts = re.split(r'(\d+)', name)
-    cleaned = " ".join(p.capitalize() for p in parts if p)
-    return cleaned
+    name = map_str.replace("MAP_", "").replace("_", " ")
+    name = re.sub(r'([A-Za-z])(\d)', r'\1 \2', name)
+    return " ".join(word.capitalize() for word in name.split())
 
 def parse_all_encounters():
     json_path = os.path.join("src", "data", "wild_encounters.json")
@@ -18,7 +17,6 @@ def parse_all_encounters():
     with open(json_path, "r", encoding="UTF-8") as f:
         data = json.load(f)
 
-    # Extract encounter rates from the group's fields header configuration
     type_rates = {}
     for group in data.get("wild_encounter_groups", []):
         for field in group.get("fields", []):
@@ -30,15 +28,16 @@ def parse_all_encounters():
     markdown_lines = []
     maps_data = {}
 
+    ignored_maps = {"MAP_CRESTAN_TOWN", "MAP_SILVER_ISLAND_DEPTHS_3"}
+
     for group in data.get("wild_encounter_groups", []):
         for encounter in group.get("encounters", []):
             base_label = encounter.get("base_label", "")
+            map_key = encounter.get("map", "")
             
-            # Skip entries that have FireRed or LeafGreen in their base label
-            if "FireRed" in base_label or "LeafGreen" in base_label:
+            if "FireRed" in base_label or "LeafGreen" in base_label or map_key in ignored_maps:
                 continue
 
-            map_key = encounter.get("map")
             if not map_key:
                 continue
             
@@ -75,6 +74,7 @@ def parse_all_encounters():
                     header_title = f"{pretty_name} ({variant}) - {type_label}"
 
                 markdown_lines.append(f"**{header_title}**")
+                markdown_lines.append("```")
                 
                 rates_array = type_rates.get(enc_type, [])
                 
@@ -92,17 +92,18 @@ def parse_all_encounters():
                 
                 for rate in sorted_rates:
                     species_joined = ", ".join(rate_buckets[rate])
-                    markdown_lines.append(f"*{rate}%:-*")
-                    markdown_lines.append(species_joined)
+                    markdown_lines.append(f"{rate}%: {species_joined}")
                 
+                markdown_lines.append("```")
                 markdown_lines.append("")
-        
+                
+        markdown_lines.append("")
         markdown_lines.append("")
 
     with open("wild_encounterinfo.md", "w", encoding="UTF-8") as f:
         f.write("\n".join(markdown_lines))
     
-    print("Successfully generated wild_encounterinfo.md from src/data/wild_encounters.json!")
+    print("Successfully generated wild_encounterinfo.md with code block formatting!")
 
 if __name__ == "__main__":
     parse_all_encounters()
