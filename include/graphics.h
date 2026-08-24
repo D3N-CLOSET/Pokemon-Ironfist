@@ -214,72 +214,192 @@ extern const u32 gBattleVSFrame_Tilemap[];
 extern const u32 gMultiBattleIntroBg_Opponent_Tilemap[];
 extern const u32 gMultiBattleIntroBg_Player_Tilemap[];
 
-// battle environments
+// battle terrains
+//tall grass
 extern const u32 gBattleEnvironmentTiles_TallGrass[];
 extern const u32 gBattleEnvironmentTilemap_TallGrass[];
 extern const u32 gBattleEnvironmentAnimTiles_TallGrass[];
 extern const u32 gBattleEnvironmentAnimTilemap_TallGrass[];
-extern const u16 gBattleEnvironmentPalette_TallGrass[];
+extern const u32 gBattleEnvironmentPalette_TallGrass[];
+//tall grass modern
+extern const u32 gBattleEnvironmentPalette_TallGrass_2[];
+extern const u32 gBattleEnvironmentTiles_TallGrass_2[];
+extern const u32 gBattleEnvironmentTilemap_TallGrass_2[];
+extern const u32 gBattleEnvironmentAnimTiles_TallGrass_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_TallGrass_2[];
+extern const u32 gBattleEnvironmentPalette_TallGrass_Night[];
+extern const u32 gBattleEnvironmentPalette_TallGrass_2_Night[];
+extern const u32 gBattleEnvironmentPalette_TallGrass_2_Twilight[];
+//long grass
 extern const u32 gBattleEnvironmentTiles_LongGrass[];
 extern const u32 gBattleEnvironmentTilemap_LongGrass[];
 extern const u32 gBattleEnvironmentAnimTiles_LongGrass[];
 extern const u32 gBattleEnvironmentAnimTilemap_LongGrass[];
-extern const u16 gBattleEnvironmentPalette_LongGrass[];
+extern const u32 gBattleEnvironmentPalette_LongGrass[];
+extern const u32 gBattleEnvironmentPalette_LongGrass_Night[];
+//long grass modern
+extern const u32 gBattleEnvironmentTiles_LongGrass_2[];
+extern const u32 gBattleEnvironmentTilemap_LongGrass_2[];
+extern const u32 gBattleEnvironmentAnimTiles_LongGrass_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_LongGrass_2[];
+extern const u32 gBattleEnvironmentPalette_LongGrass_2[];
+extern const u32 gBattleEnvironmentPalette_LongGrass_2_Night[];
+extern const u32 gBattleEnvironmentPalette_LongGrass_2_Twilight[];
+//sand
 extern const u32 gBattleEnvironmentTiles_Sand[];
 extern const u32 gBattleEnvironmentTilemap_Sand[];
 extern const u32 gBattleEnvironmentAnimTiles_Sand[];
 extern const u32 gBattleEnvironmentAnimTilemap_Sand[];
-extern const u16 gBattleEnvironmentPalette_Sand[];
+extern const u32 gBattleEnvironmentPalette_Sand[];
+extern const u32 gBattleEnvironmentPalette_Sand_Night[];
+//sand modern
+extern const u32 gBattleEnvironmentTiles_Sand_2[];
+extern const u32 gBattleEnvironmentTilemap_Sand_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Sand_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Sand_2[];
+extern const u32 gBattleEnvironmentPalette_Sand_2[];
+extern const u32 gBattleEnvironmentPalette_Sand_2_Night[];
+extern const u32 gBattleEnvironmentPalette_Sand_2_Twilight[];
+//underwater
 extern const u32 gBattleEnvironmentTiles_Underwater[];
 extern const u32 gBattleEnvironmentTilemap_Underwater[];
 extern const u32 gBattleEnvironmentAnimTiles_Underwater[];
 extern const u32 gBattleEnvironmentAnimTilemap_Underwater[];
-extern const u16 gBattleEnvironmentPalette_Underwater[];
+extern const u32 gBattleEnvironmentPalette_Underwater[];
+//underwater modern
+extern const u32 gBattleEnvironmentTiles_Underwater_2[];
+extern const u32 gBattleEnvironmentTilemap_Underwater_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Underwater_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Underwater_2[];
+extern const u32 gBattleEnvironmentPalette_Underwater_2[];
+//water
 extern const u32 gBattleEnvironmentTiles_Water[];
 extern const u32 gBattleEnvironmentTilemap_Water[];
 extern const u32 gBattleEnvironmentAnimTiles_Water[];
 extern const u32 gBattleEnvironmentAnimTilemap_Water[];
-extern const u16 gBattleEnvironmentPalette_Water[];
+extern const u32 gBattleEnvironmentPalette_Water[];
+extern const u32 gBattleEnvironmentPalette_Water_Night[];
+//water modern
+extern const u32 gBattleEnvironmentTiles_Water_2[];
+extern const u32 gBattleEnvironmentTilemap_Water_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Water_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Water_2[];
+extern const u32 gBattleEnvironmentPalette_Water_2[];
+extern const u32 gBattleEnvironmentPalette_Water_2_Night[];
+extern const u32 gBattleEnvironmentPalette_Water_2_Twilight[];
+//pond
 extern const u32 gBattleEnvironmentTiles_PondWater[];
 extern const u32 gBattleEnvironmentTilemap_PondWater[];
 extern const u32 gBattleEnvironmentAnimTiles_PondWater[];
 extern const u32 gBattleEnvironmentAnimTilemap_PondWater[];
-extern const u16 gBattleEnvironmentPalette_PondWater[];
+extern const u32 gBattleEnvironmentPalette_PondWater[];
+extern const u32 gBattleEnvironmentPalette_PondWater_Night[];
+extern const u32 gBattleEnvironmentPalette_PondWater_Cave[];
+//pond modern
+extern const u32 gBattleEnvironmentTiles_PondWater_2[];
+extern const u32 gBattleEnvironmentTilemap_PondWater_2[];
+extern const u32 gBattleEnvironmentAnimTiles_PondWater_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_PondWater_2[];
+extern const u32 gBattleEnvironmentPalette_PondWater_2[];
+extern const u32 gBattleEnvironmentPalette_PondWater_2_Night[];
+extern const u32 gBattleEnvironmentPalette_PondWater_2_Twilight[];
+extern const u32 gBattleEnvironmentPalette_PondWater_2_Cave[];
+//rock
 extern const u32 gBattleEnvironmentTiles_Rock[];
 extern const u32 gBattleEnvironmentTilemap_Rock[];
 extern const u32 gBattleEnvironmentAnimTiles_Rock[];
 extern const u32 gBattleEnvironmentAnimTilemap_Rock[];
-extern const u16 gBattleEnvironmentPalette_Rock[];
+extern const u32 gBattleEnvironmentPalette_Rock[];
+extern const u32 gBattleEnvironmentPalette_Rock_Night[];
+//rock modern
+extern const u32 gBattleEnvironmentTiles_Rock_2[];
+extern const u32 gBattleEnvironmentTilemap_Rock_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Rock_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Rock_2[];
+extern const u32 gBattleEnvironmentPalette_Rock_2[];
+extern const u32 gBattleEnvironmentPalette_Rock_2_Night[];
+extern const u32 gBattleEnvironmentPalette_Rock_2_Twilight[];
+//cave
 extern const u32 gBattleEnvironmentTiles_Cave[];
 extern const u32 gBattleEnvironmentTilemap_Cave[];
 extern const u32 gBattleEnvironmentAnimTiles_Cave[];
 extern const u32 gBattleEnvironmentAnimTilemap_Cave[];
-extern const u16 gBattleEnvironmentPalette_Cave[];
+extern const u32 gBattleEnvironmentPalette_Cave[];
+//cave modern
+extern const u32 gBattleEnvironmentTiles_Cave_2[];
+extern const u32 gBattleEnvironmentTilemap_Cave_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Cave_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Cave_2[];
+extern const u32 gBattleEnvironmentPalette_Cave_2[];
+//building
 extern const u32 gBattleEnvironmentTiles_Building[];
 extern const u32 gBattleEnvironmentTilemap_Building[];
 extern const u32 gBattleEnvironmentAnimTiles_Building[];
 extern const u32 gBattleEnvironmentAnimTilemap_Building[];
-extern const u16 gBattleEnvironmentPalette_Building[];
-extern const u16 gBattleEnvironmentPalette_Plain[];
-extern const u16 gBattleEnvironmentPalette_Frontier[];
+extern const u32 gBattleEnvironmentPalette_Building[];
+//building modern
+extern const u32 gBattleEnvironmentTiles_Building_2[];
+extern const u32 gBattleEnvironmentTilemap_Building_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Building_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Building_2[];
+extern const u32 gBattleEnvironmentPalette_Building_2[];
+//blue building
+extern const u32 gBattleEnvironmentTiles_Blue_Building[];
+extern const u32 gBattleEnvironmentTilemap_Blue_Building[];
+extern const u32 gBattleEnvironmentAnimTiles_Blue_Building[];
+extern const u32 gBattleEnvironmentAnimTilemap_Blue_Building[];
+extern const u32 gBattleEnvironmentPalette_Blue_Building[];
+//blue building modern
+extern const u32 gBattleEnvironmentTiles_Blue_Building_2[];
+extern const u32 gBattleEnvironmentTilemap_Blue_Building_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Blue_Building_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Blue_Building_2[];
+extern const u32 gBattleEnvironmentPalette_Blue_Building_2[];
+extern const u32 gBattleEnvironmentPalette_Plain[];
+extern const u32 gBattleEnvironmentPalette_Plain_Night[];
+extern const u32 gBattleEnvironmentPalette_Plain_2[];
+extern const u32 gBattleEnvironmentPalette_Plain_2_Night[];
+extern const u32 gBattleEnvironmentPalette_Frontier[];
 extern const u32 gBattleEnvironmentTiles_Stadium[];
 extern const u32 gBattleEnvironmentTilemap_Stadium[];
+extern const u32 gBattleEnvironmentTiles_Stadium_2[];
+extern const u32 gBattleEnvironmentTilemap_Stadium_2[];
 extern const u32 gBattleEnvironmentTiles_Rayquaza[];
 extern const u32 gBattleEnvironmentTilemap_Rayquaza[];
 extern const u32 gBattleEnvironmentAnimTiles_Rayquaza[];
 extern const u32 gBattleEnvironmentAnimTilemap_Rayquaza[];
-extern const u16 gBattleEnvironmentPalette_Rayquaza[];
-extern const u16 gBattleEnvironmentPalette_Kyogre[];
-extern const u16 gBattleEnvironmentPalette_Groudon[];
-extern const u16 gBattleEnvironmentPalette_BuildingGym[];
-extern const u16 gBattleEnvironmentPalette_BuildingLeader[];
-extern const u16 gBattleEnvironmentPalette_StadiumAqua[];
-extern const u16 gBattleEnvironmentPalette_StadiumMagma[];
-extern const u16 gBattleEnvironmentPalette_StadiumSidney[];
-extern const u16 gBattleEnvironmentPalette_StadiumPhoebe[];
-extern const u16 gBattleEnvironmentPalette_StadiumGlacia[];
-extern const u16 gBattleEnvironmentPalette_StadiumDrake[];
-extern const u16 gBattleEnvironmentPalette_StadiumWallace[];
+extern const u32 gBattleEnvironmentPalette_Rayquaza[];
+extern const u32 gBattleEnvironmentPalette_Rayquaza_Night[];
+extern const u32 gBattleEnvironmentTiles_Rayquaza_2[];
+extern const u32 gBattleEnvironmentTilemap_Rayquaza_2[];
+extern const u32 gBattleEnvironmentAnimTiles_Rayquaza_2[];
+extern const u32 gBattleEnvironmentAnimTilemap_Rayquaza_2[];
+extern const u32 gBattleEnvironmentPalette_Rayquaza_2[];
+extern const u32 gBattleEnvironmentPalette_Rayquaza_2_Night[];
+extern const u32 gBattleEnvironmentPalette_Kyogre[];
+extern const u32 gBattleEnvironmentPalette_Kyogre_2[];
+extern const u32 gBattleEnvironmentPalette_Groudon[];
+extern const u32 gBattleEnvironmentPalette_Groudon_2[];
+extern const u32 gBattleEnvironmentPalette_BuildingGym[];
+extern const u32 gBattleEnvironmentPalette_BuildingLeader[];
+extern const u32 gBattleEnvironmentPalette_StadiumAqua[];
+extern const u32 gBattleEnvironmentPalette_StadiumMagma[];
+extern const u32 gBattleEnvironmentPalette_StadiumSidney[];
+extern const u32 gBattleEnvironmentPalette_StadiumPhoebe[];
+extern const u32 gBattleEnvironmentPalette_StadiumGlacia[];
+extern const u32 gBattleEnvironmentPalette_StadiumDrake[];
+extern const u32 gBattleEnvironmentPalette_StadiumWallace[];
+extern const u32 gBattleEnvironmentPalette_StadiumWill_2[];
+extern const u32 gBattleEnvironmentPalette_StadiumKoga_2[];
+extern const u32 gBattleEnvironmentPalette_StadiumBruno_2[];
+extern const u32 gBattleEnvironmentPalette_StadiumKaren_2[];
+extern const u32 gBattleEnvironmentPalette_StadiumLance_2[];
+extern const u32 gBattleEnvironmentPalette_BuildingAqua[];
+extern const u32 gBattleEnvironmentPalette_BuildingMagma[];
+extern const u32 gBattleEnvironmentPalette_StadiumLeader[];
+extern const u32 gBattleEnvironmentTiles_Plain_2[];
+extern const u32 gBattleEnvironmentTilemap_Plain_2[];
+extern const u32 gBattleEnvironmentPalette_Frontier_2[];
 
 // Pokédex
 extern const u32 gPokedexInterface_Gfx[];
