@@ -709,10 +709,52 @@ static void CB2_EndMarowakBattle(void)
     }
 }
 
+//BATTLE TERRAIN / BATTLE ENVIRONMENT / BATTLE BACKGROUND OVERRIDE/LOOKUP TABLE:
+static const struct {
+    u16 mapId;
+    u8  environment;
+} sMapDefaultEnvironments[] = {
+    // MOUNTAIN
+    // SAND
+    // CAVE_WATER (brown cave, pond bg even on land)
+    // RAYQUAZA (sky bg)
+    // GRAY_CAVE
+    {MAP_NEW_HOENN_UROUTE1,                   BATTLE_ENVIRONMENT_GRAY_CAVE},
+    // BLUE_BUILDING
+    {MAP_ROUTE118_GAUNTLET,                  BATTLE_ENVIRONMENT_BLUE_BUILDING},
+    {MAP_ROUTE121_GAUNTLET,                  BATTLE_ENVIRONMENT_BLUE_BUILDING},
+    {MAP_PACIFIDLOG_GAUNTLET,                  BATTLE_ENVIRONMENT_BLUE_BUILDING},
+    {MAP_SAGE_VILLAGE_GAUNTLET, BATTLE_ENVIRONMENT_BLUE_BUILDING},
+    // ROCK_SNOW
+    {MAP_GLACIAL_PATH,                     BATTLE_ENVIRONMENT_ROCK_SNOW},
+    // MOUNTAIN_SNOW
+    {MAP_SAGE_MOUNTAINS,             BATTLE_ENVIRONMENT_MOUNTAIN_SNOW},
+    // VOLCANO_CAVE
+    {MAP_VOLCANIC_TUNNEL,                 BATTLE_ENVIRONMENT_VOLCANO_CAVE},
+    {MAP_SILVER_ISLAND_DEPTHS,                 BATTLE_ENVIRONMENT_VOLCANO_CAVE},
+    {MAP_CRESTAN_TOWN,                 BATTLE_ENVIRONMENT_VOLCANO_CAVE},
+    {MAP_REDS_ROOM,                 BATTLE_ENVIRONMENT_VOLCANO_CAVE},
+    // SNOW_CAVE
+    {MAP_SAGE_VALLEY_ICE_CAVERNS,                        BATTLE_ENVIRONMENT_SNOW_CAVE},
+};
+
+static s32 GetMapDefaultEnvironment(u16 mapId)
+{
+    u32 i;
+    for (i = 0; i < NELEMS(sMapDefaultEnvironments); i++)
+    {
+        if (sMapDefaultEnvironments[i].mapId == mapId)
+            return sMapDefaultEnvironments[i].environment;
+    }
+    return -1;
+}
+
 enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
 {
     u16 tileBehavior;
     s16 x, y;
+    u16 currentMap;
+    s32 mapDefault;
 
     if (ShouldUseFishingEnvironmentInBattle())
         GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
@@ -721,11 +763,56 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
 
     tileBehavior = MapGridGetMetatileBehaviorAt(x, y);
 
+    // Water/surfing checks always win regardless of map default.
+    // In caves, use cave water variants instead of outdoor water.
+    if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior)
+     || MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
+    {
+        if (gMapHeader.mapType == MAP_TYPE_UNDERGROUND)
+        {
+            currentMap = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+            mapDefault = GetMapDefaultEnvironment(currentMap);
+            if (mapDefault == BATTLE_ENVIRONMENT_GRAY_CAVE)
+                return BATTLE_ENVIRONMENT_GRAY_CAVE_WATER;
+            return BATTLE_ENVIRONMENT_CAVE_WATER;
+        }
+        if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
+            return BATTLE_ENVIRONMENT_WATER;
+        return BATTLE_ENVIRONMENT_POND;
+    }
+    if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
+    {
+        if (gMapHeader.mapType == MAP_TYPE_UNDERGROUND)
+        {
+            currentMap = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+            mapDefault = GetMapDefaultEnvironment(currentMap);
+            if (mapDefault == BATTLE_ENVIRONMENT_GRAY_CAVE)
+                return BATTLE_ENVIRONMENT_GRAY_CAVE_WATER;
+            return BATTLE_ENVIRONMENT_CAVE_WATER;
+        }
+        if (MetatileBehavior_GetBridgeType(tileBehavior) != BRIDGE_TYPE_OCEAN)
+            return BATTLE_ENVIRONMENT_POND;
+        if (MetatileBehavior_IsBridgeOverWater(tileBehavior) == TRUE)
+            return BATTLE_ENVIRONMENT_WATER;
+    }
+    if (gMapHeader.mapType == MAP_TYPE_UNDERWATER)
+        return BATTLE_ENVIRONMENT_UNDERWATER;
+
+    // Per-map default: if this map is in the table, use its environment
+    currentMap = (gSaveBlock1Ptr->location.mapGroup << 8) | gSaveBlock1Ptr->location.mapNum;
+    mapDefault = GetMapDefaultEnvironment(currentMap);
+    if (mapDefault >= 0)
+        return mapDefault;
+
+    // Standard metatile-based detection
     if (MetatileBehavior_IsTallGrass(tileBehavior))
         return BATTLE_ENVIRONMENT_GRASS;
     if (MetatileBehavior_IsLongGrass(tileBehavior))
         return BATTLE_ENVIRONMENT_LONG_GRASS;
-    if (MetatileBehavior_IsSandOrDeepSand(tileBehavior))
+    // Cave floors frequently use MB_SAND/MB_DEEP_SAND, so skip the sand background
+    // underground and let the map type decide below.
+    if (gMapHeader.mapType != MAP_TYPE_UNDERGROUND
+     && (MetatileBehavior_IsSandOrDeepSand(tileBehavior)))
         return BATTLE_ENVIRONMENT_SAND;
 
     switch (gMapHeader.mapType)
@@ -737,34 +824,15 @@ enum BattleEnvironments BattleSetup_GetEnvironmentId(void)
     case MAP_TYPE_UNDERGROUND:
         if (MetatileBehavior_IsIndoorEncounter(tileBehavior))
             return BATTLE_ENVIRONMENT_BUILDING;
-        if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
-            return BATTLE_ENVIRONMENT_POND;
         return BATTLE_ENVIRONMENT_CAVE;
     case MAP_TYPE_INDOOR:
     case MAP_TYPE_SECRET_BASE:
         return BATTLE_ENVIRONMENT_BUILDING;
-    case MAP_TYPE_UNDERWATER:
-        return BATTLE_ENVIRONMENT_UNDERWATER;
     case MAP_TYPE_OCEAN_ROUTE:
-        if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
-            return BATTLE_ENVIRONMENT_WATER;
         return BATTLE_ENVIRONMENT_PLAIN;
     }
-    if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
-        return BATTLE_ENVIRONMENT_WATER;
-    if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
-        return BATTLE_ENVIRONMENT_POND;
     if (MetatileBehavior_IsMountain(tileBehavior))
         return BATTLE_ENVIRONMENT_MOUNTAIN;
-    if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-    {
-        // Is BRIDGE_TYPE_POND_*?
-        if (MetatileBehavior_GetBridgeType(tileBehavior) != BRIDGE_TYPE_OCEAN)
-            return BATTLE_ENVIRONMENT_POND;
-
-        if (MetatileBehavior_IsBridgeOverWater(tileBehavior) == TRUE)
-            return BATTLE_ENVIRONMENT_WATER;
-    }
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ROUTE113) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ROUTE113))
         return BATTLE_ENVIRONMENT_SAND;
     if (GetSavedWeather() == WEATHER_SANDSTORM)

@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_SAGE_MOUNTAINS",
   "requires_flash": false,
   "weather": "WEATHER_SNOW",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "SageMountains_ES_ZygardeQuest",
       "flag": "0"
     }
   ],

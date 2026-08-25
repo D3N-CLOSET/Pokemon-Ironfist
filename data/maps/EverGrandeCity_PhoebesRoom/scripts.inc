@@ -42,6 +42,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
 	goto_if_set FLAG_DEFEATED_ELITE_4_PHOEBE, EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_PhoebesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	goto_if_set FLAG_DEFEATED_METEOR_FALLS_STEVEN, EverGrandeCity_PhoebesRoom_EventScript_PhoebeStronger
 	trainerbattle_no_intro TRAINER_PHOEBE, EverGrandeCity_PhoebesRoom_Text_Defeat
 	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
 	end
@@ -49,6 +50,11 @@ EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
 EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech::
 	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release
+	end
+
+EverGrandeCity_PhoebesRoom_EventScript_PhoebeStronger::
+	trainerbattle_no_intro TRAINER_PHOEBE_4, EverGrandeCity_PhoebesRoom_Text_Defeat
+	goto EverGrandeCity_PhoebesRoom_EventScript_Defeated
 	end
 
 EverGrandeCity_PhoebesRoom_EventScript_Defeated::

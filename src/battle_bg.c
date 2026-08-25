@@ -12,6 +12,7 @@
 #include "gpu_regs.h"
 #include "graphics.h"
 #include "link.h"
+#include "load_save.h"
 #include "main.h"
 #include "menu.h"
 #include "overworld.h"
@@ -27,9 +28,10 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "constants/battle_anim.h"
-#include "constants/battle_partner.h"
-#include "data/battle_environment.h"
 #include "rtc.h"
+#include "constants/battle_partner.h"
+#include "rtc.h"
+#include "data/battle_environment.h"
 
 // .rodata
 
@@ -862,160 +864,80 @@ static u8 GetBattleEnvironmentByMapScene(u8 mapBattleScene)
     return BATTLE_ENVIRONMENT_PLAIN;
 }
 
-// Loads the initial battle environment.
-static void LoadBattleEnvironmentGfx(u32 environment)
+enum
 {
-    if (environment >= NELEMS(gBattleEnvironmentInfo))
-        environment = BATTLE_ENVIRONMENT_PLAIN;  // If higher than the number of entries in gBattleEnvironmentInfo, use the default.
-    // Copy to bg3
-    DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].background.tileset, (void *)(BG_CHAR_ADDR(2)));
-    DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].background.tilemap, (void *)(BG_SCREEN_ADDR(26)));
-    switch (GetCurrentMapBattleScene())
-        {
-        default:
-        case MAP_BATTLE_SCENE_NORMAL:
-            UpdateTimeOfDay();
-            {
-                // grass
-                if ((environment == BATTLE_ENVIRONMENT_GRASS) && (gLocalTime.hours >= 7 && gLocalTime.hours < 17))
-                    LoadPalette(gBattleEnvironmentPalette_TallGrass_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_GRASS) && (gLocalTime.hours >= 5 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_TallGrass_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_GRASS) && (gLocalTime.hours >= 17 && gLocalTime.hours < 19) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_TallGrass_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_GRASS)
-                        && ((gLocalTime.hours >= 19 && gLocalTime.hours < 24) || (gLocalTime.hours >= 0 && gLocalTime.hours < 5))
-                        && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_TallGrass_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+    BATTLE_TERRAIN_TIME_DAY,
+    BATTLE_TERRAIN_TIME_TWILIGHT,
+    BATTLE_TERRAIN_TIME_NIGHT,
+};
 
-                // long grass
-                else if ((environment == BATTLE_ENVIRONMENT_LONG_GRASS) && (gLocalTime.hours >= 7 && gLocalTime.hours < 17))
-                    LoadPalette(gBattleEnvironmentPalette_LongGrass_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_LONG_GRASS) && (gLocalTime.hours >= 5 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_LongGrass_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_LONG_GRASS) && (gLocalTime.hours >= 17 && gLocalTime.hours < 19) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_LongGrass_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_LONG_GRASS)
-                        && ((gLocalTime.hours >= 19 && gLocalTime.hours < 24) || (gLocalTime.hours >= 0 && gLocalTime.hours < 5))
-                        && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_TallGrass_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-
-                // sand
-                else if ((environment == BATTLE_ENVIRONMENT_SAND) && (gLocalTime.hours >= 7 && gLocalTime.hours < 17))
-                    LoadPalette(gBattleEnvironmentPalette_Sand_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_SAND) && (gLocalTime.hours >= 5 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Sand_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_SAND) && (gLocalTime.hours >= 17 && gLocalTime.hours < 19) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Sand_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_SAND)
-                        && ((gLocalTime.hours >= 19 && gLocalTime.hours < 24) || (gLocalTime.hours >= 0 && gLocalTime.hours < 5))
-                        && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Sand_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-
-                // water
-                else if ((environment == BATTLE_ENVIRONMENT_WATER) && (gLocalTime.hours >= 7 && gLocalTime.hours < 17))
-                    LoadPalette(gBattleEnvironmentPalette_Water_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_WATER) && (gLocalTime.hours >= 5 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Water_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_WATER) && (gLocalTime.hours >= 17 && gLocalTime.hours < 19) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Water_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_WATER)
-                        && ((gLocalTime.hours >= 19 && gLocalTime.hours < 24) || (gLocalTime.hours >= 0 && gLocalTime.hours < 5))
-                        && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Water_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-
-                // pond
-                else if ((environment == BATTLE_ENVIRONMENT_POND) && (gMapHeader.mapType == MAP_TYPE_UNDERGROUND))
-                    LoadPalette(gBattleEnvironmentPalette_PondWater_2_Cave, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_POND) && (gLocalTime.hours >= 7 && gLocalTime.hours < 17) && !(gMapHeader.mapType == MAP_TYPE_UNDERGROUND))
-                    LoadPalette(gBattleEnvironmentPalette_PondWater_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_POND) && (gLocalTime.hours >= 5 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_UNDERGROUND))
-                    LoadPalette(gBattleEnvironmentPalette_PondWater_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_POND) && (gLocalTime.hours >= 17 && gLocalTime.hours < 19) && !(gMapHeader.mapType == MAP_TYPE_UNDERGROUND))
-                    LoadPalette(gBattleEnvironmentPalette_PondWater_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_POND)
-                        && ((gLocalTime.hours >= 19 && gLocalTime.hours < 24) || (gLocalTime.hours >= 0 && gLocalTime.hours < 5))
-                        && !(gMapHeader.mapType == MAP_TYPE_UNDERGROUND))
-                    LoadPalette(gBattleEnvironmentPalette_PondWater_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-
-                // plain  (UNCHANGED, per your request)
-                else if ((environment == BATTLE_ENVIRONMENT_PLAIN) && (gLocalTime.hours >= 7 && gLocalTime.hours < 19))
-                    LoadPalette(gBattleEnvironmentPalette_Plain_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_PLAIN) && (gLocalTime.hours >= 0 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Plain_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_PLAIN) && (gLocalTime.hours >= 19 && gLocalTime.hours < 24) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Plain_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-
-                // mountain
-                else if ((environment == BATTLE_ENVIRONMENT_MOUNTAIN) && (gLocalTime.hours >= 7 && gLocalTime.hours < 17))
-                    LoadPalette(gBattleEnvironmentPalette_Rock_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_MOUNTAIN) && (gLocalTime.hours >= 5 && gLocalTime.hours < 7) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Rock_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_MOUNTAIN) && (gLocalTime.hours >= 17 && gLocalTime.hours < 19) && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Rock_2_Twilight, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-                else if ((environment == BATTLE_ENVIRONMENT_MOUNTAIN)
-                        && ((gLocalTime.hours >= 19 && gLocalTime.hours < 24) || (gLocalTime.hours >= 0 && gLocalTime.hours < 5))
-                        && !(gMapHeader.mapType == MAP_TYPE_INDOOR))
-                    LoadPalette(gBattleEnvironmentPalette_Rock_2_Night, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-
-                // others
-                else
-                    LoadPalette(gBattleEnvironmentInfo[environment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-
-            break;
-        case MAP_BATTLE_SCENE_GYM:
-            {
-                LoadPalette(gBattleEnvironmentPalette_Building_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        case MAP_BATTLE_SCENE_MAGMA:
-            {
-                LoadPalette(gBattleEnvironmentPalette_BuildingMagma, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        case MAP_BATTLE_SCENE_AQUA:
-            {
-                LoadPalette(gBattleEnvironmentPalette_BuildingAqua, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        case MAP_BATTLE_SCENE_PHOEBE:
-            {
-                LoadPalette(gBattleEnvironmentPalette_StadiumWill_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP); 
-            }
-            break;
-        case MAP_BATTLE_SCENE_GLACIA:
-            {
-                LoadPalette(gBattleEnvironmentPalette_StadiumKoga_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        case MAP_BATTLE_SCENE_DRAKE:
-            {
-                LoadPalette(gBattleEnvironmentPalette_StadiumBruno_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        case MAP_BATTLE_SCENE_SIDNEY:
-            {
-                LoadPalette(gBattleEnvironmentPalette_StadiumKaren_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        case MAP_BATTLE_SCENE_FRONTIER:
-            {
-                LoadPalette(gBattleEnvironmentPalette_Frontier_2, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
-            }
-            break;
-        }
+static u32 GetBattleTerrainTimeOfDay(void)
+{
+    switch (GetTimeOfDay())
+    {
+    case TIME_DAY:
+        return BATTLE_TERRAIN_TIME_DAY;
+    case TIME_MORNING:
+    case TIME_EVENING:
+        return BATTLE_TERRAIN_TIME_TWILIGHT;
+    default:
+        // The first hour of night is still fading down from evening in the
+        // overworld, so keep the sunset backgrounds through it.
+        if (IsBetweenHours(GetTimeOfDayForDex(), NIGHT_HOUR_BEGIN, NIGHT_HOUR_BEGIN + 1))
+            return BATTLE_TERRAIN_TIME_TWILIGHT;
+        return BATTLE_TERRAIN_TIME_NIGHT;
+    }
 }
 
-// Loads the entry associated with the battle environment.
-// This can be the grass moving on the screen at the start of a wild encounter in tall grass.
-static void LoadBattleEnvironmentEntryGfx(u32 environment)
+static void LoadBattleEnvironmentGfx(u16 environment)
 {
+    const void *tileset, *tilemap, *palette;
+
     if (environment >= NELEMS(gBattleEnvironmentInfo))
         environment = BATTLE_ENVIRONMENT_PLAIN;
-    // Copy to bg1
-    DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].entry.tileset, (void *)BG_CHAR_ADDR(1));
-    DecompressDataWithHeaderVram(gBattleEnvironmentInfo[environment].entry.tilemap, (void *)BG_SCREEN_ADDR(28));
+
+    tileset = gBattleEnvironmentInfo[environment].background.tileset;
+    tilemap = gBattleEnvironmentInfo[environment].background.tilemap;
+    palette = gBattleEnvironmentInfo[environment].palette;
+
+        const struct ModernBattleGfx *modern = &sModernBattleGfx[environment];
+        if (modern->background.tileset)
+            tileset = modern->background.tileset;
+        if (modern->background.tilemap)
+            tilemap = modern->background.tilemap;
+        if (modern->palette)
+        {
+            u32 terrainTime = GetBattleTerrainTimeOfDay();
+            palette = modern->palette;
+            if (terrainTime == BATTLE_TERRAIN_TIME_NIGHT && modern->paletteNight)
+                palette = modern->paletteNight;
+            else if (terrainTime == BATTLE_TERRAIN_TIME_TWILIGHT && modern->paletteTwilight)
+                palette = modern->paletteTwilight;
+        }
+
+    DecompressDataWithHeaderVram(tileset, (void *)(BG_CHAR_ADDR(2)));
+    DecompressDataWithHeaderVram(tilemap, (void *)(BG_SCREEN_ADDR(26)));
+    LoadPalette(palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+}
+
+static void LoadBattleEnvironmentEntryGfx(u16 environment)
+{
+    const void *tileset, *tilemap;
+
+    if (environment >= NELEMS(gBattleEnvironmentInfo))
+        environment = BATTLE_ENVIRONMENT_PLAIN;
+
+    tileset = gBattleEnvironmentInfo[environment].entry.tileset;
+    tilemap = gBattleEnvironmentInfo[environment].entry.tilemap;
+
+        const struct ModernBattleGfx *modern = &sModernBattleGfx[environment];
+        if (modern->entry.tileset)
+            tileset = modern->entry.tileset;
+        if (modern->entry.tilemap)
+            tilemap = modern->entry.tilemap;
+
+    DecompressDataWithHeaderVram(tileset, (void *)BG_CHAR_ADDR(1));
+    DecompressDataWithHeaderVram(tilemap, (void *)BG_SCREEN_ADDR(28));
 }
 
 static u8 GetBattleEnvironmentOverride(void)
@@ -1032,14 +954,16 @@ static u8 GetBattleEnvironmentOverride(void)
         return BATTLE_ENVIRONMENT_FRONTIER;
     else if (gBattleTypeFlags & BATTLE_TYPE_LEGENDARY)
     {
-        switch (GetMonData(&gParties[B_TRAINER_OPPONENT_A][0], MON_DATA_SPECIES))
+        switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES))
         {
+    #if !IS_HNS
         case SPECIES_GROUDON:
             return BATTLE_ENVIRONMENT_GROUDON;
         case SPECIES_KYOGRE:
             return BATTLE_ENVIRONMENT_KYOGRE;
         case SPECIES_RAYQUAZA:
             return BATTLE_ENVIRONMENT_RAYQUAZA;
+    #endif
         default:
             return gBattleEnvironment;
         }
@@ -1047,9 +971,15 @@ static u8 GetBattleEnvironmentOverride(void)
     else if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
         u32 trainerClass = GetTrainerClassFromId(TRAINER_BATTLE_PARAM.opponentA);
-        if (trainerClass == TRAINER_CLASS_LEADER)
+    #if IS_HNS
+        // Clair's first battle and Blaine use the volcano cave background instead of the usual stadium.
+        if (TRAINER_BATTLE_PARAM.opponentA == TRAINER_CLAIR_1_HNS
+         || TRAINER_BATTLE_PARAM.opponentA == TRAINER_BLAINE_HNS)
+            return BATTLE_ENVIRONMENT_VOLCANO_CAVE;
+    #endif
+        if (trainerClass == TRAINER_CLASS_LEADER || trainerClass == TRAINER_CLASS_LEADER_FRLG)
             return BATTLE_ENVIRONMENT_LEADER;
-        else if (trainerClass == TRAINER_CLASS_CHAMPION)
+        else if (trainerClass == TRAINER_CLASS_CHAMPION || trainerClass == TRAINER_CLASS_CHAMPION_FRLG)
             return BATTLE_ENVIRONMENT_CHAMPION;
     }
 

@@ -48,7 +48,13 @@ EverGrandeCity_SidneysRoom_EventScript_Sidney::
 	goto_if_set FLAG_DEFEATED_ELITE_4_SIDNEY, EverGrandeCity_SidneysRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_SidneysRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	goto_if_set FLAG_DEFEATED_METEOR_FALLS_STEVEN, EverGrandeCity_SidneysRoom_EventScript_SidneyStronger
 	trainerbattle_no_intro TRAINER_SIDNEY, EverGrandeCity_SidneysRoom_Text_Defeat
+	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_SidneysRoom_EventScript_SidneyStronger::
+	trainerbattle_no_intro TRAINER_SIDNEY_4, EverGrandeCity_SidneysRoom_Text_Defeat
 	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
 	end
 

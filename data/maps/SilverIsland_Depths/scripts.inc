@@ -3,22 +3,8 @@ SilverIsland_Depths_MapScripts::
 
 Red_EventScript_Red::
     lock
-    goto_if_set FLAG_DEFEATED_RED, Red_EventScript_RedRematchBeginning
     trainerbattle_single TRAINER_RED, Red_Text_Intro, Red_Text_Defeat
-    setflag FLAG_DEFEATED_RED
-    msgbox Red_Text_RedPostBattle, MSGBOX_NPC
-    release
-    end
-
-Red_EventScript_RedRematchBeginning::
-    msgbox Red_Text_DoYouWantToFightAgain, MSGBOX_YESNO
-    goto_if_eq VAR_RESULT, YES, Red_EventScript_RedRematch
-    release
-    end
-
-Red_EventScript_RedRematch:
-    cleartrainerflag TRAINER_RED
-    trainerbattle_single TRAINER_RED, Red_Text_RematchIntro, Red_Text_RematchDefeat
+    msgbox Red_Text_RedPostBattle, MSGBOX_DEFAULT
     release
     end
 
@@ -55,7 +41,11 @@ Red_Text_Defeat:
     .string "...........$"
 
 Red_Text_RedPostBattle:
-    .string "...........$"
+    .string "...............\n"
+    .string "...............\l"
+    .string "...............\p"
+    .string "The person seems to be unfazed\n"
+    .string "of your interaction.$"
 
 Red_Text_DoYouWantToFightAgain:
     .string "...........$"

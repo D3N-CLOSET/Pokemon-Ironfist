@@ -42,7 +42,13 @@ EverGrandeCity_GlaciasRoom_EventScript_Glacia::
 	goto_if_set FLAG_DEFEATED_ELITE_4_GLACIA, EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech
 	playbgm MUS_ENCOUNTER_ELITE_FOUR, FALSE
 	msgbox EverGrandeCity_GlaciasRoom_Text_IntroSpeech, MSGBOX_DEFAULT
+	goto_if_set FLAG_DEFEATED_METEOR_FALLS_STEVEN, EverGrandeCity_GlaciasRoom_EventScript_GlaciaStronger
 	trainerbattle_no_intro TRAINER_GLACIA, EverGrandeCity_GlaciasRoom_Text_Defeat
+	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
+	end
+
+EverGrandeCity_GlaciasRoom_EventScript_GlaciaStronger::
+	trainerbattle_no_intro TRAINER_GLACIA_4, EverGrandeCity_GlaciasRoom_Text_Defeat
 	goto EverGrandeCity_GlaciasRoom_EventScript_Defeated
 	end
 
