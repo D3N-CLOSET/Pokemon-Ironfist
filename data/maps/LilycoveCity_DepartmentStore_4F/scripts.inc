@@ -80,7 +80,6 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
     .2byte ITEM_TM_POISON_JAB
     .2byte ITEM_TM_DARK_PULSE
     .2byte ITEM_TM_X_SCISSOR
-    .2byte ITEM_TM_FLAME_CHARGE
     .2byte ITEM_TM_BULLDOZE
     .2byte ITEM_TM_NATURAL_GIFT
     .2byte ITEM_TM_PAYBACK
@@ -105,8 +104,6 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
     .2byte ITEM_TM_SMACK_DOWN
     .2byte ITEM_TM_ROUND
     .2byte ITEM_TM_ECHOED_VOICE
-    .2byte ITEM_TM_CHILLING_WATER
-    .2byte ITEM_TM_TRAILBLAZE
     .2byte ITEM_TM_PLAY_ROUGH
 	pokemartlistend
 

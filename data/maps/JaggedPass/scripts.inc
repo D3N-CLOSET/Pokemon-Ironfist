@@ -283,3 +283,11 @@ JaggedPass_Text_AutumnPostBattle:
 	.string "What is that odd rock protrusion\n"
 	.string "a little up the hill from here?$"
 
+JaggedPass_ES_Tip::
+	msgbox JaggedPass_T_Tip, MSGBOX_SIGN
+	end
+
+JaggedPass_T_Tip:
+	.string "TIP:-\p"
+	.string "Use an Acro bike to jump up the\n"
+	.string "Bumpy Slopes of Jagged Pass!$"

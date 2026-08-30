@@ -269,6 +269,14 @@
       "elevation": 3,
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_JAGGED_PASS_GREAT_BALL"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 52,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "JaggedPass_ES_Tip"
     }
   ],
   "region": "REGION_HOENN"

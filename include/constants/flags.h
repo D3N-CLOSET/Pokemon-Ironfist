@@ -1256,10 +1256,10 @@
 #define FLAG_GOT_METAL_ALLOY_8                                      0x4A9
 #define FLAG_GOT_METAL_ALLOY_9                                      0x4AA // Unused Flag
 #define FLAG_HIDE_RED                                               0x4AB
-#define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
-#define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
-#define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
-#define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
+#define FLAG_GOT_FLAME_CHARGE                                       0x4AC
+#define FLAG_GOT_C_WATER                                            0x4AD
+#define FLAG_GOT_DRAGON_PULSE                                       0x4AE
+#define FLAG_GOT_TBLAZE                                             0x4AF
 #define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag

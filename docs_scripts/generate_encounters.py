@@ -57,32 +57,55 @@ def parse_all_encounters():
 
             for enc_type in ["land_mons", "water_mons", "rock_smash_mons", "fishing_mons"]:
                 if enc_type in encounter:
-                    mons_list = encounter[enc_type].get("mons", [])
+                    section_data = encounter[enc_type]
+                    mons_list = section_data.get("mons", [])
+                    enc_rate = section_data.get("encounter_rate", 0)
                     if mons_list:
-                        maps_data[map_key][variant][enc_type] = mons_list
+                        maps_data[map_key][variant][enc_type] = {
+                            "encounter_rate": enc_rate,
+                            "mons": mons_list
+                        }
 
     for map_key, variants in maps_data.items():
         pretty_name = clean_map_name(map_key)
         markdown_lines.append(f"## {pretty_name}\n")
         
         for variant, types_dict in variants.items():
-            for enc_type, mons in types_dict.items():
+            for enc_type, section_info in types_dict.items():
                 type_label = enc_type.replace("_mons", "").replace("_", " ").capitalize()
                 if enc_type == "land_mons":
                     header_title = f"{pretty_name} ({variant})"
                 else:
                     header_title = f"{pretty_name} ({variant}) - {type_label}"
 
+                enc_rate = section_info["encounter_rate"]
+                mons = section_info["mons"]
+
                 markdown_lines.append(f"**{header_title}**")
+                markdown_lines.append(f"ENCOUNTER RATE: {enc_rate}")
                 markdown_lines.append("```")
                 
                 rates_array = type_rates.get(enc_type, [])
                 
                 rate_buckets = {}
+                level_info = []
+
                 for idx, mon in enumerate(mons):
                     rate = rates_array[idx] if idx < len(rates_array) else 1
-                    species_name = mon.get("species", "").replace("SPECIES_", "").lower().capitalize()
+                    species_raw = mon.get("species", "")
+                    species_name = species_raw.replace("SPECIES_", "").lower().capitalize()
                     
+                    min_lv = mon.get("min_level")
+                    max_lv = mon.get("max_level")
+                    
+                    # Format level string based on whether min and max are equal
+                    if min_lv == max_lv:
+                        lv_str = f"lv {min_lv}"
+                    else:
+                        lv_str = f"lv {min_lv}-{max_lv}"
+                    
+                    level_info.append(f"{species_name}: {lv_str}")
+
                     if rate not in rate_buckets:
                         rate_buckets[rate] = []
                     if species_name not in rate_buckets[rate]:
@@ -95,15 +118,21 @@ def parse_all_encounters():
                     markdown_lines.append(f"{rate}%: {species_joined}")
                 
                 markdown_lines.append("```")
+                markdown_lines.append("Levels:")
+                markdown_lines.append("```")
+                for lv_line in level_info:
+                    markdown_lines.append(lv_line)
+                markdown_lines.append("```")
                 markdown_lines.append("")
-                
+
+
         markdown_lines.append("")
         markdown_lines.append("")
 
     with open("wild_encounterinfo.md", "w", encoding="UTF-8") as f:
         f.write("\n".join(markdown_lines))
     
-    print("Successfully generated wild_encounterinfo.md with code block formatting!")
+    print("Successfully generated wild_encounterinfo.md with encounter rates and level summaries!")
 
 if __name__ == "__main__":
     parse_all_encounters()

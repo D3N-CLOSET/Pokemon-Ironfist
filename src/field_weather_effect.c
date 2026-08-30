@@ -2685,6 +2685,7 @@ static const struct DynamicWeatherPool sDynamicWeatherPools[] =
     { .mapSec = MAPSEC_RUSTBORO_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_MAUVILLE_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_OLDALE_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
+    { .mapSec = MAPSEC_LAVARIDGE_TOWN, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_ROUTE_101, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_ROUTE_102, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_ROUTE_103, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
@@ -2699,7 +2700,7 @@ static const struct DynamicWeatherPool sDynamicWeatherPools[] =
     { .mapSec = MAPSEC_ROUTE_115, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_ROUTE_116, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
     { .mapSec = MAPSEC_ROUTE_117, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
-
+    { .mapSec = MAPSEC_ROUTE_118, DYNAMIC_WEATHER_POOL(sDynamicWeathers_West) },
 
 
 
@@ -2708,7 +2709,6 @@ static const struct DynamicWeatherPool sDynamicWeatherPools[] =
     { .mapSec = MAPSEC_LILYCOVE_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
     { .mapSec = MAPSEC_MOSSDEEP_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
     { .mapSec = MAPSEC_FORTREE_CITY, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
-    { .mapSec = MAPSEC_ROUTE_118, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
     { .mapSec = MAPSEC_ROUTE_119, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
     { .mapSec = MAPSEC_ROUTE_120, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
     { .mapSec = MAPSEC_ROUTE_121, DYNAMIC_WEATHER_POOL(sDynamicWeathers_East) },
