@@ -3,11 +3,11 @@ EverGrandeCity_Hall3_MapScripts::
 	.byte 0
 
 EverGrandeCity_Hall3_OnWarp:
-	setflag FLAG_CHARGE_TERA
 	map_script_2 VAR_TEMP_1, 0, EverGrandeCity_Hall3_EventScript_TurnPlayerNorth
 	.2byte 0
 
 EverGrandeCity_Hall3_EventScript_TurnPlayerNorth::
 	turnobject LOCALID_PLAYER, DIR_NORTH
+	setflag FLAG_CHARGE_TERA
 	end
 
