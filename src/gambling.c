@@ -63,7 +63,8 @@ static const u16 sPseudoTable[] =
     SPECIES_BAGON,
     SPECIES_XURKITREE, // gacha exclusive, not a pseudo legendary but whatever
     SPECIES_SLAKOTH,
-    SPECIES_GIBLE
+    SPECIES_GIBLE,
+    SPECIES_HEATRAN
 };
 
 static const u16 sRareTable[] = 

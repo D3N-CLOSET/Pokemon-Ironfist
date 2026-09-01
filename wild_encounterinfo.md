@@ -150,14 +150,16 @@ Goldeen: lv 20-30
 **Route 102 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -219,14 +221,16 @@ Goldeen: lv 20-30
 **Route 102 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -288,14 +292,16 @@ Goldeen: lv 20-30
 **Route 102 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -357,14 +363,16 @@ Goldeen: lv 20-30
 **Route 102 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -430,14 +438,16 @@ Pelipper: lv 25-30
 **Route 103 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -499,14 +509,16 @@ Pelipper: lv 25-30
 **Route 103 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -568,14 +580,16 @@ Pelipper: lv 25-30
 **Route 103 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -637,14 +651,16 @@ Tentacruel: lv 25-30
 **Route 103 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -710,14 +726,16 @@ Pelipper: lv 25-30
 **Route 104 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -779,14 +797,16 @@ Pelipper: lv 25-30
 **Route 104 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -848,14 +868,16 @@ Pelipper: lv 25-30
 **Route 104 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -917,14 +939,16 @@ Pelipper: lv 25-30
 **Route 104 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -965,14 +989,16 @@ Pelipper: lv 25-30
 **Route 105 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1009,14 +1035,16 @@ Pelipper: lv 25-30
 **Route 105 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1053,14 +1081,16 @@ Pelipper: lv 25-30
 **Route 105 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1097,14 +1127,16 @@ Bruxish: lv 25-30
 **Route 105 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1170,14 +1202,16 @@ Totodile: lv 25-30
 **Route 110 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1239,14 +1273,16 @@ Totodile: lv 25-30
 **Route 110 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1308,14 +1344,16 @@ Totodile: lv 25-30
 **Route 110 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1377,14 +1415,16 @@ Totodile: lv 25-30
 **Route 110 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -1468,14 +1508,16 @@ Geodude: lv 15-20
 **Route 111 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -1555,14 +1597,16 @@ Geodude: lv 15-20
 **Route 111 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -1642,14 +1686,16 @@ Geodude: lv 15-20
 **Route 111 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -1729,14 +1775,16 @@ Geodude: lv 15-20
 **Route 111 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -2028,14 +2076,16 @@ Geodude: lv 15-20
 **Route 114 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -2115,14 +2165,16 @@ Geodude: lv 15-20
 **Route 114 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -2202,14 +2254,16 @@ Geodude: lv 15-20
 **Route 114 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -2289,14 +2343,16 @@ Geodude: lv 15-20
 **Route 114 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -2466,14 +2522,16 @@ Goldeen: lv 20-30
 **Route 117 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -2535,14 +2593,16 @@ Goldeen: lv 20-30
 **Route 117 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -2604,14 +2664,16 @@ Goldeen: lv 20-30
 **Route 117 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -2673,14 +2735,16 @@ Goldeen: lv 20-30
 **Route 117 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -2746,14 +2810,16 @@ Barbaracle: lv 25-30
 **Route 118 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Sharpedo (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -2815,14 +2881,16 @@ Barbaracle: lv 25-30
 **Route 118 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Sharpedo (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -2884,14 +2952,16 @@ Barbaracle: lv 25-30
 **Route 118 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Sharpedo (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -2953,14 +3023,16 @@ Pelipper: lv 25-30
 **Route 118 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Sharpedo (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -3001,14 +3073,16 @@ Oshawott: lv 28-30
 **Route 124 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -3045,14 +3119,16 @@ Oshawott: lv 28-30
 **Route 124 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -3089,14 +3165,16 @@ Oshawott: lv 28-30
 **Route 124 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -3133,14 +3211,16 @@ Oshawott: lv 28-30
 **Route 124 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -3481,60 +3561,6 @@ Wishiwashi: lv 30-35
 Relicanth: lv 30-35
 ```
 
-**Underwater Route 126 (Night) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Clauncher
-30%: Chinchou
-5%: Clamperl
-4%: Wishiwashi
-1%: Relicanth
-```
-Levels:
-```
-Clauncher: lv 20-30
-Chinchou: lv 20-30
-Clamperl: lv 30-35
-Wishiwashi: lv 30-35
-Relicanth: lv 30-35
-```
-
-**Underwater Route 126 (Morning) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Clauncher
-30%: Chinchou
-5%: Clamperl
-4%: Wishiwashi
-1%: Relicanth
-```
-Levels:
-```
-Clauncher: lv 20-30
-Chinchou: lv 20-30
-Clamperl: lv 30-35
-Wishiwashi: lv 30-35
-Relicanth: lv 30-35
-```
-
-**Underwater Route 126 (Evening) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Clauncher
-30%: Chinchou
-5%: Clamperl
-4%: Wishiwashi
-1%: Relicanth
-```
-Levels:
-```
-Clauncher: lv 20-30
-Chinchou: lv 20-30
-Clamperl: lv 30-35
-Wishiwashi: lv 30-35
-Relicanth: lv 30-35
-```
-
 
 
 ## Abandoned Ship Rooms B 1f
@@ -3560,14 +3586,16 @@ Tentacruel: lv 30-35
 **Abandoned Ship Rooms B 1f (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Tentacool
-30%: Tentacool
-20%: Tentacool
-15%: Tentacruel
-4%: Tentacruel
-1%: Tentacruel
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Tentacool (good rod)
+40%: Tentacool (super rod)
+40%: Tentacool (super rod)
+15%: Tentacruel (super rod)
+4%: Tentacruel (super rod)
+1%: Tentacruel (super rod)
 ```
 Levels:
 ```
@@ -3709,14 +3737,16 @@ Solrock: lv 5-15
 **Meteor Falls B 1f 2r (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Whiscash
-4%: Whiscash
-1%: Whiscash
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
 ```
 Levels:
 ```
@@ -3786,14 +3816,16 @@ Pelipper: lv 25-30
 **Route 106 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Omanyte
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Omanyte (super rod)
 ```
 Levels:
 ```
@@ -3830,14 +3862,16 @@ Pelipper: lv 25-30
 **Route 106 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Omanyte
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Omanyte (super rod)
 ```
 Levels:
 ```
@@ -3874,14 +3908,16 @@ Pelipper: lv 25-30
 **Route 106 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Omanyte
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Omanyte (super rod)
 ```
 Levels:
 ```
@@ -3918,14 +3954,16 @@ Tentacruel: lv 25-30
 **Route 106 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Omanyte
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Omanyte (super rod)
 ```
 Levels:
 ```
@@ -3966,14 +4004,16 @@ Pelipper: lv 25-30
 **Route 107 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Kabuto
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Kabuto (super rod)
 ```
 Levels:
 ```
@@ -4010,14 +4050,16 @@ Pelipper: lv 25-30
 **Route 107 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Kabuto
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Kabuto (super rod)
 ```
 Levels:
 ```
@@ -4054,14 +4096,16 @@ Pelipper: lv 25-30
 **Route 107 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Kabuto
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Kabuto (super rod)
 ```
 Levels:
 ```
@@ -4098,14 +4142,16 @@ Tentacruel: lv 25-30
 **Route 107 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Kabuto
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Kabuto (super rod)
 ```
 Levels:
 ```
@@ -4146,14 +4192,16 @@ Pelipper: lv 25-30
 **Route 108 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4190,14 +4238,16 @@ Pelipper: lv 25-30
 **Route 108 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4234,14 +4284,16 @@ Pelipper: lv 25-30
 **Route 108 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4278,14 +4330,16 @@ Pelipper: lv 25-30
 **Route 108 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4326,14 +4380,16 @@ Pelipper: lv 22-29
 **Route 109 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4370,14 +4426,16 @@ Pelipper: lv 22-29
 **Route 109 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4414,14 +4472,16 @@ Pelipper: lv 22-29
 **Route 109 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4458,14 +4518,16 @@ Tentacruel: lv 22-29
 **Route 109 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4531,14 +4593,16 @@ Pelipper: lv 25-30
 **Route 115 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4600,14 +4664,16 @@ Pelipper: lv 25-30
 **Route 115 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4669,14 +4735,16 @@ Pelipper: lv 25-30
 **Route 115 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4738,14 +4806,16 @@ Pelipper: lv 25-30
 **Route 115 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Clauncher
-60%: Clauncher
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Clauncher (old rod)
+30%: Tentacool (old rod)
+60%: Clauncher (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -4840,14 +4910,16 @@ Pelipper: lv 25-30
 **Route 119 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Carvanha (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -4909,14 +4981,16 @@ Pelipper: lv 25-30
 **Route 119 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Carvanha (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -4978,14 +5052,16 @@ Pelipper: lv 25-30
 **Route 119 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Carvanha (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -5047,14 +5123,16 @@ Pelipper: lv 25-30
 **Route 119 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Carvanha
-30%: Tentacool
-20%: Tentacool, Carvanha
-15%: Carvanha
-4%: Carvanha
-1%: Carvanha
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Carvanha (good rod)
+40%: Carvanha (super rod)
+40%: Carvanha (super rod)
+15%: Carvanha (super rod)
+4%: Carvanha (super rod)
+1%: Carvanha (super rod)
 ```
 Levels:
 ```
@@ -5120,14 +5198,16 @@ Goldeen: lv 20-30
 **Route 120 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -5189,14 +5269,16 @@ Goldeen: lv 20-30
 **Route 120 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -5258,14 +5340,16 @@ Goldeen: lv 20-30
 **Route 120 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -5327,14 +5411,16 @@ Goldeen: lv 20-30
 **Route 120 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -5400,14 +5486,16 @@ Pelipper: lv 25-30
 **Route 121 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5469,14 +5557,16 @@ Pelipper: lv 25-30
 **Route 121 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5538,14 +5628,16 @@ Pelipper: lv 25-30
 **Route 121 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5607,14 +5699,16 @@ Pelipper: lv 25-30
 **Route 121 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5655,14 +5749,16 @@ Oshawott: lv 25-26
 **Route 122 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5699,14 +5795,16 @@ Oshawott: lv 25-26
 **Route 122 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5743,14 +5841,16 @@ Oshawott: lv 25-26
 **Route 122 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5787,14 +5887,16 @@ Oshawott: lv 25-26
 **Route 122 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5860,14 +5962,16 @@ Pelipper: lv 25-30
 **Route 123 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5929,14 +6033,16 @@ Pelipper: lv 25-30
 **Route 123 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -5998,14 +6104,16 @@ Pelipper: lv 25-30
 **Route 123 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6067,14 +6175,16 @@ Pelipper: lv 25-30
 **Route 123 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6347,14 +6457,16 @@ Pelipper: lv 25-30
 **Route 125 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6391,14 +6503,16 @@ Pelipper: lv 25-30
 **Route 125 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6435,14 +6549,16 @@ Pelipper: lv 25-30
 **Route 125 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6479,14 +6595,16 @@ Pelipper: lv 25-30
 **Route 125 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6527,14 +6645,16 @@ Pelipper: lv 25-30
 **Route 126 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6571,14 +6691,16 @@ Pelipper: lv 25-30
 **Route 126 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6615,14 +6737,16 @@ Pelipper: lv 25-30
 **Route 126 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6659,14 +6783,16 @@ Pelipper: lv 25-30
 **Route 126 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6707,14 +6833,16 @@ Pelipper: lv 25-30
 **Route 127 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6751,14 +6879,16 @@ Pelipper: lv 25-30
 **Route 127 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6795,14 +6925,16 @@ Pelipper: lv 25-30
 **Route 127 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6839,14 +6971,16 @@ Pelipper: lv 25-30
 **Route 127 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6887,14 +7021,16 @@ Pelipper: lv 25-30
 **Route 128 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6931,14 +7067,16 @@ Pelipper: lv 25-30
 **Route 128 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -6975,14 +7113,16 @@ Pelipper: lv 25-30
 **Route 128 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7019,14 +7159,16 @@ Pelipper: lv 25-30
 **Route 128 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7067,14 +7209,16 @@ Wailord: lv 25-30
 **Route 129 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7111,14 +7255,16 @@ Wailord: lv 25-30
 **Route 129 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7155,14 +7301,16 @@ Wailord: lv 25-30
 **Route 129 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7199,14 +7347,16 @@ Wailord: lv 25-30
 **Route 129 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7272,14 +7422,16 @@ Pyukumuku: lv 25-30
 **Route 130 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7341,14 +7493,16 @@ Pyukumuku: lv 25-30
 **Route 130 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7410,14 +7564,16 @@ Pyukumuku: lv 25-30
 **Route 130 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7479,14 +7635,16 @@ Pyukumuku: lv 25-30
 **Route 130 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7527,14 +7685,16 @@ Buizel: lv 23-26
 **Route 131 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7571,14 +7731,16 @@ Buizel: lv 23-26
 **Route 131 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7615,14 +7777,16 @@ Buizel: lv 23-26
 **Route 131 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7659,14 +7823,16 @@ Buizel: lv 23-26
 **Route 131 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7707,14 +7873,16 @@ Pelipper: lv 25-30
 **Route 132 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7751,14 +7919,16 @@ Pelipper: lv 25-30
 **Route 132 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7795,14 +7965,16 @@ Pelipper: lv 25-30
 **Route 132 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7839,14 +8011,16 @@ Pelipper: lv 25-30
 **Route 132 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7887,14 +8061,16 @@ Squirtle: lv 25-27
 **Route 133 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7931,14 +8107,16 @@ Squirtle: lv 25-27
 **Route 133 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -7975,14 +8153,16 @@ Squirtle: lv 25-27
 **Route 133 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8019,14 +8199,16 @@ Squirtle: lv 25-27
 **Route 133 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8067,14 +8249,16 @@ Pelipper: lv 25-30
 **Route 134 (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8111,14 +8295,16 @@ Pelipper: lv 25-30
 **Route 134 (Morning) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8155,14 +8341,16 @@ Pelipper: lv 25-30
 **Route 134 (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8199,14 +8387,16 @@ Pelipper: lv 25-30
 **Route 134 (Night) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Horsea
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Horsea (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8247,14 +8437,16 @@ Tentacruel: lv 30-35
 **Abandoned Ship Hidden Floor Corridors (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Tentacool
-30%: Tentacool
-20%: Tentacool
-15%: Tentacruel
-4%: Tentacruel
-1%: Tentacruel
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Tentacool (good rod)
+40%: Tentacool (super rod)
+40%: Tentacool (super rod)
+15%: Tentacruel (super rod)
+4%: Tentacruel (super rod)
+1%: Tentacruel (super rod)
 ```
 Levels:
 ```
@@ -8465,14 +8657,16 @@ Golbat: lv 30-35
 **Seafloor Cavern Room 6 (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8538,14 +8732,16 @@ Golbat: lv 30-35
 **Seafloor Cavern Room 7 (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8615,14 +8811,16 @@ Golbat: lv 30-35
 **Seafloor Cavern Entrance (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -8862,14 +9060,16 @@ Psyduck: lv 30-35
 **Safari Zone Southwest (Day) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -8931,14 +9131,16 @@ Psyduck: lv 30-35
 **Safari Zone Southwest (Night) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9000,14 +9202,16 @@ Psyduck: lv 30-35
 **Safari Zone Southwest (Morning) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9069,14 +9273,16 @@ Psyduck: lv 30-35
 **Safari Zone Southwest (Evening) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9318,14 +9524,16 @@ Golduck: lv 25-40
 **Safari Zone Northwest (Day) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9387,14 +9595,16 @@ Golduck: lv 25-40
 **Safari Zone Northwest (Night) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9456,14 +9666,16 @@ Golduck: lv 25-40
 **Safari Zone Northwest (Morning) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9525,14 +9737,16 @@ Golduck: lv 25-40
 **Safari Zone Northwest (Evening) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen
-30%: Goldeen
-20%: Goldeen
-15%: Seaking
-4%: Seaking
-1%: Seaking
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Goldeen (good rod)
+40%: Goldeen (super rod)
+40%: Goldeen (super rod)
+15%: Seaking (super rod)
+4%: Seaking (super rod)
+1%: Seaking (super rod)
 ```
 Levels:
 ```
@@ -9645,14 +9859,16 @@ Golbat: lv 35-40
 **Victory Road B 2f (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Whiscash
-4%: Whiscash
-1%: Whiscash
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
 ```
 Levels:
 ```
@@ -9718,14 +9934,16 @@ Solrock: lv 5-15
 **Meteor Falls 1f 1r (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Barboach
-4%: Barboach
-1%: Barboach
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
 ```
 Levels:
 ```
@@ -9791,14 +10009,16 @@ Solrock: lv 5-15
 **Meteor Falls 1f 2r (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Whiscash
-4%: Whiscash
-1%: Whiscash
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
 ```
 Levels:
 ```
@@ -9864,14 +10084,16 @@ Solrock: lv 5-15
 **Meteor Falls B 1f 1r (Day) - Fishing**
 ENCOUNTER RATE: 30
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Barboach
-30%: Goldeen
-20%: Goldeen, Barboach
-15%: Whiscash
-4%: Whiscash
-1%: Whiscash
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
 ```
 Levels:
 ```
@@ -9995,14 +10217,16 @@ Lapras: lv 25-28
 **Shoal Cave Low Tide Inner Room (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Wailmer
-40%: Seel
-30%: Magikarp
-20%: Staryu
-15%: Wailmer
-4%: Dewgong
-1%: Lapras
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Wailmer (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Wailmer (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
 ```
 Levels:
 ```
@@ -10068,14 +10292,16 @@ Slowking: lv 5
 **Shoal Cave Low Tide Entrance Room (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Seel
-30%: Magikarp
-20%: Staryu
-15%: Seel
-4%: Dewgong
-1%: Lapras
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Seel (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
 ```
 Levels:
 ```
@@ -10116,14 +10342,16 @@ Pelipper: lv 25-30
 **Lilycove City (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Staryu
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Staryu (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10160,14 +10388,16 @@ Pelipper: lv 25-30
 **Lilycove City (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Staryu
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Staryu (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10204,14 +10434,16 @@ Pelipper: lv 25-30
 **Lilycove City (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Staryu
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Staryu (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10248,14 +10480,16 @@ Pelipper: lv 25-30
 **Lilycove City (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Staryu
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Staryu (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10296,14 +10530,16 @@ Pelipper: lv 25-30
 **Dewford Town (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10340,14 +10576,16 @@ Pelipper: lv 25-30
 **Dewford Town (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10384,14 +10622,16 @@ Pelipper: lv 25-30
 **Dewford Town (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10428,14 +10668,16 @@ Pelipper: lv 25-30
 **Dewford Town (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10476,14 +10718,16 @@ Popplio: lv 14-24
 **Slateport City (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10520,14 +10764,16 @@ Popplio: lv 14-24
 **Slateport City (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10564,14 +10810,16 @@ Popplio: lv 14-24
 **Slateport City (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10608,14 +10856,16 @@ Popplio: lv 14-24
 **Slateport City (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10656,14 +10906,16 @@ Pelipper: lv 25-30
 **Mossdeep City (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10700,14 +10952,16 @@ Pelipper: lv 25-30
 **Mossdeep City (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10744,14 +10998,16 @@ Pelipper: lv 25-30
 **Mossdeep City (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10788,14 +11044,16 @@ Pelipper: lv 25-30
 **Mossdeep City (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10836,14 +11094,16 @@ Vaporeon: lv 23-25
 **Pacifidlog Town (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10880,14 +11140,16 @@ Vaporeon: lv 23-25
 **Pacifidlog Town (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10924,14 +11186,16 @@ Vaporeon: lv 23-25
 **Pacifidlog Town (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -10968,14 +11232,16 @@ Vaporeon: lv 23-25
 **Pacifidlog Town (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Sharpedo, Wailmer
-30%: Tentacool
-20%: Tentacool, Wailmer
-15%: Wailmer
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Sharpedo (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -11016,14 +11282,16 @@ Pelipper: lv 25-30
 **Ever Grande City (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -11060,14 +11328,16 @@ Pelipper: lv 25-30
 **Ever Grande City (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -11104,14 +11374,16 @@ Pelipper: lv 25-30
 **Ever Grande City (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -11148,14 +11420,16 @@ Pelipper: lv 25-30
 **Ever Grande City (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Luvdisc, Wailmer
-30%: Tentacool
-20%: Luvdisc, Wailmer
-15%: Corsola
-4%: Wailmer
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Luvdisc (good rod)
+20%: Wailmer (good rod)
+40%: Luvdisc (super rod)
+40%: Wailmer (super rod)
+15%: Corsola (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -11196,14 +11470,16 @@ Marill: lv 5-10
 **Petalburg City (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -11240,14 +11516,16 @@ Marill: lv 5-10
 **Petalburg City (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -11284,14 +11562,16 @@ Marill: lv 5-10
 **Petalburg City (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -11328,14 +11608,16 @@ Marill: lv 5-10
 **Petalburg City (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Corphish
-30%: Goldeen
-20%: Goldeen, Corphish
-15%: Corphish
-4%: Corphish
-1%: Corphish
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Corphish (good rod)
+40%: Corphish (super rod)
+40%: Corphish (super rod)
+15%: Corphish (super rod)
+4%: Corphish (super rod)
+1%: Corphish (super rod)
 ```
 Levels:
 ```
@@ -11356,60 +11638,6 @@ Corphish: lv 40-45
 ## Underwater Route 124
 
 **Underwater Route 124 (Day) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Clamperl
-30%: Chinchou
-5%: Binacle
-4%: Relicanth
-1%: Relicanth
-```
-Levels:
-```
-Clamperl: lv 20-30
-Chinchou: lv 20-30
-Binacle: lv 30-35
-Relicanth: lv 30-35
-Relicanth: lv 30-35
-```
-
-**Underwater Route 124 (Night) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Clamperl
-30%: Chinchou
-5%: Binacle
-4%: Relicanth
-1%: Relicanth
-```
-Levels:
-```
-Clamperl: lv 20-30
-Chinchou: lv 20-30
-Binacle: lv 30-35
-Relicanth: lv 30-35
-Relicanth: lv 30-35
-```
-
-**Underwater Route 124 (Morning) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Clamperl
-30%: Chinchou
-5%: Binacle
-4%: Relicanth
-1%: Relicanth
-```
-Levels:
-```
-Clamperl: lv 20-30
-Chinchou: lv 20-30
-Binacle: lv 30-35
-Relicanth: lv 30-35
-Relicanth: lv 30-35
-```
-
-**Underwater Route 124 (Evening) - Water**
 ENCOUNTER RATE: 4
 ```
 60%: Clamperl
@@ -11510,14 +11738,16 @@ Totodile: lv 20-25
 **Sootopolis City (Day) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Tentacool
-20%: Magikarp
-15%: Gyarados
-4%: Gyarados
-1%: Gyarados
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Gyarados (super rod)
+4%: Gyarados (super rod)
+1%: Gyarados (super rod)
 ```
 Levels:
 ```
@@ -11554,14 +11784,16 @@ Totodile: lv 20-25
 **Sootopolis City (Morning) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Tentacool
-20%: Magikarp
-15%: Gyarados
-4%: Gyarados
-1%: Gyarados
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Gyarados (super rod)
+4%: Gyarados (super rod)
+1%: Gyarados (super rod)
 ```
 Levels:
 ```
@@ -11598,14 +11830,16 @@ Totodile: lv 20-25
 **Sootopolis City (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Tentacool
-20%: Magikarp
-15%: Gyarados
-4%: Gyarados
-1%: Gyarados
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Gyarados (super rod)
+4%: Gyarados (super rod)
+1%: Gyarados (super rod)
 ```
 Levels:
 ```
@@ -11642,14 +11876,16 @@ Totodile: lv 20-25
 **Sootopolis City (Night) - Fishing**
 ENCOUNTER RATE: 10
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Tentacool
-20%: Magikarp
-15%: Gyarados
-4%: Gyarados
-1%: Gyarados
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Gyarados (super rod)
+4%: Gyarados (super rod)
+1%: Gyarados (super rod)
 ```
 Levels:
 ```
@@ -11773,14 +12009,16 @@ Quagsire: lv 35-40
 **Safari Zone Southeast (Day) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen, Remoraid
-30%: Goldeen
-20%: Goldeen, Remoraid
-15%: Remoraid
-4%: Remoraid
-1%: Octillery
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Remoraid (good rod)
+40%: Goldeen (super rod)
+40%: Remoraid (super rod)
+15%: Remoraid (super rod)
+4%: Remoraid (super rod)
+1%: Octillery (super rod)
 ```
 Levels:
 ```
@@ -11842,14 +12080,16 @@ Quagsire: lv 35-40
 **Safari Zone Southeast (Night) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen, Remoraid
-30%: Goldeen
-20%: Goldeen, Remoraid
-15%: Remoraid
-4%: Remoraid
-1%: Octillery
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Remoraid (good rod)
+40%: Goldeen (super rod)
+40%: Remoraid (super rod)
+15%: Remoraid (super rod)
+4%: Remoraid (super rod)
+1%: Octillery (super rod)
 ```
 Levels:
 ```
@@ -11911,14 +12151,16 @@ Quagsire: lv 35-40
 **Safari Zone Southeast (Morning) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen, Remoraid
-30%: Goldeen
-20%: Goldeen, Remoraid
-15%: Remoraid
-4%: Remoraid
-1%: Octillery
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Remoraid (good rod)
+40%: Goldeen (super rod)
+40%: Remoraid (super rod)
+15%: Remoraid (super rod)
+4%: Remoraid (super rod)
+1%: Octillery (super rod)
 ```
 Levels:
 ```
@@ -11980,14 +12222,16 @@ Quagsire: lv 35-40
 **Safari Zone Southeast (Evening) - Fishing**
 ENCOUNTER RATE: 35
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Goldeen, Remoraid
-30%: Goldeen
-20%: Goldeen, Remoraid
-15%: Remoraid
-4%: Remoraid
-1%: Octillery
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Remoraid (good rod)
+40%: Goldeen (super rod)
+40%: Remoraid (super rod)
+15%: Remoraid (super rod)
+4%: Remoraid (super rod)
+1%: Octillery (super rod)
 ```
 Levels:
 ```
@@ -12712,14 +12956,16 @@ Pinsir: lv 50-60
 **Silver Island Forest (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -12763,14 +13009,16 @@ Pinsir: lv 50-60
 **Silver Island Forest (Morning) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -12814,14 +13062,16 @@ Pinsir: lv 50-60
 **Silver Island Forest (Evening) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -12865,14 +13115,16 @@ Pinsir: lv 50-60
 **Silver Island Forest (Night) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Magikarp
-30%: Magikarp
-20%: Magikarp
-15%: Magikarp
-4%: Magikarp
-1%: Magikarp
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Magikarp (good rod)
+20%: Magikarp (good rod)
+40%: Magikarp (super rod)
+40%: Magikarp (super rod)
+15%: Magikarp (super rod)
+4%: Magikarp (super rod)
+1%: Magikarp (super rod)
 ```
 Levels:
 ```
@@ -13648,14 +13900,16 @@ Azelf: lv 70
 **Silver Island Hills (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Qwilfish
-60%: Qwilfish
-40%: Poipole
-30%: Qwilfish
-20%: Qwilfish
-15%: Poipole
-4%: Nihilego
-1%: Nihilego
+70%: Qwilfish (old rod)
+30%: Qwilfish (old rod)
+60%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+40%: Poipole (super rod)
+40%: Poipole (super rod)
+15%: Poipole (super rod)
+4%: Nihilego (super rod)
+1%: Nihilego (super rod)
 ```
 Levels:
 ```
@@ -13699,14 +13953,16 @@ Azelf: lv 70
 **Silver Island Hills (Morning) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Qwilfish
-60%: Qwilfish
-40%: Poipole
-30%: Qwilfish
-20%: Qwilfish
-15%: Poipole
-4%: Nihilego
-1%: Nihilego
+70%: Qwilfish (old rod)
+30%: Qwilfish (old rod)
+60%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+40%: Poipole (super rod)
+40%: Poipole (super rod)
+15%: Poipole (super rod)
+4%: Nihilego (super rod)
+1%: Nihilego (super rod)
 ```
 Levels:
 ```
@@ -13750,14 +14006,16 @@ Azelf: lv 70
 **Silver Island Hills (Evening) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Qwilfish
-60%: Qwilfish
-40%: Poipole
-30%: Qwilfish
-20%: Qwilfish
-15%: Poipole
-4%: Nihilego
-1%: Nihilego
+70%: Qwilfish (old rod)
+30%: Qwilfish (old rod)
+60%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+40%: Poipole (super rod)
+40%: Poipole (super rod)
+15%: Poipole (super rod)
+4%: Nihilego (super rod)
+1%: Nihilego (super rod)
 ```
 Levels:
 ```
@@ -13801,14 +14059,16 @@ Azelf: lv 70
 **Silver Island Hills (Night) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Qwilfish
-60%: Qwilfish
-40%: Poipole
-30%: Qwilfish
-20%: Qwilfish
-15%: Poipole
-4%: Nihilego
-1%: Nihilego
+70%: Qwilfish (old rod)
+30%: Qwilfish (old rod)
+60%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+20%: Qwilfish (good rod)
+40%: Poipole (super rod)
+40%: Poipole (super rod)
+15%: Poipole (super rod)
+4%: Nihilego (super rod)
+1%: Nihilego (super rod)
 ```
 Levels:
 ```
@@ -13933,60 +14193,6 @@ Celesteela: lv 70
 ## Underwater Route 127
 
 **Underwater Route 127 (Day) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Starmie
-30%: Starmie
-5%: Tentacruel
-4%: Horsea
-1%: Gyarados
-```
-Levels:
-```
-Starmie: lv 30-35
-Starmie: lv 30-35
-Tentacruel: lv 30-35
-Horsea: lv 30-35
-Gyarados: lv 30-35
-```
-
-**Underwater Route 127 (Night) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Starmie
-30%: Starmie
-5%: Tentacruel
-4%: Horsea
-1%: Gyarados
-```
-Levels:
-```
-Starmie: lv 30-35
-Starmie: lv 30-35
-Tentacruel: lv 30-35
-Horsea: lv 30-35
-Gyarados: lv 30-35
-```
-
-**Underwater Route 127 (Morning) - Water**
-ENCOUNTER RATE: 4
-```
-60%: Starmie
-30%: Starmie
-5%: Tentacruel
-4%: Horsea
-1%: Gyarados
-```
-Levels:
-```
-Starmie: lv 30-35
-Starmie: lv 30-35
-Tentacruel: lv 30-35
-Horsea: lv 30-35
-Gyarados: lv 30-35
-```
-
-**Underwater Route 127 (Evening) - Water**
 ENCOUNTER RATE: 4
 ```
 60%: Starmie
@@ -14325,60 +14531,6 @@ Horsea: lv 25-30
 Kingdra: lv 30-37
 ```
 
-**Abandoned Ship Underwater 1 (Night) - Water**
-ENCOUNTER RATE: 2
-```
-60%: Goldeen
-30%: Horsea
-5%: Horsea
-4%: Horsea
-1%: Kingdra
-```
-Levels:
-```
-Goldeen: lv 25-30
-Horsea: lv 25-30
-Horsea: lv 25-30
-Horsea: lv 25-30
-Kingdra: lv 30-37
-```
-
-**Abandoned Ship Underwater 1 (Morning) - Water**
-ENCOUNTER RATE: 2
-```
-60%: Goldeen
-30%: Horsea
-5%: Horsea
-4%: Horsea
-1%: Kingdra
-```
-Levels:
-```
-Goldeen: lv 25-30
-Horsea: lv 25-30
-Horsea: lv 25-30
-Horsea: lv 25-30
-Kingdra: lv 30-37
-```
-
-**Abandoned Ship Underwater 1 (Evening) - Water**
-ENCOUNTER RATE: 2
-```
-60%: Goldeen
-30%: Horsea
-5%: Horsea
-4%: Horsea
-1%: Kingdra
-```
-Levels:
-```
-Goldeen: lv 25-30
-Horsea: lv 25-30
-Horsea: lv 25-30
-Horsea: lv 25-30
-Kingdra: lv 30-37
-```
-
 
 
 ## Abandoned Ship Captains Office
@@ -14516,14 +14668,16 @@ Articuno: lv 70
 **Silver Falls (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Shellos, Psyduck
-30%: Magikarp
-20%: Psyduck, Shellder
-15%: Golduck
-4%: Corsola
-1%: Sharpedo
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Psyduck (good rod)
+20%: Shellder (good rod)
+40%: Shellos (super rod)
+40%: Psyduck (super rod)
+15%: Golduck (super rod)
+4%: Corsola (super rod)
+1%: Sharpedo (super rod)
 ```
 Levels:
 ```
@@ -14585,14 +14739,16 @@ Articuno: lv 70
 **Silver Falls (Morning) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Shellos, Psyduck
-30%: Magikarp
-20%: Psyduck, Shellder
-15%: Golduck
-4%: Corsola
-1%: Sharpedo
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Psyduck (good rod)
+20%: Shellder (good rod)
+40%: Shellos (super rod)
+40%: Psyduck (super rod)
+15%: Golduck (super rod)
+4%: Corsola (super rod)
+1%: Sharpedo (super rod)
 ```
 Levels:
 ```
@@ -14654,14 +14810,16 @@ Articuno: lv 70
 **Silver Falls (Evening) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Shellos, Psyduck
-30%: Magikarp
-20%: Psyduck, Shellder
-15%: Golduck
-4%: Corsola
-1%: Sharpedo
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Psyduck (good rod)
+20%: Shellder (good rod)
+40%: Shellos (super rod)
+40%: Psyduck (super rod)
+15%: Golduck (super rod)
+4%: Corsola (super rod)
+1%: Sharpedo (super rod)
 ```
 Levels:
 ```
@@ -14723,14 +14881,16 @@ Articuno: lv 70
 **Silver Falls (Night) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Magikarp
-40%: Shellos, Psyduck
-30%: Magikarp
-20%: Psyduck, Shellder
-15%: Golduck
-4%: Corsola
-1%: Sharpedo
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Psyduck (good rod)
+20%: Shellder (good rod)
+40%: Shellos (super rod)
+40%: Psyduck (super rod)
+15%: Golduck (super rod)
+4%: Corsola (super rod)
+1%: Sharpedo (super rod)
 ```
 Levels:
 ```
@@ -14964,60 +15124,6 @@ Terrakion: lv 50
 ## Underwater Route 134
 
 **Underwater Route 134 (Day) - Water**
-ENCOUNTER RATE: 15
-```
-60%: Mantyke
-30%: Tirtouga
-5%: Binacle
-4%: Dewpider
-1%: Shellos
-```
-Levels:
-```
-Mantyke: lv 25-30
-Tirtouga: lv 25-30
-Binacle: lv 25-30
-Dewpider: lv 25-30
-Shellos: lv 25-30
-```
-
-**Underwater Route 134 (Night) - Water**
-ENCOUNTER RATE: 15
-```
-60%: Mantyke
-30%: Tirtouga
-5%: Binacle
-4%: Dewpider
-1%: Shellos
-```
-Levels:
-```
-Mantyke: lv 25-30
-Tirtouga: lv 25-30
-Binacle: lv 25-30
-Dewpider: lv 25-30
-Shellos: lv 25-30
-```
-
-**Underwater Route 134 (Morning) - Water**
-ENCOUNTER RATE: 15
-```
-60%: Mantyke
-30%: Tirtouga
-5%: Binacle
-4%: Dewpider
-1%: Shellos
-```
-Levels:
-```
-Mantyke: lv 25-30
-Tirtouga: lv 25-30
-Binacle: lv 25-30
-Dewpider: lv 25-30
-Shellos: lv 25-30
-```
-
-**Underwater Route 134 (Evening) - Water**
 ENCOUNTER RATE: 15
 ```
 60%: Mantyke
@@ -15352,14 +15458,16 @@ Uxie: lv 40
 **Battle Frontier Outside East (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Magikarp
-60%: Luvdisc
-40%: Wishiwashi, Pyukumuku
-30%: Tentacool
-20%: Luvdisc, Horsea
-15%: Alomomola
-4%: Gyarados
-1%: Wailmer
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Luvdisc (good rod)
+20%: Luvdisc (good rod)
+20%: Horsea (good rod)
+40%: Wishiwashi (super rod)
+40%: Pyukumuku (super rod)
+15%: Alomomola (super rod)
+4%: Gyarados (super rod)
+1%: Wailmer (super rod)
 ```
 Levels:
 ```
@@ -15425,14 +15533,16 @@ Gengar: lv 55-60
 **Ancient Lake (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Sharpedo
-60%: Seadra
-40%: Wailmer
-30%: Sharpedo
-20%: Sharpedo, Gyarados
-15%: Wailord
-4%: Sharpedo
-1%: Feebas
+70%: Sharpedo (old rod)
+30%: Sharpedo (old rod)
+60%: Seadra (good rod)
+20%: Sharpedo (good rod)
+20%: Gyarados (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailord (super rod)
+4%: Sharpedo (super rod)
+1%: Feebas (super rod)
 ```
 Levels:
 ```
@@ -15631,14 +15741,16 @@ Luvdisc: lv 45-65
 **Flower Valley (Day) - Fishing**
 ENCOUNTER RATE: 20
 ```
-70%: Goldeen
-60%: Goldeen
-40%: Luvdisc
-30%: Goldeen
-20%: Carvanha
-15%: Luvdisc
-4%: Luvdisc
-1%: Luvdisc
+70%: Goldeen (old rod)
+30%: Goldeen (old rod)
+60%: Goldeen (good rod)
+20%: Carvanha (good rod)
+20%: Carvanha (good rod)
+40%: Luvdisc (super rod)
+40%: Luvdisc (super rod)
+15%: Luvdisc (super rod)
+4%: Luvdisc (super rod)
+1%: Luvdisc (super rod)
 ```
 Levels:
 ```

@@ -18,12 +18,17 @@ def parse_all_encounters():
         data = json.load(f)
 
     type_rates = {}
+    type_groups = {}
+    
     for group in data.get("wild_encounter_groups", []):
         for field in group.get("fields", []):
             enc_type = field.get("type")
             rates = field.get("encounter_rates", [])
+            groups = field.get("groups", {})
             if enc_type and rates:
                 type_rates[enc_type] = rates
+            if enc_type and groups:
+                type_groups[enc_type] = groups
 
     markdown_lines = []
     maps_data = {}
@@ -86,7 +91,15 @@ def parse_all_encounters():
                 markdown_lines.append("```")
                 
                 rates_array = type_rates.get(enc_type, [])
+                groups_dict = type_groups.get(enc_type, {})
                 
+                # Build an index-to-rod mapping for fishing or grouped encounters
+                idx_to_group = {}
+                for rod_name, indices in groups_dict.items():
+                    formatted_rod = rod_name.replace("_", " ")
+                    for idx in indices:
+                        idx_to_group[idx] = formatted_rod
+
                 rate_buckets = {}
                 level_info = []
 
@@ -98,7 +111,6 @@ def parse_all_encounters():
                     min_lv = mon.get("min_level")
                     max_lv = mon.get("max_level")
                     
-                    # Format level string based on whether min and max are equal
                     if min_lv == max_lv:
                         lv_str = f"lv {min_lv}"
                     else:
@@ -106,16 +118,22 @@ def parse_all_encounters():
                     
                     level_info.append(f"{species_name}: {lv_str}")
 
-                    if rate not in rate_buckets:
-                        rate_buckets[rate] = []
-                    if species_name not in rate_buckets[rate]:
-                        rate_buckets[rate].append(species_name)
+                    # If this encounter type has group labels (like fishing rods), print sequentially with the label
+                    if enc_type == "fishing_mons" and idx in idx_to_group:
+                        rod_label = idx_to_group[idx]
+                        markdown_lines.append(f"{rate}%: {species_name} ({rod_label})")
+                    else:
+                        if rate not in rate_buckets:
+                            rate_buckets[rate] = []
+                        if species_name not in rate_buckets[rate]:
+                            rate_buckets[rate].append(species_name)
                 
-                sorted_rates = sorted(rate_buckets.keys(), reverse=True)
-                
-                for rate in sorted_rates:
-                    species_joined = ", ".join(rate_buckets[rate])
-                    markdown_lines.append(f"{rate}%: {species_joined}")
+                # If it wasn't a grouped encounter type, output the bucketed summary rates
+                if enc_type != "fishing_mons":
+                    sorted_rates = sorted(rate_buckets.keys(), reverse=True)
+                    for rate in sorted_rates:
+                        species_joined = ", ".join(rate_buckets[rate])
+                        markdown_lines.append(f"{rate}%: {species_joined}")
                 
                 markdown_lines.append("```")
                 markdown_lines.append("Levels:")
@@ -124,7 +142,6 @@ def parse_all_encounters():
                     markdown_lines.append(lv_line)
                 markdown_lines.append("```")
                 markdown_lines.append("")
-
 
         markdown_lines.append("")
         markdown_lines.append("")
