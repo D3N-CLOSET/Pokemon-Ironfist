@@ -9,10 +9,16 @@ SageIsland_EventScript_FerryAttendant::
     goto_if_eq SageIsland_EventScript_Cancel
     message SageIsland_Text_WhereWouldYouLikeToGo
     waitmessage
-    multichoice 18, 8, MULTI_FERRY_SELECTION, FALSE
+    dynmultichoice 18, 8, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE,
+    SageIsland_Text_SlateportChoice,
+    SageIsland_Text_LilycoveChoice,
+    SageIsland_Text_BattleFrontierChoice,
+    SageIsland_Text_CancelChoice
     switch VAR_RESULT
     case 0, SageIsland_EventScript_WarpSlateport
-    case 8, SageIsland_EventScript_Cancel
+    case 1, SageIsland_EventScript_WarpLilycove
+    case 2, SageIsland_EventScript_WarpBattleFrontier
+    case 3, SageIsland_EventScript_Cancel
     case MULTI_B_PRESSED, SageIsland_EventScript_Cancel
     release
     end
@@ -67,3 +73,15 @@ SageIsland_Harbor_Text_LilycoveItIs:
 
 SageIsland_Text_PleaseSailWithUsAnotherTime:
 	.string "Please sail with us another time!$"
+
+SageIsland_Text_SlateportChoice:
+    .string "Slateport City$"
+
+SageIsland_Text_LilycoveChoice:
+    .string "Lilycove City$"
+
+SageIsland_Text_BattleFrontierChoice:
+    .string "Battle Frontier$"
+
+SageIsland_Text_CancelChoice:
+    .string "Cancel$"

@@ -9673,6 +9673,27 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Treecko
+Level: 5
+EVs: 5 HP / 11 Atk / 11 Def / 36 SpA / 22 SpD / 27 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pound
+- Leer
+- MOVE_NONE
+- MOVE_NONE
+
+=== TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Treecko
 Level: 5
@@ -9681,6 +9702,22 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Leer
 - MOVE_NONE
 - MOVE_NONE
+
+=== TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Treecko
+Level: 5
+EVs: 15 HP / 21 Atk / 21 Def / 49 SpA / 30 SpD / 40 Spe
+IVs: 12 HP / 31 Atk / 16 Def / 20 SpA / 20 SpD / 31 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
@@ -9691,6 +9728,44 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Slugma
+Level: 18
+EVs: 21 HP / 24 Atk / 22 Def / 57 SpA / 46 SpD / 20 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wingull
+Level: 18
+EVs: 26 HP / 11 Atk / 33 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Grovyle
+Tera Type: Grass
+Level: 20
+EVs: 19 HP / 55 Atk / 20 Def / 16 SpA / 31 SpD / 49 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Electrike
+Level: 16
+EVs: 5 HP / 11 Atk / 11 Def / 36 SpA / 22 SpD / 27 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Aron
+Level: 16
+EVs: 28 HP / 11 Atk / 11 Def / 5 SpA / 22 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Slugma
 Level: 18
@@ -9713,6 +9788,43 @@ Aron
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+=== TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Slugma
+Level: 18
+EVs: 40 HP / 24 Atk / 22 Def / 66 SpA / 46 SpD / 20 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wingull
+Level: 18
+EVs: 32 HP / 11 Atk / 33 Def / 37 SpA / 30 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Grovyle
+Tera Type: Grass
+Level: 20
+EVs: 29 HP / 80 Atk / 33 Def / 27 SpA / 31 SpD / 49 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Electrike
+Level: 16
+EVs: 5 HP / 11 Atk / 11 Def / 44 SpA / 22 SpD / 34 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Aron
+Level: 16
+EVs: 35 HP / 11 Atk / 30 Def / 5 SpA / 26 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
 Class: Rival
@@ -9720,8 +9832,46 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer
+AI: Semi Smart Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Slugma
+Level: 29
+EVs: 40 HP / 24 Atk / 22 Def / 66 SpA / 46 SpD / 20 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pelipper
+Level: 29
+EVs: 32 HP / 11 Atk / 33 Def / 37 SpA / 30 SpD / 10 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Grovyle
+Tera Type: Grass
+Level: 31
+EVs: 47 HP / 120 Atk / 34 Def / 31 SpA / 36 SpD / 75 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Manectric
+Level: 24
+EVs: 31 HP / 16 Atk / 11 Def / 80 SpA / 35 SpD / 39 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 24
+EVs: 46 HP / 11 Atk / 91 Def / 5 SpA / 55 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Slugma
 Level: 29
@@ -9744,6 +9894,43 @@ Lairon
 Level: 24
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+=== TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Slugma
+Level: 29
+EVs: 60 HP / 45 Atk / 22 Def / 80 SpA / 46 SpD / 20 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pelipper
+Level: 29
+EVs: 80 HP / 11 Atk / 33 Def / 45 SpA / 30 SpD / 29 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Grovyle
+Tera Type: Grass
+Level: 31
+EVs: 47 HP / 180 Atk / 34 Def / 31 SpA / 36 SpD / 100 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Manectric
+Level: 24
+EVs: 31 HP / 16 Atk / 11 Def / 100 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 24
+EVs: 46 HP / 11 Atk / 140 Def / 5 SpA / 110 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
 Name: BRENDAN
 Class: Rival
@@ -9751,16 +9938,53 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Force Setup First Turn
+AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Normal
 
 Torchic
 Level: 5
+EVs: 6 HP / 22 Atk / 12 Def / 19 SpA / 14 SpD / 5 Spe
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Growl
 - MOVE_NONE
 - MOVE_NONE
+
+=== TRAINER_BRENDAN_ROUTE_103_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
+
+Torchic
+Level: 5
+EVs: 16 HP / 29 Atk / 12 Def / 19 SpA / 14 SpD / 19 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Growl
+- MOVE_NONE
+- MOVE_NONE
+
+=== TRAINER_BRENDAN_ROUTE_103_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Torchic
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN

@@ -9,12 +9,16 @@ SilverCave_EventScript_FerryAttendant::
     goto_if_eq SilverCave_EventScript_Cancel
     message SilverCave_Text_WhereWouldYouLikeToGo
     waitmessage
-    multichoice 18, 8, MULTI_FERRY_SELECTION, FALSE
+    dynmultichoice 18, 8, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE
+    SilverIsland_Text_SlateportChoice,
+    SilverIsland_Text_BattleFrontierChoice,
+    SilverIsland_Text_LilycoveChoice,
+    SilverIsland_Text_CancelChoice
     switch VAR_RESULT
     case 0, SilverCave_EventScript_WarpSlateport
     case 1, SilverCave_EventScript_WarpBattleFrontier
     case 2, SilverCave_EventScript_WarpLilycove
-    case 7, SilverCave_EventScript_Cancel
+    case 3, SilverCave_EventScript_Cancel
     case MULTI_B_PRESSED, SilverCave_EventScript_Cancel
     release
     end
@@ -116,3 +120,14 @@ SilverIsland_Text_Sign:
     .string "Silver Island:\n"
     .string "OWNED BY TEAM AQUA!$"
 
+SilverIsland_Text_SlateportChoice:
+    .string "Slateport City$"
+
+SilverIsland_Text_BattleFrontierChoice:
+    .string "Battle Frontier$"
+
+SilverIsland_Text_LilycoveChoice:
+    .string "Lilycove City$"
+
+SilverIsland_Text_CancelChoice:
+    .string "Cancel$"
