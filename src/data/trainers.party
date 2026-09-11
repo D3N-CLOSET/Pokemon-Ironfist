@@ -9964,7 +9964,6 @@ Difficulty: Easy
 
 Torchic
 Level: 5
-EVs: 16 HP / 29 Atk / 12 Def / 19 SpA / 14 SpD / 19 Spe
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Growl
@@ -9984,6 +9983,7 @@ Difficulty: Hard
 
 Torchic
 Level: 5
+EVs: 16 HP / 29 Atk / 12 Def / 19 SpA / 14 SpD / 19 Spe
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
@@ -9995,6 +9995,44 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Wingull
+Level: 18
+EVs: 26 HP / 11 Atk / 33 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Lombre
+Level: 18
+EVs: 40 HP / 11 Atk / 16 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Combusken
+Tera Type: Fire
+Level: 20
+EVs: 19 HP / 55 Atk / 20 Def / 46 SpA / 31 SpD / 19 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Electrike
+Level: 16
+EVs: 5 HP / 11 Atk / 11 Def / 36 SpA / 22 SpD / 27 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Aron
+Level: 16
+EVs: 28 HP / 11 Atk / 11 Def / 5 SpA / 22 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_ROUTE_110_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Wingull
 Level: 18
@@ -10017,6 +10055,43 @@ Aron
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+=== TRAINER_BRENDAN_ROUTE_110_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Wingull
+Level: 18
+EVs: 26 HP / 11 Atk / 33 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Lombre
+Level: 18
+EVs: 60 HP / 21 Atk / 16 Def / 38 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Combusken
+Tera Type: Fire
+Level: 20
+EVs: 29 HP / 80 Atk / 33 Def / 47 SpA / 31 SpD / 19 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Electrike
+Level: 16
+EVs: 5 HP / 11 Atk / 11 Def / 44 SpA / 22 SpD / 34 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Aron
+Level: 16
+EVs: 35 HP / 11 Atk / 30 Def / 5 SpA / 26 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
 Class: Rival
@@ -10026,6 +10101,44 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Pelipper
+Level: 29
+EVs: 32 HP / 11 Atk / 33 Def / 37 SpA / 30 SpD / 10 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lombre
+Level: 29
+EVs: 80 HP / 27 Atk / 26 Def / 38 SpA / 22 SpD / 17 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Combusken
+Tera Type: Fire
+Level: 31
+EVs: 47 HP / 120 Atk / 34 Def / 31 SpA / 76 SpD / 35 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Manectric
+Level: 24
+EVs: 31 HP / 16 Atk / 11 Def / 80 SpA / 35 SpD / 39 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 24
+EVs: 46 HP / 11 Atk / 91 Def / 5 SpA / 55 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_ROUTE_119_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Pelipper
 Level: 29
@@ -10046,6 +10159,43 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lairon
 Level: 24
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_ROUTE_119_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Pelipper
+Level: 29
+EVs: 80 HP / 11 Atk / 33 Def / 45 SpA / 30 SpD / 29 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lombre
+Level: 29
+EVs: 120 HP / 40 Atk / 26 Def / 38 SpA / 22 SpD / 22 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Combusken
+Tera Type: Fire
+Level: 31
+EVs: 47 HP / 200 Atk / 34 Def / 31 SpA / 85 SpD / 40 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Manectric
+Level: 24
+EVs: 31 HP / 16 Atk / 11 Def / 100 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 24
+EVs: 46 HP / 11 Atk / 140 Def / 5 SpA / 110 SpD / 9 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
