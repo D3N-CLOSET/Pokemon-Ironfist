@@ -10062,7 +10062,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Semi Smart Trainer
 Mugshot: Blue
 Difficulty: Hard
 
@@ -10099,7 +10099,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer
+AI: Semi Smart Trainer
 Mugshot: Blue
 Difficulty: Normal
 
@@ -10136,7 +10136,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Blue
 Difficulty: Easy
 
@@ -10207,6 +10207,27 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Mudkip
+Level: 5
+EVs: 16 HP / 2 Atk / 24 Def / 8 SpA / 20 SpD / 5 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growl
+- MOVE_NONE
+- MOVE_NONE
+
+=== TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Mudkip
 Level: 5
@@ -10215,6 +10236,24 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Growl
 - MOVE_NONE
 - MOVE_NONE
+
+=== TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Mudkip
+Level: 5
+EVs: 16 HP / 2 Atk / 36 Def / 14 SpA / 29 SpD / 5 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growl
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: BRENDAN
