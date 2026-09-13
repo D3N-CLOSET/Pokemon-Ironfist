@@ -3265,6 +3265,56 @@ Treecko: lv 5-7
 Scyther: lv 6-9
 ```
 
+**Petalburg Woods (Morning)**
+ENCOUNTER RATE: 20
+```
+20%: Poochyena, Wurmple
+10%: Shroomish, Nincada, Silcoon, Cascoon
+5%: Wurmple, Taillow
+4%: Taillow, Slakoth
+1%: Treecko, Scyther
+```
+Levels:
+```
+Poochyena: lv 5-7
+Wurmple: lv 5
+Shroomish: lv 5-7
+Nincada: lv 5-6
+Silcoon: lv 5
+Cascoon: lv 5
+Wurmple: lv 4-6
+Taillow: lv 4-6
+Taillow: lv 5
+Slakoth: lv 5-8
+Treecko: lv 5-7
+Scyther: lv 6-9
+```
+
+**Petalburg Woods (Evening)**
+ENCOUNTER RATE: 20
+```
+20%: Poochyena, Wurmple
+10%: Shroomish, Nincada, Silcoon, Cascoon
+5%: Wurmple, Taillow
+4%: Taillow, Slakoth
+1%: Treecko, Scyther
+```
+Levels:
+```
+Poochyena: lv 5-7
+Wurmple: lv 5
+Shroomish: lv 5-7
+Nincada: lv 5-6
+Silcoon: lv 5
+Cascoon: lv 5
+Wurmple: lv 4-6
+Taillow: lv 4-6
+Taillow: lv 5
+Slakoth: lv 5-8
+Treecko: lv 5-7
+Scyther: lv 6-9
+```
+
 **Petalburg Woods (Night)**
 ENCOUNTER RATE: 20
 ```
@@ -3348,11 +3398,161 @@ Geodude: lv 6
 Tangela: lv 7-9
 ```
 
+**Granite Cave 1f (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Makuhita
+10%: Paras, Zubat, Makuhita, Abra
+5%: Makuhita
+4%: Geodude, Onix
+1%: Geodude, Tangela
+```
+Levels:
+```
+Zubat: lv 7
+Makuhita: lv 8
+Paras: lv 7
+Zubat: lv 8
+Makuhita: lv 9
+Abra: lv 8
+Makuhita: lv 10
+Makuhita: lv 6
+Geodude: lv 7-9
+Onix: lv 8
+Geodude: lv 6
+Tangela: lv 7-9
+```
+
+**Granite Cave 1f (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Makuhita
+10%: Paras, Zubat, Makuhita, Abra
+5%: Makuhita
+4%: Geodude, Onix
+1%: Geodude, Tangela
+```
+Levels:
+```
+Zubat: lv 7
+Makuhita: lv 8
+Paras: lv 7
+Zubat: lv 8
+Makuhita: lv 9
+Abra: lv 8
+Makuhita: lv 10
+Makuhita: lv 6
+Geodude: lv 7-9
+Onix: lv 8
+Geodude: lv 6
+Tangela: lv 7-9
+```
+
+**Granite Cave 1f (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Makuhita
+10%: Paras, Zubat, Makuhita, Abra
+5%: Makuhita
+4%: Geodude, Onix
+1%: Geodude, Tangela
+```
+Levels:
+```
+Zubat: lv 7
+Makuhita: lv 8
+Paras: lv 7
+Zubat: lv 8
+Makuhita: lv 9
+Abra: lv 8
+Makuhita: lv 10
+Makuhita: lv 6
+Geodude: lv 7-9
+Onix: lv 8
+Geodude: lv 6
+Tangela: lv 7-9
+```
+
 
 
 ## Granite Cave B 1f
 
 **Granite Cave B 1f (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Aron
+10%: Aron, Zubat, Abra
+5%: Makuhita
+4%: Nosepass, Sableye
+1%: Sableye
+```
+Levels:
+```
+Zubat: lv 9
+Aron: lv 10
+Aron: lv 9
+Aron: lv 11
+Zubat: lv 10
+Abra: lv 9
+Makuhita: lv 10
+Makuhita: lv 11
+Nosepass: lv 10-11
+Sableye: lv 10
+Sableye: lv 9
+Sableye: lv 11
+```
+
+**Granite Cave B 1f (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Aron
+10%: Aron, Zubat, Abra
+5%: Makuhita
+4%: Nosepass, Sableye
+1%: Sableye
+```
+Levels:
+```
+Zubat: lv 9
+Aron: lv 10
+Aron: lv 9
+Aron: lv 11
+Zubat: lv 10
+Abra: lv 9
+Makuhita: lv 10
+Makuhita: lv 11
+Nosepass: lv 10-11
+Sableye: lv 10
+Sableye: lv 9
+Sableye: lv 11
+```
+
+**Granite Cave B 1f (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Aron
+10%: Aron, Zubat, Abra
+5%: Makuhita
+4%: Nosepass, Sableye
+1%: Sableye
+```
+Levels:
+```
+Zubat: lv 9
+Aron: lv 10
+Aron: lv 9
+Aron: lv 11
+Zubat: lv 10
+Abra: lv 9
+Makuhita: lv 10
+Makuhita: lv 11
+Nosepass: lv 10-11
+Sableye: lv 10
+Sableye: lv 9
+Sableye: lv 11
+```
+
+**Granite Cave B 1f (Evening)**
 ENCOUNTER RATE: 10
 ```
 20%: Zubat, Aron
@@ -3561,6 +3761,60 @@ Wishiwashi: lv 30-35
 Relicanth: lv 30-35
 ```
 
+**Underwater Route 126 (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Clauncher
+30%: Chinchou
+5%: Clamperl
+4%: Wishiwashi
+1%: Relicanth
+```
+Levels:
+```
+Clauncher: lv 20-30
+Chinchou: lv 20-30
+Clamperl: lv 30-35
+Wishiwashi: lv 30-35
+Relicanth: lv 30-35
+```
+
+**Underwater Route 126 (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Clauncher
+30%: Chinchou
+5%: Clamperl
+4%: Wishiwashi
+1%: Relicanth
+```
+Levels:
+```
+Clauncher: lv 20-30
+Chinchou: lv 20-30
+Clamperl: lv 30-35
+Wishiwashi: lv 30-35
+Relicanth: lv 30-35
+```
+
+**Underwater Route 126 (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Clauncher
+30%: Chinchou
+5%: Clamperl
+4%: Wishiwashi
+1%: Relicanth
+```
+Levels:
+```
+Clauncher: lv 20-30
+Chinchou: lv 20-30
+Clamperl: lv 30-35
+Wishiwashi: lv 30-35
+Relicanth: lv 30-35
+```
+
 
 
 ## Abandoned Ship Rooms B 1f
@@ -3658,6 +3912,135 @@ Geodude: lv 15-20
 Geodude: lv 15-20
 ```
 
+**Granite Cave B 2f (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Aron
+10%: Aron, Zubat, Abra
+5%: Nosepass, Sableye
+4%: Togedemaru, Sableye
+1%: Sableye
+```
+Levels:
+```
+Zubat: lv 10
+Aron: lv 11
+Aron: lv 10
+Zubat: lv 11
+Aron: lv 12
+Abra: lv 10
+Nosepass: lv 10-11
+Sableye: lv 11
+Togedemaru: lv 10-12
+Sableye: lv 10
+Sableye: lv 12
+Sableye: lv 10
+```
+
+**Granite Cave B 2f (Night) - Rock smash**
+ENCOUNTER RATE: 20
+```
+60%: Geodude
+30%: Nosepass
+5%: Geodude
+4%: Geodude
+1%: Geodude
+```
+Levels:
+```
+Geodude: lv 10-15
+Nosepass: lv 10-20
+Geodude: lv 5-10
+Geodude: lv 15-20
+Geodude: lv 15-20
+```
+
+**Granite Cave B 2f (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Aron
+10%: Aron, Zubat, Abra
+5%: Nosepass, Sableye
+4%: Togedemaru, Sableye
+1%: Sableye
+```
+Levels:
+```
+Zubat: lv 10
+Aron: lv 11
+Aron: lv 10
+Zubat: lv 11
+Aron: lv 12
+Abra: lv 10
+Nosepass: lv 10-11
+Sableye: lv 11
+Togedemaru: lv 10-12
+Sableye: lv 10
+Sableye: lv 12
+Sableye: lv 10
+```
+
+**Granite Cave B 2f (Morning) - Rock smash**
+ENCOUNTER RATE: 20
+```
+60%: Geodude
+30%: Nosepass
+5%: Geodude
+4%: Geodude
+1%: Geodude
+```
+Levels:
+```
+Geodude: lv 10-15
+Nosepass: lv 10-20
+Geodude: lv 5-10
+Geodude: lv 15-20
+Geodude: lv 15-20
+```
+
+**Granite Cave B 2f (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Aron
+10%: Aron, Zubat, Abra
+5%: Nosepass, Sableye
+4%: Togedemaru, Sableye
+1%: Sableye
+```
+Levels:
+```
+Zubat: lv 10
+Aron: lv 11
+Aron: lv 10
+Zubat: lv 11
+Aron: lv 12
+Abra: lv 10
+Nosepass: lv 10-11
+Sableye: lv 11
+Togedemaru: lv 10-12
+Sableye: lv 10
+Sableye: lv 12
+Sableye: lv 10
+```
+
+**Granite Cave B 2f (Evening) - Rock smash**
+ENCOUNTER RATE: 20
+```
+60%: Geodude
+30%: Nosepass
+5%: Geodude
+4%: Geodude
+1%: Geodude
+```
+Levels:
+```
+Geodude: lv 10-15
+Nosepass: lv 10-20
+Geodude: lv 5-10
+Geodude: lv 15-20
+Geodude: lv 15-20
+```
+
 
 
 ## Fiery Path
@@ -3735,6 +4118,219 @@ Solrock: lv 5-15
 ```
 
 **Meteor Falls B 1f 2r (Day) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls B 1f 2r (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Bagon, Lunatone, Solrock
+5%: Bagon, Gible
+4%: Shelgon, Jangmo_o
+1%: Cosmog, Cosmoem
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 35
+Bagon: lv 30
+Lunatone: lv 35
+Bagon: lv 35
+Solrock: lv 37
+Bagon: lv 25
+Gible: lv 39
+Shelgon: lv 38
+Jangmo_o: lv 36-40
+Cosmog: lv 50
+Cosmoem: lv 50
+```
+
+**Meteor Falls B 1f 2r (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls B 1f 2r (Night) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls B 1f 2r (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Bagon, Lunatone, Solrock
+5%: Bagon, Gible
+4%: Shelgon, Jangmo_o
+1%: Cosmog, Cosmoem
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 35
+Bagon: lv 30
+Lunatone: lv 35
+Bagon: lv 35
+Solrock: lv 37
+Bagon: lv 25
+Gible: lv 39
+Shelgon: lv 38
+Jangmo_o: lv 36-40
+Cosmog: lv 50
+Cosmoem: lv 50
+```
+
+**Meteor Falls B 1f 2r (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls B 1f 2r (Morning) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls B 1f 2r (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Bagon, Lunatone, Solrock
+5%: Bagon, Gible
+4%: Shelgon, Jangmo_o
+1%: Cosmog, Cosmoem
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 35
+Bagon: lv 30
+Lunatone: lv 35
+Bagon: lv 35
+Solrock: lv 37
+Bagon: lv 25
+Gible: lv 39
+Shelgon: lv 38
+Jangmo_o: lv 36-40
+Cosmog: lv 50
+Cosmoem: lv 50
+```
+
+**Meteor Falls B 1f 2r (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls B 1f 2r (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
 70%: Magikarp (old rod)
@@ -6432,6 +7028,81 @@ Beldum: lv 5
 Beldum: lv 5
 ```
 
+**Granite Cave Stevens Room (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Makuhita
+10%: Makuhita, Zubat, Abra
+5%: Makuhita
+4%: Aron
+1%: Beldum
+```
+Levels:
+```
+Zubat: lv 7
+Makuhita: lv 8
+Makuhita: lv 7
+Zubat: lv 8
+Makuhita: lv 9
+Abra: lv 8
+Makuhita: lv 10
+Makuhita: lv 6
+Aron: lv 7
+Aron: lv 8
+Beldum: lv 5
+Beldum: lv 5
+```
+
+**Granite Cave Stevens Room (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Makuhita
+10%: Makuhita, Zubat, Abra
+5%: Makuhita
+4%: Aron
+1%: Beldum
+```
+Levels:
+```
+Zubat: lv 7
+Makuhita: lv 8
+Makuhita: lv 7
+Zubat: lv 8
+Makuhita: lv 9
+Abra: lv 8
+Makuhita: lv 10
+Makuhita: lv 6
+Aron: lv 7
+Aron: lv 8
+Beldum: lv 5
+Beldum: lv 5
+```
+
+**Granite Cave Stevens Room (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Makuhita
+10%: Makuhita, Zubat, Abra
+5%: Makuhita
+4%: Aron
+1%: Beldum
+```
+Levels:
+```
+Zubat: lv 7
+Makuhita: lv 8
+Makuhita: lv 7
+Zubat: lv 8
+Makuhita: lv 9
+Abra: lv 8
+Makuhita: lv 10
+Makuhita: lv 6
+Aron: lv 7
+Aron: lv 8
+Beldum: lv 5
+Beldum: lv 5
+```
+
 
 
 ## Route 125
@@ -8491,11 +9162,161 @@ Golbat: lv 33
 Golbat: lv 36
 ```
 
+**Seafloor Cavern Room 1 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Gligar, Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Gligar: lv 34-36
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 1 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Gligar, Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Gligar: lv 34-36
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 1 (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Gligar, Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Gligar: lv 34-36
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
 
 
 ## Seafloor Cavern Room 2
 
 **Seafloor Cavern Room 2 (Day)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat, Metagross
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Metagross: lv 50
+```
+
+**Seafloor Cavern Room 2 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat, Metagross
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Metagross: lv 50
+```
+
+**Seafloor Cavern Room 2 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat, Metagross
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Metagross: lv 50
+```
+
+**Seafloor Cavern Room 2 (Evening)**
 ENCOUNTER RATE: 4
 ```
 20%: Zubat
@@ -8549,6 +9370,81 @@ Golbat: lv 33
 Golbat: lv 36
 ```
 
+**Seafloor Cavern Room 3 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Diglett, Zubat
+10%: Zubat
+5%: Zubat, Dugtrio
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Diglett: lv 27-30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Dugtrio: lv 31-35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 3 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Diglett, Zubat
+10%: Zubat
+5%: Zubat, Dugtrio
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Diglett: lv 27-30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Dugtrio: lv 31-35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 3 (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Diglett, Zubat
+10%: Zubat
+5%: Zubat, Dugtrio
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Diglett: lv 27-30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Dugtrio: lv 31-35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
 
 
 ## Seafloor Cavern Room 4
@@ -8578,11 +9474,161 @@ Golbat: lv 33
 Golbat: lv 36
 ```
 
+**Seafloor Cavern Room 4 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Diglett, Zubat
+10%: Zubat
+5%: Zubat, Dugtrio
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Diglett: lv 27-30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Dugtrio: lv 31-35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 4 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Diglett, Zubat
+10%: Zubat
+5%: Zubat, Dugtrio
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Diglett: lv 27-30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Dugtrio: lv 31-35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 4 (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Diglett, Zubat
+10%: Zubat
+5%: Zubat, Dugtrio
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Diglett: lv 27-30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Dugtrio: lv 31-35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
 
 
 ## Seafloor Cavern Room 5
 
 **Seafloor Cavern Room 5 (Day)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 5 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 5 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 5 (Evening)**
 ENCOUNTER RATE: 4
 ```
 20%: Zubat
@@ -8655,6 +9701,219 @@ Golbat: lv 30-35
 ```
 
 **Seafloor Cavern Room 6 (Day) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Room 6 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 6 (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Room 6 (Night) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Room 6 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 6 (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Room 6 (Morning) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Room 6 (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 6 (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Room 6 (Evening) - Fishing**
 ENCOUNTER RATE: 10
 ```
 70%: Magikarp (old rod)
@@ -8757,11 +10016,299 @@ Wailmer: lv 35-40
 Wailmer: lv 40-45
 ```
 
+**Seafloor Cavern Room 7 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 7 (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Room 7 (Night) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Room 7 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 7 (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Room 7 (Morning) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Room 7 (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 7 (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Room 7 (Evening) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
 
 
 ## Seafloor Cavern Room 8
 
 **Seafloor Cavern Room 8 (Day)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 8 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 8 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Zubat: lv 34
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Seafloor Cavern Room 8 (Evening)**
 ENCOUNTER RATE: 4
 ```
 20%: Zubat
@@ -8836,11 +10383,224 @@ Wailmer: lv 35-40
 Wailmer: lv 40-45
 ```
 
+**Seafloor Cavern Entrance (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Entrance (Night) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Entrance (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Entrance (Morning) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
+**Seafloor Cavern Entrance (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Tentacool
+30%: Zubat
+5%: Zubat
+4%: Golbat
+1%: Golbat
+```
+Levels:
+```
+Tentacool: lv 5-35
+Zubat: lv 5-35
+Zubat: lv 30-35
+Golbat: lv 30-35
+Golbat: lv 30-35
+```
+
+**Seafloor Cavern Entrance (Evening) - Fishing**
+ENCOUNTER RATE: 10
+```
+70%: Magikarp (old rod)
+30%: Tentacool (old rod)
+60%: Magikarp (good rod)
+20%: Tentacool (good rod)
+20%: Wailmer (good rod)
+40%: Wailmer (super rod)
+40%: Wailmer (super rod)
+15%: Wailmer (super rod)
+4%: Wailmer (super rod)
+1%: Wailmer (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Tentacool: lv 5-10
+Magikarp: lv 10-30
+Tentacool: lv 10-30
+Wailmer: lv 10-30
+Wailmer: lv 25-30
+Wailmer: lv 30-35
+Wailmer: lv 20-25
+Wailmer: lv 35-40
+Wailmer: lv 40-45
+```
+
 
 
 ## Cave Of Origin Entrance
 
 **Cave Of Origin Entrance (Day)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Jirachi, Zubat
+4%: Golbat
+1%: Greninja, Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Jirachi: lv 30
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Greninja: lv 33-36
+Golbat: lv 36
+```
+
+**Cave Of Origin Entrance (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Jirachi, Zubat
+4%: Golbat
+1%: Greninja, Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Jirachi: lv 30
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Greninja: lv 33-36
+Golbat: lv 36
+```
+
+**Cave Of Origin Entrance (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat
+5%: Jirachi, Zubat
+4%: Golbat
+1%: Greninja, Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Zubat: lv 33
+Zubat: lv 28
+Zubat: lv 29
+Jirachi: lv 30
+Zubat: lv 35
+Golbat: lv 34
+Golbat: lv 35
+Greninja: lv 33-36
+Golbat: lv 36
+```
+
+**Cave Of Origin Entrance (Evening)**
 ENCOUNTER RATE: 4
 ```
 20%: Zubat
@@ -8894,11 +10654,161 @@ Golbat: lv 33
 Golbat: lv 36
 ```
 
+**Cave Of Origin 1f (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Greninja, Jirachi
+4%: Golbat, Tapu_lele
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Greninja: lv 33-36
+Jirachi: lv 30
+Golbat: lv 34
+Tapu_lele: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin 1f (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Greninja, Jirachi
+4%: Golbat, Tapu_lele
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Greninja: lv 33-36
+Jirachi: lv 30
+Golbat: lv 34
+Tapu_lele: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin 1f (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Greninja, Jirachi
+4%: Golbat, Tapu_lele
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Greninja: lv 33-36
+Jirachi: lv 30
+Golbat: lv 34
+Tapu_lele: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
 
 
 ## Cave Of Origin Unused Ruby Sapphire Map 1
 
 **Cave Of Origin Unused Ruby Sapphire Map 1 (Day)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_bulu
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_bulu: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 1 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_bulu
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_bulu: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 1 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_bulu
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_bulu: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 1 (Evening)**
 ENCOUNTER RATE: 4
 ```
 20%: Zubat
@@ -8952,11 +10862,161 @@ Golbat: lv 33
 Golbat: lv 36
 ```
 
+**Cave Of Origin Unused Ruby Sapphire Map 2 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_fini
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_fini: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 2 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_fini
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_fini: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 2 (Evening)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_fini
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_fini: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
 
 
 ## Cave Of Origin Unused Ruby Sapphire Map 3
 
 **Cave Of Origin Unused Ruby Sapphire Map 3 (Day)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_koko
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_koko: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 3 (Night)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_koko
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_koko: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 3 (Morning)**
+ENCOUNTER RATE: 4
+```
+20%: Zubat
+10%: Zubat, Sableye
+5%: Zubat
+4%: Golbat, Tapu_koko
+1%: Golbat
+```
+Levels:
+```
+Zubat: lv 30
+Zubat: lv 31
+Zubat: lv 32
+Sableye: lv 30
+Sableye: lv 32
+Sableye: lv 34
+Zubat: lv 33
+Zubat: lv 34
+Golbat: lv 34
+Tapu_koko: lv 35
+Golbat: lv 33
+Golbat: lv 36
+```
+
+**Cave Of Origin Unused Ruby Sapphire Map 3 (Evening)**
 ENCOUNTER RATE: 4
 ```
 20%: Zubat
@@ -9959,6 +12019,219 @@ Barboach: lv 35-40
 Barboach: lv 40-45
 ```
 
+**Meteor Falls 1f 1r (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat
+10%: Zubat, Zorua, Solrock
+5%: Solrock, Gible
+4%: Lunatone
+1%: Jangmo_o, Cosmog
+```
+Levels:
+```
+Zubat: lv 16
+Zubat: lv 17
+Zubat: lv 18
+Zubat: lv 15
+Zorua: lv 14
+Solrock: lv 16
+Solrock: lv 18
+Gible: lv 16-18
+Lunatone: lv 19
+Lunatone: lv 20
+Jangmo_o: lv 50
+Cosmog: lv 27-30
+```
+
+**Meteor Falls 1f 1r (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Zubat
+30%: Zubat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Zubat: lv 5-35
+Zubat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls 1f 1r (Night) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Barboach: lv 20-25
+Barboach: lv 35-40
+Barboach: lv 40-45
+```
+
+**Meteor Falls 1f 1r (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat
+10%: Zubat, Zorua, Solrock
+5%: Solrock, Gible
+4%: Lunatone
+1%: Jangmo_o, Cosmog
+```
+Levels:
+```
+Zubat: lv 16
+Zubat: lv 17
+Zubat: lv 18
+Zubat: lv 15
+Zorua: lv 14
+Solrock: lv 16
+Solrock: lv 18
+Gible: lv 16-18
+Lunatone: lv 19
+Lunatone: lv 20
+Jangmo_o: lv 50
+Cosmog: lv 27-30
+```
+
+**Meteor Falls 1f 1r (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Zubat
+30%: Zubat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Zubat: lv 5-35
+Zubat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls 1f 1r (Morning) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Barboach: lv 20-25
+Barboach: lv 35-40
+Barboach: lv 40-45
+```
+
+**Meteor Falls 1f 1r (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat
+10%: Zubat, Zorua, Solrock
+5%: Solrock, Gible
+4%: Lunatone
+1%: Jangmo_o, Cosmog
+```
+Levels:
+```
+Zubat: lv 16
+Zubat: lv 17
+Zubat: lv 18
+Zubat: lv 15
+Zorua: lv 14
+Solrock: lv 16
+Solrock: lv 18
+Gible: lv 16-18
+Lunatone: lv 19
+Lunatone: lv 20
+Jangmo_o: lv 50
+Cosmog: lv 27-30
+```
+
+**Meteor Falls 1f 1r (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Zubat
+30%: Zubat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Zubat: lv 5-35
+Zubat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls 1f 1r (Evening) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Barboach (super rod)
+4%: Barboach (super rod)
+1%: Barboach (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Barboach: lv 20-25
+Barboach: lv 35-40
+Barboach: lv 40-45
+```
+
 
 
 ## Meteor Falls 1f 2r
@@ -10007,6 +12280,219 @@ Solrock: lv 5-15
 ```
 
 **Meteor Falls 1f 2r (Day) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls 1f 2r (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Goomy, Dragalge, Solrock, Lunatone
+5%: Lunatone, Druddigon
+4%: Dratini
+1%: Deino, Dragonite
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 35
+Goomy: lv 33
+Dragalge: lv 35
+Solrock: lv 33
+Lunatone: lv 37
+Lunatone: lv 35
+Druddigon: lv 39
+Dratini: lv 38
+Dratini: lv 40
+Deino: lv 38
+Dragonite: lv 40-41
+```
+
+**Meteor Falls 1f 2r (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Dratini
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Dratini: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls 1f 2r (Night) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls 1f 2r (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Goomy, Dragalge, Solrock, Lunatone
+5%: Lunatone, Druddigon
+4%: Dratini
+1%: Deino, Dragonite
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 35
+Goomy: lv 33
+Dragalge: lv 35
+Solrock: lv 33
+Lunatone: lv 37
+Lunatone: lv 35
+Druddigon: lv 39
+Dratini: lv 38
+Dratini: lv 40
+Deino: lv 38
+Dragonite: lv 40-41
+```
+
+**Meteor Falls 1f 2r (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Dratini
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Dratini: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls 1f 2r (Morning) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls 1f 2r (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Goomy, Dragalge, Solrock, Lunatone
+5%: Lunatone, Druddigon
+4%: Dratini
+1%: Deino, Dragonite
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 35
+Goomy: lv 33
+Dragalge: lv 35
+Solrock: lv 33
+Lunatone: lv 37
+Lunatone: lv 35
+Druddigon: lv 39
+Dratini: lv 38
+Dratini: lv 40
+Deino: lv 38
+Dragonite: lv 40-41
+```
+
+**Meteor Falls 1f 2r (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Dratini
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Dratini: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls 1f 2r (Evening) - Fishing**
 ENCOUNTER RATE: 30
 ```
 70%: Magikarp (old rod)
@@ -10109,6 +12595,219 @@ Whiscash: lv 35-40
 Whiscash: lv 40-45
 ```
 
+**Meteor Falls B 1f 1r (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Lunatone, Solrock, Noibat
+5%: Goomy, Drampa
+4%: Axew, Gible
+1%: Bagon, Oshawott
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 31-35
+Lunatone: lv 33
+Solrock: lv 35
+Solrock: lv 33
+Noibat: lv 34-37
+Goomy: lv 32-35
+Drampa: lv 36-39
+Axew: lv 36-38
+Gible: lv 37-40
+Bagon: lv 38
+Oshawott: lv 40
+```
+
+**Meteor Falls B 1f 1r (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls B 1f 1r (Night) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls B 1f 1r (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Lunatone, Solrock, Noibat
+5%: Goomy, Drampa
+4%: Axew, Gible
+1%: Bagon, Oshawott
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 31-35
+Lunatone: lv 33
+Solrock: lv 35
+Solrock: lv 33
+Noibat: lv 34-37
+Goomy: lv 32-35
+Drampa: lv 36-39
+Axew: lv 36-38
+Gible: lv 37-40
+Bagon: lv 38
+Oshawott: lv 40
+```
+
+**Meteor Falls B 1f 1r (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls B 1f 1r (Morning) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
+**Meteor Falls B 1f 1r (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Golbat
+10%: Lunatone, Solrock, Noibat
+5%: Goomy, Drampa
+4%: Axew, Gible
+1%: Bagon, Oshawott
+```
+Levels:
+```
+Golbat: lv 33
+Golbat: lv 31-35
+Lunatone: lv 33
+Solrock: lv 35
+Solrock: lv 33
+Noibat: lv 34-37
+Goomy: lv 32-35
+Drampa: lv 36-39
+Axew: lv 36-38
+Gible: lv 37-40
+Bagon: lv 38
+Oshawott: lv 40
+```
+
+**Meteor Falls B 1f 1r (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Golbat
+30%: Golbat
+5%: Solrock
+4%: Solrock
+1%: Solrock
+```
+Levels:
+```
+Golbat: lv 30-35
+Golbat: lv 30-35
+Solrock: lv 25-35
+Solrock: lv 15-25
+Solrock: lv 5-15
+```
+
+**Meteor Falls B 1f 1r (Evening) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Magikarp (old rod)
+30%: Goldeen (old rod)
+60%: Magikarp (good rod)
+20%: Goldeen (good rod)
+20%: Barboach (good rod)
+40%: Barboach (super rod)
+40%: Barboach (super rod)
+15%: Whiscash (super rod)
+4%: Whiscash (super rod)
+1%: Whiscash (super rod)
+```
+Levels:
+```
+Magikarp: lv 5-10
+Goldeen: lv 5-10
+Magikarp: lv 10-30
+Goldeen: lv 10-30
+Barboach: lv 10-30
+Barboach: lv 25-30
+Barboach: lv 30-35
+Whiscash: lv 30-35
+Whiscash: lv 35-40
+Whiscash: lv 40-45
+```
+
 
 
 ## Shoal Cave Low Tide Stairs Room
@@ -10138,11 +12837,161 @@ Psyduck: lv 32-35
 Froslass: lv 32-35
 ```
 
+**Shoal Cave Low Tide Stairs Room (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Spheal
+10%: Zubat, Spheal
+5%: Jynx
+4%: Golbat, Spheal
+1%: Psyduck, Froslass
+```
+Levels:
+```
+Zubat: lv 26
+Spheal: lv 26
+Zubat: lv 28
+Spheal: lv 28
+Zubat: lv 30
+Spheal: lv 30
+Jynx: lv 28-32
+Jynx: lv 28-32
+Golbat: lv 32
+Spheal: lv 32
+Psyduck: lv 32-35
+Froslass: lv 32-35
+```
+
+**Shoal Cave Low Tide Stairs Room (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Spheal
+10%: Zubat, Spheal
+5%: Jynx
+4%: Golbat, Spheal
+1%: Psyduck, Froslass
+```
+Levels:
+```
+Zubat: lv 26
+Spheal: lv 26
+Zubat: lv 28
+Spheal: lv 28
+Zubat: lv 30
+Spheal: lv 30
+Jynx: lv 28-32
+Jynx: lv 28-32
+Golbat: lv 32
+Spheal: lv 32
+Psyduck: lv 32-35
+Froslass: lv 32-35
+```
+
+**Shoal Cave Low Tide Stairs Room (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Spheal
+10%: Zubat, Spheal
+5%: Jynx
+4%: Golbat, Spheal
+1%: Psyduck, Froslass
+```
+Levels:
+```
+Zubat: lv 26
+Spheal: lv 26
+Zubat: lv 28
+Spheal: lv 28
+Zubat: lv 30
+Spheal: lv 30
+Jynx: lv 28-32
+Jynx: lv 28-32
+Golbat: lv 32
+Spheal: lv 32
+Psyduck: lv 32-35
+Froslass: lv 32-35
+```
+
 
 
 ## Shoal Cave Low Tide Lower Room
 
 **Shoal Cave Low Tide Lower Room (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Spheal
+10%: Zubat, Spheal, Cubchoo
+5%: Zubat, Cryogonal
+4%: Smoochum, Spheal
+1%: Cubchoo, Snover
+```
+Levels:
+```
+Zubat: lv 26
+Spheal: lv 26
+Zubat: lv 28
+Spheal: lv 28
+Zubat: lv 30
+Cubchoo: lv 29-30
+Zubat: lv 32
+Cryogonal: lv 30-32
+Smoochum: lv 30-32
+Spheal: lv 32
+Cubchoo: lv 30-32
+Snover: lv 32-35
+```
+
+**Shoal Cave Low Tide Lower Room (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Spheal
+10%: Zubat, Spheal, Cubchoo
+5%: Zubat, Cryogonal
+4%: Smoochum, Spheal
+1%: Cubchoo, Snover
+```
+Levels:
+```
+Zubat: lv 26
+Spheal: lv 26
+Zubat: lv 28
+Spheal: lv 28
+Zubat: lv 30
+Cubchoo: lv 29-30
+Zubat: lv 32
+Cryogonal: lv 30-32
+Smoochum: lv 30-32
+Spheal: lv 32
+Cubchoo: lv 30-32
+Snover: lv 32-35
+```
+
+**Shoal Cave Low Tide Lower Room (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Zubat, Spheal
+10%: Zubat, Spheal, Cubchoo
+5%: Zubat, Cryogonal
+4%: Smoochum, Spheal
+1%: Cubchoo, Snover
+```
+Levels:
+```
+Zubat: lv 26
+Spheal: lv 26
+Zubat: lv 28
+Spheal: lv 28
+Zubat: lv 30
+Cubchoo: lv 29-30
+Zubat: lv 32
+Cryogonal: lv 30-32
+Smoochum: lv 30-32
+Spheal: lv 32
+Cubchoo: lv 30-32
+Snover: lv 32-35
+```
+
+**Shoal Cave Low Tide Lower Room (Evening)**
 ENCOUNTER RATE: 10
 ```
 20%: Zubat, Spheal
@@ -10242,6 +13091,219 @@ Dewgong: lv 25-35
 Lapras: lv 25-35
 ```
 
+**Shoal Cave Low Tide Inner Room (Night)**
+ENCOUNTER RATE: 7
+```
+20%: Psyduck, Zubat
+10%: Swinub, Golduck, Slowpoke
+5%: Absol, Claydol
+4%: Vanillite, Cubchoo
+1%: Cryogonal, Mamoswine
+```
+Levels:
+```
+Psyduck: lv 30-36
+Zubat: lv 30-36
+Swinub: lv 30-36
+Swinub: lv 30-36
+Golduck: lv 35-39
+Slowpoke: lv 32-38
+Absol: lv 34-41
+Claydol: lv 29-42
+Vanillite: lv 31-35
+Cubchoo: lv 31-38
+Cryogonal: lv 32-35
+Mamoswine: lv 32-39
+```
+
+**Shoal Cave Low Tide Inner Room (Night) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Seel
+30%: Shellder
+5%: Clamperl
+4%: Gyarados
+1%: Lapras
+```
+Levels:
+```
+Seel: lv 25-28
+Shellder: lv 25-28
+Clamperl: lv 25-28
+Gyarados: lv 25-28
+Lapras: lv 25-28
+```
+
+**Shoal Cave Low Tide Inner Room (Night) - Fishing**
+ENCOUNTER RATE: 20
+```
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Wailmer (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Wailmer (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
+```
+Levels:
+```
+Magikarp: lv 25-35
+Magikarp: lv 25-35
+Wailmer: lv 25-35
+Staryu: lv 25-35
+Staryu: lv 25-35
+Seel: lv 25-35
+Seel: lv 25-35
+Wailmer: lv 24-35
+Dewgong: lv 25-35
+Lapras: lv 25-35
+```
+
+**Shoal Cave Low Tide Inner Room (Morning)**
+ENCOUNTER RATE: 7
+```
+20%: Psyduck, Zubat
+10%: Swinub, Golduck, Slowpoke
+5%: Absol, Claydol
+4%: Vanillite, Cubchoo
+1%: Cryogonal, Mamoswine
+```
+Levels:
+```
+Psyduck: lv 30-36
+Zubat: lv 30-36
+Swinub: lv 30-36
+Swinub: lv 30-36
+Golduck: lv 35-39
+Slowpoke: lv 32-38
+Absol: lv 34-41
+Claydol: lv 29-42
+Vanillite: lv 31-35
+Cubchoo: lv 31-38
+Cryogonal: lv 32-35
+Mamoswine: lv 32-39
+```
+
+**Shoal Cave Low Tide Inner Room (Morning) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Seel
+30%: Shellder
+5%: Clamperl
+4%: Gyarados
+1%: Lapras
+```
+Levels:
+```
+Seel: lv 25-28
+Shellder: lv 25-28
+Clamperl: lv 25-28
+Gyarados: lv 25-28
+Lapras: lv 25-28
+```
+
+**Shoal Cave Low Tide Inner Room (Morning) - Fishing**
+ENCOUNTER RATE: 20
+```
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Wailmer (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Wailmer (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
+```
+Levels:
+```
+Magikarp: lv 25-35
+Magikarp: lv 25-35
+Wailmer: lv 25-35
+Staryu: lv 25-35
+Staryu: lv 25-35
+Seel: lv 25-35
+Seel: lv 25-35
+Wailmer: lv 24-35
+Dewgong: lv 25-35
+Lapras: lv 25-35
+```
+
+**Shoal Cave Low Tide Inner Room (Evening)**
+ENCOUNTER RATE: 7
+```
+20%: Psyduck, Zubat
+10%: Swinub, Golduck, Slowpoke
+5%: Absol, Claydol
+4%: Vanillite, Cubchoo
+1%: Cryogonal, Mamoswine
+```
+Levels:
+```
+Psyduck: lv 30-36
+Zubat: lv 30-36
+Swinub: lv 30-36
+Swinub: lv 30-36
+Golduck: lv 35-39
+Slowpoke: lv 32-38
+Absol: lv 34-41
+Claydol: lv 29-42
+Vanillite: lv 31-35
+Cubchoo: lv 31-38
+Cryogonal: lv 32-35
+Mamoswine: lv 32-39
+```
+
+**Shoal Cave Low Tide Inner Room (Evening) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Seel
+30%: Shellder
+5%: Clamperl
+4%: Gyarados
+1%: Lapras
+```
+Levels:
+```
+Seel: lv 25-28
+Shellder: lv 25-28
+Clamperl: lv 25-28
+Gyarados: lv 25-28
+Lapras: lv 25-28
+```
+
+**Shoal Cave Low Tide Inner Room (Evening) - Fishing**
+ENCOUNTER RATE: 20
+```
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Wailmer (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Wailmer (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
+```
+Levels:
+```
+Magikarp: lv 25-35
+Magikarp: lv 25-35
+Wailmer: lv 25-35
+Staryu: lv 25-35
+Staryu: lv 25-35
+Seel: lv 25-35
+Seel: lv 25-35
+Wailmer: lv 24-35
+Dewgong: lv 25-35
+Lapras: lv 25-35
+```
+
 
 
 ## Shoal Cave Low Tide Entrance Room
@@ -10290,6 +13352,219 @@ Slowking: lv 5
 ```
 
 **Shoal Cave Low Tide Entrance Room (Day) - Fishing**
+ENCOUNTER RATE: 20
+```
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Seel (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
+```
+Levels:
+```
+Magikarp: lv 5
+Magikarp: lv 5
+Magikarp: lv 5
+Staryu: lv 5
+Staryu: lv 5
+Seel: lv 5
+Seel: lv 5
+Seel: lv 5
+Dewgong: lv 5
+Lapras: lv 5
+```
+
+**Shoal Cave Low Tide Entrance Room (Night)**
+ENCOUNTER RATE: 7
+```
+20%: Psyduck, Zubat
+10%: Swinub, Golduck
+5%: Absol, Togepi
+4%: Seel, Dewgong
+1%: Gyarados, Zigzagoon_galar
+```
+Levels:
+```
+Psyduck: lv 30-36
+Zubat: lv 30-36
+Swinub: lv 30-36
+Swinub: lv 30-36
+Golduck: lv 35-39
+Golduck: lv 32-38
+Absol: lv 34-41
+Togepi: lv 29-42
+Seel: lv 31-35
+Dewgong: lv 31-38
+Gyarados: lv 32-35
+Zigzagoon_galar: lv 28-46
+```
+
+**Shoal Cave Low Tide Entrance Room (Night) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Seel
+30%: Shellder
+5%: Psyduck
+4%: Gyarados
+1%: Slowking
+```
+Levels:
+```
+Seel: lv 5
+Shellder: lv 5
+Psyduck: lv 5
+Gyarados: lv 5
+Slowking: lv 5
+```
+
+**Shoal Cave Low Tide Entrance Room (Night) - Fishing**
+ENCOUNTER RATE: 20
+```
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Seel (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
+```
+Levels:
+```
+Magikarp: lv 5
+Magikarp: lv 5
+Magikarp: lv 5
+Staryu: lv 5
+Staryu: lv 5
+Seel: lv 5
+Seel: lv 5
+Seel: lv 5
+Dewgong: lv 5
+Lapras: lv 5
+```
+
+**Shoal Cave Low Tide Entrance Room (Morning)**
+ENCOUNTER RATE: 7
+```
+20%: Psyduck, Zubat
+10%: Swinub, Golduck
+5%: Absol, Togepi
+4%: Seel, Dewgong
+1%: Gyarados, Zigzagoon_galar
+```
+Levels:
+```
+Psyduck: lv 30-36
+Zubat: lv 30-36
+Swinub: lv 30-36
+Swinub: lv 30-36
+Golduck: lv 35-39
+Golduck: lv 32-38
+Absol: lv 34-41
+Togepi: lv 29-42
+Seel: lv 31-35
+Dewgong: lv 31-38
+Gyarados: lv 32-35
+Zigzagoon_galar: lv 28-46
+```
+
+**Shoal Cave Low Tide Entrance Room (Morning) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Seel
+30%: Shellder
+5%: Psyduck
+4%: Gyarados
+1%: Slowking
+```
+Levels:
+```
+Seel: lv 5
+Shellder: lv 5
+Psyduck: lv 5
+Gyarados: lv 5
+Slowking: lv 5
+```
+
+**Shoal Cave Low Tide Entrance Room (Morning) - Fishing**
+ENCOUNTER RATE: 20
+```
+70%: Magikarp (old rod)
+30%: Magikarp (old rod)
+60%: Magikarp (good rod)
+20%: Staryu (good rod)
+20%: Staryu (good rod)
+40%: Seel (super rod)
+40%: Seel (super rod)
+15%: Seel (super rod)
+4%: Dewgong (super rod)
+1%: Lapras (super rod)
+```
+Levels:
+```
+Magikarp: lv 5
+Magikarp: lv 5
+Magikarp: lv 5
+Staryu: lv 5
+Staryu: lv 5
+Seel: lv 5
+Seel: lv 5
+Seel: lv 5
+Dewgong: lv 5
+Lapras: lv 5
+```
+
+**Shoal Cave Low Tide Entrance Room (Evening)**
+ENCOUNTER RATE: 7
+```
+20%: Psyduck, Zubat
+10%: Swinub, Golduck
+5%: Absol, Togepi
+4%: Seel, Dewgong
+1%: Gyarados, Zigzagoon_galar
+```
+Levels:
+```
+Psyduck: lv 30-36
+Zubat: lv 30-36
+Swinub: lv 30-36
+Swinub: lv 30-36
+Golduck: lv 35-39
+Golduck: lv 32-38
+Absol: lv 34-41
+Togepi: lv 29-42
+Seel: lv 31-35
+Dewgong: lv 31-38
+Gyarados: lv 32-35
+Zigzagoon_galar: lv 28-46
+```
+
+**Shoal Cave Low Tide Entrance Room (Evening) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Seel
+30%: Shellder
+5%: Psyduck
+4%: Gyarados
+1%: Slowking
+```
+Levels:
+```
+Seel: lv 5
+Shellder: lv 5
+Psyduck: lv 5
+Gyarados: lv 5
+Slowking: lv 5
+```
+
+**Shoal Cave Low Tide Entrance Room (Evening) - Fishing**
 ENCOUNTER RATE: 20
 ```
 70%: Magikarp (old rod)
@@ -11655,11 +14930,140 @@ Relicanth: lv 30-35
 Relicanth: lv 30-35
 ```
 
+**Underwater Route 124 (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Clamperl
+30%: Chinchou
+5%: Binacle
+4%: Relicanth
+1%: Relicanth
+```
+Levels:
+```
+Clamperl: lv 20-30
+Chinchou: lv 20-30
+Binacle: lv 30-35
+Relicanth: lv 30-35
+Relicanth: lv 30-35
+```
+
+**Underwater Route 124 (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Clamperl
+30%: Chinchou
+5%: Binacle
+4%: Relicanth
+1%: Relicanth
+```
+Levels:
+```
+Clamperl: lv 20-30
+Chinchou: lv 20-30
+Binacle: lv 30-35
+Relicanth: lv 30-35
+Relicanth: lv 30-35
+```
+
+**Underwater Route 124 (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Clamperl
+30%: Chinchou
+5%: Binacle
+4%: Relicanth
+1%: Relicanth
+```
+Levels:
+```
+Clamperl: lv 20-30
+Chinchou: lv 20-30
+Binacle: lv 30-35
+Relicanth: lv 30-35
+Relicanth: lv 30-35
+```
+
 
 
 ## Shoal Cave Low Tide Ice Room
 
 **Shoal Cave Low Tide Ice Room (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Vanillite, Spheal
+10%: Shellder, Snorunt
+5%: Sandshrew_alola, Slowpoke
+4%: Golbat, Bergmite
+1%: Glaceon, Amaura
+```
+Levels:
+```
+Vanillite: lv 26-27
+Spheal: lv 26
+Shellder: lv 26-28
+Snorunt: lv 27-28
+Snorunt: lv 29-30
+Snorunt: lv 30-31
+Sandshrew_alola: lv 29-32
+Slowpoke: lv 28-32
+Golbat: lv 30
+Bergmite: lv 28-32
+Glaceon: lv 26-31
+Amaura: lv 27-30
+```
+
+**Shoal Cave Low Tide Ice Room (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Vanillite, Spheal
+10%: Shellder, Snorunt
+5%: Sandshrew_alola, Slowpoke
+4%: Golbat, Bergmite
+1%: Glaceon, Amaura
+```
+Levels:
+```
+Vanillite: lv 26-27
+Spheal: lv 26
+Shellder: lv 26-28
+Snorunt: lv 27-28
+Snorunt: lv 29-30
+Snorunt: lv 30-31
+Sandshrew_alola: lv 29-32
+Slowpoke: lv 28-32
+Golbat: lv 30
+Bergmite: lv 28-32
+Glaceon: lv 26-31
+Amaura: lv 27-30
+```
+
+**Shoal Cave Low Tide Ice Room (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Vanillite, Spheal
+10%: Shellder, Snorunt
+5%: Sandshrew_alola, Slowpoke
+4%: Golbat, Bergmite
+1%: Glaceon, Amaura
+```
+Levels:
+```
+Vanillite: lv 26-27
+Spheal: lv 26
+Shellder: lv 26-28
+Snorunt: lv 27-28
+Snorunt: lv 29-30
+Snorunt: lv 30-31
+Sandshrew_alola: lv 29-32
+Slowpoke: lv 28-32
+Golbat: lv 30
+Bergmite: lv 28-32
+Glaceon: lv 26-31
+Amaura: lv 27-30
+```
+
+**Shoal Cave Low Tide Ice Room (Evening)**
 ENCOUNTER RATE: 10
 ```
 20%: Vanillite, Spheal
@@ -12829,11 +16233,161 @@ Aerodactyl: lv 50
 Umbreon: lv 50
 ```
 
+**Artisan Cave B 1f (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Smeargle, Murkrow
+10%: Sneasel, Steelix, Smeargle
+5%: Smeargle
+4%: Smeargle, Steelix
+1%: Aerodactyl, Umbreon
+```
+Levels:
+```
+Smeargle: lv 40
+Murkrow: lv 37-41
+Sneasel: lv 40-42
+Steelix: lv 40-43
+Smeargle: lv 44
+Smeargle: lv 45
+Smeargle: lv 46
+Smeargle: lv 47
+Smeargle: lv 48
+Steelix: lv 49
+Aerodactyl: lv 50
+Umbreon: lv 50
+```
+
+**Artisan Cave B 1f (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Smeargle, Murkrow
+10%: Sneasel, Steelix, Smeargle
+5%: Smeargle
+4%: Smeargle, Steelix
+1%: Aerodactyl, Umbreon
+```
+Levels:
+```
+Smeargle: lv 40
+Murkrow: lv 37-41
+Sneasel: lv 40-42
+Steelix: lv 40-43
+Smeargle: lv 44
+Smeargle: lv 45
+Smeargle: lv 46
+Smeargle: lv 47
+Smeargle: lv 48
+Steelix: lv 49
+Aerodactyl: lv 50
+Umbreon: lv 50
+```
+
+**Artisan Cave B 1f (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Smeargle, Murkrow
+10%: Sneasel, Steelix, Smeargle
+5%: Smeargle
+4%: Smeargle, Steelix
+1%: Aerodactyl, Umbreon
+```
+Levels:
+```
+Smeargle: lv 40
+Murkrow: lv 37-41
+Sneasel: lv 40-42
+Steelix: lv 40-43
+Smeargle: lv 44
+Smeargle: lv 45
+Smeargle: lv 46
+Smeargle: lv 47
+Smeargle: lv 48
+Steelix: lv 49
+Aerodactyl: lv 50
+Umbreon: lv 50
+```
+
 
 
 ## Artisan Cave 1f
 
 **Artisan Cave 1f (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Smeargle, Mime_jr
+10%: Smeargle, Unown
+5%: Smoochum, Smeargle
+4%: Smeargle
+1%: Mr_mime, Kabuto
+```
+Levels:
+```
+Smeargle: lv 40
+Mime_jr: lv 37-41
+Smeargle: lv 42
+Smeargle: lv 43
+Smeargle: lv 44
+Unown: lv 42-45
+Smoochum: lv 46
+Smeargle: lv 47
+Smeargle: lv 48
+Smeargle: lv 49
+Mr_mime: lv 48-50
+Kabuto: lv 50
+```
+
+**Artisan Cave 1f (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Smeargle, Mime_jr
+10%: Smeargle, Unown
+5%: Smoochum, Smeargle
+4%: Smeargle
+1%: Mr_mime, Kabuto
+```
+Levels:
+```
+Smeargle: lv 40
+Mime_jr: lv 37-41
+Smeargle: lv 42
+Smeargle: lv 43
+Smeargle: lv 44
+Unown: lv 42-45
+Smoochum: lv 46
+Smeargle: lv 47
+Smeargle: lv 48
+Smeargle: lv 49
+Mr_mime: lv 48-50
+Kabuto: lv 50
+```
+
+**Artisan Cave 1f (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Smeargle, Mime_jr
+10%: Smeargle, Unown
+5%: Smoochum, Smeargle
+4%: Smeargle
+1%: Mr_mime, Kabuto
+```
+Levels:
+```
+Smeargle: lv 40
+Mime_jr: lv 37-41
+Smeargle: lv 42
+Smeargle: lv 43
+Smeargle: lv 44
+Unown: lv 42-45
+Smoochum: lv 46
+Smeargle: lv 47
+Smeargle: lv 48
+Smeargle: lv 49
+Mr_mime: lv 48-50
+Kabuto: lv 50
+```
+
+**Artisan Cave 1f (Evening)**
 ENCOUNTER RATE: 10
 ```
 20%: Smeargle, Mime_jr
@@ -12887,11 +16441,161 @@ Smeargle: lv 20
 Smeargle: lv 26
 ```
 
+**Altering Cave (Night)**
+ENCOUNTER RATE: 7
+```
+20%: Smeargle
+10%: Smeargle
+5%: Smeargle
+4%: Smeargle
+1%: Smeargle
+```
+Levels:
+```
+Smeargle: lv 22
+Smeargle: lv 24
+Smeargle: lv 20
+Smeargle: lv 26
+Smeargle: lv 22
+Smeargle: lv 24
+Smeargle: lv 28
+Smeargle: lv 18
+Smeargle: lv 20
+Smeargle: lv 26
+Smeargle: lv 20
+Smeargle: lv 26
+```
+
+**Altering Cave (Morning)**
+ENCOUNTER RATE: 7
+```
+20%: Smeargle
+10%: Smeargle
+5%: Smeargle
+4%: Smeargle
+1%: Smeargle
+```
+Levels:
+```
+Smeargle: lv 22
+Smeargle: lv 24
+Smeargle: lv 20
+Smeargle: lv 26
+Smeargle: lv 22
+Smeargle: lv 24
+Smeargle: lv 28
+Smeargle: lv 18
+Smeargle: lv 20
+Smeargle: lv 26
+Smeargle: lv 20
+Smeargle: lv 26
+```
+
+**Altering Cave (Evening)**
+ENCOUNTER RATE: 7
+```
+20%: Smeargle
+10%: Smeargle
+5%: Smeargle
+4%: Smeargle
+1%: Smeargle
+```
+Levels:
+```
+Smeargle: lv 22
+Smeargle: lv 24
+Smeargle: lv 20
+Smeargle: lv 26
+Smeargle: lv 22
+Smeargle: lv 24
+Smeargle: lv 28
+Smeargle: lv 18
+Smeargle: lv 20
+Smeargle: lv 26
+Smeargle: lv 20
+Smeargle: lv 26
+```
+
 
 
 ## Meteor Falls Stevens Cave
 
 **Meteor Falls Stevens Cave (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Omanyte, Kabuto
+10%: Shuckle, Solrock, Drampa, Lunatone
+5%: Golbat, Druddigon
+4%: Larvitar, Melmetal
+1%: Nihilego, Zeraora
+```
+Levels:
+```
+Omanyte: lv 31-33
+Kabuto: lv 31-33
+Shuckle: lv 31-33
+Solrock: lv 35-37
+Drampa: lv 33-36
+Lunatone: lv 35-37
+Golbat: lv 35
+Druddigon: lv 37-39
+Larvitar: lv 36-38
+Melmetal: lv 50
+Nihilego: lv 50
+Zeraora: lv 50
+```
+
+**Meteor Falls Stevens Cave (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Omanyte, Kabuto
+10%: Shuckle, Solrock, Drampa, Lunatone
+5%: Golbat, Druddigon
+4%: Larvitar, Melmetal
+1%: Nihilego, Zeraora
+```
+Levels:
+```
+Omanyte: lv 31-33
+Kabuto: lv 31-33
+Shuckle: lv 31-33
+Solrock: lv 35-37
+Drampa: lv 33-36
+Lunatone: lv 35-37
+Golbat: lv 35
+Druddigon: lv 37-39
+Larvitar: lv 36-38
+Melmetal: lv 50
+Nihilego: lv 50
+Zeraora: lv 50
+```
+
+**Meteor Falls Stevens Cave (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Omanyte, Kabuto
+10%: Shuckle, Solrock, Drampa, Lunatone
+5%: Golbat, Druddigon
+4%: Larvitar, Melmetal
+1%: Nihilego, Zeraora
+```
+Levels:
+```
+Omanyte: lv 31-33
+Kabuto: lv 31-33
+Shuckle: lv 31-33
+Solrock: lv 35-37
+Drampa: lv 33-36
+Lunatone: lv 35-37
+Golbat: lv 35
+Druddigon: lv 37-39
+Larvitar: lv 36-38
+Melmetal: lv 50
+Nihilego: lv 50
+Zeraora: lv 50
+```
+
+**Meteor Falls Stevens Cave (Evening)**
 ENCOUNTER RATE: 10
 ```
 20%: Omanyte, Kabuto
@@ -14210,6 +17914,60 @@ Horsea: lv 30-35
 Gyarados: lv 30-35
 ```
 
+**Underwater Route 127 (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Starmie
+30%: Starmie
+5%: Tentacruel
+4%: Horsea
+1%: Gyarados
+```
+Levels:
+```
+Starmie: lv 30-35
+Starmie: lv 30-35
+Tentacruel: lv 30-35
+Horsea: lv 30-35
+Gyarados: lv 30-35
+```
+
+**Underwater Route 127 (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Starmie
+30%: Starmie
+5%: Tentacruel
+4%: Horsea
+1%: Gyarados
+```
+Levels:
+```
+Starmie: lv 30-35
+Starmie: lv 30-35
+Tentacruel: lv 30-35
+Horsea: lv 30-35
+Gyarados: lv 30-35
+```
+
+**Underwater Route 127 (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Starmie
+30%: Starmie
+5%: Tentacruel
+4%: Horsea
+1%: Gyarados
+```
+Levels:
+```
+Starmie: lv 30-35
+Starmie: lv 30-35
+Tentacruel: lv 30-35
+Horsea: lv 30-35
+Gyarados: lv 30-35
+```
+
 
 
 ## Silver Island
@@ -14514,6 +18272,60 @@ Ditto: lv 30-32
 ## Abandoned Ship Underwater 1
 
 **Abandoned Ship Underwater 1 (Day) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Goldeen
+30%: Horsea
+5%: Horsea
+4%: Horsea
+1%: Kingdra
+```
+Levels:
+```
+Goldeen: lv 25-30
+Horsea: lv 25-30
+Horsea: lv 25-30
+Horsea: lv 25-30
+Kingdra: lv 30-37
+```
+
+**Abandoned Ship Underwater 1 (Night) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Goldeen
+30%: Horsea
+5%: Horsea
+4%: Horsea
+1%: Kingdra
+```
+Levels:
+```
+Goldeen: lv 25-30
+Horsea: lv 25-30
+Horsea: lv 25-30
+Horsea: lv 25-30
+Kingdra: lv 30-37
+```
+
+**Abandoned Ship Underwater 1 (Morning) - Water**
+ENCOUNTER RATE: 2
+```
+60%: Goldeen
+30%: Horsea
+5%: Horsea
+4%: Horsea
+1%: Kingdra
+```
+Levels:
+```
+Goldeen: lv 25-30
+Horsea: lv 25-30
+Horsea: lv 25-30
+Horsea: lv 25-30
+Kingdra: lv 30-37
+```
+
+**Abandoned Ship Underwater 1 (Evening) - Water**
 ENCOUNTER RATE: 2
 ```
 60%: Goldeen
@@ -15141,6 +18953,60 @@ Dewpider: lv 25-30
 Shellos: lv 25-30
 ```
 
+**Underwater Route 134 (Night) - Water**
+ENCOUNTER RATE: 15
+```
+60%: Mantyke
+30%: Tirtouga
+5%: Binacle
+4%: Dewpider
+1%: Shellos
+```
+Levels:
+```
+Mantyke: lv 25-30
+Tirtouga: lv 25-30
+Binacle: lv 25-30
+Dewpider: lv 25-30
+Shellos: lv 25-30
+```
+
+**Underwater Route 134 (Morning) - Water**
+ENCOUNTER RATE: 15
+```
+60%: Mantyke
+30%: Tirtouga
+5%: Binacle
+4%: Dewpider
+1%: Shellos
+```
+Levels:
+```
+Mantyke: lv 25-30
+Tirtouga: lv 25-30
+Binacle: lv 25-30
+Dewpider: lv 25-30
+Shellos: lv 25-30
+```
+
+**Underwater Route 134 (Evening) - Water**
+ENCOUNTER RATE: 15
+```
+60%: Mantyke
+30%: Tirtouga
+5%: Binacle
+4%: Dewpider
+1%: Shellos
+```
+Levels:
+```
+Mantyke: lv 25-30
+Tirtouga: lv 25-30
+Binacle: lv 25-30
+Dewpider: lv 25-30
+Shellos: lv 25-30
+```
+
 
 
 ## Sage Island Gate
@@ -15283,6 +19149,81 @@ Cryogonal: lv 50
 ## Sage Valley Ice Caverns
 
 **Sage Valley Ice Caverns (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Xatu
+10%: Xatu, Absol
+5%: Abomasnow
+4%: Bergmite
+1%: Meloetta, Hitmontop
+```
+Levels:
+```
+Xatu: lv 40-50
+Xatu: lv 40-50
+Xatu: lv 40-50
+Xatu: lv 40-50
+Absol: lv 40-55
+Absol: lv 40-55
+Abomasnow: lv 40-50
+Abomasnow: lv 40-50
+Bergmite: lv 40-50
+Bergmite: lv 40-50
+Meloetta: lv 30
+Hitmontop: lv 40-50
+```
+
+**Sage Valley Ice Caverns (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Xatu
+10%: Xatu, Absol
+5%: Abomasnow
+4%: Bergmite
+1%: Meloetta, Hitmontop
+```
+Levels:
+```
+Xatu: lv 40-50
+Xatu: lv 40-50
+Xatu: lv 40-50
+Xatu: lv 40-50
+Absol: lv 40-55
+Absol: lv 40-55
+Abomasnow: lv 40-50
+Abomasnow: lv 40-50
+Bergmite: lv 40-50
+Bergmite: lv 40-50
+Meloetta: lv 30
+Hitmontop: lv 40-50
+```
+
+**Sage Valley Ice Caverns (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Xatu
+10%: Xatu, Absol
+5%: Abomasnow
+4%: Bergmite
+1%: Meloetta, Hitmontop
+```
+Levels:
+```
+Xatu: lv 40-50
+Xatu: lv 40-50
+Xatu: lv 40-50
+Xatu: lv 40-50
+Absol: lv 40-55
+Absol: lv 40-55
+Abomasnow: lv 40-50
+Abomasnow: lv 40-50
+Bergmite: lv 40-50
+Bergmite: lv 40-50
+Meloetta: lv 30
+Hitmontop: lv 40-50
+```
+
+**Sage Valley Ice Caverns (Evening)**
 ENCOUNTER RATE: 10
 ```
 20%: Xatu

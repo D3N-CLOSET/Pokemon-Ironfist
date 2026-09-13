@@ -17,14 +17,14 @@
   "warp_events": [
     {
       "x": 6,
-      "y": 16,
+      "y": 33,
       "elevation": 0,
       "dest_map": "MAP_SAGE_ISLAND_GATE",
       "dest_warp_id": "2"
     },
     {
-      "x": 32,
-      "y": 12,
+      "x": 9,
+      "y": 10,
       "elevation": 0,
       "dest_map": "MAP_GLACIAL_PATH_B1",
       "dest_warp_id": "0"

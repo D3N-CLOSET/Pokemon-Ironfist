@@ -9,7 +9,7 @@ SilverCave_EventScript_FerryAttendant::
     goto_if_eq SilverCave_EventScript_Cancel
     message SilverCave_Text_WhereWouldYouLikeToGo
     waitmessage
-    dynmultichoice 18, 8, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE, SilverIsland_Text_SlateportChoice, SilverIsland_Text_BattleFrontierChoice, SilverIsland_Text_LilycoveChoice, SilverIsland_Text_CancelChoice
+    dynmultichoice 0, 0, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE, SilverIsland_Text_SlateportChoice, SilverIsland_Text_BattleFrontierChoice, SilverIsland_Text_LilycoveChoice, SilverIsland_Text_CancelChoice
     switch VAR_RESULT
     case 0, SilverCave_EventScript_WarpSlateport
     case 1, SilverCave_EventScript_WarpBattleFrontier

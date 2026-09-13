@@ -9,7 +9,7 @@ SageIsland_EventScript_FerryAttendant::
     goto_if_eq SageIsland_EventScript_Cancel
     message SageIsland_Text_WhereWouldYouLikeToGo
     waitmessage
-    dynmultichoice 18, 8, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE, SageIsland_Text_SlateportChoice, SageIsland_Text_LilycoveChoice, SageIsland_Text_BattleFrontierChoice, SageIsland_Text_CancelChoice
+    dynmultichoice 0, 0, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE, SageIsland_Text_SlateportChoice, SageIsland_Text_LilycoveChoice, SageIsland_Text_BattleFrontierChoice, SageIsland_Text_CancelChoice
     switch VAR_RESULT
     case 0, SageIsland_EventScript_WarpSlateport
     case 1, SageIsland_EventScript_WarpLilycove

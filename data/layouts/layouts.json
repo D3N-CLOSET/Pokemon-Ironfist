@@ -9636,7 +9636,7 @@
       "id": "LAYOUT_GLACIAL_PATH",
       "name": "GlacialPath_Layout",
       "width": 42,
-      "height": 21,
+      "height": 38,
       "primary_tileset": "gTileset_GeneralSnow",
       "secondary_tileset": "gTileset_SageSnow",
       "border_filepath": "data/layouts/GlacialPath/border.bin",

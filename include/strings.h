@@ -214,6 +214,12 @@ extern const u8 gText_Birch_AreYouReady[];
 extern const u8 gText_BirchInTrouble[];
 extern const u8 gText_ConfirmStarterChoice[];
 
+extern const u8 gText_EasyDiff[];
+extern const u8 gText_NormalDiff[];
+extern const u8 gText_HardDiff[];
+
+extern const u8 gText_Birch_SetDifficulty[];
+
 // mystery event menu text
 extern const u8 gText_EventSafelyLoaded[];
 extern const u8 gText_LoadErrorEndingSession[];

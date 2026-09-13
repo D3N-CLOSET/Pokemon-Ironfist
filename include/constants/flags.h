@@ -1350,13 +1350,13 @@
 // See constants/opponents.h. The values there + FLAG_TRAINER_FLAG_START are the flag IDs
 
 #define TRAINER_FLAGS_START                                         0x500
-#define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) // 0x85F - this is outadated
+#define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) // 0x85F - this is outadated - current is 0x88B
 
 // System Flags
 
-#define SYSTEM_FLAGS                                   (TRAINER_FLAGS_END + 1) // 0x860 - outdated
+#define SYSTEM_FLAGS                                   (TRAINER_FLAGS_END + 1) // 0x860 - outdated - 0x88C is current
 
-#define FLAG_SYS_POKEMON_GET                         (SYSTEM_FLAGS + 0x0) // FLAG_0x860
+#define FLAG_SYS_POKEMON_GET                         (SYSTEM_FLAGS + 0x0) // FLAG_0x860 - 0x88C
 #define FLAG_SYS_POKEDEX_GET                         (SYSTEM_FLAGS + 0x1)
 #define FLAG_SYS_POKENAV_GET                         (SYSTEM_FLAGS + 0x2)
 #define FLAG_UNUSED_0x863                            (SYSTEM_FLAGS + 0x3) // Unused Flag
@@ -1519,9 +1519,9 @@
 #define FLAG_RUN_TOGGLE                             (SYSTEM_FLAGS + 0x85)
 #define FLAG_SYS_DEXNAV_GET                         (SYSTEM_FLAGS + 0x86) // new version
 #define FLAG_SYS_SKY_BATTLE                         (SYSTEM_FLAGS + 0x87)
-#define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
-#define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag
-#define FLAG_UNUSED_0x8EA                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
+#define FLAG_DIFFICULTY_EASY                        (SYSTEM_FLAGS + 0x88)
+#define FLAG_DIFFICULTY_NORMAL                      (SYSTEM_FLAGS + 0x89) // Unused Flag
+#define FLAG_DIFFICULTY_HARD                        (SYSTEM_FLAGS + 0x8A)
 #define FLAG_UNUSED_0x8EB                           (SYSTEM_FLAGS + 0x8B) // Unused Flag
 #define FLAG_UNUSED_0x8EC                           (SYSTEM_FLAGS + 0x8C) // Unused Flag
 #define FLAG_UNUSED_0x8ED                           (SYSTEM_FLAGS + 0x8D) // Unused Flag

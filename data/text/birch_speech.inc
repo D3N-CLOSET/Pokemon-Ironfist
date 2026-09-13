@@ -59,3 +59,24 @@ gText_Birch_AreYouReady::
 	.string "Well, I'll be expecting you later.\n"
 	.string "Come see me in my POKéMON LAB.\p"
 	.string "$"
+
+gText_Birch_SetDifficulty::
+	.string "Before you go, I have one more\n"
+	.string "request.\p"
+	.string "I want you to set the difficulty\n"
+	.string "level for your adventure.\p"
+	.string "You can choose from three levels:\n"
+	.string "EASY, NORMAL, and HARD.\p"
+	.string "The difficulty level will affect\n"
+	.string "the strength of the trainers you\l"
+	.string "battle.\p"
+	.string "$"
+
+gText_EasyDiff::
+	.string "EASY$"
+
+gText_NormalDiff::
+	.string "NORMAL$"
+
+gText_HardDiff::
+	.string "HARD$"
