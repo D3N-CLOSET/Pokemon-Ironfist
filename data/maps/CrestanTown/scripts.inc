@@ -3,7 +3,7 @@ CrestanTown_MapScripts::
 	.byte 0
 
 
-TheDepths_OnLoad:
+TheDepths_OnLoad::
 	goto_if_set FLAG_HIDE_RED, TheDepths_LockRedRoomWay
 	end
 
@@ -18,4 +18,9 @@ TheDepths_LockRedRoomWay::
 	setmetatile 19, 29, METATILE_Lavaridge_Top, TRUE
 	setmetatile 20, 29, METATILE_Lavaridge_Top, TRUE
 	setmetatile 21, 29, METATILE_Lavaridge_Top, TRUE
+	setmetatile 17, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 18, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 19, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 20, 30, METATILE_Lavaridge_Top, TRUE
+	setmetatile 21, 30, METATILE_Lavaridge_Top, TRUE
 	end

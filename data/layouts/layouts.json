@@ -9784,7 +9784,7 @@
     {
       "id": "LAYOUT_SILVER_ISLAND_DEPTHS_2",
       "name": "SilverIsland_Depths_2_Layout",
-      "width": 38,
+      "width": 39,
       "height": 35,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",

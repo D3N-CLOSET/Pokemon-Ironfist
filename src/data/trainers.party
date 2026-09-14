@@ -10688,7 +10688,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Smart Rival
+AI: Smart Trainer
 Mugshot: Pink
 Difficulty: Hard
 
@@ -10941,7 +10941,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Semi Smart Rival
+AI: Semi Smart Trainer
 Mugshot: Pink
 Difficulty: Hard
 
@@ -16261,7 +16261,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Golem
 Level: 32
@@ -16312,7 +16312,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Omanyte
 Level: 37
@@ -16363,7 +16363,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Omastar
 Level: 42
@@ -16414,7 +16414,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Aerodactyl
 Tera Type: Rock
@@ -16473,7 +16473,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Machamp @ Sitrus Berry
 Level: 33
@@ -16516,7 +16516,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Machamp @ Sitrus Berry
 Level: 38
@@ -16559,7 +16559,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Hitmonchan
 Level: 40
@@ -16610,7 +16610,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Hitmonlee
 Level: 46
@@ -16669,7 +16669,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Mareep @ Electrium Z
 Level: 36
@@ -16712,7 +16712,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Pikachu
 Level: 39
@@ -16763,7 +16763,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Raichu
 Level: 44
@@ -16814,7 +16814,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Electabuzz
 Level: 50
@@ -16873,7 +16873,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Magcargo @ White Herb
 Level: 38
@@ -16916,7 +16916,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Growlithe
 Level: 41
@@ -16967,7 +16967,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Emboar @ Emboarite
 Level: 46
@@ -17026,7 +17026,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Arcanine
 Level: 51
@@ -17085,7 +17085,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Chansey
 Level: 42
@@ -17136,7 +17136,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Slaking @ Sitrus Berry
 Tera Type: Normal
@@ -17195,7 +17195,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Slaking @ Sitrus Berry
 Tera Type: Normal
@@ -17254,7 +17254,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Slaking @ Normalium Z
 Level: 57
@@ -17313,7 +17313,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Winona Lead
+AI: Smart Trainer
 
 Fletchling @ Sitrus Berry
 Level: 40
@@ -17364,7 +17364,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Winona Lead
+AI: Smart Trainer
 
 Hoothoot
 Level: 43
@@ -17423,7 +17423,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Winona Lead
+AI: Smart Trainer
 
 Noctowl
 Level: 48
@@ -17482,7 +17482,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Winona Lead
+AI: Smart Trainer
 
 Noctowl
 Level: 53
@@ -17541,7 +17541,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Slowbro @ Slowbronite
 Level: 48
@@ -17592,7 +17592,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Drowzee
 Level: 53
@@ -17651,7 +17651,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Hypno
 Level: 58
@@ -17710,7 +17710,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Hypno
 Level: 63
@@ -17769,7 +17769,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Politoed
 Ability: Drizzle
@@ -17821,7 +17821,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Politoed
 Ability: Drizzle
@@ -17873,7 +17873,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Lapras
 Level: 56
@@ -17933,7 +17933,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Gym Leader
+AI: Smart Trainer
 
 Lapras
 Level: 61
