@@ -42,6 +42,7 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_REAPER_CLOTH
 	.2byte ITEM_PRISM_SCALE
 	.2byte ITEM_OVAL_STONE
+	.2byte ITEM_METAL_COAT
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight::

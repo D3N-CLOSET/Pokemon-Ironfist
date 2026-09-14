@@ -1685,7 +1685,11 @@
     },
     {
       "id": "MAPSEC_GLACIAL_PATH",
-      "name": "GLACIAL PATH"
+      "name": "GLACIAL PATH",
+      "x": 24,
+      "y": 1,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_TRAINERS_GAUNTLET",
@@ -1725,11 +1729,19 @@
     },
     {
       "id": "MAPSEC_SILVER_HILLS",
-      "name": "SILVER HILLS"
+      "name": "SILVER HILLS",
+      "x": 19,
+      "y": 12,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_SILVER_TUNNEL",
-      "name": "SILVER TUNNEL"
+      "name": "SILVER TUNNEL",
+      "x": 18,
+      "y": 12,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_MT_ORENBURG",
@@ -1789,7 +1801,11 @@
     },
     {
       "id": "MAPSEC_SILVER_DEPTHS",
-      "name": "SILVER DEPTHS"
+      "name": "SILVER DEPTHS",
+      "x": 17,
+      "y": 11,
+      "width": 1,
+      "height": 1
     },
     {
       "id": "MAPSEC_REDS_ROOM",

@@ -736,6 +736,7 @@ static const struct {
     {MAP_REDS_ROOM,                 BATTLE_ENVIRONMENT_VOLCANO_CAVE},
     // SNOW_CAVE
     {MAP_SAGE_VALLEY_ICE_CAVERNS,                        BATTLE_ENVIRONMENT_SNOW_CAVE},
+    {MAP_SHOAL_CAVE_LOW_TIDE_ICE_ROOM,                        BATTLE_ENVIRONMENT_SNOW_CAVE},
 };
 
 static s32 GetMapDefaultEnvironment(u16 mapId)

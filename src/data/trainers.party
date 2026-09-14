@@ -10625,23 +10625,28 @@ Difficulty: Normal
 
 Slugma
 Level: 29
+EVs: 40 HP / 24 Atk / 22 Def / 66 SpA / 46 SpD / 20 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Lombre
+Pelipper
 Level: 29
+EVs: 32 HP / 11 Atk / 33 Def / 37 SpA / 30 SpD / 10 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Grovyle
 Tera Type: Grass
 Level: 31
+EVs: 47 HP / 120 Atk / 34 Def / 31 SpA / 36 SpD / 75 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beautifly
 Level: 25
+EVs: 9 HP / 11 Atk / 11 Def / 67 SpA / 22 SpD / 60 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Skitty
 Level: 25
+EVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
@@ -10651,7 +10656,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: May Rival
+AI: Basic Trainer
 Mugshot: Pink
 Difficulty: Easy
 
@@ -10683,29 +10688,34 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: May Rival
+AI: Smart Rival
 Mugshot: Pink
 Difficulty: Hard
 
 Slugma
 Level: 29
+EVs: 60 HP / 45 Atk / 22 Def / 80 SpA / 46 SpD / 20 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Lombre
+Pelipper
 Level: 29
+EVs: 80 HP / 11 Atk / 33 Def / 45 SpA / 30 SpD / 29 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Grovyle
 Tera Type: Grass
 Level: 31
+EVs: 47 HP / 180 Atk / 34 Def / 31 SpA / 36 SpD / 100 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beautifly
 Level: 25
+EVs: 15 HP / 32 Atk / 11 Def / 80 SpA / 22 SpD / 60 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Skitty
 Level: 25
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
@@ -10716,6 +10726,28 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Torchic
+Level: 5
+EVs: 6 HP / 22 Atk / 12 Def / 19 SpA / 14 SpD / 5 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Growl
+- MOVE_NONE
+- MOVE_NONE
+
+=== TRAINER_MAY_ROUTE_103_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Easy
 
 Torchic
 Level: 5
@@ -10725,6 +10757,22 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - MOVE_NONE
 - MOVE_NONE
 
+=== TRAINER_MAY_ROUTE_103_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Torchic
+Level: 5
+EVs: 16 HP / 29 Atk / 12 Def / 19 SpA / 14 SpD / 19 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
 Class: Rival
@@ -10733,6 +10781,40 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Wingull
+Level: 18
+EVs: 26 HP / 11 Atk / 33 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Lombre
+Level: 18
+EVs: 40 HP / 11 Atk / 16 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Combusken
+Tera Type: Fire
+Level: 20
+EVs: 19 HP / 55 Atk / 20 Def / 46 SpA / 31 SpD / 19 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Beautifly
+Level: 17
+EVs: 5 HP / 11 Atk / 11 Def / 36 SpA / 22 SpD / 27 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_ROUTE_110_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Easy
 
 Wingull
 Level: 18
@@ -10751,6 +10833,38 @@ Beautifly
 Level: 17
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+=== TRAINER_MAY_ROUTE_110_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Wingull
+Level: 18
+EVs: 26 HP / 11 Atk / 33 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Lombre
+Level: 18
+EVs: 60 HP / 21 Atk / 16 Def / 38 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Combusken
+Tera Type: Fire
+Level: 20
+EVs: 29 HP / 80 Atk / 33 Def / 47 SpA / 31 SpD / 19 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Beautifly
+Level: 17
+EVs: 5 HP / 11 Atk / 11 Def / 46 SpA / 22 SpD / 40 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
 Class: Rival
@@ -10759,6 +10873,45 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: May Rival
+Mugshot: Pink
+Difficulty: Normal
+
+Pelipper
+Level: 29
+EVs: 32 HP / 11 Atk / 33 Def / 37 SpA / 30 SpD / 10 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lombre
+Level: 29
+EVs: 80 HP / 27 Atk / 26 Def / 38 SpA / 22 SpD / 17 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Combusken
+Tera Type: Fire
+Level: 31
+EVs: 47 HP / 120 Atk / 34 Def / 31 SpA / 76 SpD / 35 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 25
+EVs: 9 HP / 11 Atk / 11 Def / 67 SpA / 22 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Skitty
+Level: 25
+EVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_ROUTE_119_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: May Rival
+Mugshot: Pink
+Difficulty: Easy
 
 Pelipper
 Level: 29
@@ -10781,6 +10934,43 @@ Skitty
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+=== TRAINER_MAY_ROUTE_119_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Semi Smart Rival
+Mugshot: Pink
+Difficulty: Hard
+
+Pelipper
+Level: 29
+EVs: 80 HP / 11 Atk / 33 Def / 45 SpA / 30 SpD / 29 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lombre
+Level: 29
+EVs: 120 HP / 40 Atk / 26 Def / 38 SpA / 22 SpD / 22 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Combusken
+Tera Type: Fire
+Level: 31
+EVs: 47 HP / 200 Atk / 34 Def / 31 SpA / 85 SpD / 40 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 25
+EVs: 15 HP / 32 Atk / 11 Def / 80 SpA / 22 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Skitty
+Level: 25
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
 Name: MAY
 Class: Rival
@@ -10789,6 +10979,28 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Mudkip
+Level: 5
+EVs: 16 HP / 2 Atk / 24 Def / 8 SpA / 20 SpD / 5 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Growl
+- MOVE_NONE
+- MOVE_NONE
+
+=== TRAINER_MAY_ROUTE_103_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Easy
 
 Mudkip
 Level: 5
@@ -10798,6 +11010,22 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - MOVE_NONE
 - MOVE_NONE
 
+=== TRAINER_MAY_ROUTE_103_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Mudkip
+Level: 5
+EVs: 16 HP / 2 Atk / 36 Def / 14 SpA / 29 SpD / 5 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY
 Class: Rival
@@ -10805,7 +11033,41 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+Mugshot: Pink
 AI: Basic Trainer
+Difficulty: Normal
+
+Lombre
+Level: 18
+EVs: 40 HP / 11 Atk / 16 Def / 31 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Slugma
+Level: 18
+EVs: 21 HP / 24 Atk / 22 Def / 57 SpA / 46 SpD / 20 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Marshtomp
+Tera Type: Water
+Level: 20
+EVs: 24 HP / 2 Atk / 46 Def / 17 SpA / 33 SpD / 5 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Beautifly
+Level: 17
+EVs: 5 HP / 11 Atk / 11 Def / 36 SpA / 22 SpD / 27 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_ROUTE_110_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+Mugshot: Pink
+AI: Basic Trainer
+Difficulty: Easy
 
 Lombre
 Level: 18
@@ -10824,6 +11086,38 @@ Beautifly
 Level: 17
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+=== TRAINER_MAY_ROUTE_110_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+Mugshot: Pink
+AI: Semi Smart Trainer
+Difficulty: Hard
+
+Lombre
+Level: 18
+EVs: 60 HP / 21 Atk / 16 Def / 38 SpA / 22 SpD / 10 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Slugma
+Level: 18
+EVs: 40 HP / 24 Atk / 22 Def / 66 SpA / 46 SpD / 20 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Marshtomp
+Tera Type: Water
+Level: 20
+EVs: 27 HP / 2 Atk / 70 Def / 17 SpA / 45 SpD / 5 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Beautifly
+Level: 17
+EVs: 5 HP / 11 Atk / 11 Def / 46 SpA / 22 SpD / 40 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
 Class: Rival
@@ -10831,7 +11125,46 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+Mugshot: Pink
 AI: May Rival
+Difficulty: Normal
+
+Lombre
+Level: 29
+EVs: 80 HP / 27 Atk / 26 Def / 38 SpA / 22 SpD / 17 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Slugma
+Level: 29
+EVs: 40 HP / 24 Atk / 22 Def / 66 SpA / 46 SpD / 20 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Marshtomp
+Tera Type: Water
+Level: 31
+EVs: 50 HP / 2 Atk / 120 Def / 28 SpA / 75 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 25
+EVs: 9 HP / 11 Atk / 11 Def / 67 SpA / 22 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Skitty
+Level: 25
+EVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_ROUTE_119_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+Mugshot: Pink
+AI: May Rival
+Difficulty: Easy
 
 Lombre
 Level: 29
@@ -10852,6 +11185,43 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Skitty
 Level: 25
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_ROUTE_119_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+Mugshot: Pink
+AI: Semi Smart Trainer
+Difficulty: Hard
+
+Lombre
+Level: 29
+EVs: 120 HP / 40 Atk / 26 Def / 38 SpA / 22 SpD / 22 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Slugma
+Level: 29
+EVs: 60 HP / 45 Atk / 22 Def / 80 SpA / 46 SpD / 20 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Marshtomp
+Tera Type: Water
+Level: 31
+EVs: 60 HP / 2 Atk / 180 Def / 40 SpA / 100 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 25
+EVs: 15 HP / 32 Atk / 11 Def / 80 SpA / 22 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Skitty
+Level: 25
+EVs: 40 HP / 40 Atk / 40 Def / 40 SpA / 40 SpD / 40 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_ISAAC_1 ===
@@ -13342,8 +13712,55 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Smart Trainer
+AI: Semi Smart Trainer
 Mugshot: Blue
+Difficulty: Normal
+
+Tropius
+Level: 31
+EVs: 150 HP / 100 Atk / 5 Def / 100 SpA / 150 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 80 HP / 45 Atk / 22 Def / 120 SpA / 46 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 120 HP / 11 Atk / 63 Def / 65 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Sceptile
+Tera Type: Grass
+Level: 36
+EVs: 5 HP / 200 Atk / 0 Def / 100 SpA / 5 SpD / 200 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Screech
+- Swords Dance
+- Pursuit
+
+Manectric
+Level: 29
+EVs: 31 HP / 16 Atk / 11 Def / 180 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 29
+EVs: 46 HP / 11 Atk / 140 Def / 5 SpA / 190 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_LILYCOVE_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Tropius
 Level: 31
@@ -13361,10 +13778,6 @@ Sceptile
 Tera Type: Grass
 Level: 36
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Leaf Blade
-- Screech
-- Swords Dance
-- Pursuit
 
 Manectric
 Level: 29
@@ -13374,7 +13787,7 @@ Lairon
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_BRENDAN_LILYCOVE_TREECKO ===
+=== TRAINER_BRENDAN_LILYCOVE_MUDKIP ===
 Name: BRENDAN
 Class: Rival
 Pic: Brendan
@@ -13383,6 +13796,99 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Blue
+Difficulty: Hard
+
+Tropius
+Level: 31
+EVs: 200 HP / 50 Atk / 5 Def / 50 SpA / 200 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 120 HP / 45 Atk / 22 Def / 120 SpA / 70 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 160 HP / 11 Atk / 80 Def / 85 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Sceptile
+Tera Type: Grass
+Level: 36
+EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Screech
+- Swords Dance
+- Pursuit
+
+Manectric
+Level: 29
+EVs: 31 HP / 16 Atk / 11 Def / 100 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 29
+EVs: 0 HP / 6 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_LILYCOVE_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Normal
+
+Tropius
+Level: 31
+EVs: 150 HP / 100 Atk / 5 Def / 100 SpA / 150 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 120 HP / 11 Atk / 63 Def / 65 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 120 HP / 40 Atk / 26 Def / 68 SpA / 32 SpD / 22 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Blaziken
+Tera Type: Fire
+Level: 36
+EVs: 5 HP / 200 Atk / 0 Def / 100 SpA / 5 SpD / 200 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Focus Energy
+- Return
+- Cut
+
+Manectric
+Level: 29
+EVs: 31 HP / 16 Atk / 11 Def / 180 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 29
+EVs: 46 HP / 11 Atk / 140 Def / 5 SpA / 190 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_LILYCOVE_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Tropius
 Level: 31
@@ -13413,7 +13919,7 @@ Lairon
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
+=== TRAINER_BRENDAN_LILYCOVE_TREECKO ===
 Name: BRENDAN
 Class: Rival
 Pic: Brendan
@@ -13422,6 +13928,99 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 Mugshot: Blue
+Difficulty: Hard
+
+Tropius
+Level: 31
+EVs: 200 HP / 50 Atk / 5 Def / 50 SpA / 200 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 160 HP / 11 Atk / 80 Def / 85 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 160 HP / 50 Atk / 36 Def / 88 SpA / 42 SpD / 32 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Blaziken
+Tera Type: Fire
+Level: 36
+EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Focus Energy
+- Return
+- Cut
+
+Manectric
+Level: 29
+EVs: 31 HP / 16 Atk / 11 Def / 100 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 29
+EVs: 0 HP / 6 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Normal
+
+Tropius
+Level: 31
+EVs: 150 HP / 100 Atk / 5 Def / 100 SpA / 150 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 120 HP / 40 Atk / 26 Def / 68 SpA / 32 SpD / 22 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 80 HP / 45 Atk / 22 Def / 120 SpA / 46 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Swampert
+Tera Type: Water
+Level: 36
+EVs: 60 HP / 100 Atk / 120 Def / 38 SpA / 125 SpD / 5 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Take Down
+- Mud Sport
+- Focus Punch
+
+Manectric
+Level: 29
+EVs: 31 HP / 16 Atk / 11 Def / 180 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 29
+EVs: 46 HP / 11 Atk / 140 Def / 5 SpA / 190 SpD / 9 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Easy
 
 Tropius
 Level: 31
@@ -13452,6 +14051,98 @@ Lairon
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+=== TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Tropius
+Level: 31
+EVs: 200 HP / 50 Atk / 5 Def / 50 SpA / 200 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 160 HP / 50 Atk / 36 Def / 88 SpA / 42 SpD / 32 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 120 HP / 45 Atk / 22 Def / 120 SpA / 70 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Swampert
+Tera Type: Water
+Level: 36
+EVs: 100 HP / 150 Atk / 150 Def / 40 SpA / 150 SpD / 5 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Take Down
+- Mud Sport
+- Focus Punch
+
+Manectric
+Level: 29
+EVs: 31 HP / 16 Atk / 11 Def / 100 SpA / 35 SpD / 60 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Lairon
+Level: 29
+EVs: 0 HP / 6 Atk / 252 Def / 0 SpA / 252 SpD / 0 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_MAY_LILYCOVE_MUDKIP ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Tropius
+Level: 31
+EVs: 150 HP / 100 Atk / 5 Def / 100 SpA / 150 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 80 HP / 45 Atk / 22 Def / 120 SpA / 46 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 120 HP / 11 Atk / 63 Def / 65 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Sceptile
+Tera Type: Grass
+Level: 36
+EVs: 5 HP / 200 Atk / 0 Def / 100 SpA / 5 SpD / 200 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Screech
+- Swords Dance
+- Pursuit
+
+Skitty
+Level: 29
+EVs: 60 HP / 60 Atk / 60 Def / 60 SpA / 60 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 29
+EVs: 100 HP / 0 Atk / 0 Def / 160 SpA / 20 SpD / 160 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
 Name: MAY
 Class: Rival
@@ -13461,6 +14152,7 @@ Music: Female
 Double Battle: No
 AI: May Rival
 Mugshot: Pink
+Difficulty: Easy
 
 Tropius
 Level: 31
@@ -13487,6 +14179,98 @@ Beautifly
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+=== TRAINER_MAY_LILYCOVE_MUDKIP ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Tropius
+Level: 31
+EVs: 200 HP / 50 Atk / 5 Def / 50 SpA / 200 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 120 HP / 45 Atk / 22 Def / 120 SpA / 70 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 160 HP / 11 Atk / 80 Def / 85 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Sceptile
+Tera Type: Grass
+Level: 36
+EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Leaf Blade
+- Screech
+- Swords Dance
+- Pursuit
+
+Skitty
+Level: 29
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 29
+EVs: 100 HP / 0 Atk / 0 Def / 180 SpA / 0 SpD / 160 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_LILYCOVE_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Tropius
+Level: 31
+EVs: 150 HP / 100 Atk / 5 Def / 100 SpA / 150 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 120 HP / 11 Atk / 63 Def / 65 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 120 HP / 40 Atk / 26 Def / 68 SpA / 32 SpD / 22 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Blaziken
+Tera Type: Fire
+Level: 36
+EVs: 5 HP / 200 Atk / 0 Def / 100 SpA / 5 SpD / 200 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Focus Energy
+- Return
+- Cut
+
+Skitty
+Level: 29
+EVs: 60 HP / 60 Atk / 60 Def / 60 SpA / 60 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 29
+EVs: 100 HP / 0 Atk / 0 Def / 160 SpA / 20 SpD / 160 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 === TRAINER_MAY_LILYCOVE_TREECKO ===
 Name: MAY
 Class: Rival
@@ -13496,6 +14280,7 @@ Music: Female
 Double Battle: No
 AI: May Rival
 Mugshot: Pink
+Difficulty: Easy
 
 Tropius
 Level: 31
@@ -13522,6 +14307,52 @@ Beautifly
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+=== TRAINER_MAY_LILYCOVE_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Tropius
+Level: 31
+EVs: 200 HP / 50 Atk / 5 Def / 50 SpA / 200 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Pelipper
+Level: 30
+EVs: 160 HP / 11 Atk / 80 Def / 85 SpA / 30 SpD / 29 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 160 HP / 50 Atk / 36 Def / 88 SpA / 42 SpD / 32 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Blaziken
+Tera Type: Fire
+Level: 36
+EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Flare Blitz
+- Focus Energy
+- Return
+- Cut
+
+Skitty
+Level: 29
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 29
+EVs: 100 HP / 0 Atk / 0 Def / 180 SpA / 0 SpD / 160 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
 Name: MAY
 Class: Rival
@@ -13529,8 +14360,55 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: May Rival
+AI: Semi Smart Trainer
 Mugshot: Pink
+Difficulty: Normal
+
+Tropius
+Level: 31
+EVs: 150 HP / 100 Atk / 5 Def / 100 SpA / 150 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 120 HP / 40 Atk / 26 Def / 68 SpA / 32 SpD / 22 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 80 HP / 45 Atk / 22 Def / 120 SpA / 46 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Swampert
+Tera Type: Water
+Level: 36
+EVs: 60 HP / 100 Atk / 120 Def / 38 SpA / 125 SpD / 5 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Take Down
+- Mud Sport
+- Focus Punch
+
+Skitty
+Level: 29
+EVs: 60 HP / 60 Atk / 60 Def / 60 SpA / 60 SpD / 60 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 29
+EVs: 100 HP / 0 Atk / 0 Def / 160 SpA / 20 SpD / 160 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_LILYCOVE_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Easy
 
 Tropius
 Level: 31
@@ -13557,6 +14435,51 @@ Beautifly
 Level: 29
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
+=== TRAINER_MAY_LILYCOVE_TORCHIC ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: May Rival
+Mugshot: Pink
+Difficulty: Hard
+
+Tropius
+Level: 31
+EVs: 200 HP / 50 Atk / 5 Def / 50 SpA / 200 SpD / 5 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Ludicolo
+Level: 30
+EVs: 160 HP / 50 Atk / 36 Def / 88 SpA / 42 SpD / 32 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Slugma
+Level: 30
+EVs: 120 HP / 45 Atk / 22 Def / 120 SpA / 70 SpD / 20 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Swampert
+Tera Type: Water
+Level: 36
+EVs: 100 HP / 150 Atk / 150 Def / 40 SpA / 150 SpD / 5 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Surf
+- Take Down
+- Mud Sport
+- Focus Punch
+
+Skitty
+Level: 29
+EVs: 80 HP / 80 Atk / 80 Def / 80 SpA / 80 SpD / 80 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Beautifly
+Level: 29
+EVs: 100 HP / 0 Atk / 0 Def / 180 SpA / 0 SpD / 160 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_JONAH ===
 Name: JONAH
