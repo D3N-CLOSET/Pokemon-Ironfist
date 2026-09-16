@@ -188,6 +188,8 @@ BattleFrontier_BattleDomeLobby_EventScript_EnterChallenge::
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
 	dome_settrainers
+	msgbox Common_Text_DoYouWantToEnableInverseBattle, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Common_EventScript_EnableInverseBattle
 	msgbox BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome, MSGBOX_DEFAULT
 	closemessage
 	call BattleFrontier_BattleDomeLobby_EventScript_WalkToDoor

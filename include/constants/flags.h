@@ -1260,7 +1260,7 @@
 #define FLAG_GOT_C_WATER                                            0x4AD
 #define FLAG_GOT_DRAGON_PULSE                                       0x4AE
 #define FLAG_GOT_TBLAZE                                             0x4AF
-#define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
+#define FLAG_INVERSE_BATTLE                                         0x4B0
 #define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
 #define FLAG_UNUSED_0x4B3                                           0x4B3 // Unused Flag

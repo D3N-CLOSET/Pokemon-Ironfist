@@ -177,6 +177,8 @@ BattleFrontier_BattlePalaceLobby_EventScript_SaveBeforeChallenge::
 BattleFrontier_BattlePalaceLobby_EventScript_EnterChallenge::
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
+	msgbox Common_Text_DoYouWantToEnableInverseBattle, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Common_EventScript_EnableInverseBattle
 	msgbox BattleFrontier_BattlePalaceLobby_Text_FollowMe, MSGBOX_DEFAULT
 	closemessage
 	call BattleFrontier_BattlePalaceLobby_EventScript_WalkToDoor

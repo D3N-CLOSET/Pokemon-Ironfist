@@ -43,13 +43,6 @@ LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_EXPERT_BELT
 	.2byte ITEM_MUSCLE_BAND
 	.2byte ITEM_WISE_GLASSES
-	.2byte ITEM_EVIOLITE
-	.2byte ITEM_FLAME_ORB
-	.2byte ITEM_TOXIC_ORB
-	.2byte ITEM_ADRENALINE_ORB
-	.2byte ITEM_HEAVY_DUTY_BOOTS
-	.2byte ITEM_BLUNDER_POLICY
-	.2byte ITEM_UTILITY_UMBRELLA
 	pokemartlistend
 
 LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight::
@@ -79,7 +72,18 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 	.2byte ITEM_ROCKY_HELMET
 	.2byte ITEM_BLACK_SLUDGE
 	.2byte ITEM_DESTINY_KNOT
+	.2byte ITEM_EVIOLITE
+	.2byte ITEM_FLAME_ORB
+	.2byte ITEM_TOXIC_ORB
+	.2byte ITEM_ADRENALINE_ORB
+	.2byte ITEM_HEAVY_DUTY_BOOTS
+	.2byte ITEM_BLUNDER_POLICY
+	.2byte ITEM_UTILITY_UMBRELLA
 	pokemartlistend
+
+LilycoveCity_DepartmentStore_2F_EventScript_FloorNamesSign::
+	msgbox LilycoveCity_DepartmentStore_2F_Text_FloorNamesSign, MSGBOX_SIGN
+	end
 
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
 	.string "Learn to use items properly.\n"
@@ -93,3 +97,5 @@ LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
 	.string "I'm leaving on a long journey soon.\n"
 	.string "I need to stock up on items.$"
 
+LilycoveCity_DepartmentStore_2F_Text_FloorNamesSign:
+	.string "2F: TRAINER'S ZONE$"

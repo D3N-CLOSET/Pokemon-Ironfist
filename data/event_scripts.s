@@ -1869,3 +1869,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Silver_DD2/scripts.inc"
 
 	.include "data/maps/Silver_CD/scripts.inc"
+
+	.include "data/maps/InnerCaverns/scripts.inc"

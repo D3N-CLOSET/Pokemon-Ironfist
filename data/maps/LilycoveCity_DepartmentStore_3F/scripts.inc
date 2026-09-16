@@ -54,6 +54,10 @@ LilycoveCity_DepartmentStore_3F_EventScript_Woman::
 	msgbox LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon, MSGBOX_NPC
 	end
 
+LilycoveCity_DepartmentStore_3F_EventScript_FloorNamesSign::
+	msgbox LilycoveCity_DepartmentStore_3F_Text_FloorNamesSign, MSGBOX_SIGN
+	end
+
 LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon:
 	.string "For quickly toughening up POKéMON,\n"
 	.string "items are the best.\p"
@@ -70,3 +74,5 @@ LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon:
 	.string "I gave a CARBOS to my POKéMON,\n"
 	.string "and its SPEED went up.$"
 
+LilycoveCity_DepartmentStore_3F_Text_FloorNamesSign:
+	.string "3F: BATTLE COLLECTION$"

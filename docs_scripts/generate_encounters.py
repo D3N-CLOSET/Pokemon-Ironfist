@@ -38,7 +38,7 @@ def parse_all_encounters():
     for group in data.get("wild_encounter_groups", []):
         for encounter in group.get("encounters", []):
             base_label = encounter.get("base_label", "")
-            map_key = encounter.get("map", "")
+            map_key = encounter.get("map", "Valley")
             
             if "FireRed" in base_label or "LeafGreen" in base_label or map_key in ignored_maps:
                 continue

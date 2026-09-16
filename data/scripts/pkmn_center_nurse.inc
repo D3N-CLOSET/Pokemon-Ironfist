@@ -1,6 +1,7 @@
 Common_EventScript_PkmnCenterNurse::
 	lock
 	faceplayer
+	clearflag FLAG_INVERSE_BATTLE
 	clearflag FLAG_SYS_SKY_BATTLE
 	setvar VAR_0x8004, 0
 .if !IS_FRLG

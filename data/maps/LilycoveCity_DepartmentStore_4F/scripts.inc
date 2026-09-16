@@ -108,6 +108,10 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
     .2byte ITEM_TM_PLAY_ROUGH
 	pokemartlistend
 
+LilycoveCity_DepartmentStore_4F_EventScript_FloorNamesSign::
+	msgbox LilycoveCity_DepartmentStore_4F_Text_FloorNamesSign, MSGBOX_SIGN
+	end
+
 LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM:
 	.string "Hmm…\p"
 	.string "An attacking move…\n"
@@ -125,3 +129,5 @@ LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:
 	.string "DUDE THE NEW DUSK STONE IS INSANE!\p"
 	.string "IT EVOLVED MY MURKROW DUDE.$"
 
+LilycoveCity_DepartmentStore_4F_Text_FloorNamesSign:
+	.string "4F: TM AND STONE CORNER$"

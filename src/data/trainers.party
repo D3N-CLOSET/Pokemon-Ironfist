@@ -4652,8 +4652,9 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Purple
+Difficulty: Easy
 
 Cacturne
 Tera Type: Dark
@@ -4696,6 +4697,122 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Slash
 
+=== TRAINER_SIDNEY ===
+Name: SIDNEY
+Class: Elite Four
+Pic: Elite Four Sidney
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Purple
+Difficulty: Normal
+
+Cacturne
+Tera Type: Dark
+Level: 46
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Leech Seed
+- Feint Attack
+- Needle Arm
+- Cotton Spore
+
+Mightyena @ Darkinium Z
+Level: 46
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Roar
+- Double Edge
+- Sucker Punch
+- Crunch
+
+Shiftry
+Level: 48
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Torment
+- Double Team
+- Swagger
+- Leaf Storm
+
+Crawdaunt
+Level: 48
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Swords Dance
+- Crabhammer
+- Facade
+
+Absol @ Sitrus Berry
+Level: 49
+EVs: 252 Atk / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Rock Slide
+- Swords Dance
+- Slash
+
+=== TRAINER_SIDNEY ===
+Name: SIDNEY
+Class: Elite Four
+Pic: Elite Four Sidney
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Purple
+Difficulty: Hard
+
+Cacturne
+Tera Type: Dark
+Level: 46
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Leech Seed
+- Feint Attack
+- Needle Arm
+- Cotton Spore
+
+Mightyena @ Darkinium Z
+Level: 46
+EVs: 300 HP / 300 Atk / 50 Def
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Roar
+- Double Edge
+- Sucker Punch
+- Crunch
+
+Shiftry
+Level: 48
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Torment
+- Double Team
+- Swagger
+- Leaf Storm
+
+Crawdaunt
+Level: 48
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Swords Dance
+- Crabhammer
+- Facade
+
+Absol @ Sitrus Berry
+Level: 49
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Rock Slide
+- Swords Dance
+- Slash
+
 === TRAINER_PHOEBE ===
 Name: PHOEBE
 Class: Elite Four
@@ -4704,8 +4821,9 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Green
+Difficulty: Easy
 
 Dusclops  @ Sitrus Berry
 Tera Type: Ghost
@@ -4749,6 +4867,124 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Disable
 - Minimize
 
+=== TRAINER_PHOEBE ===
+Name: PHOEBE
+Class: Elite Four
+Pic: Elite Four Phoebe
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+Difficulty: Normal
+
+Dusclops  @ Sitrus Berry
+Tera Type: Ghost
+Level: 48
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Psychic
+- Curse
+- Earthquake
+
+Banette
+Level: 49
+EVs: 252 Atk / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Grudge
+- Will O Wisp
+- Feint Attack
+
+Sableye
+Level: 50
+Ability: Prankster
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Confuse Ray
+- Will O Wisp
+- Trick Room
+- Encore
+
+Gengar @ Ghostium Z
+Level: 51
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Confuse Ray
+- Sludge Wave
+- Psychic
+
+Drifblim
+Level: 49
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ominous Wind
+- Shadow Ball
+- Disable
+- Minimize
+
+=== TRAINER_PHOEBE ===
+Name: PHOEBE
+Class: Elite Four
+Pic: Elite Four Phoebe
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+Difficulty: Hard
+
+Dusclops  @ Sitrus Berry
+Tera Type: Ghost
+Level: 48
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Psychic
+- Curse
+- Earthquake
+
+Banette
+Level: 49
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Grudge
+- Will O Wisp
+- Feint Attack
+
+Sableye
+Level: 50
+Ability: Prankster
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Confuse Ray
+- Will O Wisp
+- Trick Room
+- Encore
+
+Gengar @ Ghostium Z
+Level: 51
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Confuse Ray
+- Sludge Wave
+- Psychic
+
+Drifblim
+Level: 49
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ominous Wind
+- Shadow Ball
+- Disable
+- Minimize
+
 === TRAINER_GLACIA ===
 Name: GLACIA
 Class: Elite Four
@@ -4757,8 +4993,9 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Pink
+Difficulty: Easy
 
 Sealeo
 Level: 50
@@ -4801,6 +5038,122 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Sheer Cold
 
+=== TRAINER_GLACIA ===
+Name: GLACIA
+Class: Elite Four
+Pic: Elite Four Glacia
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Sealeo
+Level: 50
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Encore
+- Body Slam
+- Hail
+- Ice Ball
+
+Jynx
+Level: 50
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Calm Mind
+- Lovely Kiss
+- Icy Wind
+
+Froslass
+Level: 53
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Poltergeist
+- Brick Break
+- Hail
+- Blizzard
+
+Glalie @ Icium Z
+Level: 52
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Ice Beam
+- Hail
+- Light Screen
+
+Walrein @ Sitrus Berry
+Tera Type: Ice
+Level: 52
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Body Slam
+- Ice Beam
+- Sheer Cold
+
+=== TRAINER_GLACIA ===
+Name: GLACIA
+Class: Elite Four
+Pic: Elite Four Glacia
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Sealeo
+Level: 50
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Encore
+- Body Slam
+- Hail
+- Ice Ball
+
+Jynx
+Level: 50
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Calm Mind
+- Lovely Kiss
+- Icy Wind
+
+Froslass
+Level: 53
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Poltergeist
+- Brick Break
+- Hail
+- Blizzard
+
+Glalie @ Icium Z
+Level: 52
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Ice Beam
+- Hail
+- Light Screen
+
+Walrein @ Sitrus Berry
+Tera Type: Ice
+Level: 52
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Body Slam
+- Ice Beam
+- Sheer Cold
+
 === TRAINER_DRAKE ===
 Name: DRAKE
 Class: Elite Four
@@ -4809,8 +5162,9 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Easy
 
 Kingdra
 Level: 53
@@ -4853,6 +5207,122 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Crunch
 
+=== TRAINER_DRAKE ===
+Name: DRAKE
+Class: Elite Four
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Normal
+
+Kingdra
+Level: 53
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Smokescreen
+- Dragon Dance
+- Surf
+- Body Slam
+
+Dragonite @ Dragonium Z
+Level: 53
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Draco Meteor
+- Dragon Rush
+- Thunder
+- Hyper Beam
+
+Altaria
+Tera Type: Dragon
+Level: 54
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Edge
+- Dragon Pulse
+- Dragon Dance
+- Aerial Ace
+
+Flygon
+Level: 53
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flamethrower
+- Crunch
+- Draco Meteor
+- Earthquake
+
+Salamence @ Sitrus Berry
+Level: 55
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Dragon Claw
+- Rock Slide
+- Crunch
+
+=== TRAINER_DRAKE ===
+Name: DRAKE
+Class: Elite Four
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Kingdra
+Level: 53
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Smokescreen
+- Dragon Dance
+- Surf
+- Body Slam
+
+Dragonite @ Dragonium Z
+Level: 53
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Draco Meteor
+- Dragon Rush
+- Thunder
+- Hyper Beam
+
+Altaria
+Tera Type: Dragon
+Level: 54
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Edge
+- Dragon Pulse
+- Dragon Dance
+- Aerial Ace
+
+Flygon
+Level: 53
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flamethrower
+- Crunch
+- Draco Meteor
+- Earthquake
+
+Salamence @ Sitrus Berry
+Level: 55
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Dragon Claw
+- Rock Slide
+- Crunch
+
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
 Class: Leader
@@ -4861,7 +5331,8 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Geodude
 Level: 12
@@ -4888,6 +5359,84 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Tackle
 - Rock Tomb
 
+=== TRAINER_ROXANNE_1 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Potion / Potion
+Double Battle: No
+AI: Gym Leader
+Difficulty: Normal
+
+Geodude
+Level: 12
+EVs: 30 HP / 20 Atk / 40 Def / 10 SpA / 20 SpD / 10 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Tackle
+- Defense Curl
+- Rock Throw
+- Rock Tomb
+
+Lileep
+Level: 10
+EVs: 35 HP / 10 Atk / 35 Def / 20 SpA / 30 SpD / 5 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Absorb
+- Ingrain
+- Leech Seed
+- Rock Tomb
+
+Nosepass @ Rockium Z
+Tera Type: Rock
+Level: 15
+EVs: 50 HP / 20 Atk / 60 Def / 20 SpA / 50 SpD / 10 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Block
+- Harden
+- Tackle
+- Rock Tomb
+
+=== TRAINER_ROXANNE_1 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Items: Potion / Potion / Potion / Potion / Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Geodude
+Level: 12
+EVs: 50 HP / 30 Atk / 70 Def / 10 SpA / 30 SpD / 15 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Tackle
+- Defense Curl
+- Rock Throw
+- Rock Tomb
+
+Lileep
+Level: 10
+EVs: 60 HP / 15 Atk / 55 Def / 30 SpA / 50 SpD / 10 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Absorb
+- Ingrain
+- Leech Seed
+- Rock Tomb
+
+Nosepass @ Rockium Z
+Tera Type: Rock
+Level: 15
+EVs: 80 HP / 30 Atk / 100 Def / 30 SpA / 80 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Block
+- Rock Polish
+- Tackle
+- Rock Tomb
+
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
 Class: Leader
@@ -4896,7 +5445,8 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Machop
 Level: 16
@@ -4923,6 +5473,84 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Reversal
 - Bulk Up
 
+=== TRAINER_BRAWLY_1 ===
+Name: BRAWLY
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Gym Leader
+Difficulty: Normal
+
+Machop
+Level: 16
+EVs: 40 HP / 50 Atk / 30 Def / 10 SpA / 20 SpD / 20 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Karate Chop
+- Low Kick
+- Seismic Toss
+- Bulk Up
+
+Meditite @ Sitrus Berry
+Level: 17
+EVs: 30 HP / 60 Atk / 30 Def / 10 SpA / 30 SpD / 40 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Punch
+- Light Screen
+- Reflect
+- Bulk Up
+
+Makuhita @ Fightinium Z
+Tera Type: Fighting
+Level: 19
+EVs: 70 HP / 60 Atk / 50 Def / 10 SpA / 40 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Arm Thrust
+- Vital Throw
+- Reversal
+- Bulk Up
+
+=== TRAINER_BRAWLY_1 ===
+Name: BRAWLY
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion / Super Potion / Super Potion / Super Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Machop
+Level: 16
+EVs: 70 HP / 80 Atk / 50 Def / 10 SpA / 40 SpD / 30 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Karate Chop
+- Low Kick
+- Seismic Toss
+- Bulk Up
+
+Meditite @ Sitrus Berry
+Level: 17
+EVs: 50 HP / 100 Atk / 40 Def / 10 SpA / 40 SpD / 70 Spe
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Focus Punch
+- Light Screen
+- Reflect
+- Bulk Up
+
+Makuhita @ Fightinium Z
+Tera Type: Fighting
+Level: 19
+EVs: 110 HP / 90 Atk / 70 Def / 10 SpA / 60 SpD / 30 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Arm Thrust
+- Vital Throw
+- Reversal
+- Bulk Up
+
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
 Class: Leader
@@ -4931,7 +5559,8 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Voltorb
 Level: 20
@@ -4966,6 +5595,102 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shock Wave
 - Howl
 
+=== TRAINER_WATTSON_1 ===
+Name: WATTSON
+Class: Leader
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion
+Double Battle: No
+AI: Gym Leader
+Difficulty: Normal
+
+Voltorb
+Level: 20
+EVs: 30 HP / 20 Atk / 30 Def / 50 SpA / 30 SpD / 60 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rollout
+- Spark
+- Self Destruct
+- Shock Wave
+
+Mareep
+Level: 20
+EVs: 50 HP / 20 Atk / 40 Def / 60 SpA / 40 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Leer
+- Quick Attack
+- Howl
+
+Magneton
+Level: 22
+EVs: 50 HP / 20 Atk / 60 Def / 80 SpA / 50 SpD / 30 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Supersonic
+- Shock Wave
+- Thunder Wave
+- Sonic Boom
+
+Manectric @ Electrium Z
+Tera Type: Electric
+Level: 24
+EVs: 40 HP / 20 Atk / 40 Def / 90 SpA / 40 SpD / 80 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Quick Attack
+- Thunder Wave
+- Shock Wave
+- Howl
+
+=== TRAINER_WATTSON_1 ===
+Name: WATTSON
+Class: Leader
+Pic: Leader Wattson
+Gender: Male
+Music: Male
+Items: Super Potion / Super Potion / Super Potion / Super Potion / Super Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Voltorb
+Level: 20
+EVs: 40 HP / 30 Atk / 40 Def / 80 SpA / 40 SpD / 100 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rollout
+- Spark
+- Self Destruct
+- Shock Wave
+
+Mareep
+Level: 20
+EVs: 80 HP / 20 Atk / 60 Def / 90 SpA / 60 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Shock Wave
+- Leer
+- Quick Attack
+- Howl
+
+Magneton
+Level: 22
+EVs: 80 HP / 20 Atk / 90 Def / 120 SpA / 70 SpD / 40 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Supersonic
+- Shock Wave
+- Thunder Wave
+- Sonic Boom
+
+Manectric @ Electrium Z
+Tera Type: Electric
+Level: 24
+EVs: 60 HP / 20 Atk / 50 Def / 130 SpA / 50 SpD / 120 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Quick Attack
+- Thunder Wave
+- Shock Wave
+- Bite
+
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
 Class: Leader
@@ -4974,7 +5699,8 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Quilava @ Firium Z
 Level: 22
@@ -5009,6 +5735,102 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam
 - Attract
 
+=== TRAINER_FLANNERY_1 ===
+Name: FLANNERY
+Class: Leader
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Gym Leader
+Difficulty: Normal
+
+Quilava @ Firium Z
+Level: 22
+EVs: 30 HP / 20 Atk / 30 Def / 60 SpA / 30 SpD / 60 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Take Down
+- Smokescreen
+- Attract
+
+Slugma
+Level: 24
+EVs: 50 HP / 10 Atk / 50 Def / 60 SpA / 50 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Smog
+- Light Screen
+- Sunny Day
+
+Camerupt
+Level: 26
+EVs: 60 HP / 40 Atk / 50 Def / 80 SpA / 50 SpD / 20 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Overheat
+- Tackle
+- Sunny Day
+- Attract
+
+Torkoal @ White Herb
+Tera Type: Fire
+Level: 29
+EVs: 80 HP / 30 Atk / 70 Def / 80 SpA / 70 SpD / 20 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Overheat
+- Sunny Day
+- Body Slam
+- Attract
+
+=== TRAINER_FLANNERY_1 ===
+Name: FLANNERY
+Class: Leader
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Quilava @ Firium Z
+Level: 22
+EVs: 40 HP / 20 Atk / 40 Def / 100 SpA / 40 SpD / 90 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Take Down
+- Smokescreen
+- Attract
+
+Slugma
+Level: 24
+EVs: 80 HP / 10 Atk / 70 Def / 90 SpA / 70 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Overheat
+- Smog
+- Light Screen
+- Sunny Day
+
+Camerupt
+Level: 26
+EVs: 90 HP / 50 Atk / 70 Def / 120 SpA / 70 SpD / 30 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Overheat
+- Tackle
+- Sunny Day
+- Attract
+
+Torkoal @ White Herb
+Tera Type: Fire
+Level: 29
+EVs: 120 HP / 40 Atk / 100 Def / 120 SpA / 90 SpD / 30 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Overheat
+- Sunny Day
+- Body Slam
+- Attract
+
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
 Class: Leader
@@ -5017,7 +5839,8 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Spinda
 Level: 27
@@ -5052,6 +5875,102 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Facade
 - Feint Attack
 
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Gym Leader
+Difficulty: Normal
+
+Spinda
+Level: 27
+EVs: 50 HP / 50 Atk / 40 Def / 30 SpA / 40 SpD / 40 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Teeter Dance
+- Psybeam
+- Facade
+- Encore
+
+Vigoroth
+Tera Type: Normal
+Level: 27
+EVs: 50 HP / 70 Atk / 50 Def / 10 SpA / 40 SpD / 60 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Slash
+- Facade
+- Encore
+- Feint Attack
+
+Linoone @ Normalium Z
+Level: 29
+EVs: 40 HP / 80 Atk / 40 Def / 10 SpA / 40 SpD / 80 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Slash
+- Belly Drum
+- Facade
+- Headbutt
+
+Slaking @ Sitrus Berry
+Level: 31
+EVs: 100 HP / 90 Atk / 60 Def / 10 SpA / 60 SpD / 40 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Counter
+- Yawn
+- Facade
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Spinda
+Level: 27
+EVs: 80 HP / 80 Atk / 60 Def / 30 SpA / 60 SpD / 60 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Teeter Dance
+- Psybeam
+- Facade
+- Encore
+
+Vigoroth
+Tera Type: Normal
+Level: 27
+EVs: 80 HP / 110 Atk / 70 Def / 10 SpA / 60 SpD / 90 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Slash
+- Facade
+- Encore
+- Feint Attack
+
+Linoone @ Normalium Z
+Level: 29
+EVs: 60 HP / 130 Atk / 60 Def / 10 SpA / 60 SpD / 120 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Slash
+- Belly Drum
+- Facade
+- Headbutt
+
+Slaking @ Sitrus Berry
+Level: 31
+EVs: 150 HP / 140 Atk / 80 Def / 10 SpA / 80 SpD / 50 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Counter
+- Yawn
+- Facade
+- Feint Attack
+
 === TRAINER_WINONA_1 ===
 Name: WINONA
 Class: Leader
@@ -5060,7 +5979,8 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Winona Lead
+AI: Basic Trainer
+Difficulty: Easy
 
 Swablu
 Level: 29
@@ -5103,6 +6023,120 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Dance
 - Aerial Ace
 
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Winona Lead
+Difficulty: Normal
+
+Swablu
+Level: 29
+EVs: 50 HP / 20 Atk / 40 Def / 30 SpA / 40 SpD / 50 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Perish Song
+- Mirror Move
+- Safeguard
+- Aerial Ace
+
+Staraptor @ Flyinium Z
+Level: 29
+EVs: 40 HP / 80 Atk / 30 Def / 10 SpA / 30 SpD / 80 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dual Wingbeat
+- Aerial Ace
+- Final Gambit
+- U Turn
+
+Pelipper
+Level: 30
+EVs: 60 HP / 10 Atk / 50 Def / 70 SpA / 50 SpD / 30 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Water Gun
+- Supersonic
+- Protect
+- Aerial Ace
+
+Skarmory
+Tera Type: Flying
+Level: 31
+EVs: 80 HP / 50 Atk / 90 Def / 10 SpA / 60 SpD / 30 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Spikes
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Altaria @ Oran Berry
+Level: 33
+EVs: 80 HP / 80 Atk / 60 Def / 60 SpA / 60 SpD / 60 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Aerial Ace
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Swablu
+Level: 29
+EVs: 80 HP / 30 Atk / 60 Def / 40 SpA / 60 SpD / 80 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Perish Song
+- Mirror Move
+- Safeguard
+- Aerial Ace
+
+Staraptor @ Flyinium Z
+Level: 29
+EVs: 60 HP / 120 Atk / 40 Def / 10 SpA / 40 SpD / 120 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dual Wingbeat
+- Aerial Ace
+- Final Gambit
+- U Turn
+
+Pelipper
+Level: 30
+EVs: 90 HP / 10 Atk / 80 Def / 100 SpA / 70 SpD / 40 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Water Gun
+- Supersonic
+- Protect
+- Aerial Ace
+
+Skarmory
+Tera Type: Flying
+Level: 31
+EVs: 120 HP / 70 Atk / 130 Def / 10 SpA / 80 SpD / 40 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Spikes
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Altaria @ Oran Berry
+Level: 33
+EVs: 120 HP / 110 Atk / 80 Def / 80 SpA / 80 SpD / 90 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Aerial Ace
+
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
 Class: Leader
@@ -5111,7 +6145,8 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Claydol
 Level: 41
@@ -5146,6 +6181,102 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Flamethrower
 
+=== TRAINER_TATE_AND_LIZA_1 ===
+Name: TATE&LIZA
+Class: Leader
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Gym Leader Double
+Difficulty: Normal
+
+Claydol
+Level: 41
+EVs: 80 HP / 40 Atk / 80 Def / 60 SpA / 80 SpD / 30 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Ancient Power
+- Psychic
+- Light Screen
+
+Xatu @ Psychium Z
+Level: 41
+EVs: 60 HP / 10 Atk / 50 Def / 80 SpA / 50 SpD / 80 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Sunny Day
+- Confuse Ray
+- Calm Mind
+
+Lunatone @ Sitrus Berry
+Tera Type: Psychic
+Level: 42
+EVs: 80 HP / 10 Atk / 70 Def / 80 SpA / 70 SpD / 40 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Light Screen
+- Psychic
+- Hypnosis
+- Calm Mind
+
+Solrock @ Sitrus Berry
+Level: 42
+EVs: 80 HP / 50 Atk / 80 Def / 50 SpA / 70 SpD / 40 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sunny Day
+- Solar Beam
+- Psychic
+- Flamethrower
+
+=== TRAINER_TATE_AND_LIZA_1 ===
+Name: TATE&LIZA
+Class: Leader
+Pic: Leader Tate And Liza
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
+Double Battle: Yes
+AI: Smart Trainer Double
+Difficulty: Hard
+
+Claydol
+Level: 41
+EVs: 120 HP / 60 Atk / 110 Def / 80 SpA / 110 SpD / 40 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Earthquake
+- Ancient Power
+- Psychic
+- Light Screen
+
+Xatu @ Psychium Z
+Level: 41
+EVs: 80 HP / 10 Atk / 70 Def / 120 SpA / 70 SpD / 120 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Sunny Day
+- Confuse Ray
+- Calm Mind
+
+Lunatone @ Sitrus Berry
+Tera Type: Psychic
+Level: 42
+EVs: 120 HP / 10 Atk / 100 Def / 120 SpA / 100 SpD / 50 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Light Screen
+- Psychic
+- Hypnosis
+- Calm Mind
+
+Solrock @ Sitrus Berry
+Level: 42
+EVs: 120 HP / 80 Atk / 110 Def / 70 SpA / 100 SpD / 50 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Sunny Day
+- Solar Beam
+- Psychic
+- Flamethrower
+
 === TRAINER_JUAN_1 ===
 Name: JUAN
 Class: Leader
@@ -5154,7 +6285,8 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Gym Leader
+AI: Basic Trainer
+Difficulty: Easy
 
 Luvdisc
 Level: 41
@@ -5191,6 +6323,120 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Kingdra @ Chesto Berry
 Tera Type: Water
 Level: 46
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Water Pulse
+- Double Team
+- Ice Beam
+- Rest
+
+=== TRAINER_JUAN_1 ===
+Name: JUAN
+Class: Leader
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Gym Leader
+Difficulty: Normal
+
+Luvdisc
+Level: 41
+EVs: 40 HP / 10 Atk / 40 Def / 60 SpA / 40 SpD / 90 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Attract
+- Sweet Kiss
+- Flail
+
+Whiscash
+Level: 41
+EVs: 100 HP / 50 Atk / 60 Def / 50 SpA / 60 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Water Pulse
+- Amnesia
+- Earthquake
+
+Sealeo
+Level: 43
+EVs: 90 HP / 40 Atk / 70 Def / 60 SpA / 70 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Encore
+- Body Slam
+- Aurora Beam
+- Water Pulse
+
+Crawdaunt @ Waterium Z
+Level: 43
+EVs: 60 HP / 100 Atk / 50 Def / 40 SpA / 50 SpD / 50 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Crabhammer
+- Taunt
+- Leer
+
+Kingdra @ Chesto Berry
+Tera Type: Water
+Level: 46
+EVs: 100 HP / 40 Atk / 70 Def / 90 SpA / 70 SpD / 60 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Water Pulse
+- Double Team
+- Ice Beam
+- Rest
+
+=== TRAINER_JUAN_1 ===
+Name: JUAN
+Class: Leader
+Pic: Leader Juan
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Luvdisc
+Level: 41
+EVs: 60 HP / 10 Atk / 60 Def / 120 SpA / 60 SpD / 150 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Attract
+- Sweet Kiss
+- Flail
+
+Whiscash
+Level: 41
+EVs: 160 HP / 80 Atk / 90 Def / 70 SpA / 90 SpD / 20 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Rain Dance
+- Water Pulse
+- Amnesia
+- Earthquake
+
+Sealeo
+Level: 43
+EVs: 140 HP / 50 Atk / 100 Def / 80 SpA / 100 SpD / 30 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Encore
+- Body Slam
+- Aurora Beam
+- Water Pulse
+
+Crawdaunt @ Waterium Z
+Level: 43
+EVs: 80 HP / 160 Atk / 70 Def / 50 SpA / 70 SpD / 80 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Water Pulse
+- Crabhammer
+- Taunt
+- Leer
+
+Kingdra @ Chesto Berry
+Tera Type: Water
+Level: 46
+EVs: 160 HP / 50 Atk / 110 Def / 130 SpA / 110 SpD / 80 Spe
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Water Pulse
 - Double Team
@@ -6335,6 +7581,7 @@ Electrike
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+
 === TRAINER_WALLACE ===
 Name: WALLACE
 Class: Champion
@@ -6343,8 +7590,9 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Yellow
+Difficulty: Easy
 
 Wailord
 Level: 57
@@ -6390,6 +7638,142 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Milotic @ Sitrus Berry
 Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Surf
+- Ice Beam
+- Toxic
+
+=== TRAINER_WALLACE ===
+Name: WALLACE
+Class: Champion
+Pic: Champion Wallace
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Yellow
+Difficulty: Normal
+
+Wailord
+Level: 57
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Water Spout
+- Double Edge
+- Blizzard
+
+Venusaur @ Poisonium Z
+Level: 55
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Substitute
+- Sludge Wave
+- Leech Seed
+
+Tropius
+Tera Type: Grass
+Level: 56
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Razor Leaf
+- Solar Beam
+- Sunny Day
+
+Greninja @ Sitrus Berry
+Level: 56
+Ability: Protean
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Night Slash
+- Water Shuriken
+- Blizzard
+
+Gyarados
+Level: 56
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Earthquake
+- Hyper Beam
+- Outrage
+
+Milotic @ Sitrus Berry
+Level: 58
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Surf
+- Ice Beam
+- Toxic
+
+=== TRAINER_WALLACE ===
+Name: WALLACE
+Class: Champion
+Pic: Champion Wallace
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Yellow
+Difficulty: Hard
+
+Wailord
+Level: 57
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Water Spout
+- Double Edge
+- Blizzard
+
+Venusaur @ Poisonium Z
+Level: 55
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Substitute
+- Sludge Wave
+- Leech Seed
+
+Tropius
+Tera Type: Grass
+Level: 56
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Razor Leaf
+- Solar Beam
+- Sunny Day
+
+Greninja @ Sitrus Berry
+Level: 56
+Ability: Protean
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Night Slash
+- Water Shuriken
+- Blizzard
+
+Gyarados
+Level: 56
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Earthquake
+- Hyper Beam
+- Outrage
+
+Milotic @ Sitrus Berry
+Level: 58
+EVs: 300 HP / 300 Def / 50 SpD
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Surf
@@ -9711,11 +11095,13 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Potion
 Mugshot: Blue
 Difficulty: Hard
 
 Treecko
 Level: 5
+Ability: Unburden
 EVs: 15 HP / 21 Atk / 21 Def / 49 SpA / 30 SpD / 40 Spe
 IVs: 12 HP / 31 Atk / 16 Def / 20 SpA / 20 SpD / 31 Spe
 
@@ -9727,6 +11113,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+Items: Super Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -9796,6 +11183,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Super Potion / Super Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -9811,6 +11199,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Grovyle
 Tera Type: Grass
+Ability: Unburden
 Level: 20
 EVs: 29 HP / 80 Atk / 33 Def / 27 SpA / 31 SpD / 49 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -9833,6 +11222,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -9902,6 +11292,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -9917,6 +11308,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Grovyle
 Tera Type: Grass
+Ability: Unburden
 Level: 31
 EVs: 47 HP / 180 Atk / 34 Def / 31 SpA / 36 SpD / 100 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -9977,12 +11369,14 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
+Items: Potion
 AI: Semi Smart Trainer
 Mugshot: Blue
 Difficulty: Hard
 
 Torchic
 Level: 5
+Ability: Speed Boost
 EVs: 16 HP / 29 Atk / 12 Def / 19 SpA / 14 SpD / 19 Spe
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9994,6 +11388,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+Items: Super Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -10063,6 +11458,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Super Potion / Super Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -10077,6 +11473,7 @@ EVs: 60 HP / 21 Atk / 16 Def / 38 SpA / 22 SpD / 10 Spe
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Combusken
+Ability: Speed Boost
 Tera Type: Fire
 Level: 20
 EVs: 29 HP / 80 Atk / 33 Def / 47 SpA / 31 SpD / 19 Spe
@@ -10100,6 +11497,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -10169,6 +11567,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -10183,6 +11582,7 @@ EVs: 120 HP / 40 Atk / 26 Def / 38 SpA / 22 SpD / 22 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Combusken
+Ability: Speed Boost
 Tera Type: Fire
 Level: 31
 EVs: 47 HP / 200 Atk / 34 Def / 31 SpA / 85 SpD / 40 Spe
@@ -10245,6 +11645,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -10261,6 +11662,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+Items: Super Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -10329,7 +11731,8 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Semi Smart Trainer
+Items: Super Potion / Super Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -10367,6 +11770,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -10436,6 +11840,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -10512,11 +11917,13 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Potion
 Mugshot: Pink
 Difficulty: Hard
 
 Treecko
 Level: 5
+Ability: Unburden
 EVs: 15 HP / 21 Atk / 21 Def / 49 SpA / 30 SpD / 40 Spe
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10528,6 +11935,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+Items: Super Potion
 Mugshot: Pink
 Difficulty: Normal
 
@@ -10588,6 +11996,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Super Potion / Super Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -10603,6 +12012,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Grovyle
 Tera Type: Grass
+Ability: Unburden
 Level: 20
 EVs: 29 HP / 80 Atk / 33 Def / 27 SpA / 31 SpD / 49 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -10621,6 +12031,7 @@ Music: Female
 Double Battle: No
 AI: May Rival
 Mugshot: Pink
+Items: Hyper Potion / Hyper Potion
 Difficulty: Normal
 
 Slugma
@@ -10689,6 +12100,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -10704,6 +12116,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Grovyle
 Tera Type: Grass
+Ability: Unburden
 Level: 31
 EVs: 47 HP / 180 Atk / 34 Def / 31 SpA / 36 SpD / 100 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -10764,12 +12177,14 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+Items: Potion
 AI: Basic Trainer
 Mugshot: Pink
 Difficulty: Hard
 
 Torchic
 Level: 5
+Ability: Speed Boost
 EVs: 16 HP / 29 Atk / 12 Def / 19 SpA / 14 SpD / 19 Spe
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10781,6 +12196,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+Items: Super Potion
 Mugshot: Pink
 Difficulty: Normal
 
@@ -10841,6 +12257,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Super Potion / Super Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -10855,6 +12272,7 @@ EVs: 60 HP / 21 Atk / 16 Def / 38 SpA / 22 SpD / 10 Spe
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Combusken
+Ability: Speed Boost
 Tera Type: Fire
 Level: 20
 EVs: 29 HP / 80 Atk / 33 Def / 47 SpA / 31 SpD / 19 Spe
@@ -10874,6 +12292,7 @@ Music: Female
 Double Battle: No
 AI: May Rival
 Mugshot: Pink
+Items: Hyper Potion / Hyper Potion
 Difficulty: Normal
 
 Pelipper
@@ -10942,6 +12361,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -10956,6 +12376,7 @@ EVs: 120 HP / 40 Atk / 26 Def / 38 SpA / 22 SpD / 22 Spe
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Combusken
+Ability: Speed Boost
 Tera Type: Fire
 Level: 31
 EVs: 47 HP / 200 Atk / 34 Def / 31 SpA / 85 SpD / 40 Spe
@@ -11017,6 +12438,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+Items: Potion
 AI: Semi Smart Trainer
 Mugshot: Pink
 Difficulty: Hard
@@ -11035,6 +12457,7 @@ Music: Female
 Double Battle: No
 Mugshot: Pink
 AI: Basic Trainer
+Items: Super Potion
 Difficulty: Normal
 
 Lombre
@@ -11093,6 +12516,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
+Items: Super Potion / Super Potion
 Mugshot: Pink
 AI: Semi Smart Trainer
 Difficulty: Hard
@@ -11127,6 +12551,7 @@ Music: Female
 Double Battle: No
 Mugshot: Pink
 AI: May Rival
+Items: Hyper Potion / Hyper Potion
 Difficulty: Normal
 
 Lombre
@@ -11196,6 +12621,7 @@ Music: Female
 Double Battle: No
 Mugshot: Pink
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Difficulty: Hard
 
 Lombre
@@ -12237,6 +13663,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 Mugshot: Blue
+Difficulty: Normal
 
 Lotad
 Level: 13
@@ -12251,7 +13678,7 @@ Aron
 Level: 11
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
+=== TRAINER_BRENDAN_RUSTBORO_TREECKO ===
 Name: BRENDAN
 Class: Rival
 Pic: Brendan
@@ -12260,6 +13687,56 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 Mugshot: Blue
+Difficulty: Easy
+
+Lotad
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Torchic
+Tera Type: Fire
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Aron
+Level: 11
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_TREECKO ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Lotad
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Torchic
+Tera Type: Fire
+Ability: Speed Boost
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Aron
+Level: 11
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Normal
 
 Wingull
 Level: 13
@@ -12267,6 +13744,55 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Treecko
 Tera Type: Grass
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Aron
+Level: 11
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+Difficulty: Easy
+
+Wingull
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Treecko
+Tera Type: Grass
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Aron
+Level: 11
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+=== TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
+Name: BRENDAN
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Wingull
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Treecko
+Tera Type: Grass
+Ability: Unburden
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -12396,6 +13922,7 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
+Difficulty: Normal
 
 Wingull
 Level: 13
@@ -12403,6 +13930,55 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Treecko
 Tera Type: Grass
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wurmple
+Level: 10
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_RUSTBORO_MUDKIP ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Easy
+
+Wingull
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Treecko
+Tera Type: Grass
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wurmple
+Level: 10
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_RUSTBORO_MUDKIP ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Wingull
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Treecko
+Tera Type: Grass
+Ability: Unburden
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13713,6 +15289,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -13795,6 +15372,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -13815,6 +15393,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sceptile
 Tera Type: Grass
+Ability: Unburden
 Level: 36
 EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
@@ -13841,6 +15420,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -13927,6 +15507,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -13946,6 +15527,7 @@ EVs: 160 HP / 50 Atk / 36 Def / 88 SpA / 42 SpD / 32 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Blaziken
+Ability: Speed Boost
 Tera Type: Fire
 Level: 36
 EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
@@ -13973,6 +15555,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Normal
 
@@ -14059,6 +15642,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Blue
 Difficulty: Hard
 
@@ -14105,6 +15689,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Normal
 
@@ -14187,6 +15772,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -14207,6 +15793,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sceptile
 Tera Type: Grass
+Ability: Unburden
 Level: 36
 EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
@@ -14233,6 +15820,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Normal
 
@@ -14315,6 +15903,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -14334,6 +15923,7 @@ EVs: 160 HP / 50 Atk / 36 Def / 88 SpA / 42 SpD / 32 Spe
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Blaziken
+Ability: Speed Boost
 Tera Type: Fire
 Level: 36
 EVs: 0 HP / 250 Atk / 0 Def / 10 SpA / 0 SpD / 250 Spe
@@ -14361,6 +15951,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Semi Smart Trainer
+Items: Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Normal
 
@@ -14443,6 +16034,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: May Rival
+Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Mugshot: Pink
 Difficulty: Hard
 
@@ -16216,12 +17808,62 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
+Difficulty: Normal
 
 Lotad
 Level: 13
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Torchic
+Tera Type: Fire
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wurmple
+Level: 10
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_RUSTBORO_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Pink
+Difficulty: Easy
+
+Lotad
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Torchic
+Tera Type: Fire
+Level: 15
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Wurmple
+Level: 10
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+=== TRAINER_MAY_RUSTBORO_TREECKO ===
+Name: MAY
+Class: Rival
+Pic: May
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Semi Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Lotad
+Level: 13
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Torchic
+Ability: Speed Boost
 Tera Type: Fire
 Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -16295,7 +17937,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roar
 - Rock Slide
 
-Nosepass @ Sitrus Berry
+Probopass @ Sitrus Berry
 Tera Type: Rock
 Level: 37
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -16346,7 +17988,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roar
 - Rock Slide
 
-Nosepass @ Sitrus Berry
+Probopass @ Sitrus Berry
 Tera Type: Rock
 Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -16397,7 +18039,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roar
 - Rock Slide
 
-Nosepass @ Sitrus Berry
+Probopass @ Sitrus Berry
 Level: 47
 Tera Type: Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -16457,7 +18099,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roar
 - Rock Slide
 
-Nosepass @ Sitrus Berry
+Probopass @ Sitrus Berry
 Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Team
@@ -17541,7 +19183,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Smart Trainer
+AI: Smart Trainer Double
 
 Slowbro @ Slowbronite
 Level: 48
@@ -17592,7 +19234,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Smart Trainer
+AI: Smart Trainer Double
 
 Drowzee
 Level: 53
@@ -17651,7 +19293,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Smart Trainer
+AI: Smart Trainer Double
 
 Hypno
 Level: 58
@@ -17710,7 +19352,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Smart Trainer
+AI: Smart Trainer Double
 
 Hypno
 Level: 63
@@ -18029,7 +19671,8 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
+Difficulty: Easy
 
 Skarmory
 Level: 77
@@ -18075,6 +19718,140 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Metagross @ Metagrossite
 Level: 78
 Shiny: Yes
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Psychic Fangs
+- Meteor Mash
+- Protect
+
+=== TRAINER_STEVEN ===
+Name: STEVEN
+Class: Rival
+Pic: Steven
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Normal
+
+Skarmory
+Level: 77
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Toxic
+- Aerial Ace
+- Spikes
+- Steel Wing
+
+Claydol
+Level: 75
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Reflect
+- Light Screen
+- Ancient Power
+- Earthquake
+
+Aggron
+Tera Type: Steel
+Level: 76
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Earthquake
+- Solar Beam
+- Dragon Claw
+
+Cradily
+Level: 76
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Ancient Power
+- Ingrain
+- Confuse Ray
+
+Armaldo
+Level: 76
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Ancient Power
+- Aerial Ace
+- Slash
+
+Metagross @ Metagrossite
+Level: 78
+Shiny: Yes
+EVs: 252 Atk / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Psychic Fangs
+- Meteor Mash
+- Protect
+
+=== TRAINER_STEVEN ===
+Name: STEVEN
+Class: Rival
+Pic: Steven
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Difficulty: Hard
+
+Skarmory
+Level: 77
+EVs: 300 HP / 300 Atk / 300 Def / 300 SpA / 300 SpD / 300 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Toxic
+- Aerial Ace
+- Spikes
+- Steel Wing
+
+Claydol
+Level: 75
+EVs: 300 HP / 300 Atk / 300 Def / 300 SpA / 300 SpD / 300 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Reflect
+- Light Screen
+- Ancient Power
+- Earthquake
+
+Aggron
+Tera Type: Steel
+Level: 76
+EVs: 300 HP / 300 Atk / 300 Def / 300 SpA / 300 SpD / 300 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Earthquake
+- Solar Beam
+- Dragon Claw
+
+Cradily
+Level: 76
+EVs: 300 HP / 300 Atk / 300 Def / 300 SpA / 300 SpD / 300 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Ancient Power
+- Ingrain
+- Confuse Ray
+
+Armaldo
+Level: 76
+EVs: 300 HP / 300 Atk / 300 Def / 300 SpA / 300 SpD / 300 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Water Pulse
+- Ancient Power
+- Aerial Ace
+- Slash
+
+Metagross @ Metagrossite
+Level: 78
+Shiny: Yes
+EVs: 300 HP / 300 Atk / 300 Def / 300 SpA / 300 SpD / 300 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Psychic Fangs
@@ -20547,8 +22324,9 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Purple
+Difficulty: Easy
 
 Cacturne
 Tera Type: Dark
@@ -20591,6 +22369,122 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Slash
 
+=== TRAINER_SIDNEY_4 ===
+Name: SIDNEY
+Class: Elite Four
+Pic: Elite Four Sidney
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Purple
+Difficulty: Normal
+
+Cacturne
+Tera Type: Dark
+Level: 61
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Leech Seed
+- Feint Attack
+- Needle Arm
+- Cotton Spore
+
+Mightyena @ Darkinium Z
+Level: 61
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Roar
+- Double Edge
+- Sucker Punch
+- Crunch
+
+Shiftry
+Level: 63
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Torment
+- Double Team
+- Swagger
+- Leaf Storm
+
+Crawdaunt
+Level: 63
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Swords Dance
+- Crabhammer
+- Facade
+
+Absol @ Absolite
+Level: 64
+EVs: 252 Atk / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Rock Slide
+- Swords Dance
+- Slash
+
+=== TRAINER_SIDNEY_4 ===
+Name: SIDNEY
+Class: Elite Four
+Pic: Elite Four Sidney
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Purple
+Difficulty: Hard
+
+Cacturne
+Tera Type: Dark
+Level: 61
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Leech Seed
+- Feint Attack
+- Needle Arm
+- Cotton Spore
+
+Mightyena @ Darkinium Z
+Level: 61
+EVs: 300 HP / 300 Atk / 50 Def
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Roar
+- Double Edge
+- Sucker Punch
+- Crunch
+
+Shiftry
+Level: 63
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Torment
+- Double Team
+- Swagger
+- Leaf Storm
+
+Crawdaunt
+Level: 63
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Surf
+- Swords Dance
+- Crabhammer
+- Facade
+
+Absol @ Absolite
+Level: 64
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Rock Slide
+- Swords Dance
+- Slash
+
 === TRAINER_PHOEBE_4 ===
 Name: PHOEBE
 Class: Elite Four
@@ -20599,8 +22493,9 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Green
+Difficulty: Easy
 
 Dusclops  @ Sitrus Berry
 Tera Type: Ghost
@@ -20644,6 +22539,124 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Disable
 - Minimize
 
+=== TRAINER_PHOEBE_4 ===
+Name: PHOEBE
+Class: Elite Four
+Pic: Elite Four Phoebe
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+Difficulty: Normal
+
+Dusclops  @ Sitrus Berry
+Tera Type: Ghost
+Level: 63
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Psychic
+- Curse
+- Earthquake
+
+Banette
+Level: 64
+EVs: 252 Atk / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Grudge
+- Will O Wisp
+- Feint Attack
+
+Sableye @ Sablenite
+Level: 65
+Ability: Prankster
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Confuse Ray
+- Will O Wisp
+- Trick Room
+- Encore
+
+Gengar @ Ghostium Z
+Level: 66
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Confuse Ray
+- Sludge Wave
+- Psychic
+
+Drifblim
+Level: 64
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ominous Wind
+- Shadow Ball
+- Disable
+- Minimize
+
+=== TRAINER_PHOEBE_4 ===
+Name: PHOEBE
+Class: Elite Four
+Pic: Elite Four Phoebe
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+Difficulty: Hard
+
+Dusclops  @ Sitrus Berry
+Tera Type: Ghost
+Level: 63
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Psychic
+- Curse
+- Earthquake
+
+Banette
+Level: 64
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Punch
+- Grudge
+- Will O Wisp
+- Feint Attack
+
+Sableye @ Sablenite
+Level: 65
+Ability: Prankster
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Confuse Ray
+- Will O Wisp
+- Trick Room
+- Encore
+
+Gengar @ Ghostium Z
+Level: 66
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Confuse Ray
+- Sludge Wave
+- Psychic
+
+Drifblim
+Level: 64
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ominous Wind
+- Shadow Ball
+- Disable
+- Minimize
+
 === TRAINER_GLACIA_4 ===
 Name: GLACIA
 Class: Elite Four
@@ -20652,8 +22665,9 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Pink
+Difficulty: Easy
 
 Sealeo
 Level: 65
@@ -20696,6 +22710,122 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Sheer Cold
 
+=== TRAINER_GLACIA_4 ===
+Name: GLACIA
+Class: Elite Four
+Pic: Elite Four Glacia
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Normal
+
+Sealeo
+Level: 65
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Encore
+- Body Slam
+- Hail
+- Ice Ball
+
+Jynx
+Level: 65
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Calm Mind
+- Lovely Kiss
+- Icy Wind
+
+Froslass @ Froslassite
+Level: 68
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Poltergeist
+- Brick Break
+- Hail
+- Blizzard
+
+Glalie @ Icium Z
+Level: 67
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Ice Beam
+- Hail
+- Light Screen
+
+Walrein @ Sitrus Berry
+Tera Type: Ice
+Level: 67
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Body Slam
+- Ice Beam
+- Sheer Cold
+
+=== TRAINER_GLACIA_4 ===
+Name: GLACIA
+Class: Elite Four
+Pic: Elite Four Glacia
+Gender: Female
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Pink
+Difficulty: Hard
+
+Sealeo
+Level: 65
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Encore
+- Body Slam
+- Hail
+- Ice Ball
+
+Jynx
+Level: 65
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psychic
+- Calm Mind
+- Lovely Kiss
+- Icy Wind
+
+Froslass @ Froslassite
+Level: 68
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Poltergeist
+- Brick Break
+- Hail
+- Blizzard
+
+Glalie @ Icium Z
+Level: 67
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shadow Ball
+- Ice Beam
+- Hail
+- Light Screen
+
+Walrein @ Sitrus Berry
+Tera Type: Ice
+Level: 67
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Body Slam
+- Ice Beam
+- Sheer Cold
+
 === TRAINER_DRAKE_4 ===
 Name: DRAKE
 Class: Elite Four
@@ -20704,8 +22834,9 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Blue
+Difficulty: Easy
 
 Kingdra
 Level: 68
@@ -20748,6 +22879,122 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Crunch
 
+=== TRAINER_DRAKE_4 ===
+Name: DRAKE
+Class: Elite Four
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Normal
+
+Kingdra
+Level: 68
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Smokescreen
+- Dragon Dance
+- Surf
+- Body Slam
+
+Dragonite @ Dragonium Z
+Level: 68
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Draco Meteor
+- Dragon Rush
+- Thunder
+- Hyper Beam
+
+Altaria
+Tera Type: Dragon
+Level: 69
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Edge
+- Dragon Pulse
+- Dragon Dance
+- Aerial Ace
+
+Flygon
+Level: 68
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flamethrower
+- Crunch
+- Draco Meteor
+- Earthquake
+
+Salamence @ Salamencite
+Level: 70
+EVs: 252 Atk / 4 SpA / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Dragon Claw
+- Rock Slide
+- Crunch
+
+=== TRAINER_DRAKE_4 ===
+Name: DRAKE
+Class: Elite Four
+Pic: Elite Four Drake
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Blue
+Difficulty: Hard
+
+Kingdra
+Level: 68
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Smokescreen
+- Dragon Dance
+- Surf
+- Body Slam
+
+Dragonite @ Dragonium Z
+Level: 68
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Draco Meteor
+- Dragon Rush
+- Thunder
+- Hyper Beam
+
+Altaria
+Tera Type: Dragon
+Level: 69
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Edge
+- Dragon Pulse
+- Dragon Dance
+- Aerial Ace
+
+Flygon
+Level: 68
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flamethrower
+- Crunch
+- Draco Meteor
+- Earthquake
+
+Salamence @ Salamencite
+Level: 70
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Dragon Claw
+- Rock Slide
+- Crunch
+
 === TRAINER_WALLACE_4 ===
 Name: WALLACE
 Class: Champion
@@ -20756,8 +23003,9 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 Mugshot: Yellow
+Difficulty: Easy
 
 Wailord
 Level: 72
@@ -20803,6 +23051,142 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Milotic @ Sitrus Berry
 Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Surf
+- Ice Beam
+- Toxic
+
+=== TRAINER_WALLACE_4 ===
+Name: WALLACE
+Class: Champion
+Pic: Champion Wallace
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Yellow
+Difficulty: Normal
+
+Wailord
+Level: 72
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Water Spout
+- Double Edge
+- Blizzard
+
+Venusaur @ Poisonium Z
+Level: 70
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Substitute
+- Sludge Wave
+- Leech Seed
+
+Tropius
+Tera Type: Grass
+Level: 71
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Razor Leaf
+- Solar Beam
+- Sunny Day
+
+Greninja @ Sitrus Berry
+Level: 71
+Ability: Protean
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Night Slash
+- Water Shuriken
+- Blizzard
+
+Gyarados @ Gyaradosite
+Level: 71
+EVs: 252 Atk / 4 Def / 252 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Earthquake
+- Hyper Beam
+- Outrage
+
+Milotic @ Sitrus Berry
+Level: 73
+EVs: 252 HP / 128 Def / 128 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Recover
+- Surf
+- Ice Beam
+- Toxic
+
+=== TRAINER_WALLACE_4 ===
+Name: WALLACE
+Class: Champion
+Pic: Champion Wallace
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Yellow
+Difficulty: Hard
+
+Wailord
+Level: 72
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Water Spout
+- Double Edge
+- Blizzard
+
+Venusaur @ Poisonium Z
+Level: 70
+EVs: 300 HP / 300 Def / 50 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Substitute
+- Sludge Wave
+- Leech Seed
+
+Tropius
+Tera Type: Grass
+Level: 71
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Razor Leaf
+- Solar Beam
+- Sunny Day
+
+Greninja @ Sitrus Berry
+Level: 71
+Ability: Protean
+EVs: 300 SpA / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aerial Ace
+- Night Slash
+- Water Shuriken
+- Blizzard
+
+Gyarados @ Gyaradosite
+Level: 71
+EVs: 300 Atk / 300 Spe / 50 HP
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Earthquake
+- Hyper Beam
+- Outrage
+
+Milotic @ Sitrus Berry
+Level: 73
+EVs: 300 HP / 300 Def / 50 SpD
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Recover
 - Surf

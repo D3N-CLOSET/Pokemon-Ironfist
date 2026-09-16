@@ -164,6 +164,8 @@ BattleFrontier_BattleFactoryLobby_EventScript_SaveBeforeChallenge::
 	setvar VAR_0x8006, 0
 BattleFrontier_BattleFactoryLobby_EventScript_EnterChallenge::
 	special SavePlayerParty
+	msgbox Common_Text_DoYouWantToEnableInverseBattle, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Common_EventScript_EnableInverseBattle
 	msgbox BattleFrontier_BattleFactoryLobby_Text_StepThisWay, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleFactoryLobby_EventScript_TalkedToSinglesAttendant

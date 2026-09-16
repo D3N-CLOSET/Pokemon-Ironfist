@@ -24,7 +24,7 @@ def update_encounter_labels():
             base_label = encounter.get("base_label", "")
             
             # Only target maps that start with gRoute, or include City, Town, Jungle, Silver, or Mountains
-            is_target = base_label.startswith("gRoute") or any(k in base_label for k in ["City", "Town", "Jungle", "Silver", "Mountains", "Safari", "Underwater", "Cave", "Meteor", "Woods"])
+            is_target = base_label.startswith("gRoute") or any(k in base_label for k in ["City", "Town", "Jungle", "Silver", "Mountains", "Safari", "Underwater", "Cave", "Meteor", "Woods", "Sage", "Flower"])
             if not is_target:
                 new_encounters.append(encounter)
                 continue

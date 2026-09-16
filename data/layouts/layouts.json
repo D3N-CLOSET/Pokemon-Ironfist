@@ -9870,6 +9870,16 @@
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CD_SILVER/border.bin",
       "blockdata_filepath": "data/layouts/CD_SILVER/map.bin"
+    },
+    {
+      "id": "LAYOUT_INNER_CAVERNS",
+      "name": "InnerCaverns_Layout",
+      "width": 32,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/InnerCaverns/border.bin",
+      "blockdata_filepath": "data/layouts/InnerCaverns/map.bin"
     }
   ]
 }

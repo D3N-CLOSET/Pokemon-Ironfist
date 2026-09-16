@@ -324,7 +324,7 @@ ENCOUNTER RATE: 20
 10%: Seedot, Poochyena, Dewpider, Scatterbug
 5%: Scatterbug, Zubat
 4%: Zubat, Unown
-1%: Unown
+1%: Unown_y, Unown_z
 ```
 Levels:
 ```
@@ -337,9 +337,9 @@ Scatterbug: lv 4
 Scatterbug: lv 3-5
 Zubat: lv 3
 Zubat: lv 3-4
-Unown: lv 4
 Unown: lv 4-5
-Unown: lv 3-5
+Unown_y: lv 4-5
+Unown_z: lv 4-5
 ```
 
 **Route 102 (Night) - Water**
@@ -1859,7 +1859,7 @@ ENCOUNTER RATE: 20
 ```
 20%: Numel, Pikipek
 10%: Numel, Pikipek
-5%: Bellsprout, Farfetchd
+5%: Bellsprout, Farfetchd_galar
 4%: Bellsprout, Audino
 1%: Audino, Diancie
 ```
@@ -1872,7 +1872,7 @@ Numel: lv 14-17
 Numel: lv 14-17
 Pikipek: lv 14-17
 Bellsprout: lv 16-19
-Farfetchd: lv 16-17
+Farfetchd_galar: lv 16-17
 Bellsprout: lv 16-22
 Audino: lv 16-18
 Audino: lv 16-18
@@ -8054,7 +8054,7 @@ ENCOUNTER RATE: 20
 10%: Wynaut
 5%: Wynaut
 4%: Wynaut
-1%: Regigigas, Necrozma
+1%: Regigigas, Zigzagoon_galar
 ```
 Levels:
 ```
@@ -8069,7 +8069,7 @@ Wynaut: lv 50
 Wynaut: lv 10
 Wynaut: lv 5
 Regigigas: lv 70
-Necrozma: lv 50
+Zigzagoon_galar: lv 50
 ```
 
 **Route 130 (Day) - Water**
@@ -11952,10 +11952,10 @@ Whiscash: lv 40-45
 ENCOUNTER RATE: 10
 ```
 20%: Zubat
-10%: Zubat, Zorua, Solrock
+10%: Zubat, Lunatone, Solrock
 5%: Solrock, Gible
 4%: Lunatone
-1%: Jangmo_o, Cosmog
+1%: Jangmo_o
 ```
 Levels:
 ```
@@ -11963,14 +11963,14 @@ Zubat: lv 16
 Zubat: lv 17
 Zubat: lv 18
 Zubat: lv 15
-Zorua: lv 14
+Lunatone: lv 14
 Solrock: lv 16
 Solrock: lv 18
 Gible: lv 16-18
 Lunatone: lv 19
 Lunatone: lv 20
 Jangmo_o: lv 50
-Cosmog: lv 27-30
+Jangmo_o: lv 27-30
 ```
 
 **Meteor Falls 1f 1r (Day) - Water**
@@ -19036,6 +19036,56 @@ Absol: lv 40-50
 Type_null: lv 50
 ```
 
+**Sage Island Gate (Morning)**
+ENCOUNTER RATE: 7
+```
+20%: Bouffalant, Bunnelby
+10%: Bouffalant, Furfrou, Yungoos
+5%: Furfrou, Elgyem
+4%: Abomasnow, Absol
+1%: Absol, Type_null
+```
+Levels:
+```
+Bouffalant: lv 45-48
+Bunnelby: lv 45-48
+Bouffalant: lv 40-48
+Furfrou: lv 40-45
+Furfrou: lv 40-45
+Yungoos: lv 40-45
+Furfrou: lv 42-49
+Elgyem: lv 42-49
+Abomasnow: lv 42-50
+Absol: lv 50
+Absol: lv 40-50
+Type_null: lv 50
+```
+
+**Sage Island Gate (Evening)**
+ENCOUNTER RATE: 7
+```
+20%: Bouffalant, Bunnelby
+10%: Bouffalant, Furfrou, Yungoos
+5%: Furfrou, Elgyem
+4%: Abomasnow, Absol
+1%: Absol, Type_null
+```
+Levels:
+```
+Bouffalant: lv 45-48
+Bunnelby: lv 45-48
+Bouffalant: lv 40-48
+Furfrou: lv 40-45
+Furfrou: lv 40-45
+Yungoos: lv 40-45
+Furfrou: lv 42-49
+Elgyem: lv 42-49
+Abomasnow: lv 42-50
+Absol: lv 50
+Absol: lv 40-50
+Type_null: lv 50
+```
+
 **Sage Island Gate (Night)**
 ENCOUNTER RATE: 7
 ```
@@ -19071,7 +19121,7 @@ ENCOUNTER RATE: 7
 20%: Munna
 10%: Gothita, Solosis
 5%: Oranguru
-4%: Oranguru, Sandygast
+4%: Zorua, Sandygast
 1%: Sandygast, Mesprit
 ```
 Levels:
@@ -19084,7 +19134,57 @@ Solosis: lv 42-45
 Solosis: lv 45-49
 Oranguru: lv 45-50
 Oranguru: lv 42-50
-Oranguru: lv 42-60
+Zorua: lv 42-60
+Sandygast: lv 42-60
+Sandygast: lv 42-60
+Mesprit: lv 60
+```
+
+**Sage Valley (Morning)**
+ENCOUNTER RATE: 7
+```
+20%: Munna
+10%: Gothita, Solosis
+5%: Oranguru
+4%: Zorua, Sandygast
+1%: Sandygast, Mesprit
+```
+Levels:
+```
+Munna: lv 45-48
+Munna: lv 40-45
+Gothita: lv 40-45
+Gothita: lv 42-45
+Solosis: lv 42-45
+Solosis: lv 45-49
+Oranguru: lv 45-50
+Oranguru: lv 42-50
+Zorua: lv 42-60
+Sandygast: lv 42-60
+Sandygast: lv 42-60
+Mesprit: lv 60
+```
+
+**Sage Valley (Evening)**
+ENCOUNTER RATE: 7
+```
+20%: Munna
+10%: Gothita, Solosis
+5%: Oranguru
+4%: Zorua, Sandygast
+1%: Sandygast, Mesprit
+```
+Levels:
+```
+Munna: lv 45-48
+Munna: lv 40-45
+Gothita: lv 40-45
+Gothita: lv 42-45
+Solosis: lv 42-45
+Solosis: lv 45-49
+Oranguru: lv 45-50
+Oranguru: lv 42-50
+Zorua: lv 42-60
 Sandygast: lv 42-60
 Sandygast: lv 42-60
 Mesprit: lv 60
@@ -19096,7 +19196,7 @@ ENCOUNTER RATE: 7
 20%: Morelull
 10%: Bronzor, Espurr
 5%: Absol
-4%: Absol, Sandygast
+4%: Zorua_hisui, Sandygast
 1%: Cosmog, Sandygast
 ```
 Levels:
@@ -19109,7 +19209,7 @@ Espurr: lv 42-45
 Espurr: lv 45-49
 Absol: lv 45-50
 Absol: lv 42-50
-Absol: lv 42-60
+Zorua_hisui: lv 42-60
 Sandygast: lv 42-60
 Cosmog: lv 60
 Sandygast: lv 42-60
@@ -19838,6 +19938,323 @@ Litleo: lv 34-39
 Salandit: lv 34-39
 Victini: lv 55-61
 Salandit: lv 55-61
+```
+
+
+
+## Inner Caverns
+
+**Inner Caverns (Morning)**
+ENCOUNTER RATE: 10
+```
+20%: Unown, Unown_b
+10%: Unown_c, Unown_d, Unown_e, Unown_exclamation
+5%: Unown_f, Unown_g
+4%: Unown_h, Unown_i
+1%: Unown_j, Unown_k
+```
+Levels:
+```
+Unown: lv 60-70
+Unown_b: lv 60-70
+Unown_c: lv 60-70
+Unown_d: lv 60-70
+Unown_e: lv 60-70
+Unown_exclamation: lv 60-70
+Unown_f: lv 60-70
+Unown_g: lv 60-70
+Unown_h: lv 60-70
+Unown_i: lv 60-70
+Unown_j: lv 60-70
+Unown_k: lv 60-70
+```
+
+**Inner Caverns (Morning) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Unown_o
+30%: Unown_n
+5%: Unown_m
+4%: Unown_l
+1%: Tapu_koko
+```
+Levels:
+```
+Unown_o: lv 60-70
+Unown_n: lv 60-70
+Unown_m: lv 60-70
+Unown_l: lv 60-70
+Tapu_koko: lv 45
+```
+
+**Inner Caverns (Morning) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Unown_p (old rod)
+30%: Unown_q (old rod)
+60%: Unown_question (good rod)
+20%: Unown_r (good rod)
+20%: Unown_s (good rod)
+40%: Unown_t (super rod)
+40%: Unown_u (super rod)
+15%: Unown_v (super rod)
+4%: Unown_w (super rod)
+1%: Unown_x (super rod)
+```
+Levels:
+```
+Unown_p: lv 50-60
+Unown_q: lv 50-60
+Unown_question: lv 60-70
+Unown_r: lv 60-70
+Unown_s: lv 60-70
+Unown_t: lv 70-80
+Unown_u: lv 70-80
+Unown_v: lv 70-80
+Unown_w: lv 70-80
+Unown_x: lv 70-80
+```
+
+**Inner Caverns (Evening)**
+ENCOUNTER RATE: 10
+```
+20%: Unown, Unown_b
+10%: Unown_c, Unown_d, Unown_e, Unown_exclamation
+5%: Unown_f, Unown_g
+4%: Unown_h, Unown_i
+1%: Unown_j, Unown_k
+```
+Levels:
+```
+Unown: lv 60-70
+Unown_b: lv 60-70
+Unown_c: lv 60-70
+Unown_d: lv 60-70
+Unown_e: lv 60-70
+Unown_exclamation: lv 60-70
+Unown_f: lv 60-70
+Unown_g: lv 60-70
+Unown_h: lv 60-70
+Unown_i: lv 60-70
+Unown_j: lv 60-70
+Unown_k: lv 60-70
+```
+
+**Inner Caverns (Evening) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Unown_o
+30%: Unown_n
+5%: Unown_m
+4%: Unown_l
+1%: Tapu_koko
+```
+Levels:
+```
+Unown_o: lv 60-70
+Unown_n: lv 60-70
+Unown_m: lv 60-70
+Unown_l: lv 60-70
+Tapu_koko: lv 45
+```
+
+**Inner Caverns (Evening) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Unown_p (old rod)
+30%: Unown_q (old rod)
+60%: Unown_question (good rod)
+20%: Unown_r (good rod)
+20%: Unown_s (good rod)
+40%: Unown_t (super rod)
+40%: Unown_u (super rod)
+15%: Unown_v (super rod)
+4%: Unown_w (super rod)
+1%: Unown_x (super rod)
+```
+Levels:
+```
+Unown_p: lv 50-60
+Unown_q: lv 50-60
+Unown_question: lv 60-70
+Unown_r: lv 60-70
+Unown_s: lv 60-70
+Unown_t: lv 70-80
+Unown_u: lv 70-80
+Unown_v: lv 70-80
+Unown_w: lv 70-80
+Unown_x: lv 70-80
+```
+
+**Inner Caverns (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Unown, Unown_b
+10%: Unown_c, Unown_d, Unown_e, Unown_exclamation
+5%: Unown_f, Unown_g
+4%: Unown_h, Unown_i
+1%: Unown_j, Unown_k
+```
+Levels:
+```
+Unown: lv 60-70
+Unown_b: lv 60-70
+Unown_c: lv 60-70
+Unown_d: lv 60-70
+Unown_e: lv 60-70
+Unown_exclamation: lv 60-70
+Unown_f: lv 60-70
+Unown_g: lv 60-70
+Unown_h: lv 60-70
+Unown_i: lv 60-70
+Unown_j: lv 60-70
+Unown_k: lv 60-70
+```
+
+**Inner Caverns (Day) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Unown_o
+30%: Unown_n
+5%: Unown_m
+4%: Unown_l
+1%: Tapu_koko
+```
+Levels:
+```
+Unown_o: lv 60-70
+Unown_n: lv 60-70
+Unown_m: lv 60-70
+Unown_l: lv 60-70
+Tapu_koko: lv 45
+```
+
+**Inner Caverns (Day) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Unown_p (old rod)
+30%: Unown_q (old rod)
+60%: Unown_question (good rod)
+20%: Unown_r (good rod)
+20%: Unown_s (good rod)
+40%: Unown_t (super rod)
+40%: Unown_u (super rod)
+15%: Unown_v (super rod)
+4%: Unown_w (super rod)
+1%: Unown_x (super rod)
+```
+Levels:
+```
+Unown_p: lv 50-60
+Unown_q: lv 50-60
+Unown_question: lv 60-70
+Unown_r: lv 60-70
+Unown_s: lv 60-70
+Unown_t: lv 70-80
+Unown_u: lv 70-80
+Unown_v: lv 70-80
+Unown_w: lv 70-80
+Unown_x: lv 70-80
+```
+
+**Inner Caverns (Night)**
+ENCOUNTER RATE: 10
+```
+20%: Unown, Unown_b
+10%: Unown_c, Unown_d, Unown_e, Unown_exclamation
+5%: Unown_f, Unown_g
+4%: Unown_h, Unown_i
+1%: Unown_j, Unown_k
+```
+Levels:
+```
+Unown: lv 60-70
+Unown_b: lv 60-70
+Unown_c: lv 60-70
+Unown_d: lv 60-70
+Unown_e: lv 60-70
+Unown_exclamation: lv 60-70
+Unown_f: lv 60-70
+Unown_g: lv 60-70
+Unown_h: lv 60-70
+Unown_i: lv 60-70
+Unown_j: lv 60-70
+Unown_k: lv 60-70
+```
+
+**Inner Caverns (Night) - Water**
+ENCOUNTER RATE: 4
+```
+60%: Unown_o
+30%: Unown_n
+5%: Unown_m
+4%: Unown_l
+1%: Tapu_koko
+```
+Levels:
+```
+Unown_o: lv 60-70
+Unown_n: lv 60-70
+Unown_m: lv 60-70
+Unown_l: lv 60-70
+Tapu_koko: lv 45
+```
+
+**Inner Caverns (Night) - Fishing**
+ENCOUNTER RATE: 30
+```
+70%: Unown_p (old rod)
+30%: Unown_q (old rod)
+60%: Unown_question (good rod)
+20%: Unown_r (good rod)
+20%: Unown_s (good rod)
+40%: Unown_t (super rod)
+40%: Unown_u (super rod)
+15%: Unown_v (super rod)
+4%: Unown_w (super rod)
+1%: Unown_x (super rod)
+```
+Levels:
+```
+Unown_p: lv 50-60
+Unown_q: lv 50-60
+Unown_question: lv 60-70
+Unown_r: lv 60-70
+Unown_s: lv 60-70
+Unown_t: lv 70-80
+Unown_u: lv 70-80
+Unown_v: lv 70-80
+Unown_w: lv 70-80
+Unown_x: lv 70-80
+```
+
+
+
+## Valley
+
+**Valley (Day)**
+ENCOUNTER RATE: 10
+```
+20%: Seviper, Milotic
+10%: Wobbuffet
+5%: Seviper, Milotic
+4%: Wobbuffet
+1%: Seviper, Milotic
+```
+Levels:
+```
+Seviper: lv 5
+Milotic: lv 5
+Wobbuffet: lv 5
+Wobbuffet: lv 5
+Wobbuffet: lv 5
+Wobbuffet: lv 5
+Seviper: lv 5
+Milotic: lv 5
+Wobbuffet: lv 5
+Wobbuffet: lv 5
+Seviper: lv 5
+Milotic: lv 5
 ```
 
 

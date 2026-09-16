@@ -17,6 +17,11 @@
       "map": "MAP_ANCIENT_LAKE",
       "offset": -2,
       "direction": "down"
+    },
+    {
+      "map": "MAP_INNER_CAVERNS",
+      "offset": 16,
+      "direction": "left"
     }
   ],
   "object_events": [],

@@ -160,6 +160,8 @@ BattleFrontier_BattleArenaLobby_EventScript_SaveBeforeChallenge::
 BattleFrontier_BattleArenaLobby_EventScript_EnterChallenge::
 	special SavePlayerParty
 	frontier_setpartyorder FRONTIER_PARTY_SIZE
+	msgbox Common_Text_DoYouWantToEnableInverseBattle, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Common_EventScript_EnableInverseBattle
 	msgbox BattleFrontier_BattleArenaLobby_Text_GuideYouToArena, MSGBOX_DEFAULT
 	closemessage
 	frontier_get FRONTIER_DATA_LVL_MODE

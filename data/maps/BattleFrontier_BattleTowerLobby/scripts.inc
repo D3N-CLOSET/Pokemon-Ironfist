@@ -602,6 +602,8 @@ BattleFrontier_BattleTowerLobby_EventScript_EnterElevator::
 	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SET_PARTY_ORDER
 	call BattleFrontier_BattleTowerLobby_EventScript_GetPartySize
 	special CallFrontierUtilFunc
+	msgbox Common_Text_DoYouWantToEnableInverseBattle, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, Common_EventScript_EnableInverseBattle
 	setvar VAR_RESULT, 0
 BattleFrontier_BattleTowerLobby_EventScript_WaitForLinkOpponentLoad::
 	tower_loadlinkopponents
@@ -925,6 +927,11 @@ BattleFrontier_BattleTowerLobby_EventScript_RulesMultiLink::
 BattleFrontier_BattleTowerLobby_EventScript_ExitRules::
 	releaseall
 	end
+
+Common_EventScript_EnableInverseBattle::
+	setflag FLAG_INVERSE_BATTLE
+	msgbox Common_Text_InverseBattleEnabled, MSGBOX_DEFAULT
+	return
 
 @ Unused
 BattleFrontier_BattleTowerLobby_Text_DirectYouToBattleRoom:
@@ -1397,3 +1404,11 @@ BattleFrontier_BattleTowerLobby_Text_ExplainMultiLinkRules:
 	.string "from those of your friend.\p"
 	.string "You may not interrupt this challenge\n"
 	.string "in the middle, unlike other modes.$"
+
+Common_Text_DoYouWantToEnableInverseBattle:
+	.string "Do you want to enable INVERSE BATTLE?\p"
+	.string "In INVERSE BATTLE, the type\n"
+	.string "effectiveness is reversed.$"
+
+Common_Text_InverseBattleEnabled:
+	.string "INVERSE BATTLE has been enabled.$"

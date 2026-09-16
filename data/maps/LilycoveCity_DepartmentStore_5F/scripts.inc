@@ -163,6 +163,10 @@ LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl::
 	msgbox LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon, MSGBOX_NPC
 	end
 
+LilycoveCity_DepartmentStore_5F_EventScript_FloorNamesSign::
+	msgbox LilycoveCity_DepartmentStore_5F_Text_FloorNamesSign, MSGBOX_SIGN
+	end
+
 LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
 	.string "This place is full of cute DOLLS.\p"
 	.string "I should buy some for me, instead of\n"
@@ -180,3 +184,6 @@ LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
 LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
 	.string "I think they closed the rooftop\n"
 	.string "because the weather is wild today.$"
+
+LilycoveCity_DepartmentStore_5F_Text_FloorNamesSign:
+	.string "5F: POKé DOLL & MINT FLOOR$"

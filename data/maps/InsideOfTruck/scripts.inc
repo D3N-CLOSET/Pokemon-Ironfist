@@ -37,6 +37,7 @@ EventScript_SetNormalDifficulty:
 
 EventScript_SetHardDifficulty:
 	setvar VAR_GAME_DIFFICULTY, DIFFICULTY_HARD
+	setflag FLAG_DIFFICULTY_HARD
 	goto IoT_EventScript_ExampleScriptContinue
 
 InsideOfTruck_Text_PleaseConfirmDifficulty:
