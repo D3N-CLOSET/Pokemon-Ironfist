@@ -39,8 +39,8 @@ SilverFalls_Text_Sidney:
     .string "Silver Falls is the largest waterfall\n"
     .string "In all of Hoenn?\p"
     .string "People used to come for vacation here\n"
-    .string "every year ntil Archie blocked the\l"
-    .string " port to preserve the rare\n"
+    .string "every year until Archie blocked the\l"
+    .string "port to preserve the rare\p"
     .string "POKéMON species found here.$"
 
 SilverFalls_Text_Phoebe:

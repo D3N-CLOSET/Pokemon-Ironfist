@@ -1,0 +1,29 @@
+{
+  "id": "MAP_BATTLE_PLANET_EXTERIOR",
+  "name": "BattlePlanet_Exterior",
+  "layout": "LAYOUT_BATTLE_PLANET_EXTERIOR",
+  "music": "MUS_B_FRONTIER",
+  "region_map_section": "MAPSEC_BATTLE_PLANET",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BattlePlanet_Exterior_EventScript_WIPSign"
+    }
+  ]
+}

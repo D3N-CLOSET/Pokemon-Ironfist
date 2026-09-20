@@ -38,11 +38,15 @@ EventScript_SetNormalDifficulty:
 EventScript_SetHardDifficulty:
 	setvar VAR_GAME_DIFFICULTY, DIFFICULTY_HARD
 	setflag FLAG_DIFFICULTY_HARD
+	setvar B_EV_CAP_TYPE, EV_CAP_FLAG_LIST
+	setvar B_EV_ITEMS_CAP, TRUE
 	goto IoT_EventScript_ExampleScriptContinue
 
 InsideOfTruck_Text_PleaseConfirmDifficulty:
-	.string "Please confirm the difficulty\n"
-	.string "level for your adventure.$"
+	.string "Please select the difficulty\n"
+	.string "level for your adventure.\p"
+	.string "It will affect all of the major\n"
+	.string "battles in your campaign.$"
 
 EventScript_ExampleScript_Text_Choice1:
 	.string "EASY$"

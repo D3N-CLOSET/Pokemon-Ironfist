@@ -4268,7 +4268,9 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_RG_TRAINER_TOWER)         \
     X(MUS_RG_SLOW_PALLET)           \
     X(MUS_RG_TEACHY_TV_MENU)        \
-    X(MUS_SAGE_VALLEY)
+    X(MUS_SAGE_VALLEY)              \
+    X(MUS_SILVER_ISLAND)            \
+    X(MUS_SILVER_FALLS)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

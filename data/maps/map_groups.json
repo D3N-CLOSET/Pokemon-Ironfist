@@ -165,7 +165,9 @@
     "MountainPass",
     "NorthernCape",
     "CrestanTown",
-    "InnerCaverns"
+    "InnerCaverns",
+    "BattlePlanet_Exterior",
+    "Sonapur"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

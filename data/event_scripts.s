@@ -1871,3 +1871,8 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Silver_CD/scripts.inc"
 
 	.include "data/maps/InnerCaverns/scripts.inc"
+
+	.include "data/maps/BattlePlanet_Exterior/scripts.inc"
+
+	.include "data/maps/Sonapur/scripts.inc"
+	.include "data/maps/Sonapur/text.inc"
