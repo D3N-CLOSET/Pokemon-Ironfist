@@ -27,20 +27,21 @@ IoT_EventScript_ExampleScriptContinue:
 
 EventScript_SetEasyDifficulty:
 	setvar VAR_GAME_DIFFICULTY, DIFFICULTY_EASY
-	setvar B_EXP_CAP_TYPE, EXP_CAP_NONE
-	setvar B_LEVEL_CAP_TYPE, LEVEL_CAP_NONE
-	setvar B_RARE_CANDY_CAP, FALSE
+	setvar VAR_LEVEL_CAP, 67
+	setvar VAR_EV_CAP, 1
 	goto IoT_EventScript_ExampleScriptContinue
 
 EventScript_SetNormalDifficulty:
 	setvar VAR_GAME_DIFFICULTY, DIFFICULTY_NORMAL
+	setvar VAR_EV_CAP, 1
+	setvar VAR_LEVEL_CAP, 0
 	goto IoT_EventScript_ExampleScriptContinue
 
 EventScript_SetHardDifficulty:
 	setvar VAR_GAME_DIFFICULTY, DIFFICULTY_HARD
 	setflag FLAG_DIFFICULTY_HARD
-	setvar B_EV_CAP_TYPE, EV_CAP_FLAG_LIST
-	setvar B_EV_ITEMS_CAP, TRUE
+	setvar VAR_LEVEL_CAP, 0
+	setvar VAR_EV_CAP, 0
 	goto IoT_EventScript_ExampleScriptContinue
 
 InsideOfTruck_Text_PleaseConfirmDifficulty:

@@ -24,6 +24,9 @@ u32 GetCurrentLevelCap(void)
 
     if (B_LEVEL_CAP_TYPE == LEVEL_CAP_FLAG_LIST)
     {
+        if (VarGet(B_LEVEL_CAP_VARIABLE) == 67)
+            return MAX_LEVEL;
+
         for (i = 0; i < ARRAY_COUNT(sLevelCapFlagMap); i++)
         {
             if (!FlagGet(sLevelCapFlagMap[i][0]))
@@ -99,6 +102,9 @@ u32 GetCurrentEVCap(void)
 
     if (B_EV_CAP_TYPE == EV_CAP_FLAG_LIST)
     {
+        if (VarGet(B_EV_CAP_VARIABLE) == 1)
+            return MAX_TOTAL_EVS;
+
         for (u32 evCap = 0; evCap < ARRAY_COUNT(sEvCapFlagMap); evCap++)
         {
             if (!FlagGet(sEvCapFlagMap[evCap][0]))
