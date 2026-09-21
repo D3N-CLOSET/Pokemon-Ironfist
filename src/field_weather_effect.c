@@ -2767,9 +2767,9 @@ static u8 GetDynamicWeather(void)
     if (count == 0)
         return WEATHER_NONE;
 
-    // Use the daily seed AND the memory address of the pool as the seed.
+    // Uses the daily seed and the memory address of the pool as the seed.
     // Because all maps in the 'West' group share the same array (sDynamicWeathers_West),
-    // this hash will be identical for all of them!
+    // this hash will be identical for all of them
     const u32 hashPieces[] =
     {
         gSaveBlock1Ptr->dailySeed,

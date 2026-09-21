@@ -28,6 +28,7 @@ IoT_EventScript_ExampleScriptContinue:
 EventScript_SetEasyDifficulty:
 	setvar VAR_GAME_DIFFICULTY, DIFFICULTY_EASY
 	setvar B_EXP_CAP_TYPE, EXP_CAP_NONE
+	setvar B_LEVEL_CAP_TYPE, LEVEL_CAP_NONE
 	setvar B_RARE_CANDY_CAP, FALSE
 	goto IoT_EventScript_ExampleScriptContinue
 
