@@ -21,7 +21,10 @@ InsideOfTruck_EventScript_PleaseConfirmDifficulty::
 	case 0, EventScript_SetEasyDifficulty
 	case 1, EventScript_SetNormalDifficulty
 	case 2, EventScript_SetHardDifficulty
+	case MULTI_B_PRESSED, InsideOfTruck_EventScript_PleaseConfirmDifficulty
 IoT_EventScript_ExampleScriptContinue:
+	msgbox IoT_Text_DoYouWantFreeRareCandies, MSGBOX_YESNO
+	call_if_eq VAR_RESULT, YES, IoT_EventScript_GiveFreeRareCandies
 	releaseall
 	end
 
@@ -44,11 +47,20 @@ EventScript_SetHardDifficulty:
 	setvar VAR_EV_CAP, 0
 	goto IoT_EventScript_ExampleScriptContinue
 
+IoT_EventScript_GiveFreeRareCandies::
+	addpcitem ITEM_RARE_CANDY, 999
+	return
+
 InsideOfTruck_Text_PleaseConfirmDifficulty:
 	.string "Please select the difficulty\n"
 	.string "level for your adventure.\p"
 	.string "It will affect all of the major\n"
-	.string "battles in your campaign.$"
+	.string "battles in your campaign.\l"
+	.string "As well as these configurations:\p"
+	.string "{COLOR LIGHT_GREEN}EASY{COLOR DARK_GREY}: No level caps, No EV caps\n"
+	.string "{COLOR BLUE}NORMAL{COLOR DARK_GREY}: Level caps, No EV caps\l"
+	.string "{COLOR RED}HARD{COLOR DARK_GREY}: Level caps and EV caps\p"
+	.string "Select the difficulty as you desire.$"
 
 EventScript_ExampleScript_Text_Choice1:
 	.string "EASY$"
@@ -104,3 +116,6 @@ InsideOfTruck_Text_BoxPrintedWithMonLogo:
 	.string "It's a POKéMON brand moving and\n"
 	.string "delivery service.$"
 
+IoT_Text_DoYouWantFreeRareCandies:
+	.string "Do you want rare candies for your\n"
+	.string "adventure?$"
