@@ -187,7 +187,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_FENNEKIN",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_RALTS",
       "x": 11,
       "y": 8,
       "elevation": 0,
@@ -200,9 +200,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_KAKUNA",
+      "graphics_id": "OBJ_EVENT_GFX_MON_BASE+SPECIES_STARLY",
       "x": 28,
-      "y": 11,
+      "y": 10,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
