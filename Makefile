@@ -18,6 +18,13 @@ ifeq (leafgreen, $(or $(BUILD), $(MAKECMDGOALS)))
 	BUILD_NAME  	:= leafgreen
 	MAP_VERSION 	:= firered
 endif
+ifeq (leafgreen, $(or $(BUILD), $(MAKECMDGOALS)))
+	GAME_VERSION 	:= IRONFIST
+	TITLE       	:= POKEMON IRFS
+	GAME_CODE   	:= BPEE
+	BUILD_NAME  	:= ironfist
+	MAP_VERSION 	:= ironfist
+endif
 endif
 
 # GBA rom header

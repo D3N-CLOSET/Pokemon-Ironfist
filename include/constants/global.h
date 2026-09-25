@@ -67,13 +67,21 @@ enum Language
 #ifdef FIRERED
     #define GAME_VERSION (VERSION_FIRE_RED)
     #define IS_FRLG 1
-#else
+    #define IS_IRFS 0
+#elif
     #ifdef LEAFGREEN
     #define GAME_VERSION (VERSION_LEAF_GREEN)
     #define IS_FRLG 1
-    #else
+    #define IS_IRFS 0
+#elif
+    #ifdef IRONFIST
+    #define GAME_VERSION (VERSION_IRONFIST)
+    #define IS_FRLG 0
+    #define IS_IRFS 1
+#else
     #define GAME_VERSION (VERSION_EMERALD)
     #define IS_FRLG 0
+    #define IS_IRFS 0
     #endif
 #endif
 #define GAME_LANGUAGE (LANGUAGE_ENGLISH)

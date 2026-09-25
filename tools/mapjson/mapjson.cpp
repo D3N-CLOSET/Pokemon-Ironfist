@@ -737,11 +737,14 @@ void process_groups(string groups_filepath, vector<string> &map_filepaths, strin
                 region = "REGION_HOENN";
             else if (version == "firered")
                 region = "REGION_KANTO";
+            else if (version == "ironfist")
+                region = "REGION_DOOARS";
         }
         string map_name = json_to_string(map_data, "name");
 
         if ((version == "emerald" && region != "REGION_HOENN")
-         || (version == "firered" && region != "REGION_KANTO")) {
+         || (version == "firered" && region != "REGION_KANTO"))
+         || (version == "ironfist" && region != "REGION_DOOARS") {
             invalid_maps.push_back(map_name);
         }
     }
@@ -779,9 +782,12 @@ string generate_layout_headers_text(Json layouts_data) {
                 layout_version = "emerald";
             else if (version == "firered")
                 layout_version = "frlg";
+            else if (version == "ironfist")
+                layout_version = "irfs";
         }
         if ((version == "emerald" && layout_version != "emerald")
-         || (version == "firered" && layout_version != "frlg"))
+         || (version == "firered" && layout_version != "frlg")
+         || (version == "ironfist" && layout_version != "irfs"))
             continue;
         string layoutName = json_to_string(layout, "name");
         string border_label = layoutName + "_Border";
@@ -837,8 +843,10 @@ string generate_layouts_table_text(Json layouts_data) {
                 layout_version = "emerald";
             else if (version == "firered")
                 layout_version = "frlg";
+            else if (version == "ironfist")
+                layout_version = "irfs";
         }
-        if ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg")) {
+        if ((version == "emerald" && layout_version != "emerald") || (version == "firered" && layout_version != "frlg") || (version == "ironfist" && layout_version != "irfs")) {
             text << "\t.4byte NULL\n";
         } else {
             string layout_name = json_to_string(layout, "name", true);
@@ -932,8 +940,8 @@ int main(int argc, char *argv[]) {
 
     char *version_arg = argv[2];
     version = string(version_arg);
-    if (version != "emerald" && version != "ruby" && version != "firered")
-        FATAL_ERROR("ERROR: <game-version> must be 'emerald', 'firered', or 'ruby'.\n");
+    if (version != "emerald" && version != "ruby" && version != "firered" && version != "ironfist")
+        FATAL_ERROR("ERROR: <game-version> must be 'emerald', 'firered', 'ironfist', or 'ruby'.\n");
 
     char *mode_arg = argv[1];
     string mode(mode_arg);

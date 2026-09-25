@@ -10882,10 +10882,10 @@
     {
       "id": "LAYOUT_SONAPUR",
       "name": "Sonapur_Layout",
-      "width": 26,
-      "height": 26,
+      "width": 39,
+      "height": 36,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Sonapur/border.bin",
       "blockdata_filepath": "data/layouts/Sonapur/map.bin",
       "border_height": 3,

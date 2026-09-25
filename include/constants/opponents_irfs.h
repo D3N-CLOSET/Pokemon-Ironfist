@@ -3,7 +3,7 @@
 
 #include "constants/battle_partner.h"
 #include "constants/opponents_frlg.h"
-#include "constants/opponents_irfs.h"
+#include "constants/opponents.h"
 
 #define TRAINER_NONE                          0
 #define TRAINER_SAWYER_1                      1
@@ -917,12 +917,15 @@
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     907
-#define MAX_TRAINERS_COUNT_EMERALD 908
+#define TRAINERS_COUNT_IRONFIST     907
+#define MAX_TRAINERS_COUNT_IRONFIST 908
 
 #if IS_FRLG
 #define TRAINERS_COUNT                      TRAINERS_COUNT_FRLG
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_FRLG
+#elif
+#define TRAINERS_COUNT                      TRAINERS_COUNT_IRONFIST
+#define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_IRONFIST
 #else
 #define TRAINERS_COUNT                      TRAINERS_COUNT_EMERALD
 #define MAX_TRAINERS_COUNT                  MAX_TRAINERS_COUNT_EMERALD
