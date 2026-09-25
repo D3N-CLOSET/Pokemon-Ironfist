@@ -57,9 +57,9 @@ InsideOfTruck_Text_PleaseConfirmDifficulty:
 	.string "It will affect all of the major\n"
 	.string "battles in your campaign.\l"
 	.string "As well as these configurations:\p"
-	.string "{COLOR LIGHT_GREEN}EASY{COLOR DARK_GREY}: No level caps, No EV caps\n"
-	.string "{COLOR BLUE}NORMAL{COLOR DARK_GREY}: Level caps, No EV caps\l"
-	.string "{COLOR RED}HARD{COLOR DARK_GREY}: Level caps and EV caps\p"
+	.string "{COLOR LIGHT_GREEN}EASY{COLOR DARK_GRAY}: No level caps, No EV caps\n"
+	.string "{COLOR BLUE}NORMAL{COLOR DARK_GRAY}: Level caps, No EV caps\l"
+	.string "{COLOR RED}HARD{COLOR DARK_GRAY}: Level caps and EV caps\p"
 	.string "Select the difficulty as you desire.$"
 
 EventScript_ExampleScript_Text_Choice1:

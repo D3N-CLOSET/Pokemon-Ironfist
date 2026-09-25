@@ -2767,13 +2767,11 @@ static u8 GetDynamicWeather(void)
     if (count == 0)
         return WEATHER_NONE;
 
-    // Uses the daily seed and the memory address of the pool as the seed.
-    // Because all maps in the 'West' group share the same array (sDynamicWeathers_West),
-    // this hash will be identical for all of them
+    // uses the daily seed and all maps in the 'West' group share the same array so this hash will be identical for all of them
     const u32 hashPieces[] =
     {
         gSaveBlock1Ptr->dailySeed,
-        (u32)weathers, // Use the pointer to the pool array as the identifier
+        (u32)weathers,
     };
 
     localRngState = LocalRandomSeed(Crc32B((const u8 *)hashPieces, sizeof(hashPieces)));
